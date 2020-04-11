@@ -1,1 +1,1 @@
->>> print("It Work")
+print("It Work")
