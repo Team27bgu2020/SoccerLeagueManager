@@ -16,28 +16,20 @@ class Team:
         self._name = name
         self._upcoming_games = []
         self._past_games = {}
-        self._seasons = {}
+        self._leagues = {}
 
-        self.set_teams_league(league)
+        self.add_league(league)
         self.open_team()
 
     """ This method adds a new season """
 
-    def add_new_season(self, season):
-
-        Season.type_check(season)
-        if season.get_year() in self._seasons.keys():
-            raise ValueError
-
-        self._seasons[season.get_year()] = season
-
-    """ This method sets a new league to the current team """
-
-    def set_teams_league(self, league):
+    def add_league(self, league):
 
         League.type_check(league)
+        if league.get_season().get_year() in self._leagues.keys():
+            self._leagues[league.get_season().get_year()] = []
 
-        self._league = league
+        self._leagues[league.get_season().get_year()].append(league)
 
     """ This method transfer the given game to the past games """
 
