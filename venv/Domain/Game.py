@@ -1,6 +1,7 @@
 import datetime as date
-from Domain.Referee import Referee
-from Domain.Team import Team
+import Domain.GameEvent as GameEvent
+import Domain.Referee as Referee
+import Domain.Team as Team
 
 
 # noinspection PyAttributeOutsideInit
@@ -20,13 +21,13 @@ class Game:
         self._home_score = 0
         self._away_score = 0
         self._referees = []
+        self._events = []
 
     """ Setter for main referee object """
 
     def set_main_referee(self, main_referee):
 
-        if type(main_referee) is not Referee:
-            raise TypeError
+        Referee.type_check(main_referee)
 
         self._main_referee = main_referee
 
@@ -52,8 +53,7 @@ class Game:
 
     def set_home_team(self, home_team):
 
-        if type(home_team) is not Team:
-            raise TypeError
+        Team.type_check(home_team)
 
         self._home_team = home_team
 
@@ -61,8 +61,7 @@ class Game:
 
     def set_away_team(self, away_team):
 
-        if type(away_team) is not Team:
-            raise TypeError
+        Team.type_check(away_team)
 
         self._away_team = away_team
 
@@ -104,16 +103,16 @@ class Game:
     def get_score(self):
 
         return {
-                'home': self._home_score,
-                'away': self._away_score
-                }
+            'home': self._home_score,
+            'away': self._away_score
+        }
 
     """ This method adds a referee to the game """
 
     def add_referee(self, referee):
 
-        if type(referee) is not Referee:
-            raise TypeError
+        Referee.type_check(referee)
+
         if referee in self._referees or referee == self._main_referee:
             raise ValueError
 
@@ -126,6 +125,21 @@ class Game:
         if referee in self._referees:
             self._referees.remove(referee)
 
+    """ This method adds a game event to the event list """
+
+    def add_event(self, event):
+
+        GameEvent.type_check(event)
+
+        self._events.append(event)
+
+    """ This method removes a game event from the event list """
+
+    def remove_event(self, event):
+
+        if event in self._events:
+            self._events.remove(event)
+
     """ This method increase by 1 the home team score """
 
     def home_team_goal(self):
@@ -137,3 +151,9 @@ class Game:
     def away_team_goal(self):
 
         self._away_score += 1
+
+
+def type_check(obj):
+
+    if type(obj) is not Game:
+        raise TypeError
