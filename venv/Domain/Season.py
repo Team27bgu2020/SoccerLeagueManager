@@ -8,37 +8,37 @@ class Season:
         if type(year) is not int:
             raise TypeError
 
-        self._year = year
-        self._leagues = []
+        self.__year = year
+        self.__leagues = []
 
     """ This method adds a new league to the season """
 
     def add_league(self, league):
 
         League.type_check(league)
-        if league in self._leagues:
+        if league in self.__leagues:
             raise ValueError
 
-        self._leagues.append(league)
+        self.__leagues.append(league)
 
     """ This method removes the given league from the season """
 
     def remove_league(self, league):
 
         League.type_check(league)
-        self._leagues.remove(league)
+        self.__leagues.remove(league)
 
     """ This methods returns the seasons year """
 
     def get_year(self):
 
-        return self._year
+        return self.__year
 
     """ This method returns the seasons leagues """
 
     def get_leagues(self):
 
-        return self._leagues
+        return self.__leagues
 
 
 

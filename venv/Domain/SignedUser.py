@@ -1,10 +1,6 @@
-import Domain.SignedUser as SignedUser
-
-
-class Referee(SignedUser):
+class SignedUser:
 
     def __init__(self):
-        super().__init__()
         raise NotImplementedError
 
     def add_event(self, event):
@@ -13,5 +9,5 @@ class Referee(SignedUser):
 
 def type_check(obj):
 
-    if type(obj) is not Referee:
+    if type(obj) is not SignedUser:
         raise TypeError

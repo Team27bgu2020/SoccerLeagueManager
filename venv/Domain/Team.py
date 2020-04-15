@@ -11,12 +11,12 @@ class Team:
         if type(name) is not str:
             raise TypeError
 
-        self._team_members = []
+        self.__team_members = []
         self.add_team_members(team_members)
-        self._name = name
-        self._upcoming_games = []
-        self._past_games = {}
-        self._leagues = {}
+        self.__name = name
+        self.__upcoming_games = []
+        self.__past_games = {}
+        self.__leagues = {}
 
         self.add_league(league)
         self.open_team()
@@ -26,10 +26,10 @@ class Team:
     def add_league(self, league):
 
         League.type_check(league)
-        if league.get_season().get_year() in self._leagues.keys():
-            self._leagues[league.get_season().get_year()] = []
+        if league.get_season().get_year() in self.__leagues.keys():
+            self.__leagues[league.get_season().get_year()] = []
 
-        self._leagues[league.get_season().get_year()].append(league)
+        self.__leagues[league.get_season().get_year()].append(league)
 
     """ This method transfer the given game to the past games """
 
@@ -53,7 +53,7 @@ class Team:
 
         Game.type_check(game)
         if self.collision_game_check(game):
-            self._upcoming_games.append(game)
+            self.__upcoming_games.append(game)
             return True
         return False
 
@@ -78,10 +78,10 @@ class Team:
     def add_team_member(self, team_member):
 
         TeamUser.type_check(team_member)
-        if team_member in self._team_members:
+        if team_member in self.__team_members:
             raise ValueError
 
-        self._team_members.append(team_member)
+        self.__team_members.append(team_member)
 
     """ This method removes all the given team members """
 
@@ -98,22 +98,22 @@ class Team:
     def remove_team_member(self, team_member):
         # who can use it?
         TeamUser.type_check(team_member)
-        if team_member not in self._team_members:
+        if team_member not in self.__team_members:
             raise ValueError
 
-        self._team_members.remove(team_member)
+        self.__team_members.remove(team_member)
 
     """ This method closes the team """
 
     def close_team(self):
 
-        self._is_open = False
+        self.__is_open = False
 
     """ This method opens the team """
 
     def open_team(self):
 
-        self._is_open = True
+        self.__is_open = True
 
 
 def type_check(obj):

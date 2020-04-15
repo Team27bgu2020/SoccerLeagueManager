@@ -18,10 +18,10 @@ class Game:
         self.set_field(field)
         self.set_main_referee(main_referee)
 
-        self._home_score = 0
-        self._away_score = 0
-        self._referees = []
-        self._events = []
+        self.__home_score = 0
+        self.__away_score = 0
+        self.__referees = []
+        self.__events = []
 
     """ Setter for main referee object """
 
@@ -29,7 +29,7 @@ class Game:
 
         Referee.type_check(main_referee)
 
-        self._main_referee = main_referee
+        self.__main_referee = main_referee
 
     """ Setter for match time """
 
@@ -38,7 +38,7 @@ class Game:
         if type(match_time) is not date.datetime:
             raise TypeError
 
-        self._match_time = match_time
+        self.__match_time = match_time
 
     """ Setter for game field """
 
@@ -47,7 +47,7 @@ class Game:
         if type(field) is not str:
             raise TypeError
 
-        self._field = field
+        self.__field = field
 
     """ Setter for home team """
 
@@ -55,7 +55,7 @@ class Game:
 
         Team.type_check(home_team)
 
-        self._home_team = home_team
+        self.__home_team = home_team
 
     """ Setter for away team """
 
@@ -63,31 +63,31 @@ class Game:
 
         Team.type_check(away_team)
 
-        self._away_team = away_team
+        self.__away_team = away_team
 
     """ Getter for home team """
 
     def get_home_team(self):
 
-        return self._home_team
+        return self.__home_team
 
     """ Getter for away team """
 
     def get_away_team(self):
 
-        return self._away_team
+        return self.__away_team
 
     """ Getter for match time """
 
     def get_match_time(self):
 
-        return self._match_time
+        return self.__match_time
 
     """ Getter for Field """
 
     def get_field(self):
 
-        return self._field
+        return self.__field
 
     """ Getter for referees 
         This method returns 2 values:
@@ -96,15 +96,15 @@ class Game:
 
     def get_referees(self):
 
-        return self._main_referee, self._referees
+        return self.__main_referee, self.__referees
 
     """ Getter for Field """
 
     def get_score(self):
 
         return {
-            'home': self._home_score,
-            'away': self._away_score
+            'home': self.___home_score,
+            'away': self.__away_score
         }
 
     """ This method adds a referee to the game """
@@ -113,17 +113,17 @@ class Game:
 
         Referee.type_check(referee)
 
-        if referee in self._referees or referee == self._main_referee:
+        if referee in self.__referees or referee == self.__main_referee:
             raise ValueError
 
-        self._referees.append(referee)
+        self.__referees.append(referee)
 
     """ This method remove the given referee from the game """
 
     def remove_referee(self, referee):
 
-        if referee in self._referees:
-            self._referees.remove(referee)
+        if referee in self.__referees:
+            self.__referees.remove(referee)
 
     """ This method adds a game event to the event list """
 
@@ -131,29 +131,28 @@ class Game:
 
         GameEvent.type_check(event)
 
-        self._events.append(event)
+        self.__events.append(event)
 
     """ This method removes a game event from the event list """
 
     def remove_event(self, event):
 
-        if event in self._events:
-            self._events.remove(event)
+        if event in self.__events:
+            self.__events.remove(event)
 
     """ This method increase by 1 the home team score """
 
     def home_team_goal(self):
 
-        self._home_score += 1
+        self.___home_score += 1
 
     """ This method increase by 2 the home team score """
 
     def away_team_goal(self):
 
-        self._away_score += 1
+        self.__away_score += 1
 
 
 def type_check(obj):
-
     if type(obj) is not Game:
         raise TypeError
