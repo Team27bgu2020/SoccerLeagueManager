@@ -103,7 +103,7 @@ class Game:
     def get_score(self):
 
         return {
-            'home': self.___home_score,
+            'home': self.__home_score,
             'away': self.__away_score
         }
 
