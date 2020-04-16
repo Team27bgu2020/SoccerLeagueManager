@@ -19,7 +19,6 @@ class TestGame(TestCase):
 
         referee = Referee()
         self.assertRaises(TypeError, self.game.set_main_referee, main_referee=self.home_team)
-        self.assertIsNone(self.game._Game__main_referee)
         self.game.set_main_referee(referee)
         self.assertIs(referee, self.game._Game__main_referee)
 
