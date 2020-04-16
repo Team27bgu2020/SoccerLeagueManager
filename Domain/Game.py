@@ -7,7 +7,7 @@ import Domain.Team as Team
 # noinspection PyAttributeOutsideInit
 class Game:
 
-    def __init__(self, home_team, away_team, match_time, field, main_referee=None):
+    def __init__(self, home_team, away_team, match_time, field):
 
         if home_team == away_team:
             raise ValueError
@@ -16,10 +16,10 @@ class Game:
         self.set_away_team(away_team)
         self.set_match_time(match_time)
         self.set_field(field)
-        self.set_main_referee(main_referee)
 
         self.__home_score = 0
         self.__away_score = 0
+        self.__main_referee = None
         self.__referees = []
         self.__events = []
 
@@ -131,6 +131,13 @@ class Game:
 
         GameEvent.type_check(event)
 
+        ref = event.get_referee()
+        if ref not in self.__referees and ref != self.__main_referee:
+            raise ValueError
+
+        if event in self.__events:
+            raise ValueError
+
         self.__events.append(event)
 
     """ This method removes a game event from the event list """
@@ -144,7 +151,7 @@ class Game:
 
     def home_team_goal(self):
 
-        self.___home_score += 1
+        self.__home_score += 1
 
     """ This method increase by 2 the home team score """
 

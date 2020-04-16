@@ -1,15 +1,13 @@
-import Domain.SignedUser as SignedUser
+from Domain.SignedUser import SignedUser
 
 
 class Referee(SignedUser):
 
     def __init__(self):
-        super().__init__()
-        raise NotImplementedError
+        pass
 
     def add_event(self, event):
-
-        raise NotImplementedError
+        pass
 
 
 def type_check(obj):
