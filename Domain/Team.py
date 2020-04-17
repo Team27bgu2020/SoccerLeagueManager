@@ -6,7 +6,7 @@ import Domain.Season as Season
 
 class Team:
 
-    def __init__(self, name, league, team_members=[]):
+    def __init__(self, name, team_members=[]):
 
         if type(name) is not str:
             raise TypeError
@@ -18,7 +18,6 @@ class Team:
         self.__past_games = {}
         self.__leagues = {}
 
-        self.add_league(league)
         self.open_team()
 
     """ This method adds a new season """
@@ -114,6 +113,12 @@ class Team:
     def open_team(self):
 
         self.__is_open = True
+
+    """ This method checks if the teams are equal """
+
+    def __eq__(self, obj):
+
+        return isinstance(obj, Team) and obj.__name == self.__name
 
 
 def type_check(obj):
