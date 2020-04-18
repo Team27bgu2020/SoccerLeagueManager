@@ -5,8 +5,8 @@ from Domain.Role import Role
 
 class Player(Role):
 
-    def __init__(self):
-
+    def __init__(self, role_name):
+        super().__init__(role_name)
         pass
 
     def set_role_name(self):
