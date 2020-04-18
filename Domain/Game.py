@@ -67,25 +67,29 @@ class Game:
 
     """ Getter for home team """
 
-    def get_home_team(self):
+    @property
+    def home_team(self):
 
         return self.__home_team
 
     """ Getter for away team """
 
-    def get_away_team(self):
+    @property
+    def away_team(self):
 
         return self.__away_team
 
     """ Getter for match time """
 
-    def get_match_time(self):
+    @property
+    def match_time(self):
 
         return self.__match_time
 
     """ Getter for Field """
 
-    def get_field(self):
+    @property
+    def field(self):
 
         return self.__field
 
@@ -94,13 +98,15 @@ class Game:
         1. main referee
         2. referees list """
 
-    def get_referees(self):
+    @property
+    def referees(self):
 
         return self.__main_referee, self.__referees
 
     """ Getter for Field """
 
-    def get_score(self):
+    @property
+    def score(self):
 
         return {
             'home': self.__home_score,

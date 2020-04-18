@@ -4,11 +4,6 @@ import Domain.Role
 
 class TeamUser:
 
-    """ Default constructor for TeamUser class """
-    def __init__(self):
-        self.__team = None
-        self.__role = None
-
     """ Constructor checking the given args and updates the relevant fields accordingly """
     def __init__(self, team, role):
 

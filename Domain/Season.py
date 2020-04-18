@@ -30,16 +30,17 @@ class Season:
 
     """ This methods returns the seasons year """
 
-    def get_year(self):
+    @property
+    def year(self):
 
         return self.__year
 
     """ This method returns the seasons leagues """
 
-    def get_leagues(self):
+    @property
+    def leagues(self):
 
         return self.__leagues
-
 
 
 def type_check(obj):

@@ -16,5 +16,5 @@ class Role(ABC):
 
 def type_check(obj):
 
-    if type(obj) is not Role:
+    if not issubclass(type(obj), Role):
         raise TypeError

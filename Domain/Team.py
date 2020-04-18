@@ -15,7 +15,7 @@ class Team:
         self.add_team_members(team_members)
         self.__name = name
         self.__upcoming_games = []
-        self.__past_games = {}
+        self.__past_games = []
         self.__leagues = {}
 
         self.open_team()
@@ -25,7 +25,7 @@ class Team:
     def add_league(self, league):
 
         League.type_check(league)
-        if league.get_season().get_year() in self.__leagues.keys():
+        if league.get_season().get_year() not in self.__leagues.keys():
             self.__leagues[league.get_season().get_year()] = []
 
         self.__leagues[league.get_season().get_year()].append(league)
@@ -34,7 +34,11 @@ class Team:
 
     def game_over(self, game):
 
-        raise NotImplementedError
+        if game not in self.__upcoming_games or game in self.__past_games:
+            raise ValueError
+
+        self.__upcoming_games.remove(game)
+        self.__past_games.append(game)
 
     """ This method adds all the given games to the team games list """
 
@@ -51,16 +55,26 @@ class Team:
     def add_game(self, game):
 
         Game.type_check(game)
-        if self.collision_game_check(game):
+        if not self.collision_game_check(game):
             self.__upcoming_games.append(game)
             return True
         return False
 
-    """ This method check if the given game collides with the team games """
+    """ This method removes a game from the team games list """
 
-    def collision_game_check(self, game):
+    def remove_upcoming_game(self, game):
 
-        raise NotImplementedError
+        if game in self.__upcoming_games:
+            self.__upcoming_games.remove(game)
+
+    """ This method check if the given game collides with the team games (same day) """
+
+    def collision_game_check(self, new_game):
+
+        for game in self.__upcoming_games:
+            if game.get_match_time().date() == new_game.get_match_time().date():
+                return True
+        return False
 
     """ This method adds all the given team members """
 
@@ -81,6 +95,7 @@ class Team:
             raise ValueError
 
         self.__team_members.append(team_member)
+        team_member.set_team(self)
 
     """ This method removes all the given team members """
 
@@ -96,11 +111,8 @@ class Team:
 
     def remove_team_member(self, team_member):
         # who can use it?
-        TeamUser.type_check(team_member)
-        if team_member not in self.__team_members:
-            raise ValueError
-
-        self.__team_members.remove(team_member)
+        if team_member in self.__team_members:
+            self.__team_members.remove(team_member)
 
     """ This method closes the team """
 
@@ -113,6 +125,48 @@ class Team:
     def open_team(self):
 
         self.__is_open = True
+
+    """ name getter """
+
+    @property
+    def name(self):
+
+        return self.__name
+
+    """ team members getter """
+
+    @property
+    def team_members(self):
+
+        return self.__team_members
+
+    """ upcoming games getter """
+
+    @property
+    def upcoming_games(self):
+
+        return self.__upcoming_games
+
+    """ past games getter """
+
+    @property
+    def past_games(self):
+
+        return self.__past_games
+
+    """ leagues getter """
+
+    @property
+    def leagues(self):
+
+        return self.__leagues
+
+    """ is open getter """
+
+    @property
+    def is_open(self):
+
+        return self.__is_open
 
     """ This method checks if the teams are equal """
 

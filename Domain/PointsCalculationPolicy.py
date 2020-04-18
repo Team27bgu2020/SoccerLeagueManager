@@ -1,7 +1,7 @@
 class PointsCalculationPolicy:
 
     def __init__(self):
-        raise NotImplementedError
+        pass
 
 
 def type_check(obj):

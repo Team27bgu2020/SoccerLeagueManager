@@ -53,37 +53,43 @@ class League:
 
     """ This method returns the league teams """
 
-    def get_teams(self):
+    @property
+    def teams(self):
 
         return self.__teams
 
     """ This method returns the league referees """
 
-    def get_referees(self):
+    @property
+    def referees(self):
 
         return self.__referees
 
     """ This method returns the league points calculation policy """
 
-    def get_points_calculation_policy(self):
+    @property
+    def points_calculation_policy(self):
 
         return self.__policies["Points"]
 
     """ This method returns the league game schedule policy """
 
-    def get_game_schedule_policy(self):
+    @property
+    def game_schedule_policy(self):
 
         return self.__policies["Schedule"]
 
     """ This method returns the league season """
 
-    def get_season(self):
+    @property
+    def season(self):
 
         return self.__season
 
     """ This method returns the league name """
 
-    def get_season(self):
+    @property
+    def name(self):
 
         return self.__name
 
