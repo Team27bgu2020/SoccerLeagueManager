@@ -29,7 +29,7 @@ class TestTeam(TestCase):
 
     def test_game_over(self):
 
-        g = Game(self.team, Team("Barcelona"), date(2020, 5, 5), self.field)
+        g = Game(self.team, Team("Barcelona"), date(2020, 7, 7), self.field)
         self.team.add_game(g)
         self.team.game_over(g)
         self.assertIn(g, self.team._Team__past_games)

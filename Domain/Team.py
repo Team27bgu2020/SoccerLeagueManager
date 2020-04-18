@@ -25,10 +25,10 @@ class Team:
     def add_league(self, league):
 
         League.type_check(league)
-        if league.get_season().get_year() not in self.__leagues.keys():
-            self.__leagues[league.get_season().get_year()] = []
+        if league.season.year not in self.__leagues.keys():
+            self.__leagues[league.season.year] = []
 
-        self.__leagues[league.get_season().get_year()].append(league)
+        self.__leagues[league.season.year].append(league)
 
     """ This method transfer the given game to the past games """
 
@@ -72,7 +72,7 @@ class Team:
     def collision_game_check(self, new_game):
 
         for game in self.__upcoming_games:
-            if game.get_match_time().date() == new_game.get_match_time().date():
+            if game.match_time.date() == new_game.match_time.date():
                 return True
         return False
 
