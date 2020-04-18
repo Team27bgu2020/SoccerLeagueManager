@@ -4,9 +4,9 @@ from abc import ABC, abstractmethod
 class Role(ABC):
 
     """ Default constructor for Role class"""
-    def __init__(self):
+    def __init__(self, name):
 
-        self.__role_name = ''
+        self.__role_name = name
 
     """ Abstract method to define role name"""
     @abstractmethod
