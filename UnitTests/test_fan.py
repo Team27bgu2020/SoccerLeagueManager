@@ -6,6 +6,7 @@ from Domain.SignedUser import SignedUser
 from Domain.PersonalPage import PersonalPage
 from Domain.Game import Game
 from Domain.Team import Team
+from Domain.RecommendationSystem import RecommendationSystem
 
 
 class TestFan(TestCase):
@@ -18,6 +19,8 @@ class TestFan(TestCase):
     game = Game(home_team, away_team, d, field)
 
     page = PersonalPage()
+
+    recommend_me = RecommendationSystem()
 
     def setUp(self):
         user_name = 'default'
@@ -65,6 +68,14 @@ class TestFan(TestCase):
         self.assertIn(self.game, self.fan._Fan__followed_games)
         self.fan.unfollow_game(self.game)
         self.assertNotIn(self.game, self.fan._Fan__followed_games)
+
+    """ Testing for set recommendation system method"""
+
+    def test_set_recommendation_system(self):
+        self.assertRaises(TypeError, self.fan.set_recommendation_system, self.home_team)
+        self.fan.set_recommendation_system(self.recommend_me)
+        self.assertIs(self.recommend_me, self.fan._Fan__recommendation_system)
+
 
 
 

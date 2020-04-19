@@ -1,6 +1,7 @@
 from Domain.SignedUser import SignedUser
 import Domain.PersonalPage as PersonalPage
 import Domain.Game as Game
+import Domain.RecommendationSystem as RecommendationSystem
 
 
 class Fan(SignedUser):
@@ -10,6 +11,7 @@ class Fan(SignedUser):
         super().__init__()
         self.__followed_pages = []
         self.__followed_games = []
+        self.__recommendation_system = None
 
     """ Constructor for Fan class getting arguments, checks them and updates the relevant fields"""
 
@@ -18,6 +20,7 @@ class Fan(SignedUser):
 
         self.__followed_pages = []
         self.__followed_games = []
+        self.__recommendation_system = None
 
     @property
     def followed_pages(self):
@@ -28,6 +31,11 @@ class Fan(SignedUser):
     def followed_games(self):
 
         return self.__followed_games
+
+    @property
+    def recommendation_system(self):
+
+        return self.__recommendation_system
 
     """ This method adds a new page to the followed pages list """
 
@@ -69,6 +77,13 @@ class Fan(SignedUser):
 
         self.__followed_games.remove(game)
 
+    """ Setter for recommendation system """
+
+    def set_recommendation_system(self, recommendation_system):
+
+        RecommendationSystem.type_check(recommendation_system)
+
+        self.__recommendation_system = recommendation_system
 
 def type_check(obj):
     if type(obj) is not Fan:
