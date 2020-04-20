@@ -2,7 +2,7 @@ import Domain.TeamUser as TeamUser
 import Domain.Game as Game
 import Domain.League as League
 
-
+""" Dor """
 class Team:
 
     def __init__(self, name, team_members=[]):

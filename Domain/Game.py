@@ -3,7 +3,7 @@ import Domain.GameEvent as GameEvent
 import Domain.Referee as Referee
 import Domain.Team as Team
 
-
+""" Dor """
 # noinspection PyAttributeOutsideInit
 class Game:
 

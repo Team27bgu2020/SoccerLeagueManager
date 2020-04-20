@@ -1,6 +1,6 @@
 from Domain.SignedUser import SignedUser
 
-
+""" Dor """
 class Referee(SignedUser):
 
     def __init__(self):

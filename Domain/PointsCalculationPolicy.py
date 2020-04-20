@@ -1,3 +1,5 @@
+
+""" Dor """
 class PointsCalculationPolicy:
 
     def __init__(self):
