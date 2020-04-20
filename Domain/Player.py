@@ -5,13 +5,22 @@ from Domain.Role import Role
 
 class Player(Role):
 
-    def __init__(self, role_name):
-        super().__init__(role_name)
-        pass
+    def __init__(self, position):
+        super().__init__("Player")
+        self.__position = position
 
-    def set_role_name(self):
+    """  method to set position """
 
-        pass
+    def set_position_name(self, position):
+        self.__position = position
+
+    """  method to get position"""
+
+    def get_position_name(self):
+        return self.__position
+
+    def to_string(self):
+        print("I am a " + self.get_role_name(), "playing as " + self.get_position_name())
 
 
 def type_check(obj):
