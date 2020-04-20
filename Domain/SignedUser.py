@@ -1,8 +1,9 @@
 import datetime as date
+from Domain.User import User
 
 
 # noinspection PyAttributeOutsideInit
-class SignedUser:
+class SignedUser(User):
 
     def __init__(self, user_name='default', password='default', name='default', birth_date=date.datetime(2000, 1, 1)):
 

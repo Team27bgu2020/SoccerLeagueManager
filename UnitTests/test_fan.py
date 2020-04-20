@@ -2,7 +2,6 @@ import datetime as date
 from unittest import TestCase
 
 from Domain.Fan import Fan
-from Domain.SignedUser import SignedUser
 from Domain.PersonalPage import PersonalPage
 from Domain.Game import Game
 from Domain.Team import Team
@@ -10,7 +9,6 @@ from Domain.RecommendationSystem import RecommendationSystem
 
 
 class TestFan(TestCase):
-
 
     home_team = Team("Barcelona")
     away_team = Team("Real Madrid")
@@ -39,7 +37,6 @@ class TestFan(TestCase):
         self.fan.follow_page(self.page)
         self.assertRaises(ValueError, self.fan.follow_page, self.page)
         self.assertIn(self.page, self.fan._Fan__followed_pages)
-
 
     """ Testing the unfollow personal page method """
 
