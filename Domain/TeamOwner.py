@@ -2,6 +2,7 @@ from abc import ABC
 
 from Domain.Role import Role
 
+
 class TeamOwner(Role):
 
     def __init__(self, assigned_by):

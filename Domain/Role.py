@@ -2,6 +2,7 @@ from abc import ABC, abstractmethod
 
 
 class Role(ABC):
+
     """ Default constructor for Role class"""
 
     def __init__(self, name):
@@ -16,12 +17,6 @@ class Role(ABC):
 
     def get_role_name(self):
         return self.__role_name
-
-    """ Abstract method to string"""
-    """need to be changed"""
-    @abstractmethod
-    def to_string(self):
-        pass
 
 
 def type_check(obj):

@@ -19,9 +19,6 @@ class Player(Role):
     def get_position_name(self):
         return self.__position
 
-    def to_string(self):
-        print("I am a " + self.get_role_name(), "playing as " + self.get_position_name())
-
 
 def type_check(obj):
     if type(obj) is not Player:

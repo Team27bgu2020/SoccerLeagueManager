@@ -22,7 +22,7 @@ class TestGame(TestCase):
         referee = Referee()
         self.assertRaises(TypeError, self.game.set_main_referee, main_referee=self.home_team)
         self.game.set_main_referee(referee)
-        self.assertIs(referee, self.game._Game__main_referee)
+        self.assertEqual(referee, self.game._Game__main_referee)
 
     """ Testing the set match time method """
 
@@ -44,10 +44,10 @@ class TestGame(TestCase):
 
         self.assertRaises(TypeError, self.game.set_home_team, match_time=0)
         self.assertIsInstance(self.game._Game__home_team, Team)
-        self.assertIs(self.game._Game__home_team, self.home_team)
+        self.assertEqual(self.game._Game__home_team, self.home_team)
         self.assertRaises(TypeError, self.game.set_away_team, match_time=0)
         self.assertIsInstance(self.game._Game__away_team, Team)
-        self.assertIs(self.game._Game__away_team, self.away_team)
+        self.assertEqual(self.game._Game__away_team, self.away_team)
 
     """ Testing the add referee and remove referee methods """
 

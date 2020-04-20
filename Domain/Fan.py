@@ -5,13 +5,6 @@ import Domain.RecommendationSystem as RecommendationSystem
 
 
 class Fan(SignedUser):
-    """ Default constructor for Fan class"""
-
-    def __init__(self):
-        super().__init__()
-        self.__followed_pages = []
-        self.__followed_games = []
-        self.__recommendation_system = None
 
     """ Constructor for Fan class getting arguments, checks them and updates the relevant fields"""
 
@@ -88,3 +81,5 @@ class Fan(SignedUser):
 def type_check(obj):
     if type(obj) is not Fan:
         raise TypeError
+
+
