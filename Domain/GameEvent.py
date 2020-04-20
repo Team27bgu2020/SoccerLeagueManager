@@ -1,6 +1,5 @@
 import Domain.Game as Game
 import Domain.Referee as Referee
-import datetime as date
 
 
 class GameEvent:

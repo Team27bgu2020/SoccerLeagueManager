@@ -1,7 +1,8 @@
-import Domain.Team
-import Domain.Role
+from Domain.Team import Team
+from Domain.Role import Role
 
 
+# noinspection PyAttributeOutsideInit
 class TeamUser:
 
     """ Constructor checking the given args and updates the relevant fields accordingly """
@@ -13,13 +14,13 @@ class TeamUser:
     """ Setter for team field """
     def set_team(self, team):
 
-        Domain.Team.type_check(team)
+        Team.type_check(team)
         self.__team = team
 
     """ Setter for role field """
     def set_role(self, role):
 
-        Domain.Role.type_check(role)
+        Role.type_check(role)
         self.__role = role
 
 
