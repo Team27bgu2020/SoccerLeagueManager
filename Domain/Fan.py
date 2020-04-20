@@ -2,6 +2,7 @@ from Domain.SignedUser import SignedUser
 import Domain.PersonalPage as PersonalPage
 import Domain.Game as Game
 import Domain.RecommendationSystem as RecommendationSystem
+import Domain.Complaint as Complaint
 
 
 class Fan(SignedUser):
@@ -13,6 +14,7 @@ class Fan(SignedUser):
 
         self.__followed_pages = []
         self.__followed_games = []
+        self.__complaints = []
         self.__recommendation_system = None
 
     @property
@@ -77,6 +79,14 @@ class Fan(SignedUser):
         RecommendationSystem.type_check(recommendation_system)
 
         self.__recommendation_system = recommendation_system
+
+    """ This method lets the fan register a complaint"""
+
+    def complain(self, description, page):
+        PersonalPage.type_check(page)
+        complain = Complaint(self.get_user_id(), description, page)
+        self.__complaints.append(complain)
+
 
 def type_check(obj):
     if type(obj) is not Fan:

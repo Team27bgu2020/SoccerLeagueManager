@@ -34,7 +34,7 @@ class SystemAdmin(SignedUser):
 
     """ This method allows to comment on a complaint """
 
-    def show_complaints(self, complaint):
+    def reply_to_complaint(self, complaint):
         pass
 
     """ This method shows system log files """
