@@ -1,9 +1,17 @@
-from Domain.ClassesTypeCheckImports import *
+from Domain.Season import Season
+import Domain.Season as Season
+from Domain.PointsCalculationPolicy import PointsCalculationPolicy
+import Domain.PointsCalculationPolicy as PointsCalculationPolicy
+from Domain.GameSchedulePolicy import GameSchedulePolicy
+# from Domain.ClassesTypeCheckImports import *
 
 """ Dor """
+
+
 class League:
 
-    def __init__(self, name, season, points_calculation_policy, games_schedule_policy):
+    def __init__(self, name: str, season: Season, points_calculation_policy: PointsCalculationPolicy
+                 , games_schedule_policy: GameSchedulePolicy):
         if type(name) is not str:
             raise TypeError
         Season.type_check(season)
@@ -12,8 +20,8 @@ class League:
         self.__referees = []
         self.__teams = []
         self.__policies = {}
-        self.set_points_calculation_policy(points_calculation_policy)
-        self.set_game_schedule_policy(games_schedule_policy)
+        self.points_calculation_policy = points_calculation_policy
+        self.set_game_schedule_policy = games_schedule_policy
         self.__season = season
         # adds the created league to the season (connection)
         self.__season.add_league(self)

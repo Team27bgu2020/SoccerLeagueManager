@@ -1,13 +1,12 @@
-from Domain.ClassesTypeCheckImports import *
 from Domain.SignedUser import SignedUser
-
-
+# from Domain.ClassesTypeCheckImports import *
+from Enums.RefereeQualificationEnum import RefereeQualificationEnum
 """ Dor """
 
 
 class Referee(SignedUser):
 
-    def __init__(self, qualification):
+    def __init__(self, qualification: RefereeQualificationEnum):
 
         self.__events = []
         self.qualification = qualification
@@ -16,9 +15,16 @@ class Referee(SignedUser):
 
     def add_event(self, event):
 
-        GameEvent.type_check(event)
+        GameEvent_type_check(event)
 
         self.__events.append(event)
+
+    """ This method removes game event """
+
+    def remove_event(self, event):
+
+        if event in self.__events:
+            self.__events.remove(event)
 
     """ Getter for referee qualification """
 
@@ -30,9 +36,9 @@ class Referee(SignedUser):
     """ Setter for referee qualification """
 
     @qualification.setter
-    def qualification(self, qualification):
+    def qualification(self, qualification: RefereeQualificationEnum):
 
-        Enums.referee_qualification_type_check(qualification)
+        RefereeQualificationEnum_type_check(qualification)
 
         self.__qualification = qualification
 

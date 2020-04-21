@@ -1,8 +1,6 @@
 from Domain.SignedUser import SignedUser
 import Domain.Team as Team
-import Domain.TeamUser as TeamUser
-import Domain.RecommendationSystem as RecommendationSystem
-
+from Domain.ClassesTypeCheckImports import *
 
 
 class SystemAdmin(SignedUser):

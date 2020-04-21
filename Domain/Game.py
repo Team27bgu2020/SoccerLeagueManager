@@ -1,11 +1,12 @@
-from Domain.ClassesTypeCheckImports import *
 import datetime as date
+from Domain.Team import Team
+# from Domain.ClassesTypeCheckImports import *
 """ Dor """
 
 
 class Game:
 
-    def __init__(self, home_team, away_team, match_time, field):
+    def __init__(self, home_team: Team, away_team: Team, match_time:  date.datetime, field: str):
 
         if home_team == away_team:
             raise ValueError
@@ -78,7 +79,7 @@ class Game:
     @main_referee.setter
     def main_referee(self, main_referee):
 
-        Referee.type_check(main_referee)
+        Referee_type_check(main_referee)
 
         self.__main_referee = main_referee
 
@@ -107,7 +108,7 @@ class Game:
     @home_team.setter
     def home_team(self, home_team):
 
-        Team.type_check(home_team)
+        Team_type_check(home_team)
 
         self.__home_team = home_team
 
@@ -116,7 +117,7 @@ class Game:
     @away_team.setter
     def away_team(self, away_team):
 
-        Team.type_check(away_team)
+        Team_type_check(away_team)
 
         self.__away_team = away_team
 
@@ -124,7 +125,7 @@ class Game:
 
     def add_referee(self, referee):
 
-        Referee.type_check(referee)
+        Referee_type_check(referee)
 
         if referee in self.__referees or referee == self.__main_referee:
             raise ValueError
@@ -142,7 +143,7 @@ class Game:
 
     def add_event(self, event):
 
-        GameEvent.type_check(event)
+        GameEvent_type_check(event)
 
         ref = event.get_referee()
         if ref not in self.__referees and ref != self.__main_referee:

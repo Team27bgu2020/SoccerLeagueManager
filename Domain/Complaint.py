@@ -1,4 +1,6 @@
 import Domain.PersonalPage as PersonalPage
+
+
 class Complaint:
 
     def __init__(self, by_user_id, desc, page):
@@ -18,7 +20,11 @@ class Complaint:
     def by_user_id(self):
         return self.__by_user_id
 
-
     @property
     def description(self):
         return self.__description
+
+
+def type_check(obj):
+    if type(obj) is not Complaint:
+        raise TypeError

@@ -5,7 +5,7 @@ from Domain.Game import Game
 from Domain.Referee import Referee
 from Domain.GameEvent import GameEvent
 from Domain.Team import Team
-from Domain.Enums import RefereeQualification
+from Enums.RefereeQualificationEnum import RefereeQualificationEnum
 
 
 class TestGame(TestCase):
@@ -20,7 +20,7 @@ class TestGame(TestCase):
 
     def test_set_main_referee(self):
 
-        referee = Referee(RefereeQualification.MAIN)
+        referee = Referee(RefereeQualificationEnum.MAIN)
         self.assertRaises(TypeError, self.game.main_referee, main_referee=self.home_team)
         self.game.main_referee = referee
         self.assertEqual(referee, self.game._Game__main_referee)
@@ -54,8 +54,8 @@ class TestGame(TestCase):
 
     def test_add_remove_referee(self):
 
-        m_r = Referee(RefereeQualification.MAIN)
-        r = Referee(RefereeQualification.REGULAR)
+        m_r = Referee(RefereeQualificationEnum.MAIN)
+        r = Referee(RefereeQualificationEnum.REGULAR)
 
         self.assertRaises(TypeError, self.game.add_referee, referee={})
 
@@ -73,7 +73,7 @@ class TestGame(TestCase):
 
     def test_add_remove_event(self):
 
-        r = Referee(RefereeQualification.MAIN)
+        r = Referee(RefereeQualificationEnum.MAIN)
         self.game.add_referee(r)
         game_event = GameEvent(self.game, r, "type", "des", date.datetime(2020, 5, 5), 89)
         g = Game(self.home_team, self.away_team, self.d, self.field)

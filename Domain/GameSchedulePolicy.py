@@ -1,12 +1,10 @@
-from Domain.ClassesTypeCheckImports import *
-
-
+# from Enums.GameAssigningPoliciesEnum import GameAssigningPoliciesEnum
 """ Dor """
 
 
 class GameSchedulePolicy:
 
-    def __init__(self, team_games_num, games_stadium_assigning_policy):
+    def __init__(self, team_games_num: int, games_stadium_assigning_policy):
 
         if type(team_games_num) is not int:
             raise TypeError

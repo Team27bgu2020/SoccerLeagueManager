@@ -3,10 +3,7 @@
 
 class PointsCalculationPolicy:
 
-    def __init__(self, win_points, tie_points, lose_points):
-
-        if type(win_points) or type(tie_points) or type(lose_points) is not int:
-            raise TypeError
+    def __init__(self, win_points: int, tie_points: int, lose_points: int):
 
         self.__win_points = win_points
         self.__tie_points = tie_points
@@ -32,6 +29,7 @@ class PointsCalculationPolicy:
     def lose_points(self):
 
         return self.__lose_points
+
 
 def type_check(obj):
     if type(obj) is not PointsCalculationPolicy:

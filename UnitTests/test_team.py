@@ -4,10 +4,10 @@ from Domain.Game import Game
 from Domain.Season import Season
 from Domain.Player import Player
 from Domain.League import League
-from Domain.TeamUser import TeamUser
 from datetime import datetime as date
 from Domain.GameSchedulePolicy import GameSchedulePolicy
 from Domain.PointsCalculationPolicy import PointsCalculationPolicy
+from Enums.GameAssigningPoliciesEnum import GameAssigningPoliciesEnum
 
 
 class TestTeam(TestCase):
@@ -19,7 +19,8 @@ class TestTeam(TestCase):
 
     def test_add_league(self):
 
-        league = League("Euro", Season(2020), PointsCalculationPolicy(), GameSchedulePolicy())
+        league = League("Euro", Season(2020), PointsCalculationPolicy(3, 0, -3),
+                        GameSchedulePolicy(1, GameAssigningPoliciesEnum.RANDOM))
 
         self.assertRaises(TypeError, self.team.add_league, league=[])
         self.team.add_league(league)

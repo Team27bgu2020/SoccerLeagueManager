@@ -4,7 +4,7 @@ from Domain.Referee import Referee
 from Domain.Game import Game
 from Domain.Team import Team
 from Domain.GameEvent import GameEvent
-from Domain.Enums import RefereeQualification
+from Enums.RefereeQualificationEnum import RefereeQualification
 
 
 class TestReferee(TestCase):
@@ -17,6 +17,3 @@ class TestReferee(TestCase):
         event = GameEvent(self.game, self.ref, "", "", date(2020, 7, 7), 22)
         self.assertRaises(TypeError, self.ref.add_event, event=[])
         self.assertIn(event, self.ref._Referee__events)
-
-    def test_qualification(self):
-        self.fail()

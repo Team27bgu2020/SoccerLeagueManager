@@ -1,16 +1,18 @@
-from Domain.ClassesTypeCheckImports import *
-
+# from Domain.ClassesTypeCheckImports import *
+from Domain.Game import Game
+from Domain.Referee import Referee
+from Enums.EventTypeEnum import EventTypeEnum
+import datetime as date
 """ Dor """
 
 
 class GameEvent:
 
-    def __init__(self, game, referee, event_type, event_description, datetime, min_in_game):
+    def __init__(self, game: Game, referee: Referee, event_type: EventTypeEnum, event_description: str,
+                 datetime: date.datetime, min_in_game: int):
         Game.type_check(game)
         Referee.type_check(referee)
-
-        # add argument check
-
+        # input check
         self.__min_in_game = min_in_game
         self.__datetime = datetime
         self.__event_description = event_description
@@ -23,37 +25,43 @@ class GameEvent:
 
     """ This method returns the game where the event has happened """
 
-    def get_game(self):
+    @property
+    def game(self):
 
         return self.__game
 
     """ This method returns the referee that called the event """
 
-    def get_referee(self):
+    @property
+    def referee(self):
 
         return self.__referee
 
     """ This method returns the event type """
 
-    def get_event_type(self):
+    @property
+    def event_type(self):
 
         return self.__event_type
 
     """ This method returns the event description """
 
-    def get_event_description(self):
+    @property
+    def event_description(self):
 
         return self.__event_description
 
     """ This method returns the event date and time """
 
-    def get_event_datetime(self):
+    @property
+    def event_datetime(self):
 
         return self.__datetime
 
     """ This method return the event min in the game """
 
-    def get_min_in_game(self):
+    @property
+    def min_in_game(self):
         return self.__min_in_game
 
 

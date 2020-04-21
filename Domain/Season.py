@@ -1,11 +1,11 @@
-from Domain.ClassesTypeCheckImports import *
-
+# from Domain.ClassesTypeCheckImports import *
+from Domain.League import League
 """ Dor """
 
 
 class Season:
 
-    def __init__(self, year):
+    def __init__(self, year: int):
 
         if type(year) is not int:
             raise TypeError
@@ -27,7 +27,7 @@ class Season:
 
     def remove_league(self, league):
 
-        League.type_check(league)
+        League_type_check(league)
         self.__leagues.remove(league)
 
     """ This methods returns the seasons year """
