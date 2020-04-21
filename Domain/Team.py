@@ -1,11 +1,11 @@
-import Domain.TeamUser as TeamUser
-import Domain.Game as Game
-import Domain.League as League
+from Domain.ClassesTypeCheckImports import *
 
 """ Dor """
+
+
 class Team:
 
-    def __init__(self, name, team_members=[]):
+    def __init__(self, name, team_members=[], stadium=None):
 
         if type(name) is not str:
             raise TypeError
@@ -16,6 +16,7 @@ class Team:
         self.__upcoming_games = []
         self.__past_games = []
         self.__leagues = {}
+        self.stadium = stadium
 
         self.open_team()
 
@@ -166,6 +167,20 @@ class Team:
     def is_open(self):
 
         return self.__is_open
+
+    """ is open getter """
+
+    @property
+    def stadium(self):
+
+        return self.__stadium
+
+    """ stadium setter """
+
+    @stadium.setter
+    def stadium(self, stadium):
+
+        self.__stadium = stadium
 
     """ This method checks if the teams are equal """
 

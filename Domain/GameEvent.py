@@ -1,7 +1,8 @@
-import Domain.Game as Game
-import Domain.Referee as Referee
+from Domain.ClassesTypeCheckImports import *
 
 """ Dor """
+
+
 class GameEvent:
 
     def __init__(self, game, referee, event_type, event_description, datetime, min_in_game):

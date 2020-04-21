@@ -7,6 +7,14 @@ import Domain.Complaint as Complaint
 
 class Fan(SignedUser):
 
+    """ Default constructor for Fan class"""
+
+    def __init__(self):
+        super().__init__()
+        self.__followed_pages = []
+        self.__followed_games = []
+        self.__recommendation_system = None
+
     """ Constructor for Fan class getting arguments, checks them and updates the relevant fields"""
 
     def __init__(self, user_name, password, name, birth_date):

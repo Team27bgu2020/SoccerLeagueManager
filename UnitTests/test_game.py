@@ -5,6 +5,7 @@ from Domain.Game import Game
 from Domain.Referee import Referee
 from Domain.GameEvent import GameEvent
 from Domain.Team import Team
+from Domain.Enums import RefereeQualification
 
 
 class TestGame(TestCase):
@@ -19,33 +20,33 @@ class TestGame(TestCase):
 
     def test_set_main_referee(self):
 
-        referee = Referee()
-        self.assertRaises(TypeError, self.game.set_main_referee, main_referee=self.home_team)
-        self.game.set_main_referee(referee)
+        referee = Referee(RefereeQualification.MAIN)
+        self.assertRaises(TypeError, self.game.main_referee, main_referee=self.home_team)
+        self.game.main_referee = referee
         self.assertEqual(referee, self.game._Game__main_referee)
 
     """ Testing the set match time method """
 
     def test_set_match_time(self):
 
-        self.assertRaises(TypeError, self.game.set_match_time, match_time=[])
+        self.assertRaises(TypeError, self.game.match_time, match_time=[])
         self.assertEqual(date.datetime(2020, 5, 5), self.game._Game__match_time)
 
     """ Testing the set field method """
 
     def test_set_field(self):
 
-        self.assertRaises(TypeError, self.game.set_field, match_time=0)
+        self.assertRaises(TypeError, self.game.field, match_time=0)
         self.assertEqual(self.field, self.game._Game__field)
 
     """ Testing the set team method """
 
     def test_set_team(self):
 
-        self.assertRaises(TypeError, self.game.set_home_team, match_time=0)
+        self.assertRaises(TypeError, self.game.home_team, match_time=0)
         self.assertIsInstance(self.game._Game__home_team, Team)
         self.assertEqual(self.game._Game__home_team, self.home_team)
-        self.assertRaises(TypeError, self.game.set_away_team, match_time=0)
+        self.assertRaises(TypeError, self.game.away_team, match_time=0)
         self.assertIsInstance(self.game._Game__away_team, Team)
         self.assertEqual(self.game._Game__away_team, self.away_team)
 
@@ -53,12 +54,12 @@ class TestGame(TestCase):
 
     def test_add_remove_referee(self):
 
-        m_r = Referee()
-        r = Referee()
+        m_r = Referee(RefereeQualification.MAIN)
+        r = Referee(RefereeQualification.REGULAR)
 
         self.assertRaises(TypeError, self.game.add_referee, referee={})
 
-        self.game.set_main_referee(m_r)
+        self.game.main_referee = m_r
         self.assertRaises(ValueError, self.game.add_referee, referee=m_r)
 
         self.game.add_referee(r)
@@ -72,11 +73,11 @@ class TestGame(TestCase):
 
     def test_add_remove_event(self):
 
-        r = Referee()
+        r = Referee(RefereeQualification.MAIN)
         self.game.add_referee(r)
         game_event = GameEvent(self.game, r, "type", "des", date.datetime(2020, 5, 5), 89)
         g = Game(self.home_team, self.away_team, self.d, self.field)
-        g.set_main_referee(Referee())
+        g.main_referee = Referee()
         not_game_event = GameEvent(g, g.referees[0],
                                    "type", "des", date.datetime(2020, 5, 5), 89)
 

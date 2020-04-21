@@ -1,10 +1,8 @@
+from Domain.ClassesTypeCheckImports import *
 import datetime as date
-import Domain.GameEvent as GameEvent
-import Domain.Referee as Referee
-import Domain.Team as Team
-
 """ Dor """
-# noinspection PyAttributeOutsideInit
+
+
 class Game:
 
     def __init__(self, home_team, away_team, match_time, field):
@@ -12,58 +10,16 @@ class Game:
         if home_team == away_team:
             raise ValueError
 
-        self.set_home_team(home_team)
-        self.set_away_team(away_team)
-        self.set_match_time(match_time)
-        self.set_field(field)
+        self.home_team = home_team
+        self.away_team = away_team
+        self.match_time = match_time
+        self.field = field
 
         self.__home_score = 0
         self.__away_score = 0
         self.__main_referee = None
         self.__referees = []
         self.__events = []
-
-    """ Setter for main referee object """
-
-    def set_main_referee(self, main_referee):
-
-        Referee.type_check(main_referee)
-
-        self.__main_referee = main_referee
-
-    """ Setter for match time """
-
-    def set_match_time(self, match_time):
-
-        if type(match_time) is not date.datetime:
-            raise TypeError
-
-        self.__match_time = match_time
-
-    """ Setter for game field """
-
-    def set_field(self, field):
-
-        if type(field) is not str:
-            raise TypeError
-
-        self.__field = field
-
-    """ Setter for home team """
-
-    def set_home_team(self, home_team):
-
-        Team.type_check(home_team)
-
-        self.__home_team = home_team
-
-    """ Setter for away team """
-
-    def set_away_team(self, away_team):
-
-        Team.type_check(away_team)
-
-        self.__away_team = away_team
 
     """ Getter for home team """
 
@@ -93,15 +49,19 @@ class Game:
 
         return self.__field
 
-    """ Getter for referees 
-        This method returns 2 values:
-        1. main referee
-        2. referees list """
+    """ Getter for main referee """
+
+    @property
+    def main_referee(self):
+
+        return self.__main_referee
+
+    """ Getter for referees list (without main referee) """
 
     @property
     def referees(self):
 
-        return self.__main_referee, self.__referees
+        return self.__referees
 
     """ Getter for Field """
 
@@ -112,6 +72,53 @@ class Game:
             'home': self.__home_score,
             'away': self.__away_score
         }
+
+    """ Setter for main referee object """
+
+    @main_referee.setter
+    def main_referee(self, main_referee):
+
+        Referee.type_check(main_referee)
+
+        self.__main_referee = main_referee
+
+    """ Setter for match time """
+
+    @match_time.setter
+    def match_time(self, match_time):
+
+        if type(match_time) is not date.datetime:
+            raise TypeError
+
+        self.__match_time = match_time
+
+    """ Setter for game field """
+
+    @field.setter
+    def field(self, field):
+
+        if type(field) is not str:
+            raise TypeError
+
+        self.__field = field
+
+    """ Setter for home team """
+
+    @home_team.setter
+    def home_team(self, home_team):
+
+        Team.type_check(home_team)
+
+        self.__home_team = home_team
+
+    """ Setter for away team """
+
+    @away_team.setter
+    def away_team(self, away_team):
+
+        Team.type_check(away_team)
+
+        self.__away_team = away_team
 
     """ This method adds a referee to the game """
 

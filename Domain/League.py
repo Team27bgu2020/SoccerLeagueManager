@@ -1,8 +1,4 @@
-import Domain.Season as Season
-import Domain.Team as Team
-import Domain.Referee as Referee
-import Domain.PointsCalculationPolicy as PointsCalculationPolicy
-import Domain.GameSchedulePolicy as GameSchedulePolicy
+from Domain.ClassesTypeCheckImports import *
 
 """ Dor """
 class League:
@@ -84,13 +80,15 @@ class League:
 
     """ This method sets new point calculation policy """
 
-    def set_points_calculation_policy(self, policy):
+    @points_calculation_policy.setter
+    def points_calculation_policy(self, policy):
         PointsCalculationPolicy.type_check(policy)
         self.__policies["Points"] = policy
 
     """ This method sets new game schedule policy """
 
-    def set_game_schedule_policy(self, policy):
+    @game_schedule_policy.setter
+    def game_schedule_policy(self, policy):
         GameSchedulePolicy.type_check(policy)
         self.__policies["Schedule"] = policy
 
