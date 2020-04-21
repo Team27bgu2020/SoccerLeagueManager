@@ -1,7 +1,7 @@
 import datetime as date
 from Domain.User import User
 
-
+""" Changed By Roman """
 # noinspection PyAttributeOutsideInit
 class SignedUser(User):
 
@@ -22,8 +22,23 @@ class SignedUser(User):
         self.__password = password
         self.__user_name = user_name
 
+    @property
+    def get_user_name(self):
+        return self.__user_name
+
+    @property
+    def get_birth_date(self):
+        return self.__birth_date
+
+    @property
+    def get_name(self):
+        return self.__name
+
+    @property
+    def get_password(self):
+        return self.__password
+
 
 def type_check(obj):
-
     if type(obj) is not SignedUser:
         raise TypeError

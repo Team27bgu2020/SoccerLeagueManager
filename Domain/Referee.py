@@ -7,7 +7,6 @@ from Enums.RefereeQualificationEnum import RefereeQualificationEnum
 class Referee(SignedUser):
 
     def __init__(self, qualification: RefereeQualificationEnum):
-
         self.__events = []
         self.qualification = qualification
 
