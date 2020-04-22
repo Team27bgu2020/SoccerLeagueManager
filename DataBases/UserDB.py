@@ -8,7 +8,7 @@ class UserDB:
 
         """ Key = IP Address?? : Value = Obj """
         """self.__guest_id = 0"""
-        self.__guest = {}
+        self.__guests = {}
 
     @property
     def signed_users(self):
@@ -16,11 +16,16 @@ class UserDB:
 
     @property
     def guests(self):
-        return self.__guest
+        return self.__guests
 
     @signed_users.setter
-    def signed_users(self, signed_users):
-        self.__signed_users = signed_users
+    def signed_users(self, signed_user):
+        self.__signed_users[signed_user.user_name] = signed_users
 
-    def set_guest(self, guest):
-        self.__guest = guest
+    @guests.setter
+    def guests(self, guest):
+        self.__guests[guest.get_user_id] = guest
+
+    def get_signed_user(self, user_name):
+
+        return self.__signed_users[user_name]

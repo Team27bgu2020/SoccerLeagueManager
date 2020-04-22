@@ -47,7 +47,7 @@ class SignedUserController:
         if type(user) is SignedUser:
             signed_user_data = self.__user_data_base.get_signed_users
             signed_user_data.update({user.get_user_name: user})
-            self.__user_data_base.set_guest(signed_user_data)
+            self.__user_data_base.signed_users = signed_user_data
 
         elif type(user) is Guest:
             guest_data = self.__user_data_base.get_guest
