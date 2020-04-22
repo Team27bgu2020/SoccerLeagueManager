@@ -11,14 +11,15 @@ class UserDB:
         self.__guest = {}
 
     @property
-    def get_signed_users(self):
+    def signed_users(self):
         return self.__signed_users
 
     @property
-    def get_guest(self):
+    def guests(self):
         return self.__guest
 
-    def set_signed_users(self, signed_users):
+    @signed_users.setter
+    def signed_users(self, signed_users):
         self.__signed_users = signed_users
 
     def set_guest(self, guest):

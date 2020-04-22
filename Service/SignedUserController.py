@@ -7,6 +7,8 @@ from DataBases.UserDB import UserDB
 
 """ Created By Roman"""
 
+""" Change set and get """
+
 class SignedUserController:
 
     def __init__(self):
@@ -50,7 +52,7 @@ class SignedUserController:
         elif type(user) is Guest:
             guest_data = self.__user_data_base.get_guest
             guest_data.update({user.get_user_name: user})
-            self.__user_data_base.set_guest(guest_data)
+            self.__user_data_base.guests = guest_data
             """self.__guest_id = self.__guest_id + 1"""
         else:
             """ Not a guest and not a signed user """
@@ -59,14 +61,16 @@ class SignedUserController:
     def add_guest(self):
         pass
 
-    def confirm_user(self, user: SignedUser, password):
+    def confirm_user(self, user_name, password):
+        user = self.__user_data_base.signed_users[user_name]
         pass
 
     def edit_personal_name(self, user: SignedUser, new_name):
         pass
 
     def edit_personal_birth_date(self, user: SignedUser, new_birth_date):
-        pass
+        user.edit_personal_data(birth_date=new_birth_date)
+
 
     def edit_personal_password(self, user: SignedUser, new_password):
         pass
