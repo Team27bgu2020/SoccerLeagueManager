@@ -5,8 +5,8 @@ from Domain.Role import Role
 
 class Player(Role):
 
-    def __init__(self, position):
-        super().__init__("Player")
+    def __init__(self, assigned_by, position: str):
+        super().__init__(assigned_by)
         self.__position = position
 
     """  method to set position """
@@ -20,6 +20,3 @@ class Player(Role):
         return self.__position
 
 
-def type_check(obj):
-    if type(obj) is not Player:
-        raise TypeError

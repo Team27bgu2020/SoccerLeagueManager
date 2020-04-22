@@ -8,6 +8,7 @@ from Domain.Game import Game
 from Domain.Team import Team
 from Domain.RecommendationSystem import RecommendationSystem
 
+""" Idan """
 
 class TestSystemAdmin(TestCase):
 

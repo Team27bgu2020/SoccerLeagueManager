@@ -1,3 +1,8 @@
+import Domain.TeamUser as TeamUser
+import Domain.Game as Game
+import Domain.League as League
+from Domain.TeamBudget import TeamBudget
+
 """ Dor """
 
 
@@ -14,9 +19,11 @@ class Team:
         self.__upcoming_games = []
         self.__past_games = []
         self.__leagues = {}
-        self.stadium = stadium
-
-        self.open_team()
+        self.__stadium = stadium
+        self.__owner = None
+        self.__manager = None
+        self.__is_open = True
+        self.__budget_manager = TeamBudget()
 
     """ This method adds a new season """
 
@@ -121,6 +128,40 @@ class Team:
 
         self.__is_open = True
 
+    """ Add expanse"""
+
+    def add_expanse(self, amount, description):
+        self.__budget_manager.add_expanse(amount, description)
+
+    """ Add income"""
+
+    def add_income(self, amount, description):
+        self.__budget_manager.add_income(amount, description)
+
+    """ Get expanses"""
+
+    @property
+    def expanses(self):
+        return self.__budget_manager.expanses
+
+    """ Get expanses"""
+
+    @property
+    def incomes(self):
+        return self.__budget_manager.incomes
+
+    """ Get transactions"""
+
+    @property
+    def transactions(self):
+        return self.__budget_manager.transactions
+
+    """ Get Current"""
+
+    @property
+    def current_budget(self):
+        return self.__budget_manager.current_budget
+
     """ name getter """
 
     @property
@@ -162,6 +203,23 @@ class Team:
     def is_open(self):
 
         return self.__is_open
+
+    """ Budget Controller getter"""
+
+    @property
+    def owner(self):
+
+        return self.__owner
+
+    @property
+    def manger(self):
+
+        return self.__manager
+
+    @property
+    def budget_controller(self):
+
+        return self.__budget_manager
 
     """ is open getter """
 
