@@ -1,5 +1,3 @@
-from abc import ABC
-
 from Domain.Role import Role
 
 
