@@ -1,5 +1,4 @@
-from Domain.Team import Team
-from Domain.Role import Role
+__author__ = 'Shahar Freiman'
 
 
 # noinspection PyAttributeOutsideInit
@@ -8,23 +7,25 @@ class TeamUser:
     """ Constructor checking the given args and updates the relevant fields accordingly """
     def __init__(self, team, role):
 
-        self.set_team(team)
-        self.set_role(role)
+        self.team(team)
+        self.role(role)
 
     """ Setter for team field """
-    def set_team(self, team):
+    @property
+    def team(self):
+        return self.__team
 
-        Team.type_check(team)
+    """ Getter for team field """
+    @team.setter
+    def team(self, team):
         self.__team = team
 
     """ Setter for role field """
-    def set_role(self, role):
+    @property
+    def role(self):
+        return self.__role
 
-        Role.type_check(role)
+    """ Getter for role field """
+    @role.setter
+    def role(self, role):
         self.__role = role
-
-
-def type_check(obj):
-
-    if type(obj) is not TeamUser:
-        raise TypeError

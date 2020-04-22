@@ -1,34 +1,19 @@
-from abc import ABC
+__author__ = 'Oscar Epshtein'
 
 from Domain.Role import Role
-import Domain.TeamOwner as TeamOwner
 
 
 class TeamManager(Role):
 
     def __init__(self, assigned_by, bool_open_close=False, bool_accounting=False, bool_add_rem=False,
                  bool_set_permission=False):
-        super().__init__("Team Manager")
+        super().__init__(assigned_by)
 
-        TeamOwner.type_check(assigned_by)
-
-        self.__assigned_by = assigned_by
         self.__roles = []
         self.__bool_approval_open_close = bool_open_close
         self.__bool_approval_accounting = bool_accounting
         self.__bool_approval_add_remove = bool_add_rem
         self.__bool_approval_set_permission = bool_set_permission
-
-    """  Method to set assigned by user """
-
-    def set_assigned_by(self, assigned_by):
-        TeamOwner.type_check(assigned_by)
-        self.__assigned_by = assigned_by
-
-    """  Method to get assigned by user"""
-
-    def get_assigned_by(self):
-        return self.__assigned_by
 
     """  Method to get approve to all options of owner"""
 
@@ -106,10 +91,3 @@ class TeamManager(Role):
     def get_bool_approval_open_close(self):
         return self.__bool_approval_open_close
 
-    def to_string(self):
-        print("I am a " + self.get_role_name())
-
-
-def type_check(obj):
-    if type(obj) is not TeamManager:
-        raise TypeError

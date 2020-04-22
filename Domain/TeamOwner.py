@@ -1,22 +1,13 @@
+__author__ = 'Oscar Epshtein'
+
 from Domain.Role import Role
 
 
 class TeamOwner(Role):
 
     def __init__(self, assigned_by):
-        super().__init__("Team Owner")
-        self.__assigned_by = assigned_by
+        super().__init__(assigned_by)
         self.__roles = []
-
-    """  Method to set assigned by user """
-
-    def set_assigned_by(self, assigned_by):
-        self.__assigned_by = assigned_by
-
-    """  Method to get assigned by user"""
-
-    def get_assigned_by(self):
-        return self.__assigned_by
 
     """ Getter for Roles"""
 
@@ -62,8 +53,3 @@ class TeamOwner(Role):
     def to_string(self):
         print("I am a " + self.get_role_name())
 
-
-def type_check(obj):
-
-    if type(obj) is not TeamOwner:
-        raise TypeError
