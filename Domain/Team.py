@@ -1,13 +1,18 @@
-# from Domain.ClassesTypeCheckImports import *
+import Domain.TeamUser as TeamUser
+import Domain.Game as Game
+import Domain.League as League
+from Domain.TeamBudget import TeamBudget
 
 """ Dor """
 
 
 class Team:
 
-    def __init__(self, name, team_members=[], stadium=None):
+    def __init__(self, name: str, field: str, team_members=[]):
 
         if type(name) is not str:
+            raise TypeError
+        if type(field) is not str:
             raise TypeError
 
         self.__team_members = []
@@ -16,15 +21,17 @@ class Team:
         self.__upcoming_games = []
         self.__past_games = []
         self.__leagues = {}
-        self.stadium = stadium
-
-        self.open_team()
+        self.__field = field
+        self.__owner = None
+        self.__manager = None
+        self.__is_open = True
+        self.___budget_controller = TeamBudget()
 
     """ This method adds a new season """
 
     def add_league(self, league):
 
-        League_type_check(league)
+        League.type_check(league)
         if league.season.year not in self.__leagues.keys():
             self.__leagues[league.season.year] = []
 
@@ -54,7 +61,7 @@ class Team:
 
     def add_game(self, game):
 
-        Game_type_check(game)
+        Game.type_check(game)
         if not self.collision_game_check(game):
             self.__upcoming_games.append(game)
             return True
@@ -90,7 +97,7 @@ class Team:
 
     def add_team_member(self, team_member):
 
-        TeamUser_type_check(team_member)
+        TeamUser.type_check(team_member)
         if team_member in self.__team_members:
             raise ValueError
 
@@ -126,9 +133,61 @@ class Team:
 
         self.__is_open = True
 
-    """ name getter """
+    """ Setter for game field """
+
+    def set_field(self, field):
+
+        if type(field) is not str:
+            raise TypeError
+
+        self.__field = field
+
+    """ Setter for owner  """
+
+    def set_owner(self, owner: TeamUser):
+        self.__owner = owner
+
+    """ Setter for manger  """
+
+    def set_manager(self, manager: TeamUser):
+        self.__manager = manager
+
+    """ Add expanse"""
+
+    def add_expanse(self, amount, description):
+        self.___budget_controller.add_expanse(amount, description)
+
+    """ Add income"""
+
+    def add_income(self, amount, description):
+        self.___budget_controller.add_income(amount, description)
+
+    """ Get expanses"""
 
     @property
+    def expanses(self):
+        return self.___budget_controller.expanses
+
+    """ Get expanses"""
+
+    @property
+    def incomes(self):
+        return self.___budget_controller.incomes
+
+    """ Get transactions"""
+
+    @property
+    def transactions(self):
+        return self.___budget_controller.transactions
+
+    """ Get Current"""
+
+    @property
+    def current_budget(self):
+        return self.___budget_controller.current_budget
+
+    """ name getter """
+
     def name(self):
 
         return self.__name
@@ -168,19 +227,22 @@ class Team:
 
         return self.__is_open
 
-    """ is open getter """
+    """ Budget Controller getter"""
 
     @property
-    def stadium(self):
+    def owner(self):
 
-        return self.__stadium
+        return self.__owner
 
-    """ stadium setter """
+    @property
+    def manger(self):
 
-    @stadium.setter
-    def stadium(self, stadium):
+        return self.__manager
 
-        self.__stadium = stadium
+    @property
+    def budget_controller(self):
+
+        return self.___budget_controller
 
     """ This method checks if the teams are equal """
 
@@ -189,7 +251,3 @@ class Team:
         return isinstance(obj, Team) and obj.__name == self.__name
 
 
-def type_check(obj):
-
-    if type(obj) is not Team:
-        raise TypeError

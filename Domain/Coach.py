@@ -5,8 +5,8 @@ from Domain.Role import Role
 
 class Coach(Role):
 
-    def __init__(self, qualification):
-        super().__init__("Coach")
+    def __init__(self, assigned_by, qualification: str):
+        super().__init__(assigned_by)
         self.__qualification = qualification
 
     """  method to set position """
@@ -21,8 +21,3 @@ class Coach(Role):
 
     def get_qualification_name(self):
         return self.__qualification
-
-
-def type_check(obj):
-    if type(obj) is not Coach:
-        raise TypeError
