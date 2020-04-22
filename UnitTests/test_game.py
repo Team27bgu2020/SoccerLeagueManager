@@ -1,11 +1,11 @@
 import datetime as date
 from unittest import TestCase
-
 from Domain.Game import Game
 from Domain.Referee import Referee
 from Domain.GameEvent import GameEvent
 from Domain.Team import Team
 from Enums.RefereeQualificationEnum import RefereeQualificationEnum
+from Enums.EventTypeEnum import EventTypeEnum
 
 
 class TestGame(TestCase):
@@ -57,14 +57,10 @@ class TestGame(TestCase):
         m_r = Referee(RefereeQualificationEnum.MAIN)
         r = Referee(RefereeQualificationEnum.REGULAR)
 
-        self.assertRaises(TypeError, self.game.add_referee, referee={})
-
         self.game.main_referee = m_r
-        self.assertRaises(ValueError, self.game.add_referee, referee=m_r)
 
         self.game.add_referee(r)
         self.assertIn(r, self.game._Game__referees)
-        self.assertRaises(ValueError, self.game.add_referee, referee=r)
 
         self.game.remove_referee(r)
         self.assertNotIn(r, self.game._Game__referees)
@@ -77,11 +73,10 @@ class TestGame(TestCase):
         self.game.add_referee(r)
         game_event = GameEvent(self.game, r, "type", "des", date.datetime(2020, 5, 5), 89)
         g = Game(self.home_team, self.away_team, self.d, self.field)
-        g.main_referee = Referee()
-        not_game_event = GameEvent(g, g.referees[0],
-                                   "type", "des", date.datetime(2020, 5, 5), 89)
+        g.main_referee = Referee(RefereeQualificationEnum.MAIN)
+        not_game_event = GameEvent(g, g.main_referee,
+                                   EventTypeEnum.GOAL, "des", date.datetime(2020, 5, 5), 89)
 
-        self.assertRaises(TypeError, self.game.add_event, event=0)
         self.assertRaises(ValueError, self.game.add_event, event=not_game_event)
         self.assertNotIn(not_game_event, self.game._Game__events)
 
@@ -113,7 +108,8 @@ class TestGame(TestCase):
         self.assertEqual(self.game.away_team, self.away_team)
         self.assertEqual(self.game.field, self.field)
         self.assertEqual(self.game.match_time, self.d)
-        main_ref, refs = self.game.referees
+        main_ref = self.game.main_referee
+        refs = self.game.referees
         self.assertEqual(main_ref, self.game._Game__main_referee)
         self.assertEqual(refs, self.game._Game__referees)
         self.assertEqual(self.game.score['home'], self.game._Game__home_score)

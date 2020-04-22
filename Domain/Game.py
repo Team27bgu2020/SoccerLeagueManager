@@ -135,7 +135,7 @@ class Game:
 
     def add_event(self, event):
 
-        ref = event.get_referee()
+        ref = event.referee
         if ref not in self.__referees and ref != self.__main_referee:
             raise ValueError
 

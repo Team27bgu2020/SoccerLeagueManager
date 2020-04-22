@@ -3,6 +3,9 @@ from Domain.Season import Season
 from Domain.League import League
 from Domain.GameSchedulePolicy import GameSchedulePolicy
 from Domain.PointsCalculationPolicy import PointsCalculationPolicy
+from Domain.TeamBudgetPolicy import TeamBudgetPolicy
+from Enums.GameAssigningPoliciesEnum import GameAssigningPoliciesEnum
+
 
 class TestSeason(TestCase):
 
@@ -12,14 +15,15 @@ class TestSeason(TestCase):
 
     def test_add_league(self):
 
-        l = League("Euro", Season(2020), PointsCalculationPolicy(), GameSchedulePolicy())
+        league = League("Euro", Season(2020), PointsCalculationPolicy(3, 0, -3),
+                        GameSchedulePolicy(1, GameAssigningPoliciesEnum.RANDOM, '', ''), TeamBudgetPolicy())
         self.assertRaises(TypeError, self.season.add_league, team=0)
-        self.season.add_league(l)
-        self.assertIn(l, self.season._Season__leagues)
+        self.season.add_league(league)
+        self.assertIn(league, self.season._Season__leagues)
 
         self.assertRaises(TypeError, self.season.remove_league, team=0)
-        self.season.remove_league(l)
-        self.assertNotIn(l, self.season._Season__leagues)
+        self.season.remove_league(league)
+        self.assertNotIn(league, self.season._Season__leagues)
 
     """ Testing Getters """
 

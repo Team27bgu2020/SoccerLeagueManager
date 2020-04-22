@@ -1,10 +1,3 @@
-from Domain.Season import Season
-import Domain.Season as Season
-from Domain.PointsCalculationPolicy import PointsCalculationPolicy
-import Domain.PointsCalculationPolicy as PointsCalculationPolicy
-from Domain.GameSchedulePolicy import GameSchedulePolicy
-# from Domain.ClassesTypeCheckImports import *
-
 """ Dor """
 
 
@@ -39,7 +32,7 @@ class League:
 
     def remove_team(self, team_name):
 
-        self.__teams.remove(team_name)
+        del self.__teams[team_name]
 
     """ This method updates the teams score if the team won the game """
 
@@ -71,7 +64,6 @@ class League:
 
         self.__referees.remove(referee)
 
-
     """ This method returns the league teams """
 
     @property
@@ -100,7 +92,7 @@ class League:
 
     @property
     def team_budget_policy(self):
-        return self.__policies["Schedule"]
+        return self.__policies["Budget"]
 
     """ This method returns the league season """
 
@@ -130,9 +122,9 @@ class League:
 
     """ This method sets new game schedule policy """
 
-    @game_schedule_policy.setter
-    def game_team_budget_policy(self, policy):
+    @team_budget_policy.setter
+    def team_budget_policy(self, policy):
 
-        self.__policies["budget"] = policy
+        self.__policies["Budget"] = policy
 
 

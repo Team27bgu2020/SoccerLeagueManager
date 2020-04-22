@@ -7,6 +7,7 @@ from Domain.League import League
 from datetime import datetime as date
 from Domain.GameSchedulePolicy import GameSchedulePolicy
 from Domain.PointsCalculationPolicy import PointsCalculationPolicy
+from Domain.TeamBudgetPolicy import TeamBudgetPolicy
 from Enums.GameAssigningPoliciesEnum import GameAssigningPoliciesEnum
 
 
@@ -20,9 +21,8 @@ class TestTeam(TestCase):
     def test_add_league(self):
 
         league = League("Euro", Season(2020), PointsCalculationPolicy(3, 0, -3),
-                        GameSchedulePolicy(1, GameAssigningPoliciesEnum.RANDOM))
+                        GameSchedulePolicy(1, GameAssigningPoliciesEnum.RANDOM, '', ''), TeamBudgetPolicy())
 
-        self.assertRaises(TypeError, self.team.add_league, league=[])
         self.team.add_league(league)
         self.assertEqual(league, self.team._Team__leagues[2020][0])
 
@@ -46,7 +46,6 @@ class TestTeam(TestCase):
 
         g = Game(self.team, Team("Barcelona"), date(2020, 5, 5), self.field)
         g_l = [g]
-        self.assertRaises(TypeError, self.team.add_games, game={})
         self.team.add_games(g_l)
         self.assertIn(g, self.team._Team__upcoming_games)
 
@@ -55,7 +54,6 @@ class TestTeam(TestCase):
         self.team.remove_upcoming_game(g)
         self.assertNotIn(g, self.team._Team__upcoming_games)
 
-        self.assertRaises(TypeError, self.team.add_game, game={})
         self.assertTrue(self.team.add_game(g))
         self.assertTrue(self.team.collision_game_check(g))
         self.assertFalse(self.team.add_game(g))

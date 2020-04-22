@@ -9,9 +9,3 @@ class RefereeQualificationEnum(Enum):
     REGULAR = 'Regular'
 
 
-def type_check(obj):
-
-    if not isinstance(obj, RefereeQualificationEnum):
-        raise TypeError
-
-

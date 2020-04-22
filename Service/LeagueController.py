@@ -26,5 +26,19 @@ class LeagueController:
 
         league.game_schedule_policy = game_schedule_policy
 
+    """ This method updates the team budget policy """
 
+    def update_game_schedule_policy(self, league, team_budget_policy):
+
+        league.team_budget_policy = team_budget_policy
+
+    """ This method creates a game schedule for the leagues """
+
+    def make_game_schedule(self, league):
+
+        pass
+
+    def add_referee_to_league(self, league, referee):
+
+        league.add_referee(referee)
 

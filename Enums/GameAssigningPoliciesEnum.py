@@ -7,9 +7,3 @@ from enum import Enum
 class GameAssigningPoliciesEnum(Enum):
     RANDOM = 'Random'
     EQUAL_HOME_AWAY = 'Equal'
-
-
-def type_check(obj):
-
-    if not isinstance(obj, GameAssigningPoliciesEnum):
-        raise TypeError
