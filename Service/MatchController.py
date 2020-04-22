@@ -1,26 +1,28 @@
 from Domain.GameEvent import GameEvent
+from DataBases.GameDB import GameDB
 
 
-""" This function create and adds new game event """
+class MathController:
 
+    def __init__(self, game_db):
 
-def add_event(game, referee, event_type, event_description, datetime, min_in_game):
-    GameEvent(game, referee, event_type, event_description, datetime, min_in_game)
+        self.__game_DB = game_db
 
+    """ This function create and adds new game event """
 
-""" This function removes the game event """
+    def add_event(self, game, referee, event_type, event_description, datetime, min_in_game):
+        GameEvent(game, referee, event_type, event_description, datetime, min_in_game)
 
+    """ This function removes the game event """
 
-def remove_event(game_event: GameEvent):
-    game = game_event.game
-    referee = game_event.referee
-    game.remove_event(game_event)
-    referee.remove_event(game_event)
+    def remove_event(self, game_event: GameEvent):
+        game = game_event.game
+        referee = game_event.referee
+        game.remove_event(game_event)
+        referee.remove_event(game_event)
 
+    """ This function updates an event """
 
-""" This function updates an event """
-
-
-def edit_event(game_event, game, referee, event_type, event_description, datetime, min_in_game):
-    remove_event(game_event)
-    add_event(game, referee, event_type, event_description, datetime, min_in_game)
+    def edit_event(self, game_event, game, referee, event_type, event_description, datetime, min_in_game):
+        remove_event(game_event)
+        add_event(game, referee, event_type, event_description, datetime, min_in_game)

@@ -10,9 +10,7 @@ class GameEvent:
 
     def __init__(self, game: Game, referee: Referee, event_type: EventTypeEnum, event_description: str,
                  datetime: date.datetime, min_in_game: int):
-        Game.type_check(game)
-        Referee.type_check(referee)
-        # input check
+
         self.__min_in_game = min_in_game
         self.__datetime = datetime
         self.__event_description = event_description
@@ -64,7 +62,3 @@ class GameEvent:
     def min_in_game(self):
         return self.__min_in_game
 
-
-def type_check(obj):
-    if type(obj) is not GameEvent:
-        raise TypeError

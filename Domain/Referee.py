@@ -14,8 +14,6 @@ class Referee(SignedUser):
 
     def add_event(self, event):
 
-        GameEvent_type_check(event)
-
         self.__events.append(event)
 
     """ This method removes game event """
@@ -37,12 +35,5 @@ class Referee(SignedUser):
     @qualification.setter
     def qualification(self, qualification: RefereeQualificationEnum):
 
-        RefereeQualificationEnum_type_check(qualification)
-
         self.__qualification = qualification
 
-
-def type_check(obj):
-
-    if type(obj) is not Referee:
-        raise TypeError

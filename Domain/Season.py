@@ -17,7 +17,6 @@ class Season:
 
     def add_league(self, league):
 
-        League.type_check(league)
         if league in self.__leagues:
             raise ValueError
 
@@ -27,7 +26,6 @@ class Season:
 
     def remove_league(self, league):
 
-        League_type_check(league)
         self.__leagues.remove(league)
 
     """ This methods returns the seasons year """
@@ -43,9 +41,3 @@ class Season:
     def leagues(self):
 
         return self.__leagues
-
-
-def type_check(obj):
-
-    if type(obj) is not Season:
-        raise TypeError

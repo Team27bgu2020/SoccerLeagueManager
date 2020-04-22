@@ -1,5 +1,3 @@
-# from Domain.ClassesTypeCheckImports import *
-
 """ Dor """
 
 
@@ -24,7 +22,6 @@ class Team:
 
     def add_league(self, league):
 
-        League_type_check(league)
         if league.season.year not in self.__leagues.keys():
             self.__leagues[league.season.year] = []
 
@@ -54,7 +51,6 @@ class Team:
 
     def add_game(self, game):
 
-        Game_type_check(game)
         if not self.collision_game_check(game):
             self.__upcoming_games.append(game)
             return True
@@ -90,7 +86,6 @@ class Team:
 
     def add_team_member(self, team_member):
 
-        TeamUser_type_check(team_member)
         if team_member in self.__team_members:
             raise ValueError
 
@@ -188,8 +183,3 @@ class Team:
 
         return isinstance(obj, Team) and obj.__name == self.__name
 
-
-def type_check(obj):
-
-    if type(obj) is not Team:
-        raise TypeError

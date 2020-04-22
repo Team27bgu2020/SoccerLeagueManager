@@ -29,6 +29,3 @@ class GameSchedulePolicy:
         return self.__games_stadium_assigning_policy
 
 
-def type_check(obj):
-    if type(obj) is not GameSchedulePolicy:
-        raise TypeError

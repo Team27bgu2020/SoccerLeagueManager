@@ -31,6 +31,3 @@ class PointsCalculationPolicy:
         return self.__lose_points
 
 
-def type_check(obj):
-    if type(obj) is not PointsCalculationPolicy:
-        raise TypeError

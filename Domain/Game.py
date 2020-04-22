@@ -79,8 +79,6 @@ class Game:
     @main_referee.setter
     def main_referee(self, main_referee):
 
-        Referee_type_check(main_referee)
-
         self.__main_referee = main_referee
 
     """ Setter for match time """
@@ -108,8 +106,6 @@ class Game:
     @home_team.setter
     def home_team(self, home_team):
 
-        Team_type_check(home_team)
-
         self.__home_team = home_team
 
     """ Setter for away team """
@@ -117,15 +113,11 @@ class Game:
     @away_team.setter
     def away_team(self, away_team):
 
-        Team_type_check(away_team)
-
         self.__away_team = away_team
 
     """ This method adds a referee to the game """
 
     def add_referee(self, referee):
-
-        Referee_type_check(referee)
 
         if referee in self.__referees or referee == self.__main_referee:
             raise ValueError
@@ -142,8 +134,6 @@ class Game:
     """ This method adds a game event to the event list """
 
     def add_event(self, event):
-
-        GameEvent_type_check(event)
 
         ref = event.get_referee()
         if ref not in self.__referees and ref != self.__main_referee:
@@ -172,8 +162,3 @@ class Game:
     def away_team_goal(self):
 
         self.__away_score += 1
-
-
-def type_check(obj):
-    if type(obj) is not Game:
-        raise TypeError
