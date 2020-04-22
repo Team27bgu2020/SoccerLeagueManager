@@ -1,24 +1,16 @@
 import Domain.PersonalPage as PersonalPage
 
+""" Idan """
+
 
 class Complaint:
 
-    def __init__(self, by_user_id, desc, page):
-        self.__by_user_name = by_user_id
+    def __init__(self, desc):
         self.__description = desc
-        self.set_page(page)
+        self.answer = "none"
 
-    def set_page(self, page):
-        PersonalPage.type_check(page)
-        self.__page = page
-
-    @property
-    def page(self):
-        return self.__page
-
-    @property
-    def by_user_id(self):
-        return self.__by_user_id
+    def set_answer(self, answer):
+        self.answer = answer
 
     @property
     def description(self):

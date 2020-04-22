@@ -4,17 +4,10 @@ import Domain.Game as Game
 import Domain.RecommendationSystem as RecommendationSystem
 import Domain.Complaint as Complaint
 
+""" Idan """
+
 
 class Fan(SignedUser):
-
-    """ Default constructor for Fan class"""
-
-    def __init__(self):
-        super().__init__()
-        self.__followed_pages = []
-        self.__followed_games = []
-        self.__recommendation_system = None
-
     """ Constructor for Fan class getting arguments, checks them and updates the relevant fields"""
 
     def __init__(self, user_name, password, name, birth_date):
@@ -42,7 +35,7 @@ class Fan(SignedUser):
 
     """ This method adds a new page to the followed pages list """
 
-    def follow_page(self, page):
+    def follow_page(self, page: PersonalPage):
         PersonalPage.type_check(page)
 
         if page in self.__followed_pages:
@@ -80,6 +73,11 @@ class Fan(SignedUser):
 
         self.__followed_games.remove(game)
 
+    """ This method will update the fan in case of alerts in games/personal pages """
+
+    def update(self, message):
+        print(message)
+
     """ Setter for recommendation system """
 
     def set_recommendation_system(self, recommendation_system):
@@ -90,14 +88,12 @@ class Fan(SignedUser):
 
     """ This method lets the fan register a complaint"""
 
-    def complain(self, description, page):
-        PersonalPage.type_check(page)
-        complain = Complaint(self.get_user_id(), description, page)
+    def complain(self, description):
+        complain = Complaint(description)
         self.__complaints.append(complain)
 
 
 def type_check(obj):
     if type(obj) is not Fan:
         raise TypeError
-
 
