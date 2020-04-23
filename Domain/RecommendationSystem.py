@@ -4,6 +4,3 @@ class RecommendationSystem:
         pass
 
 
-def type_check(obj):
-    if type(obj) is not RecommendationSystem:
-        raise TypeError
