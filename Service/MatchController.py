@@ -24,5 +24,5 @@ class MathController:
     """ This function updates an event """
 
     def edit_event(self, game_event, game, referee, event_type, event_description, datetime, min_in_game):
-        remove_event(game_event)
+        self.remove_event(game_event)
         add_event(game, referee, event_type, event_description, datetime, min_in_game)
