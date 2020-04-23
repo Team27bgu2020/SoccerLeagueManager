@@ -16,7 +16,7 @@ class TestSeason(TestCase):
     def test_add_league(self):
 
         league = League("Euro", Season(2020), PointsCalculationPolicy(3, 0, -3),
-                        GameSchedulePolicy(1, GameAssigningPoliciesEnum.RANDOM, '', ''), TeamBudgetPolicy())
+                        GameSchedulePolicy(1, GameAssigningPoliciesEnum.RANDOM, '', ''), TeamBudgetPolicy(50000))
         self.assertRaises(TypeError, self.season.add_league, team=0)
         self.season.add_league(league)
         self.assertIn(league, self.season._Season__leagues)

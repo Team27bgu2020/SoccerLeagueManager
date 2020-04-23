@@ -21,7 +21,7 @@ class TestTeam(TestCase):
     def test_add_league(self):
 
         league = League("Euro", Season(2020), PointsCalculationPolicy(3, 0, -3),
-                        GameSchedulePolicy(1, GameAssigningPoliciesEnum.RANDOM, '', ''), TeamBudgetPolicy())
+                        GameSchedulePolicy(1, GameAssigningPoliciesEnum.RANDOM, '', ''), TeamBudgetPolicy(1000))
 
         self.team.add_league(league)
         self.assertEqual(league, self.team._Team__leagues[2020][0])

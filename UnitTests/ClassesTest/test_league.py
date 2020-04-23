@@ -15,7 +15,7 @@ class TestLeague(TestCase):
     season = Season(2020)
     pcp = PointsCalculationPolicy(3, 0, -3)
     gsp = GameSchedulePolicy(1, GameAssigningPoliciesEnum.RANDOM, '', '')
-    tbp = TeamBudgetPolicy()
+    tbp = TeamBudgetPolicy(20000)
     league = League("Euro", season, pcp, gsp, tbp)
 
     """ Testing add_team and remove_team method """

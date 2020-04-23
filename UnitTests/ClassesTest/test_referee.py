@@ -14,6 +14,7 @@ class TestReferee(TestCase):
 
     def test_add_event(self):
 
+        self.game.add_referee(self.ref)
         event = GameEvent(self.game, self.ref, "", "", date.datetime(2020, 7, 7), 22)
-        game.add_referee(self.ref)
+
         self.assertIn(event, self.ref._Referee__events)
