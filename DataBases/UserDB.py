@@ -50,3 +50,6 @@ class UserDB:
         else:
             self.__search_history[user_name] = []
             self.__search_history[user_name].append(massage)
+
+    def is_sign_user(self, user_name):
+        return user_name in self.__signed_users.keys()

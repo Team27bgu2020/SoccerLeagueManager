@@ -5,7 +5,8 @@ import Domain.PersonalPage as PersonalPage
 
 class Complaint:
 
-    def __init__(self, desc):
+    def __init__(self, desc, complainer):
+        self.complainer = complainer
         self.__description = desc
         self.answer = "none"
 
@@ -16,7 +17,8 @@ class Complaint:
     def description(self):
         return self.__description
 
+    @complainer.setter
+    def complainer(self, complainer):
+        self.complainer = complainer
 
-def type_check(obj):
-    if type(obj) is not Complaint:
-        raise TypeError
+

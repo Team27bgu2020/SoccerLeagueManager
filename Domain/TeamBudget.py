@@ -54,3 +54,4 @@ class TeamBudget:
     @property
     def incomes(self):
         return self.__income_transactions
+
