@@ -1,8 +1,12 @@
 import hashlib
 from unittest import TestCase
 import datetime
+
+from Domain.Fan import Fan
 from Domain.Guest import Guest
+from Domain.Referee import Referee
 from Domain.SignedUser import SignedUser
+from Enums.RefereeQualificationEnum import RefereeQualificationEnum
 from Service.SignedUserController import SignedUserController
 
 """ Created By: Roman"""
@@ -179,3 +183,19 @@ class TestSignedUserController(TestCase):
         signed_user_controller.add_user(s)
         self.assertEqual(s, signed_user_controller.get_user(s.user_name))
         print("Done Successfully: test_get_user")
+
+    def test_add_fan_to_data(self):
+        signed_user_controller = SignedUserController()
+        d1 = datetime.datetime(2020, 4, 23)
+        signed_user_controller.add_fan_to_data("name_u1", "1234", "ro", d1, "0.0.0.5")
+        self.assertTrue(signed_user_controller.get_user("name_u1"))
+        self.assertTrue(type(signed_user_controller.get_user("name_u1")) is Fan)
+        print("Done Successfully: test_add_fan_to_data")
+
+    def test_add_referee_to_data(self):
+        signed_user_controller = SignedUserController()
+        d1 = datetime.datetime(2020, 4, 23)
+        signed_user_controller.add_referee_to_data(RefereeQualificationEnum.MAIN, "name_u1", "1234", "ro", d1, "0.0.0.5")
+        self.assertTrue(signed_user_controller.get_user("name_u1"))
+        self.assertTrue(type(signed_user_controller.get_user("name_u1")) is Referee)
+        print("Done Successfully: test_add_referee_to_data")

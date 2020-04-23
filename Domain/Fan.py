@@ -2,7 +2,7 @@ from Domain.SignedUser import SignedUser
 import Domain.PersonalPage as PersonalPage
 import Domain.Game as Game
 import Domain.RecommendationSystem as RecommendationSystem
-import Domain.Complaint as Complaint
+import datetime
 
 """ Idan """
 
@@ -10,18 +10,13 @@ import Domain.Complaint as Complaint
 class Fan(SignedUser):
     """ Constructor for Fan class getting arguments, checks them and updates the relevant fields"""
 
-    def __init__(self, user_name, password, name, birth_date):
-        super().__init__(user_name, password, name, birth_date)
+    def __init__(self, user_name, password, name, birth_date, ip_address, user_id):
+        super().__init__(user_name, password, name, birth_date, ip_address, user_id)
 
         self.__followed_pages = []
         self.__followed_games = []
         self.__complaints = []
         self.__recommendation_system = None
-
-    @property
-    def complaints(self):
-
-        return self.__complaints
 
     @property
     def followed_pages(self):

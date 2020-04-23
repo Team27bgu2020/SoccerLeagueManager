@@ -1,6 +1,8 @@
 import hashlib
 from typing import Any
 
+from Domain.Fan import Fan
+from Domain.Referee import Referee
 from Domain.SystemAdmin import SystemAdmin
 from Domain.SignedUser import SignedUser
 from Domain.Guest import Guest
@@ -8,7 +10,6 @@ from DataBases.UserDB import UserDB
 
 """ Created By Roman"""
 
-""" Change set and get """
 
 
 class SignedUserController:
@@ -17,12 +18,6 @@ class SignedUserController:
         self.__user_data_base = UserDB()
         self.__ID = 0
 
-    """ When we init the signed controller the first user is system admin """
-
-    def add_system_admin(self, user_name, password, name, birth_date, ip_address):
-        self.__ID = self.__ID + 1
-        admin = SystemAdmin(user_name, password, name, birth_date, ip_address, self.__ID)
-        self.add_user(admin)
 
     """ Add new signed user to DB """
 
@@ -104,14 +99,13 @@ class SignedUserController:
             return False
 
 
-    def edit_personal_birth_date(self, user_name, new_birth_date):
+    def edit_personal_birth_date(self, user_name: str, new_birth_date):
         if self.__user_data_base.is_sign_user(user_name):
             signed_user = self.__user_data_base.get_signed_user(user_name)
             signed_user.birth_date = new_birth_date
             return True
         else:
             return False
-        user.birth_date = new_birth_date
 
     def edit_personal_password(self, user_name, old_password, new_password):
         if self.confirm_user(user_name, old_password):
@@ -138,3 +132,31 @@ class SignedUserController:
     @property
     def user_data_base(self):
         return self.__user_data_base
+
+    """ Adding users by type =>"""
+
+    def add_fan_to_data(self, user_name, password, name, birth_date, ip_address):
+        """
+        add`s fan to DB - the fan is signed user
+        @param user_name: string
+        @param password: given string before security algorithm
+        @param name: name - no numbers
+        @param birth_date: date Type only!
+        @param ip_address: ip of the user
+        @return: no return
+        """
+        self.__ID = self.__ID + 1
+        f = Fan(user_name, password, name, birth_date, ip_address, self.__ID)
+        self.add_user(f)
+
+    """ When we init the signed controller the first user is system admin """
+
+    def add_system_admin(self, user_name, password, name, birth_date, ip_address):
+        self.__ID = self.__ID + 1
+        admin = SystemAdmin(user_name, password, name, birth_date, ip_address, self.__ID)
+        self.add_user(admin)
+
+    def add_referee_to_data(self, qualification, user_name, password, name, birth_date, ip_address):
+        self.__ID = self.__ID + 1
+        r = Referee(qualification, user_name, password, name, birth_date, ip_address, self.__ID)
+        self.add_user(r)

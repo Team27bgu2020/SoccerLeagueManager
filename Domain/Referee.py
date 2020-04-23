@@ -5,9 +5,10 @@ from Enums.RefereeQualificationEnum import RefereeQualificationEnum
 
 class Referee(SignedUser):
 
-    def __init__(self, qualification: RefereeQualificationEnum):
+    def __init__(self, qualification: RefereeQualificationEnum, user_name, password, name, birth_date, ip_address, user_id):
         self.__events = []
         self.qualification = qualification
+        super().__init__(user_name, password, name, birth_date, ip_address, user_id)
 
     """ This method adds new game event """
 
