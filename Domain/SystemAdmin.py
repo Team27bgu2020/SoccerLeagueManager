@@ -6,8 +6,8 @@ import Domain.Team as Team
 class SystemAdmin(SignedUser):
     """ Constructor for SystemAdmin class getting arguments, checks them and updates the relevant fields"""
 
-    def __init__(self, user_name, password, name, birth_date):
-        super(SystemAdmin, self).__init__(user_name, password, name, birth_date)
+    def __init__(self, user_name, password, name, birth_date, ip_address, user_id):
+        super(SystemAdmin, self).__init__(user_name, password, name, birth_date, ip_address, user_id)
 
     """ This method closes a Team in the DB """
 
@@ -45,18 +45,5 @@ class SystemAdmin(SignedUser):
     def build_recommendation_system(self):
         pass
 
-    @property
-    def user_name(self):
-        return super(SystemAdmin, self).user_name
 
-    @property
-    def name(self):
-        return super(SystemAdmin, self).name
 
-    @property
-    def password(self):
-        return super(SystemAdmin, self).password
-
-    @property
-    def birth_date(self):
-        return super(SystemAdmin, self).birth_date

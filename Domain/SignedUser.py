@@ -8,10 +8,10 @@ class SignedUser(User):
 
     """ Constructor for SignedUser class """
     def __init__(self, user_name, password, name, birth_date, ip_address, user_id):
-        self.birth_date = birth_date
-        self.name = name
-        self.password = password
-        self.user_name = user_name
+        self.__birth_date = birth_date
+        self.__name = name
+        self.__password = password
+        self.__user_name = user_name
         super().__init__(ip_address, user_id)
 
     """ Edit the personal data of the user """
@@ -63,5 +63,5 @@ class SignedUser(User):
 
     """ Setter for password field """
     @password.setter
-    def password(self, password: str):
+    def password(self, password):
         self.__password = password

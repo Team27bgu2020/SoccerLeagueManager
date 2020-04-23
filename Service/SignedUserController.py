@@ -1,3 +1,4 @@
+import hashlib
 from typing import Any
 
 from Domain.SystemAdmin import SystemAdmin
@@ -18,18 +19,16 @@ class SignedUserController:
 
     """ When we init the signed controller the first user is system admin """
 
-    def add_system_admin(self, user_name, password, name, birth_date):
-        admin = SystemAdmin(user_name, password, name, birth_date)
+    def add_system_admin(self, user_name, password, name, birth_date, ip_address):
         self.__ID = self.__ID + 1
-        admin.set_user_id(self.__ID)
+        admin = SystemAdmin(user_name, password, name, birth_date, ip_address, self.__ID)
         self.add_user(admin)
 
-    """ Add new user to DB -> edited by idan -> added ip and userID args in the signedUser constructor"""
+    """ Add new signed user to DB """
 
-    def add_signed_user(self, user_name, password, name, birth_date, ip):
-        new_signed_user = SignedUser(user_name, password, name, birth_date, ip, self.__ID + 1)
+    def add_signed_user(self, user_name, password, name, birth_date, ip_address):
         self.__ID = self.__ID + 1
-        new_signed_user.set_user_id(self.__ID)
+        new_signed_user = SignedUser(user_name, password, name, birth_date, ip_address, self.__ID)
         self.add_user(new_signed_user)
 
     def add_guest(self, ip):
@@ -40,18 +39,16 @@ class SignedUserController:
     """ delete user by user name """
 
     def delete_signed_user(self, user_name):
-        user_data = self.__user_data_base.signed_users.get(user_name)
-        if user_data is not None:
-            self.__user_data_base.delete_signed_user(user_data.user_name)
+        if self.__user_data_base.is_sign_user(user_name):
+            self.__user_data_base.delete_signed_user(user_name)
             return True
         else:
             print("no such user: " + user_name)
             return False
 
     def delete_guest(self, ip):
-        guest_data = self.__user_data_base.guests.get(ip)
-        if guest_data is not None:
-            self.__user_data_base.delete_guest(guest_data.user_ip)
+        if self.__user_data_base.is_guest_in_data(ip):
+            self.__user_data_base.delete_guest(ip)
             return True
         else:
             print("no such guest: " + ip)
@@ -70,43 +67,56 @@ class SignedUserController:
         @param user: can be guest or signed user
         """
         if isinstance(user, SignedUser):
-            if self.__user_data_base.signed_users.get(user.user_name) is None:
-                self.__user_data_base.signed_users[user.user_name] = user
-            else:
+            if self.__user_data_base.is_sign_user(user.user_name):
                 self.__ID = self.__ID - 1
+            else:
+                self.__user_data_base.add_sign_user(user)
 
         elif type(user) is Guest:
-            if self.__user_data_base.guests.get(user.user_ip) is None:
-                self.__user_data_base.guests[user.user_ip] = user
-            else:
+            if self.__user_data_base.is_guest_in_data(user.user_ip):
                 self.__ID = self.__ID - 1
+            else:
+                self.__user_data_base.add_guest(user)
+
         else:
             """ Not a guest and not a signed user """
             raise TypeError
 
     def confirm_user(self, user_name, password):
-        user = self.__user_data_base.signed_users.get(user_name)
+        user = self.__user_data_base.get_signed_user(user_name)
         if user is None:
-            # print("User is not in data base")
+            print("User is not in data base")
             return False
 
-        if user.password == password:
-            # print("User is in data base")
+        if user.password == str(hashlib.sha256(password.encode()).hexdigest()):
+            print("User is in data base")
             return True
 
         else:
-            # print(" Something Wrong ")
-            return
+            print(" Something Wrong ")
 
-    def edit_personal_name(self, user: SignedUser, new_name):
-        user.name = new_name
+    def edit_personal_name(self, user_name, new_name):
+        if self.__user_data_base.is_sign_user(user_name):
+            signed_user = self.__user_data_base.get_signed_user(user_name)
+            signed_user.name = new_name
+            return True
+        else:
+            return False
 
-    def edit_personal_birth_date(self, user: SignedUser, new_birth_date):
+
+    def edit_personal_birth_date(self, user_name, new_birth_date):
+        if self.__user_data_base.is_sign_user(user_name):
+            signed_user = self.__user_data_base.get_signed_user(user_name)
+            signed_user.birth_date = new_birth_date
+            return True
+        else:
+            return False
         user.birth_date = new_birth_date
 
-    def edit_personal_password(self, user: SignedUser, old_password, new_password):
-        if self.confirm_user(user.user_name, old_password):
-            user.password = new_password
+    def edit_personal_password(self, user_name, old_password, new_password):
+        if self.confirm_user(user_name, old_password):
+            signed_user = self.__user_data_base.get_signed_user(user_name)
+            signed_user.password = str(hashlib.sha256(new_password.encode()).hexdigest())
             print("Password has been changed \n")
             return True
         else:

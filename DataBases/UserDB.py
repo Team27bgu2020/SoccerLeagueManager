@@ -1,3 +1,5 @@
+import hashlib
+
 class UserDB:
 
     def __init__(self):
@@ -26,23 +28,31 @@ class UserDB:
 
     @signed_users.setter
     def signed_users(self, signed_user):
-        self.__signed_users[signed_user.user_name] = signed_user
+        self.__signed_users = signed_user
 
     @guests.setter
-    def guests(self, guest):
-        self.__guests[guest.get_user_id] = guest
+    def guests(self, guests):
+        self.__guests = guests
 
     def get_guest(self, ip):
         return self.__guests[ip]
 
     def get_signed_user(self, user_name):
-        return self.__signed_users[user_name]
+        return self.__signed_users.get(user_name)
 
     def delete_signed_user(self, user_name):
         del self.__signed_users[user_name]
 
     def delete_guest(self, ip_address):
         del self.__guests[ip_address]
+
+    def add_sign_user(self, user):
+        hash_password = str(hashlib.sha256(user.password.encode()).hexdigest())
+        user.password = hash_password
+        self.__signed_users[user.user_name] = user
+
+    def add_guest(self, guest):
+        self.__guests[guest.user_ip] = guest
 
     def add_search(self, user_name, massage):
         if user_name in self.__search_history:
@@ -53,3 +63,6 @@ class UserDB:
 
     def is_sign_user(self, user_name):
         return user_name in self.__signed_users.keys()
+
+    def is_guest_in_data(self, ip):
+        return ip in self.__guests.keys()
