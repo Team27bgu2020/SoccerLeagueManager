@@ -7,8 +7,8 @@ class TeamUser:
     """ Constructor checking the given args and updates the relevant fields accordingly """
     def __init__(self, team, role):
 
-        self.team(team)
-        self.role(role)
+        self.team = team
+        self.role = role
 
     """ Setter for team field """
     @property
