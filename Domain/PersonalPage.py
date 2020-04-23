@@ -1,7 +1,7 @@
 class PersonalPage:
 
-    def __init__(self):
-        pass
+    def __init__(self, title):
+        self.title = title
 
 
 def type_check(obj):

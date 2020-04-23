@@ -19,6 +19,11 @@ class Fan(SignedUser):
         self.__recommendation_system = None
 
     @property
+    def complaints(self):
+
+        return self.__complaints
+
+    @property
     def followed_pages(self):
 
         return self.__followed_pages

@@ -10,8 +10,12 @@ class PageController:
 
     """this method is used in order to search for a personal page in the pages_db"""
 
-    def search_personal_page(self, query: str, user_id):
-        pass
+    def search_personal_page(self, query: str):
+        page = self.__page_DB.show_personal_page(query)
+        if page is None:
+            raise ValueError
+            return
+        return self.__page_DB.show_personal_page(query)
 
     """ this method is used for an update of a personal page"""
 
@@ -20,5 +24,5 @@ class PageController:
 
     """ this method adds a page to the pages DB"""
 
-    def add_page(self):
-        self.__page_DB.add(PersonalPage())
+    def add_page(self, title):
+        self.__page_DB.add(PersonalPage(title))

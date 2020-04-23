@@ -1,6 +1,8 @@
 from unittest import TestCase
 from Service.SignedUserController import SignedUserController
 from DataBases.UserDB import UserDB
+from Service.PageController import PageController
+from DataBases.PageDB import PageDB
 
 import datetime as date
 
@@ -17,6 +19,10 @@ class AcceptanceTestsGuest(TestCase):
         self.db = UserDB()
         self.user_controller = SignedUserController()
         self.user_controller.add_signed_user(self.user_name, self.password, self.name, self.birth_date, self.ip)
+
+        self.page_db = PageDB()
+        self.page_controller = PageController(self.page_db)
+        self.page_controller.add_page('ReuvenOved')
 
     # UC 2.2 acceptance tests
     def test_sign_me_up(self):
@@ -37,5 +43,9 @@ class AcceptanceTestsGuest(TestCase):
         self.assertFalse(self.user_controller.confirm_user('jack', '1234'))
 
     # UC 2.4 + UC 2.5 acceptance tests
-    def test_show_content(self):
-        pass
+    def test_search_page(self):
+        # the user searched for Reuven Oved's page
+        self.assertEqual(self.page_controller.search_personal_page('ReuvenOved'), self.page_db.show_personal_page('ReuvenOved'))
+
+        # the user searched for Lady Gaga's page -> which doesnt exist
+        self.assertRaises(ValueError, self.page_controller.search_personal_page, 'LadyGaga')
