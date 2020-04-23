@@ -4,11 +4,13 @@ class GameDB:
 
         self.__games_by_date = {}
         self.__games_by_team = {}
+        self.__games = []
 
     """ This method adds a new game to the data base """
 
     def add(self, game):
 
+        self.__games.append(game)
         self.add_to_games_by_date(game)
         self.add_to_games_by_team(game, game.home_team)
         self.add_to_games_by_team(game, game.away_team)
@@ -71,7 +73,7 @@ class GameDB:
 
     def get_game_of_teams(self, team1_name: str, team2_name: str):
 
-        if team1_name or team2_name not in self.__games_by_team.keys():
+        if team1_name not in self.__games_by_team.keys() or team2_name not in self.__games_by_team.keys():
             return []
 
         return list(set(self.__games_by_team[team1_name]) & set(self.__games_by_team[team2_name]))
@@ -87,4 +89,8 @@ class GameDB:
     def get_games_by_team(self, team_name):
 
         return self.__games_by_team[team_name]
+
+    def get_all_games(self):
+
+        return self.__games
 

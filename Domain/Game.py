@@ -22,6 +22,26 @@ class Game:
         self.__referees = []
         self.__events = []
 
+        self.__is_game_on = False
+        self.__is_game_finished = False
+
+    @property
+    def is_game_finished(self):
+        return self.__is_game_finished
+
+    @is_game_finished.setter
+    def is_game_finished(self, is_game_finished):
+        if not self.__is_game_on:
+            self.__is_game_finished = is_game_finished
+
+    @property
+    def is_game_on(self):
+        return self.__is_game_on
+
+    @is_game_on.setter
+    def is_game_on(self, is_game_on: bool):
+        self.__is_game_on = is_game_on
+
     """ Getter for home team """
 
     @property
@@ -73,6 +93,10 @@ class Game:
             'home': self.__home_score,
             'away': self.__away_score
         }
+
+    @property
+    def events(self):
+        return self.__events
 
     """ Setter for main referee object """
 

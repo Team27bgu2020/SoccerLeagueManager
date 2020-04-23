@@ -9,10 +9,10 @@ import datetime as date
 class GameEvent:
 
     def __init__(self, game: Game, referee: Referee, event_type: EventTypeEnum, event_description: str,
-                 datetime: date.datetime, min_in_game: int):
+                 min_in_game: int):
 
         self.__min_in_game = min_in_game
-        self.__datetime = datetime
+        self.__datetime = game.match_time
         self.__event_description = event_description
         self.__event_type = event_type
         self.__referee = referee
