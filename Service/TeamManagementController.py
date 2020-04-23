@@ -20,7 +20,7 @@ class TeamManagementController:
     """Open a new team, and add it to the team DB-dictionary"""
 
     def open_new_team(self, team_name: str):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         self.__dictionary_team.add(Team(team_name))
 
@@ -32,7 +32,7 @@ class TeamManagementController:
     """ ReOpening closed team"""
 
     def reopen_team(self, team_name: str):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         team = self.get_team(team_name)
         team.open_team()
@@ -40,7 +40,7 @@ class TeamManagementController:
     """Closing team, need to check what to do here"""
 
     def close_team(self, team_name: str):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         team = self.get_team(team_name)
         team.close_team()
@@ -48,7 +48,7 @@ class TeamManagementController:
     """Add team member to a team"""
 
     def add_team_member_to_team(self, team_name: str, team_member: TeamUser):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         team = self.get_team(team_name)
         team.add_team_member(team_member)
@@ -56,7 +56,7 @@ class TeamManagementController:
     """Add team a list members to a team"""
 
     def add_list_team_members_to_team(self, team_name: str, team_members: list):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         team = self.get_team(team_name)
         team.add_team_members(team_members)
@@ -64,7 +64,7 @@ class TeamManagementController:
     """Delete team member from a team"""
 
     def delete_team_member_from_team(self, team_name: str, team_member: TeamUser):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         team = self.get_team(team_name)
         team.remove_team_member(team_member)
@@ -72,7 +72,7 @@ class TeamManagementController:
     """Delete team a list members from a team"""
 
     def delete_list_team_members_to_team(self, team_name: str, team_members: list):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         team = self.get_team(team_name)
         team.remove_team_members(team_members)
@@ -80,7 +80,7 @@ class TeamManagementController:
     """ Get team manager """
 
     def get_team_manager(self, team_name: str):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         team = self.get_team(team_name)
         return team.manger
@@ -88,7 +88,7 @@ class TeamManagementController:
     """ Get team owner """
 
     def get_team_owner(self, team_name: str):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         team = self.get_team(team_name)
         return team.owner
@@ -96,7 +96,7 @@ class TeamManagementController:
     """ Set Owner To team """
 
     def set_owner_to_team(self, team_name: str, owner: TeamUser):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         # TeamUser.type_check(owner)
         # ??? q1:check for TeamOwner
@@ -106,7 +106,7 @@ class TeamManagementController:
     """ Remove Owner from team """
 
     def remove_owner_to_team(self, team_name: str):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         team = self.get_team(team_name)
         team.set_manager(None)
@@ -114,7 +114,7 @@ class TeamManagementController:
     """ Set Manager To team """
 
     def set_manager_to_team(self, team_name: str, manager: TeamUser):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         # TeamUser.type_check(manager)
         # ??? q2:Check for TeamManger
@@ -124,7 +124,7 @@ class TeamManagementController:
     """ Remove Manager from team """
 
     def remove_manager_to_team(self, team_name: str):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         team = self.get_team(team_name)
         team.set_manager(None)
@@ -144,7 +144,7 @@ class TeamManagementController:
     """ Get team income"""
 
     def get_team_incomes(self, team_name: str):
-        if not isinstance(team_name, str):
+        if type(team_name) is not str:
             raise TypeError("Should be string")
         team = self.get_team(team_name)
         return team.incomes

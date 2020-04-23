@@ -88,12 +88,8 @@ class Fan(SignedUser):
 
     """ This method lets the fan register a complaint"""
 
-    def complain(self, description):
-        complain = Complaint(description)
+    def complain(self, complain):
+
         self.__complaints.append(complain)
 
-
-def type_check(obj):
-    if type(obj) is not Fan:
-        raise TypeError
 

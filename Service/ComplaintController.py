@@ -31,7 +31,7 @@ class ComplaintController:
 
     """Open a new complaint, and add it to the complaint DB-dictionary"""
 
-    def new_complaint(self, description):
+    def new_complaint(self, description, complainer):
         if not isinstance(description, str):
             raise TypeError("Should be string")
-        self.__complaints_DB.add(Complaint(description))
+        self.__complaints_DB.add(Complaint(description, complainer))
