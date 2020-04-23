@@ -1,4 +1,3 @@
-# noinspection PyAttributeOutsideInit
 class Role:
 
     """ Default constructor for Role class """
