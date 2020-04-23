@@ -1,6 +1,3 @@
-import Domain.TeamUser as TeamUser
-import Domain.Game as Game
-import Domain.League as League
 from Domain.TeamBudget import TeamBudget
 
 """ Dor """

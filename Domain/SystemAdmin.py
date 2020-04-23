@@ -1,14 +1,13 @@
 from Domain.SignedUser import SignedUser
 import Domain.Team as Team
-from Domain.ClassesTypeCheckImports import *
 
-""" Idan """
+""" Changed By: Roman """
 
 class SystemAdmin(SignedUser):
     """ Constructor for SystemAdmin class getting arguments, checks them and updates the relevant fields"""
 
     def __init__(self, user_name, password, name, birth_date):
-        super().__init__(user_name, password, name, birth_date)
+        super(SystemAdmin, self).__init__(user_name, password, name, birth_date)
 
     """ This method closes a Team in the DB """
 
@@ -46,7 +45,18 @@ class SystemAdmin(SignedUser):
     def build_recommendation_system(self):
         pass
 
+    @property
+    def user_name(self):
+        return super(SystemAdmin, self).user_name
 
-def type_check(obj):
-    if type(obj) is not SystemAdmin:
-        raise TypeError
+    @property
+    def name(self):
+        return super(SystemAdmin, self).name
+
+    @property
+    def password(self):
+        return super(SystemAdmin, self).password
+
+    @property
+    def birth_date(self):
+        return super(SystemAdmin, self).birth_date

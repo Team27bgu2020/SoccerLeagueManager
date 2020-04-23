@@ -9,8 +9,10 @@ class SignedUser(User):
 
     """ Constructor for SignedUser class """
     def __init__(self, user_name, password, name, birth_date):
-
-        self.edit_personal_data(user_name, password, name, birth_date)
+        self.__birth_date = birth_date
+        self.__name = name
+        self.__password = password
+        self.__user_name = user_name
 
     """ Edit the personal data of the user """
     def edit_personal_data(self, user_name, password, name, birth_date):
