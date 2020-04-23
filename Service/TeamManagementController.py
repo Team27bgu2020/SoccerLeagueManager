@@ -1,4 +1,5 @@
 """Oscar"""
+from DataBases.TeamDB import TeamDB
 from Domain import TeamUser, TeamOwner
 from Domain.Team import Team
 
@@ -6,22 +7,27 @@ from Domain.Team import Team
 class TeamManagementController:
 
     def __init__(self):
-        self.__dictionary_team = {}
+        self.__dictionary_team = TeamDB()
 
     """Get the team, and check if not None"""
 
     def get_team(self, team_name: str):
-        team = self.__dictionary_team[team_name]
-        if team is None:
-            raise Exception("Team Doesnt exist")
+        team = self.__dictionary_team.get(team_name)
+        # if team is None:
+        #     raise Exception("Team Doesnt exist")
         return team
 
     """Open a new team, and add it to the team DB-dictionary"""
 
-    def open_new_team(self, team_name: str, field: str):
-        if not isinstance(team_name, str) or not isinstance(field, str):
+    def open_new_team(self, team_name: str):
+        if not isinstance(team_name, str):
             raise TypeError("Should be string")
-        self.__dictionary_team[team_name] = Team(team_name, field)
+        self.__dictionary_team.add(Team(team_name))
+
+    """Add a team existing object, and add it to the team DB-dictionary"""
+
+    def add_existing_team(self, team):
+        self.__dictionary_team.add(team)
 
     """ ReOpening closed team"""
 
@@ -92,7 +98,7 @@ class TeamManagementController:
     def set_owner_to_team(self, team_name: str, owner: TeamUser):
         if not isinstance(team_name, str):
             raise TypeError("Should be string")
-        TeamUser.type_check(owner)
+        # TeamUser.type_check(owner)
         # ??? q1:check for TeamOwner
         team = self.get_team(team_name)
         team.set_owner(owner)
@@ -110,7 +116,7 @@ class TeamManagementController:
     def set_manager_to_team(self, team_name: str, manager: TeamUser):
         if not isinstance(team_name, str):
             raise TypeError("Should be string")
-        TeamUser.type_check(manager)
+        # TeamUser.type_check(manager)
         # ??? q2:Check for TeamManger
         team = self.get_team(team_name)
         team.set_manager(manager)
@@ -123,13 +129,17 @@ class TeamManagementController:
         team = self.get_team(team_name)
         team.set_manager(None)
 
-    """ Set Field To team """
+    """ Set stadium To team """
 
-    def set_field_to_team(self, team_name: str, field: str):
-        if not isinstance(team_name, str):
-            raise TypeError("Should be string")
+    def set_stadium_to_team(self, team_name: str, stadium):
         team = self.get_team(team_name)
-        team.set_field(field)
+        team.stadium = stadium
+
+    """ Get team stadium """
+
+    def get_team_stadium(self, team_name: str):
+        team = self.get_team(team_name)
+        return team.stadium
 
     """ Get team income"""
 

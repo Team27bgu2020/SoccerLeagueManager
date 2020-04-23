@@ -201,24 +201,28 @@ class Team:
 
         return self.__is_open
 
-    """ Budget Controller getter"""
+    """ Team Owner getter"""
 
     @property
     def owner(self):
 
         return self.__owner
 
+    """ Team Manager getter"""
+
     @property
-    def manger(self):
+    def manager(self):
 
         return self.__manager
+
+    """ Budget Controller getter"""
 
     @property
     def budget_controller(self):
 
         return self.__budget_manager
 
-    """ is open getter """
+    """ stadium getter """
 
     @property
     def stadium(self):
@@ -232,9 +236,22 @@ class Team:
 
         self.__stadium = stadium
 
+    """ Manger setter """
+
+    @manager.setter
+    def manager(self, manager):
+
+        self.__manager = manager
+
+    """ Manger setter """
+
+    @manager.setter
+    def owner(self, owner):
+
+        self.owner = owner
+
     """ This method checks if the teams are equal """
 
     def __eq__(self, obj):
 
         return isinstance(obj, Team) and obj.__name == self.__name
-
