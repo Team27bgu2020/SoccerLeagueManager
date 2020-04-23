@@ -1,4 +1,3 @@
-import Domain.PersonalPage as PersonalPage
 
 """ Idan """
 
@@ -6,7 +5,7 @@ import Domain.PersonalPage as PersonalPage
 class Complaint:
 
     def __init__(self, desc, complainer):
-        self.complainer = complainer
+        self.__complainer = complainer
         self.__description = desc
         self.answer = "none"
 

@@ -24,10 +24,10 @@ class SignedUserController:
         admin.set_user_id(self.__ID)
         self.add_user(admin)
 
-    """ Add new user to DB """
+    """ Add new user to DB -> edited by idan -> added ip and userID args in the signedUser constructor"""
 
-    def add_signed_user(self, user_name, password, name, birth_date):
-        new_signed_user = SignedUser(user_name, password, name, birth_date)
+    def add_signed_user(self, user_name, password, name, birth_date, ip):
+        new_signed_user = SignedUser(user_name, password, name, birth_date, ip, self.__ID + 1)
         self.__ID = self.__ID + 1
         new_signed_user.set_user_id(self.__ID)
         self.add_user(new_signed_user)
@@ -87,15 +87,16 @@ class SignedUserController:
     def confirm_user(self, user_name, password):
         user = self.__user_data_base.signed_users.get(user_name)
         if user is None:
-            print("User is not in data base")
+            # print("User is not in data base")
             return False
 
         if user.password == password:
-            print("User is in data base")
+            # print("User is in data base")
             return True
 
         else:
-            print(" Something Wrong ")
+            # print(" Something Wrong ")
+            return
 
     def edit_personal_name(self, user: SignedUser, new_name):
         user.name = new_name

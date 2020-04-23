@@ -15,18 +15,18 @@ class ComplaintController:
 
     """Get a specific complaint by her description"""
 
-    def get_complaint(self, desc):
-        complaint = self.__complaints_DB[desc]
+    def get_complaint(self, complainer):
+        complaint = self.__complaints_DB[complainer]
         if complaint is None:
             raise Exception("no such complaint")
         return complaint
 
     """Respond to a complaint"""
 
-    def respond_to_complaint(self, desc, answer):
+    def respond_to_complaint(self, complainer, answer):
         if not isinstance(answer, str):
             raise TypeError("Should be string")
-        comp = self.get_complaint(desc)
+        comp = self.get_complaint(complainer)
         comp.set_answer(answer)
 
     """Open a new complaint, and add it to the complaint DB-dictionary"""

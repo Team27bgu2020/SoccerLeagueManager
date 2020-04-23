@@ -9,10 +9,10 @@ class ComplaintDB:
 
     def add(self, complaint):
 
-        if complaint.description not in self.__complaints.keys():
-            self.__leagues[complaint.description] = []
+        if complaint.complainer not in self.__complaints.keys():
+            self.__complaints[complaint.complainer] = []
 
-        self.__complaints[complaint.description].append(complaint)
+        self.__complaints[complaint.complainer].append(complaint)
 
     """ This method returns all the complaints in the database """
 
@@ -22,9 +22,9 @@ class ComplaintDB:
 
     """ This method returns a specific complaint """
 
-    def get_complaints(self, description: str):
+    def get_complaints(self, complainer):
 
-        if description not in self.__complaints.keys():
+        if complainer not in self.__complaints.keys():
             return []
 
-        return self.__complaints[description]
+        return self.__complaints[complainer]
