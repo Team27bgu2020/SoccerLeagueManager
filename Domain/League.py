@@ -22,6 +22,13 @@ class League:
         # adds the created league to the season (connection)
         self.__season.add_league(self)
 
+    """ This method adds teams to the league """
+
+    def add_teams(self, teams):
+
+        for team in teams:
+            self.add_team(team)
+
     """ This method adds a new team to the league """
 
     def add_team(self, team):

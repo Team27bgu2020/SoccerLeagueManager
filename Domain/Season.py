@@ -22,6 +22,13 @@ class Season:
 
         self.__leagues.append(league)
 
+    """ This method adds a new league to the season """
+
+    def add_leagues(self, leagues):
+
+        for league in leagues:
+            self.add_league(league)
+
     """ This method removes the given league from the season """
 
     def remove_league(self, league):
