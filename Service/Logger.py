@@ -2,21 +2,32 @@ import logging
 
 log_file = ''
 
+logging.basicConfig(filename=log_file, format='%(asctime)s %(message)s')
+__logger = logging.getLogger('main')
 
-class Logger:
+""" Adds a information log to the log file with the given message"""
 
-    def __init__(self):
-        logging.basicConfig(filename=log_file, format='%(asctime)s %(message)s')
-        self.__logger = logging.getLogger('main')
 
-    def info_log(self, message: str):
-        self.__logger.info(message)
+def info_log(message: str):
+    __logger.info(message)
 
-    def warning_log(self, message: str):
-        self.__logger.warning(message)
 
-    def error_log(self, message: str):
-        self.__logger.error(message)
+""" Adds a warning log to the log file with the given message"""
 
-    def critical_log(self, message: str):
-        self.__logger.critical(message)
+
+def warning_log(message: str):
+    __logger.warning(message)
+
+
+""" Adds a error log to the log file with the given message"""
+
+
+def error_log(message: str):
+    __logger.error(message)
+
+
+""" Adds a critical event log to the log file with the given message"""
+
+
+def critical_log(message: str):
+    __logger.critical(message)

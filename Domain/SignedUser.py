@@ -17,10 +17,10 @@ class SignedUser(User):
     """ Edit the personal data of the user """
     def edit_personal_data(self, user_name, password, name, birth_date):
 
-        self.birth_date(birth_date)
-        self.name(name)
-        self.password(password)
-        self.user_name(user_name)
+        self.birth_date = birth_date
+        self.name = name
+        self.password = password
+        self.user_name = user_name
 
     """ Getter for birth_date field """
     @property
