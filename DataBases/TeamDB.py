@@ -9,7 +9,7 @@ class TeamDB:
     def add(self, team):
 
         if team.name in self.__teams.keys():
-            TypeError("Team already exist")
+            raise ValueError("Team already exist")
 
         self.__teams[team.name] = team
 
@@ -18,7 +18,7 @@ class TeamDB:
     def delete(self, team_name: str):
 
         if team_name not in self.__teams.keys():
-            TypeError("Team Doesnt exist")
+            raise ValueError("Team Doesnt exist")
 
         if team_name in self.__teams:
             del self.__teams[team_name]
@@ -28,6 +28,10 @@ class TeamDB:
     def get(self, team_name: str):
 
         if team_name not in self.__teams.keys():
-            TypeError("Team Doesnt exist")
+            raise ValueError("Team not exist")
 
         return self.__teams[team_name]
+
+    @property
+    def teams(self):
+        return self.__teams

@@ -5,7 +5,7 @@ from Domain.Role import Role
 
 class TeamManager(Role):
 
-    def __init__(self, assigned_by, bool_open_close=False, bool_accounting=False, bool_add_rem=False,
+    def __init__(self, assigned_by=None, bool_open_close=False, bool_accounting=False, bool_add_rem=False,
                  bool_set_permission=False):
         super().__init__(assigned_by)
 

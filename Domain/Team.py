@@ -84,7 +84,8 @@ class Team:
             raise TypeError
 
         for team_member in team_members:
-            self.add_team_member(team_member)
+            self.__team_members.append(team_member)
+            team_member.set_team = self
 
     """ This method adds a new team member """
 
@@ -94,7 +95,8 @@ class Team:
             raise ValueError
 
         self.__team_members.append(team_member)
-        team_member.set_team(self)
+        #Changed by oscar
+        team_member.team = self
 
     """ This method removes all the given team members """
 
@@ -112,6 +114,7 @@ class Team:
         # who can use it?
         if team_member in self.__team_members:
             self.__team_members.remove(team_member)
+            team_member.team = None
 
     """ This method closes the team """
 
@@ -156,7 +159,7 @@ class Team:
     """ Get Current"""
 
     @property
-    def current_budget(self):
+    def budget(self):
         return self.__budget_manager.current_budget
 
     """ name getter """
@@ -218,7 +221,7 @@ class Team:
     """ Budget Controller getter"""
 
     @property
-    def budget_controller(self):
+    def budget_manager(self):
 
         return self.__budget_manager
 
@@ -245,10 +248,10 @@ class Team:
 
     """ Manger setter """
 
-    @manager.setter
+    @owner.setter
     def owner(self, owner):
 
-        self.owner = owner
+        self.__owner = owner
 
     """ This method checks if the teams are equal """
 
