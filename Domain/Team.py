@@ -131,7 +131,7 @@ class Team:
     """ Add expanse"""
 
     def add_expanse(self, amount, description):
-        self.__budget_manager.add_expanse(amount, description)
+        return self.__budget_manager.add_expanse(amount, description)
 
     """ Add income"""
 

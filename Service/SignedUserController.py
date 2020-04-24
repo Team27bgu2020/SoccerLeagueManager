@@ -98,7 +98,6 @@ class SignedUserController:
         else:
             return False
 
-
     def edit_personal_birth_date(self, user_name: str, new_birth_date):
         if self.__user_data_base.is_sign_user(user_name):
             signed_user = self.__user_data_base.get_signed_user(user_name)
