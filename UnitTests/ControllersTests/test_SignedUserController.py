@@ -61,7 +61,7 @@ class TestSignedUserController(TestCase):
     def test_add_user(self):
         signed_user_controller = SignedUserController()
         d1 = datetime.datetime(2020, 4, 23)
-        s_u = SignedUser("name_u1", "1234", "ro", d1, "0.0.0.5", 23)
+        s_u = SignedUser(" ", "1234", "ro", d1, "0.0.0.5", 23)
         g = Guest("0.0.0.1", 23)
         signed_user_controller.add_user(s_u)
         signed_user_controller.add_user(g)
