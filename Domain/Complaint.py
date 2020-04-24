@@ -16,8 +16,7 @@ class Complaint:
     def description(self):
         return self.__description
 
-    @complainer.setter
-    def complainer(self, complainer):
-        self.complainer = complainer
+    def complainer(self):
+        return self.__complainer
 
 

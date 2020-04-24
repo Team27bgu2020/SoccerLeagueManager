@@ -5,13 +5,14 @@ from Domain.User import User
 
 
 class SignedUser(User):
+    user_id = 0
 
     """ Constructor for SignedUser class """
     def __init__(self, user_name, password, name, birth_date, ip_address, user_id):
-        self.__birth_date = birth_date
-        self.__name = name
-        self.__password = password
-        self.__user_name = user_name
+        self.birth_date = birth_date
+        self.name = name
+        self.password = password
+        self.user_name = user_name
         super().__init__(ip_address, user_id)
 
     """ Edit the personal data of the user """
@@ -42,7 +43,7 @@ class SignedUser(User):
     """ Setter for name field """
     @name.setter
     def name(self, name: str):
-        if not str.isalpha(name):
+        if not str.isalpha(name) and  len(name) < 3:
             raise ValueError
         self.__name = name
 
@@ -54,6 +55,8 @@ class SignedUser(User):
     """ Setter for user_name field """
     @user_name.setter
     def user_name(self, user_name: str):
+        if len(user_name) < 3:
+            raise ValueError
         self.__user_name = user_name
 
     """ Getter for password field """
@@ -64,4 +67,6 @@ class SignedUser(User):
     """ Setter for password field """
     @password.setter
     def password(self, password):
+        if len(password) < 3:
+            raise ValueError("Password is less then 3 characters")
         self.__password = password

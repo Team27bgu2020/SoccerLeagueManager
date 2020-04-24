@@ -88,3 +88,6 @@ class GameDB:
 
         return self.__games_by_team[team_name]
 
+    def get_games(self):
+        return self.__games_by_date
+
