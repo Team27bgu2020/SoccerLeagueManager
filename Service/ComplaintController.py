@@ -1,4 +1,5 @@
 from Domain.Complaint import Complaint
+# from DataBases.ComplaintDB import ComplaintDB
 
 """ Idan """
 
@@ -16,7 +17,7 @@ class ComplaintController:
     """Get a specific complaint by her description"""
 
     def get_complaint(self, complainer):
-        complaint = self.__complaints_DB[complainer]
+        complaint = self.__complaints_DB.get_complaints(complainer)
         if complaint is None:
             raise Exception("no such complaint")
         return complaint

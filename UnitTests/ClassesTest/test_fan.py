@@ -17,7 +17,7 @@ class TestFan(TestCase):
     field = "Camp Nou"
     game = Game(home_team, away_team, d, field)
 
-    page = PersonalPage()
+    page = PersonalPage("Messi")
 
     recommend_me = RecommendationSystem()
 
@@ -26,7 +26,9 @@ class TestFan(TestCase):
         password = 'default'
         name = 'default'
         birth_date = date.datetime(2000, 1, 1)
-        self.fan = Fan(user_name, password, name, birth_date)
+        ip = '1.1.1.1'
+        user_id = 111
+        self.fan = Fan(user_name, password, name, birth_date, ip, user_id)
 
     def tearDown(self):
         pass

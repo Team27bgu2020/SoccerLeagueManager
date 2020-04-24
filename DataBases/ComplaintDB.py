@@ -8,11 +8,11 @@ class ComplaintDB:
     """ This method adds a new complaint to the data base """
 
     def add(self, complaint):
+        complainer = complaint.complainer()
+        if complainer not in self.__complaints.keys():
+            self.__complaints[complainer] = []
 
-        if complaint.complainer not in self.__complaints.keys():
-            self.__complaints[complaint.complainer] = []
-
-        self.__complaints[complaint.complainer].append(complaint)
+        self.__complaints[complainer].append(complaint)
 
     """ This method returns all the complaints in the database """
 
@@ -28,3 +28,7 @@ class ComplaintDB:
             return []
 
         return self.__complaints[complainer]
+
+    @property
+    def complaints(self):
+        return self.__complaints
