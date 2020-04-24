@@ -1,13 +1,17 @@
 from Domain.League import League
 from Domain.Season import Season
+from Domain.PointsCalculationPolicy import PointsCalculationPolicy
+from Domain.GameSchedulePolicy import GameSchedulePolicy
+from Domain.TeamBudgetPolicy import TeamBudgetPolicy
 
 
 class LeagueController:
 
-    def __init__(self, league_db, season_db):
+    def __init__(self, league_db, season_db, policy_db):
 
         self.__league_DB = league_db
         self.__season_DB = season_db
+        self.__policies_DB = policy_db
 
     """ This method creates new season """
 
@@ -46,15 +50,9 @@ class LeagueController:
 
     """ This method updates the team budget policy """
 
-    def update_game_schedule_policy(self, league, team_budget_policy):
+    def update_team_budget_policy(self, league, team_budget_policy):
 
         league.team_budget_policy = team_budget_policy
-
-    """ This method creates a game schedule for the leagues """
-
-    def make_game_schedule(self, league):
-
-        pass
 
     def add_referee_to_league(self, league, referee):
 
@@ -83,3 +81,55 @@ class LeagueController:
     def get_league(self, name: str, year: int):
 
         return self.__league_DB.get(name, year)
+
+    """ This method returns the all the leagues in the given year (season) """
+
+    def get_league(self, year: int):
+
+        return self.__league_DB.get_leagues_by_season(year)
+
+    """ This method create a new points calculation policy """
+
+    def create_points_calculation_policy(self, win_points: int, tie_points: int, lose_points: int):
+
+        policy = PointsCalculationPolicy(win_points, tie_points, lose_points)
+        self.__policies_DB.add(policy)
+        return policy
+
+    """ This method create a new game schedule policy """
+
+    def create_game_schedule_policy(self, team_games_num: int, games_per_week: int, chosen_days,
+                                    games_stadium_assigning):
+
+        policy = GameSchedulePolicy(team_games_num, games_per_week, chosen_days, games_stadium_assigning)
+        self.__policies_DB.add(policy)
+        return policy
+
+    """ This method create a new team budget policy """
+
+    def create_team_budget_policy(self, min_amount: int):
+
+        policy = TeamBudgetPolicy(min_amount)
+        self.__policies_DB.add(policy)
+        return policy
+
+    """ This method create a new points calculation policy """
+
+    @property
+    def points_calculation_policies(self):
+
+        return self.__policies_DB.points_calculation_policies
+
+    """ This method create a new game schedule policy """
+
+    @property
+    def game_schedule_policy(self):
+
+        return self.__policies_DB.game_schedule_policies
+
+    """ This method create a new team budget policy """
+
+    @property
+    def team_budget_policy(self):
+
+        return self.__policies_DB.team_budget_policies
