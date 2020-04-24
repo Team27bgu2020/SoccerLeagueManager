@@ -11,13 +11,11 @@ from DataBases.UserDB import UserDB
 """ Created By Roman"""
 
 
-
 class SignedUserController:
 
     def __init__(self):
         self.__user_data_base = UserDB()
         self.__ID = 0
-
 
     """ Add new signed user to DB """
 

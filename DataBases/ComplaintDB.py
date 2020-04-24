@@ -25,7 +25,7 @@ class ComplaintDB:
     def get_complaints(self, complainer):
 
         if complainer not in self.__complaints.keys():
-            return []
+            return None
 
         return self.__complaints[complainer]
 

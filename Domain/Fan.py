@@ -2,6 +2,7 @@ from Domain.SignedUser import SignedUser
 import Domain.PersonalPage as PersonalPage
 import Domain.Game as Game
 import Domain.RecommendationSystem as RecommendationSystem
+from Domain.Complaint import Complaint
 import datetime
 
 """ Idan """
@@ -41,8 +42,9 @@ class Fan(SignedUser):
 
     """ This method adds a new page to the followed pages list """
 
-    def follow_page(self, page: PersonalPage):
-        # PersonalPage.type_check(page)
+    def follow_page(self, page):
+        if type(page) is not PersonalPage.PersonalPage:
+            raise TypeError
 
         if page in self.__followed_pages:
             raise ValueError
@@ -52,7 +54,8 @@ class Fan(SignedUser):
     """ This method ramoves a page from the followed pages list """
 
     def unfollow_page(self, page):
-        # PersonalPage.type_check(page)
+        if type(page) is not PersonalPage.PersonalPage:
+            raise TypeError
 
         if page not in self.__followed_pages:
             raise ValueError
@@ -62,7 +65,8 @@ class Fan(SignedUser):
     """ This method adds a new game to the followed games list """
 
     def follow_game(self, game):
-        # Game.type_check(game)
+        if type(game) is not Game.Game:
+            raise TypeError
 
         if game in self.__followed_games:
             raise ValueError
@@ -72,7 +76,8 @@ class Fan(SignedUser):
     """ This method ramoves a page from the followed pages list """
 
     def unfollow_game(self, game):
-        # Game.type_check(game)
+        if type(game) is not Game.Game:
+            raise TypeError
 
         if game not in self.__followed_games:
             raise ValueError
@@ -88,12 +93,15 @@ class Fan(SignedUser):
 
     def set_recommendation_system(self, recommendation_system):
 
-        # RecommendationSystem.type_check(recommendation_system)
+        if type(recommendation_system) is not RecommendationSystem.RecommendationSystem:
+            raise TypeError
 
         self.__recommendation_system = recommendation_system
 
     """ This method lets the fan register a complaint"""
 
-    def complain(self, complain):
+    def complain(self, complaint):
+        if type(complaint) is not Complaint:
+            raise TypeError
 
-        self.__complaints.append(complain)
+        self.__complaints.append(complaint)

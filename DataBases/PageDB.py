@@ -22,5 +22,5 @@ class PageDB:
         if title not in self.__pages.keys():
             TypeError("page Doesnt exist")
             return None
-        return self.__pages[title]
+        return self.__pages.get(title)[0]
 
