@@ -88,7 +88,7 @@ class Fan(SignedUser):
 
     def set_recommendation_system(self, recommendation_system):
 
-        RecommendationSystem.type_check(recommendation_system)
+        # RecommendationSystem.type_check(recommendation_system)
 
         self.__recommendation_system = recommendation_system
 

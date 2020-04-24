@@ -86,7 +86,7 @@ class AcceptanceTestsFan(TestCase):
         self.fan.edit_personal_data('new_user_name', 'new_pass', 'idan', self.birth_date)
         self.assertEqual(self.fan.user_name, 'new_user_name')
 
-        
+
 
 
 
