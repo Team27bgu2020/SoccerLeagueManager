@@ -7,8 +7,9 @@ __author__ = 'Shahar Freiman'
 class TeamUser(SignedUser):
 
     """ Constructor checking the given args and updates the relevant fields accordingly """
-    def __init__(self, team, role):
+    def __init__(self, user_name, password, name, birth_date, ip_address, user_id, team, role):
 
+        super().__init__(user_name, password, name, birth_date, ip_address, user_id)
         self.team = team
         self.role = role
 

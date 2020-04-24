@@ -1,5 +1,3 @@
-from abc import ABC
-
 from Domain.Role import Role
 
 
@@ -9,15 +7,13 @@ class Coach(Role):
         super().__init__(assigned_by)
         self.__qualification = qualification
 
-    """  method to set position """
-
-    def set_qualification_name(self, qualification):
-        self.__qualification = qualification
-
-    """  method to get position"""
-
-    def to_string(self):
-        print("I am a " + self.get_role_name(), "with " + self.get_qualification_name() + " qualification")
-
-    def get_qualification_name(self):
+    @property
+    def qualification(self):
         return self.__qualification
+
+    @qualification.setter
+    def qualification(self, qualification):
+
+        if type(qualification) is not str:
+            raise TypeError
+        self.__qualification = qualification

@@ -4,6 +4,7 @@ from Domain.Team import Team
 
 """ Changed By: Roman """
 
+
 class SystemAdmin(SignedUser):
     """ Constructor for SystemAdmin class getting arguments, checks them and updates the relevant fields"""
 
@@ -20,14 +21,11 @@ class SystemAdmin(SignedUser):
         else:
             raise TypeError
 
-
-
     """ This method removes a user from the DB """
 
     def remove_user(self, user):
         """if isinstance(user, SignedUser):"""
         pass
-
 
     """ This method shows complaints """
 

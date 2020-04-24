@@ -7,6 +7,7 @@ from Domain.Team import Team
 
 """ Idan """
 
+
 class TestSystemAdmin(TestCase):
 
     teamA = Team("Arsenal")
