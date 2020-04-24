@@ -5,7 +5,7 @@ from Domain.Role import Role
 
 class Player(Role):
 
-    def __init__(self, assigned_by, position: str):
+    def __init__(self, assigned_by=None, position:  str = None):
         super().__init__(assigned_by)
         self.__position = position
 

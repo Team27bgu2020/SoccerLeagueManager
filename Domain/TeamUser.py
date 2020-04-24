@@ -1,8 +1,10 @@
+from Domain.SignedUser import SignedUser
+
 __author__ = 'Shahar Freiman'
 
 
 # noinspection PyAttributeOutsideInit
-class TeamUser:
+class TeamUser(SignedUser):
 
     """ Constructor checking the given args and updates the relevant fields accordingly """
     def __init__(self, team, role):

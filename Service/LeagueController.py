@@ -62,7 +62,7 @@ class LeagueController:
 
     def add_teams_to_league(self, league, teams):
 
-        league.add_teams(teams)
+            league.add_teams(teams)
 
     """ This method adds leagues to season """
 

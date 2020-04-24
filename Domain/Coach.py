@@ -5,7 +5,7 @@ from Domain.Role import Role
 
 class Coach(Role):
 
-    def __init__(self, assigned_by, qualification: str):
+    def __init__(self, assigned_by=None, qualification: str = None):
         super().__init__(assigned_by)
         self.__qualification = qualification
 

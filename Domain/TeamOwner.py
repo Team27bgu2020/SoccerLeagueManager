@@ -5,7 +5,7 @@ from Domain.Role import Role
 
 class TeamOwner(Role):
 
-    def __init__(self, assigned_by):
+    def __init__(self, assigned_by=None):
         super().__init__(assigned_by)
         self.__roles = []
 
