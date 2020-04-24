@@ -16,8 +16,12 @@ class TeamBudget:
     """ Add income to team, use positive numbers"""
 
     def add_income(self, amount: int, description: str):
+
         if not isinstance(description, str) or not isinstance(amount, int):
             raise TypeError
+        if amount <= 0:
+            raise ValueError
+
         self.__current_budget += amount
         transaction = "+," + str(amount) + ", " + description
         self.transactions.append(transaction)
@@ -26,8 +30,12 @@ class TeamBudget:
     """ Add expanse to team, use positive numbers"""
 
     def add_expanse(self, amount: int, description: str):
+
         if not isinstance(description, str) or not isinstance(amount, int):
             raise TypeError
+        if amount <= 0:
+            raise ValueError
+
         self.__current_budget -= amount
         transaction = "-,"+str(amount)+", "+description
         self.transactions.append(transaction)
