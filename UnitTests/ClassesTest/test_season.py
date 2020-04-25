@@ -15,15 +15,17 @@ class TestSeason(TestCase):
 
     def test_add_league(self):
 
+        self.assertRaises(TypeError, Season.__init__, year=[])
+
         league = League("Euro", Season(2020), PointsCalculationPolicy(3, 0, -3),
                         GameSchedulePolicy(1, GameAssigningPoliciesEnum.RANDOM, '', ''), TeamBudgetPolicy(50000))
-        self.assertRaises(TypeError, self.season.add_league, team=0)
-        self.season.add_league(league)
-        self.assertIn(league, self.season._Season__leagues)
 
-        self.assertRaises(TypeError, self.season.remove_league, team=0)
+        self.season.add_league(league)
+        self.assertIn(league, self.season.leagues)
+        self.assertRaises(ValueError, self.season.add_leagues, leagues=[league])
+
         self.season.remove_league(league)
-        self.assertNotIn(league, self.season._Season__leagues)
+        self.assertNotIn(league, self.season.leagues)
 
     """ Testing Getters """
 

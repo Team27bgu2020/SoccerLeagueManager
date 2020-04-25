@@ -33,7 +33,8 @@ class Season:
 
     def remove_league(self, league):
 
-        self.__leagues.remove(league)
+        if league in self.__leagues:
+            self.__leagues.remove(league)
 
     """ This methods returns the seasons year """
 
