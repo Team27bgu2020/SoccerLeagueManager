@@ -38,6 +38,11 @@ class SignedUserController:
 
     def delete_signed_user(self, user_name):
         if self.__user_data_base.is_sign_user(user_name):
+            if type(self.__user_data_base.get_signed_user(user_name)) is SystemAdmin:
+                """Check if there is more admins in  system if no return false"""
+                if(self.number_of_admins() < 2):
+                    print("There is only one System admin, You cannot delete him")
+                    return False
             self.__user_data_base.delete_signed_user(user_name)
             return True
         else:
@@ -81,6 +86,11 @@ class SignedUserController:
             raise TypeError
 
     def confirm_user(self, user_name, password):
+        """
+        @param user_name: for confirm
+        @param password: for confirm
+        @return: if the user exist - the function will return the type of the user
+        """
         user = self.__user_data_base.get_signed_user(user_name)
         if user is None:
             print("User is not in data base")
@@ -88,10 +98,13 @@ class SignedUserController:
 
         if user.password == str(hashlib.sha256(password.encode()).hexdigest()):
             print("User is in data base")
-            return True
+            return str(type(user).__name__)
 
         else:
             print(" Something Wrong ")
+
+
+    """Editing personal info"""
 
     def edit_personal_name(self, user_name, new_name):
         if self.__user_data_base.is_sign_user(user_name):
@@ -162,3 +175,6 @@ class SignedUserController:
         self.__ID = self.__ID + 1
         r = Referee(qualification, user_name, password, name, birth_date, ip_address, self.__ID)
         self.add_user(r)
+
+    def number_of_admins(self):
+        return self.__user_data_base.get_number_of_admins_in_system()

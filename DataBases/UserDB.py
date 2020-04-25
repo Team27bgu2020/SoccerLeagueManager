@@ -1,4 +1,5 @@
 import hashlib
+from Domain.SystemAdmin import SystemAdmin
 
 class UserDB:
 
@@ -66,3 +67,9 @@ class UserDB:
 
     def is_guest_in_data(self, ip):
         return ip in self.__guests.keys()
+
+    def get_number_of_admins_in_system(self):
+        dict1_cond = {k: v for (k, v) in self.__signed_users.items() if type(v) is SystemAdmin}
+        if dict1_cond is None:
+            return 0
+        return len(dict1_cond)

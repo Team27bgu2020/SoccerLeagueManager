@@ -43,7 +43,7 @@ class SignedUser(User):
     """ Setter for name field """
     @name.setter
     def name(self, name: str):
-        if not str.isalpha(name) or len(name) < 3:
+        if not str.isalpha(name) or len(name) < 2:
             raise ValueError
         self.__name = name
 
