@@ -12,6 +12,10 @@ class LeagueDB:
         if league.season.year not in self.__leagues.keys():
             self.__leagues[league.season.year] = []
 
+        for l in self.__leagues[league.season.year]:
+            if league.name == l.name:
+                raise ValueError
+
         self.__leagues[league.season.year].append(league)
 
     """ This method deletes a league from the data base """

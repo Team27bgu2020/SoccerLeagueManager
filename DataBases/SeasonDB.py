@@ -8,17 +8,17 @@ class SeasonDB:
 
     def add(self, season):
 
-        if season.year not in self.__seasons.keys():
-            self.__seasons[season.year] = []
+        if season.year in self.__seasons.keys():
+            raise ValueError
 
-        self.__seasons[season.year].append(season)
+        self.__seasons[season.year] = season
 
     """ This method deletes a season from the data base """
 
     def delete(self, season):
 
         if season.year in self.__seasons.keys():
-            self.__seasons[season.year].remove(season)
+            del self.__seasons[season.year]
 
     """ This method returns the season in the given year """
 

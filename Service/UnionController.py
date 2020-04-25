@@ -1,5 +1,5 @@
 from Domain.UnionOrganization import UnionOrganization
-from Service import Logger
+# from Service import Logger
 
 
 class UnionController:

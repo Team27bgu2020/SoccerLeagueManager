@@ -34,6 +34,9 @@ class AcceptanceTestsUnionRepresentor(TestCase):
         league = self.league_controller.create_new_league('Euro', self.season, self.pcp, self.gsp, self.tbp)
         league.add_teams(self.teams)
         self.assertIsInstance(league, League)
+        # wrong values
+        self.assertRaises(ValueError, self.league_controller.create_new_league,
+                          'Euro', self.season, self.pcp, self.gsp, self.tbp)
 
     # U.C 9.2, 9.4, 9.5
     def test_create_new_season(self):
@@ -42,7 +45,9 @@ class AcceptanceTestsUnionRepresentor(TestCase):
         leagues = [self.league]
         self.assertIsInstance(season, Season)
         self.league_controller.add_leagues_to_season(season, leagues)
-        self.assertIn(self.league, self.league_controller.get_season(2020)[0].leagues)
+        self.assertIn(self.league, self.league_controller.get_season(2020).leagues)
+        # wrong values
+        self.assertRaises(ValueError, self.league_controller.create_new_season, 2020)
 
     # U.C 9.5
     def test_create_and_update_points_calculation_policy(self):
@@ -52,6 +57,8 @@ class AcceptanceTestsUnionRepresentor(TestCase):
 
         self.league_controller.update_points_calculation_policy(self.league, pcp)
         self.assertEqual(pcp, self.league.points_calculation_policy)
+        # wrong values
+        self.assertRaises(ValueError, self.league_controller.create_points_calculation_policy, 3, 0, -3)
 
     # U.C 9.6
     def test_create_and_update_game_schedule_policy(self):
@@ -61,6 +68,9 @@ class AcceptanceTestsUnionRepresentor(TestCase):
 
         self.league_controller.update_game_schedule_policy(self.league, gsp)
         self.assertEqual(gsp, self.league.game_schedule_policy)
+        # wrong values
+        self.assertRaises(ValueError, self.league_controller.create_game_schedule_policy,
+                          2, 4, ['S', 'M'], GameAssigningPoliciesEnum.RANDOM)
 
     # U.C 9.8
     def test_create_and_update_team_budget_policy(self):
@@ -70,7 +80,10 @@ class AcceptanceTestsUnionRepresentor(TestCase):
 
         self.league_controller.update_team_budget_policy(self.league, tbp)
         self.assertEqual(tbp, self.league.team_budget_policy)
+        # wrong values
+        self.assertRaises(ValueError, self.league_controller.create_team_budget_policy, 10000)
 
+    # U.U 9.9
     def test_manage_union_budget(self):
 
         t1 = Team("Real")
@@ -84,9 +97,14 @@ class AcceptanceTestsUnionRepresentor(TestCase):
 
         union_controller.add_income(10000, '')
         self.assertEqual(10000, organization.balance)
+        # wrong value
+        self.assertRaises(ValueError, union_controller.add_income, -10000, '')
 
         union_controller.add_expense(10000, '')
         self.assertEqual(0, organization.balance)
+        # wrong value
+        self.assertRaises(ValueError, union_controller.add_expense, -10000, '')
+        self.assertRaises(ValueError, union_controller.add_expense, 10000, '')
 
         self.assertIn(t2, organization.teams_in_union)
         union_controller.collect_registration_fee()

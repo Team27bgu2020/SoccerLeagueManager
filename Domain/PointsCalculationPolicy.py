@@ -30,4 +30,13 @@ class PointsCalculationPolicy:
 
         return self.__lose_points
 
+    """ This method checks if 2 Policies are the same """
 
+    def __eq__(self, other):
+
+        if self.win_points != other.win_points or \
+                self.lose_points != other.lose_points or \
+                self.tie_points != other.tie_points:
+            return False
+
+        return True

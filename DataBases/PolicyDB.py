@@ -30,6 +30,9 @@ class PolicyDB:
         elif type(policy) is TeamBudgetPolicy and policy not in self.__policies[self.BUDGET_KEY]:
             self.__policies[self.BUDGET_KEY].append(policy)
 
+        else:
+            raise ValueError
+
     """ This method deletes a policy from the data base """
 
     def delete(self, policy):

@@ -10,3 +10,12 @@ class TeamBudgetPolicy:
     @property
     def min_amount(self):
         return self.__min_amount
+
+    """ This method checks if 2 Policies are the same """
+
+    def __eq__(self, other):
+
+        if self.min_amount != other.min_amount:
+            return False
+
+        return True

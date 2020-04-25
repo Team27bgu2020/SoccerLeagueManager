@@ -4,7 +4,7 @@ from Domain.Game import Game
 from datetime import datetime
 
 
-class MathController:
+class MatchController:
 
     def __init__(self, game_db: GameDB):
 

@@ -78,10 +78,9 @@ class UnionOrganization:
         if amount <= 0:
             raise ValueError
         if amount > self.__balance:
-            return False
+            raise ValueError
         self.__expanses.append((description, amount))
         self.__balance -= amount
-        return True
 
     """ Return true if team in union or false otherwise """
 

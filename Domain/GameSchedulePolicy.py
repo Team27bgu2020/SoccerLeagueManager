@@ -44,4 +44,20 @@ class GameSchedulePolicy:
 
         return self.__chosen_days
 
+    """ This method checks if 2 Policies are the same """
+
+    def __eq__(self, other):
+
+        if self.team_games_num != other.team_games_num or \
+                self.games_per_week != other.games_per_week or \
+                self.team_stadium_assignment_policy != other.team_stadium_assignment_policy or \
+                len(self.chosen_days) != len(other.chosen_days):
+            return False
+
+        for day in self.chosen_days:
+            if day not in other.chosen_days:
+                return False
+
+        return True
+
 
