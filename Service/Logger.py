@@ -34,5 +34,6 @@ def critical_log(message: str):
 
 
 def define_log_path(path):
+
     if Logger.log_file == '':
         Logger.log_file = path

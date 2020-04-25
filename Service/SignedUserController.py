@@ -29,6 +29,11 @@ class SignedUserController:
         new_guest = Guest(ip, self.__ID)
         self.add_user(new_guest)
 
+    def add_Team_User(self, user_name, password, name, birth_date, ip_address):
+        self.__ID = self.__ID + 1
+        new_signed_user = SignedUser(user_name, password, name, birth_date, ip_address, self.__ID)
+        self.add_user(new_signed_user)
+
     """ delete user by user name """
 
     def delete_signed_user(self, user_name):

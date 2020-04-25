@@ -1,4 +1,5 @@
 from unittest import TestCase
+from datetime import datetime
 from Domain.Team import Team
 from Domain.League import League
 from Domain.Season import Season
@@ -10,6 +11,9 @@ from Domain.PointsCalculationPolicy import PointsCalculationPolicy
 from Domain.TeamBudgetPolicy import TeamBudgetPolicy
 from Domain.GameSchedulePolicy import GameSchedulePolicy
 from Enums.GameAssigningPoliciesEnum import GameAssigningPoliciesEnum
+from Domain.UnionOrganization import UnionOrganization
+from Service.UnionController import UnionController
+from Domain.UnionRepresentor import UnionRepresentor
 
 
 class AcceptanceTestsUnionRepresentor(TestCase):
@@ -67,3 +71,30 @@ class AcceptanceTestsUnionRepresentor(TestCase):
         self.league_controller.update_team_budget_policy(self.league, tbp)
         self.assertEqual(tbp, self.league.team_budget_policy)
 
+    def test_manage_union_budget(self):
+
+        t1 = Team("Real")
+        t1.add_income(10000, '')
+        t2 = Team("Barcelona")
+        t2.add_income(2000, '')
+        organization = UnionOrganization()
+        organization.add_team_to_union(t1)
+        organization.add_team_to_union(t2)
+        union_controller = UnionController(organization, 5000)
+
+        union_controller.add_income(10000, '')
+        self.assertEqual(10000, organization.balance)
+
+        union_controller.add_expense(10000, '')
+        self.assertEqual(0, organization.balance)
+
+        self.assertIn(t2, organization.teams_in_union)
+        union_controller.collect_registration_fee()
+        self.assertEqual(5000, organization.balance)
+        self.assertIn(t1, organization.teams_in_union)
+        self.assertNotIn(t2, organization.teams_in_union)
+
+        representor = UnionRepresentor('Dor123', '12345678', 'Dor', datetime(1990, 8, 8), '1.1.1.1', '', 2000)
+        organization.add_employee_to_union(representor)
+        union_controller.pay_employees()
+        self.assertEqual(3000, organization.balance)

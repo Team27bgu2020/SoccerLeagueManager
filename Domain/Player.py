@@ -9,14 +9,14 @@ class Player(Role):
         super().__init__(assigned_by)
         self.__position = position
 
-    """  method to set position """
-
-    def set_position_name(self, position):
-        self.__position = position
-
     """  method to get position"""
-
-    def get_position_name(self):
+    @property
+    def position(self):
         return self.__position
 
+    """  method to set position """
+
+    @position.setter
+    def position(self, position):
+        self.__position = position
 

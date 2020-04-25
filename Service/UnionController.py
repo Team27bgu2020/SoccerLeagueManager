@@ -22,16 +22,16 @@ class UnionController:
     and adds expanses accordingly """
     def pay_employees(self):
         for employee in self.__union_organization.employees:
-            self.__union_organization.add_expanse(employee.salary, "Salary for {} employee".format(employee.name))
+            self.__union_organization.add_expense(employee.salary, "Salary for {} employee".format(employee.name))
 
     """ Add expanse in the given amount and with the given description to union organization """
-    def add_expanse_to_union_organization(self, amount: int, description: str):
+    def add_expense(self, amount: int, description: str):
         if amount <= 0:
             raise ValueError
-        self.__union_organization.add_expanse(amount, description)
+        self.__union_organization.add_expense(amount, description)
 
     """ Add income in the given amount and with the given description to union organization """
-    def add_income_to_union_organization(self, amount: int, description: str):
+    def add_income(self, amount: int, description: str):
         if amount <= 0:
             raise ValueError
         self.__union_organization.add_income(amount, description)
