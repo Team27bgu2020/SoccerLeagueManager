@@ -43,8 +43,6 @@ class AcceptanceTestsFan(TestCase):
 
         self.complaint_db = ComplaintDB()
         self.complaint_controller = ComplaintController(self.complaint_db)
-        self.complaint_controller.new_complaint('RoniLevi page not correct', self.fan)
-
 
     # UC 3.2
     def test_follow_page(self):
@@ -68,9 +66,8 @@ class AcceptanceTestsFan(TestCase):
     # UC 3.4
     def test_complain(self):
         # fan opens a complaint about incorrect data
-        complaint = self.complaint_controller.get_complaint(self.fan)
-        self.fan.complain(complaint)
-        self.assertEqual(self.fan.complaints[0], self.complaint_controller.get_complaint(self.fan))
+        self.complaint_controller.new_complaint('RoniLevi page is not correct', self.fan)
+        self.assertEqual(self.fan.complaints[0], self.complaint_controller.get_complaint(self.fan, 1))
 
         # fan wants to make a complaint without any description
         self.assertRaises(TypeError, self.complaint_controller.new_complaint, None, self.fan)
@@ -85,9 +82,3 @@ class AcceptanceTestsFan(TestCase):
         # fan wants to edit his personal information
         self.fan.edit_personal_data('new_user_name', 'new_pass', 'idan', self.birth_date)
         self.assertEqual(self.fan.user_name, 'new_user_name')
-
-
-
-
-
-
