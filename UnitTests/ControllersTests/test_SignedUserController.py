@@ -61,7 +61,7 @@ class TestSignedUserController(TestCase):
     def test_add_user(self):
         signed_user_controller = SignedUserController()
         d1 = datetime.datetime(2020, 4, 23)
-        s_u = SignedUser(" ", "1234", "ro", d1, "0.0.0.5", 23)
+        s_u = SignedUser("name_u1", "1234", "ro", d1, "0.0.0.5", 23)
         g = Guest("0.0.0.1", 23)
         signed_user_controller.add_user(s_u)
         signed_user_controller.add_user(g)
@@ -119,8 +119,8 @@ class TestSignedUserController(TestCase):
     def test_confirm_user(self):
         signed_user_controller = SignedUserController()
         d1 = datetime.datetime(2020, 4, 23)
-        signed_user_controller.add_signed_user("name_u1", "1234", "ro", d1, "0.0.0.5")
-        self.assertTrue(signed_user_controller.confirm_user("name_u1", "1234"))
+        signed_user_controller.add_system_admin("name_u1", "1234", "ro", d1, "0.0.0.5")
+        self.assertEqual("SystemAdmin", signed_user_controller.confirm_user("name_u1", "1234"))
         self.assertFalse(signed_user_controller.confirm_user("name_u1", "12345"))
         self.assertFalse(signed_user_controller.confirm_user("name_u2", "1234"))
         print("Done Successfully: test_confirm_user")
@@ -131,9 +131,10 @@ class TestSignedUserController(TestCase):
         signed_user_controller = SignedUserController()
         d1 = datetime.datetime(2020, 4, 23)
         signed_user_controller.add_signed_user("name_u1", "1234", "ro", d1, "0.0.0.5")
-        signed_user_controller.edit_personal_name("name_u1", "moshe")
+        self.assertTrue(signed_user_controller.edit_personal_name("name_u1", "moshe"))
         self.assertNotEqual("ro", signed_user_controller.get_user("name_u1").name)
         self.assertEqual("moshe", signed_user_controller.get_user("name_u1").name)
+        self.assertFalse(signed_user_controller.edit_personal_name("name21", "moshe"))
         print("Done Successfully: test_edit_personal_name")
 
     """ Received: user: SignedUser, birth_date """
@@ -143,9 +144,10 @@ class TestSignedUserController(TestCase):
         d1 = datetime.datetime(2020, 4, 23)
         d2 = datetime.datetime(1998, 4, 23)
         signed_user_controller.add_signed_user("name_u1", "1234", "ro", d1, "0.0.0.5")
-        signed_user_controller.edit_personal_birth_date("name_u1", d2)
+        self.assertTrue(signed_user_controller.edit_personal_birth_date("name_u1", d2))
         self.assertNotEqual(d1, signed_user_controller.get_user("name_u1").birth_date)
         self.assertEqual(d2, signed_user_controller.get_user("name_u1").birth_date)
+        self.assertFalse(signed_user_controller.edit_personal_birth_date("name21", d1))
         print("Done Successfully: test_edit_personal_birth_date")
 
     """ Received: user name, old password, new password """
@@ -156,9 +158,10 @@ class TestSignedUserController(TestCase):
         old_password = "1234"
         new_password = "1548"
         signed_user_controller.add_signed_user("name_u1", old_password, "ro", d1, "0.0.0.5")
-        signed_user_controller.edit_personal_password("name_u1", old_password, new_password)
+        self.assertTrue(signed_user_controller.edit_personal_password("name_u1", old_password, new_password))
         self.assertNotEqual(str(hashlib.sha256(old_password.encode()).hexdigest()), signed_user_controller.get_user("name_u1").password)
         self.assertEqual(str(hashlib.sha256(new_password.encode()).hexdigest()), signed_user_controller.get_user("name_u1").password)
+        self.assertFalse(signed_user_controller.edit_personal_password("name1", new_password, old_password))
         print("Done Successfully: test_edit_personal_password")
 
     """ Received: user_name, massage """
@@ -198,4 +201,15 @@ class TestSignedUserController(TestCase):
         signed_user_controller.add_referee_to_data(RefereeQualificationEnum.MAIN, "name_u1", "1234", "ro", d1, "0.0.0.5")
         self.assertTrue(signed_user_controller.get_user("name_u1"))
         self.assertTrue(type(signed_user_controller.get_user("name_u1")) is Referee)
+        print("Done Successfully: test_add_referee_to_data")
+
+    def test_number_of_admins(self):
+        signed_user_controller = SignedUserController()
+        d1 = datetime.datetime(2020, 4, 23)
+        d2 = datetime.datetime(2020, 4, 23)
+        self.assertEqual(0, signed_user_controller.number_of_admins())
+        signed_user_controller.add_system_admin("name_u1", "1234", "ro", d1, "0.0.0.5")
+        signed_user_controller.add_system_admin("name_u21", "1234", "rso", d2, "0.0.0.2")
+        signed_user_controller.add_fan_to_data("name_u2221", "12334", "rowe", d2, "0.0.0.1")
+        self.assertEqual(2, signed_user_controller.number_of_admins())
         print("Done Successfully: test_add_referee_to_data")

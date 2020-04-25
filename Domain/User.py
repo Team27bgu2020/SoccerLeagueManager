@@ -18,9 +18,6 @@ class User:
         except socket.error:
             raise ValueError
 
-    """ Returns the ip address of the user"""
-    def get_ip_address(self):
-        return self.__ip_address
 
     """ If the user_id only made of numbers, updates self.user_id with it. otherwise raise ValueError"""
     def set_user_id(self, user_id):
@@ -29,8 +26,6 @@ class User:
         self.__user_id = user_id
 
     """ Returns the user id of the user"""
-    def get_user_id(self):
-        return self.__user_id
 
     @property
     def user_id(self):

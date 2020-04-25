@@ -23,29 +23,5 @@ class SystemAdmin(SignedUser):
 
     """ This method removes a user from the DB """
 
-    def remove_user(self, user):
-        """if isinstance(user, SignedUser):"""
-        pass
-
-    """ This method shows complaints """
-
-    def show_complaints(self):
-        pass
-
-    """ This method allows to comment on a complaint """
-
-    def reply_to_complaint(self, complaint):
-        pass
-
-    """ This method shows system log files """
-
-    def show_log_files(self):
-        pass
-
-    """ This method builds a recommendation system """
-
-    def build_recommendation_system(self):
-        pass
-
 
 

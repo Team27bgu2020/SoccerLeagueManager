@@ -6,10 +6,11 @@ import copy
 
 class Referee(SignedUser):
 
-    def __init__(self, qualification: RefereeQualificationEnum):
+    def __init__(self, qualification: RefereeQualificationEnum, user_name, password, name, birth_date, ip_address, user_id):
         self.__events = []
         self.__referee_in_games = []
         self.qualification = qualification
+        super().__init__(user_name, password, name, birth_date, ip_address, user_id)
 
     """ This method adds new game """
 
@@ -20,7 +21,6 @@ class Referee(SignedUser):
     """ This method removes game """
 
     def remove_game(self, game):
-
         if game in self.__referee_in_games:
             self.__referee_in_games.remove(game)
 
