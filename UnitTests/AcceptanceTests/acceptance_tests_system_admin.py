@@ -37,6 +37,13 @@ class AcceptanceTestsSystemAdmin(TestCase):
         self.user_controller.add_system_admin("admin", "1234", "ro", d2, "0.0.0.6")
         self.assertIn("admin", self.user_controller.get_signed_users())
 
+    def test_init_system_no_acceptance(self):
+        """we init the DataBase in set up function ^ """
+        d2 = date.datetime(1998, 4, 23)
+        self.assertRaises(ValueError, self.user_controller.add_system_admin, "", "1234", "ro", d2, "0.0.0.6")
+
+
+
     # UC 8.1
     def test_close_team(self):
         self.team_controller.open_new_team("Tiberias")

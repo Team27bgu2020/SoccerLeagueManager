@@ -20,6 +20,15 @@ class SignedUserController:
     """ Add new signed user to DB """
 
     def add_signed_user(self, user_name, password, name, birth_date, ip_address):
+        """
+
+        @param user_name:
+        @param password:
+        @param name:
+        @param birth_date:
+        @param ip_address:
+        @return: add signed user to DB
+        """
         self.__ID = self.__ID + 1
         new_signed_user = SignedUser(user_name, password, name, birth_date, ip_address, self.__ID)
         self.add_user(new_signed_user)
@@ -52,7 +61,6 @@ class SignedUserController:
             self.__user_data_base.delete_guest(ip)
             return True
         else:
-            print("no such guest: " + ip)
             return False
 
     def show_all_users(self):
@@ -91,15 +99,13 @@ class SignedUserController:
         """
         user = self.__user_data_base.get_signed_user(user_name)
         if user is None:
-            print("User is not in data base")
             return False
 
         if user.password == str(hashlib.sha256(password.encode()).hexdigest()):
-            print("User is in data base")
             return str(type(user).__name__)
 
         else:
-            print(" Something Wrong ")
+            return False
 
     """ Edit all of the personal data of signed user """
     def edit_personal_data(self, user, user_name, password, name, birth_date):
@@ -128,10 +134,8 @@ class SignedUserController:
         if self.confirm_user(user_name, old_password):
             signed_user = self.__user_data_base.get_signed_user(user_name)
             signed_user.password = str(hashlib.sha256(new_password.encode()).hexdigest())
-            print("Password has been changed \n")
             return True
         else:
-            print("old password is not match to registered password\n")
             return False
 
     def add_search(self, user_name, massage):
@@ -179,4 +183,8 @@ class SignedUserController:
         self.add_user(r)
 
     def number_of_admins(self):
+        """
+
+        @return: number of admins that in the system
+        """
         return self.__user_data_base.get_number_of_admins_in_system()

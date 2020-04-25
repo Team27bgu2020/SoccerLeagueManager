@@ -51,8 +51,6 @@ class TestSignedUserController(TestCase):
         self.assertIsNotNone(signed_user_controller.get_signed_users().get("name_u1").user_id)
         self.assertEqual(3, (signed_user_controller.get_guests().__len__()) + (
             signed_user_controller.get_signed_users().__len__()))
-        print("Done Successfully: test_add_signed_user")
-
     """ Received: user_name, password, name, birth_date """
 
     def test_add_user(self):
@@ -67,7 +65,7 @@ class TestSignedUserController(TestCase):
         self.assertIsNotNone(signed_user_controller.get_signed_users().get("name_u1"))
         self.assertIsNotNone(signed_user_controller.get_guests().get("0.0.0.1"))
         self.assertIsNone(signed_user_controller.get_signed_users().get("0.0.0.1"))
-        print("Done Successfully: test_add_user")
+
 
     """ Received: user_name """
 
@@ -81,7 +79,6 @@ class TestSignedUserController(TestCase):
         signed_user_controller.delete_signed_user("name_u12")
         self.assertEqual(1, signed_user_controller.get_signed_users().__len__())
         self.assertIsNone(signed_user_controller.get_signed_users().get("name_u1"))
-        print("Done Successfully: test_delete_signed_user")
 
     """ Received: ip """
 
@@ -96,7 +93,6 @@ class TestSignedUserController(TestCase):
         signed_user_controller.delete_guest("0.020.1")
         self.assertEqual(1, signed_user_controller.get_guests().__len__())
         self.assertIsNone(signed_user_controller.get_guests().get("0.0.0.1"))
-        print("Done Successfully: test_delete_guest")
 
     """ Received: user: SignedUser, new_name """
 
@@ -109,7 +105,6 @@ class TestSignedUserController(TestCase):
         signed_user_controller.add_signed_user("name_u1", "1234", "ro", d1, "0.0.0.5")
         l1, l2 = signed_user_controller.show_all_users()
         self.assertEqual(3, l1.__len__() + l2.__len__())
-        print("Done Successfully: test_show_all_users")
 
     """ Received: user_name, password """
 
@@ -120,7 +115,6 @@ class TestSignedUserController(TestCase):
         self.assertEqual("SystemAdmin", signed_user_controller.confirm_user("name_u1", "1234"))
         self.assertFalse(signed_user_controller.confirm_user("name_u1", "12345"))
         self.assertFalse(signed_user_controller.confirm_user("name_u2", "1234"))
-        print("Done Successfully: test_confirm_user")
 
     """ Received: user: SignedUser, new_name """
 
@@ -132,7 +126,6 @@ class TestSignedUserController(TestCase):
         self.assertNotEqual("ro", signed_user_controller.get_user("name_u1").name)
         self.assertEqual("moshe", signed_user_controller.get_user("name_u1").name)
         self.assertFalse(signed_user_controller.edit_personal_name("name21", "moshe"))
-        print("Done Successfully: test_edit_personal_name")
 
     """ Received: user: SignedUser, birth_date """
 
@@ -145,7 +138,6 @@ class TestSignedUserController(TestCase):
         self.assertNotEqual(d1, signed_user_controller.get_user("name_u1").birth_date)
         self.assertEqual(d2, signed_user_controller.get_user("name_u1").birth_date)
         self.assertFalse(signed_user_controller.edit_personal_birth_date("name21", d1))
-        print("Done Successfully: test_edit_personal_birth_date")
 
     """ Received: user name, old password, new password """
 
@@ -159,7 +151,6 @@ class TestSignedUserController(TestCase):
         self.assertNotEqual(str(hashlib.sha256(old_password.encode()).hexdigest()), signed_user_controller.get_user("name_u1").password)
         self.assertEqual(str(hashlib.sha256(new_password.encode()).hexdigest()), signed_user_controller.get_user("name_u1").password)
         self.assertFalse(signed_user_controller.edit_personal_password("name1", new_password, old_password))
-        print("Done Successfully: test_edit_personal_password")
 
     """ Received: user_name, massage """
 
@@ -171,7 +162,6 @@ class TestSignedUserController(TestCase):
         signed_user_controller.add_search(s.user_name, "first massage")
         signed_user_controller.add_search(s.user_name, "second massage")
         self.assertIsNotNone(signed_user_controller)
-        print("Done Successfully: test_add_search")
 
 
     """ Received: user_name """
@@ -182,7 +172,6 @@ class TestSignedUserController(TestCase):
         s = SignedUser("name_u1", "1234", "ro", d1, "0.0.0.5", 23)
         signed_user_controller.add_user(s)
         self.assertEqual(s, signed_user_controller.get_user(s.user_name))
-        print("Done Successfully: test_get_user")
 
     def test_add_fan_to_data(self):
         signed_user_controller = SignedUserController()
@@ -190,7 +179,6 @@ class TestSignedUserController(TestCase):
         signed_user_controller.add_fan_to_data("name_u1", "1234", "ro", d1, "0.0.0.5")
         self.assertTrue(signed_user_controller.get_user("name_u1"))
         self.assertTrue(type(signed_user_controller.get_user("name_u1")) is Fan)
-        print("Done Successfully: test_add_fan_to_data")
 
     def test_add_referee_to_data(self):
         signed_user_controller = SignedUserController()
@@ -198,7 +186,6 @@ class TestSignedUserController(TestCase):
         signed_user_controller.add_referee_to_data(RefereeQualificationEnum.MAIN, "name_u1", "1234", "ro", d1, "0.0.0.5")
         self.assertTrue(signed_user_controller.get_user("name_u1"))
         self.assertTrue(type(signed_user_controller.get_user("name_u1")) is Referee)
-        print("Done Successfully: test_add_referee_to_data")
 
     def test_number_of_admins(self):
         signed_user_controller = SignedUserController()
@@ -209,4 +196,3 @@ class TestSignedUserController(TestCase):
         signed_user_controller.add_system_admin("name_u21", "1234", "rso", d2, "0.0.0.2")
         signed_user_controller.add_fan_to_data("name_u2221", "12334", "rowe", d2, "0.0.0.1")
         self.assertEqual(2, signed_user_controller.number_of_admins())
-        print("Done Successfully: test_add_referee_to_data")
