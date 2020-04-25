@@ -13,7 +13,6 @@ class Complaint:
         self.__complainer = complainer
         self.__description = desc
         self.__answer = "none"
-        self.__complaint_ID = complaint_ID
 
     def set_answer(self, answer):
         if type(answer) is not str:
@@ -23,10 +22,6 @@ class Complaint:
     @property
     def answer(self):
         return self.__answer
-
-    @property
-    def complaint_ID(self):
-        return self.__complaint_ID
 
     @property
     def description(self):

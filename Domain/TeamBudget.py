@@ -11,7 +11,7 @@ class TeamBudget:
         self.__transactions = []
         self.__income_transactions = []
         self.__expanses_transactions = []
-        self.__current_budget = 0
+        self.__current_balance = 0
 
     """ Add income to team, use positive numbers"""
 
@@ -22,7 +22,7 @@ class TeamBudget:
         if amount <= 0:
             raise ValueError
 
-        self.__current_budget += amount
+        self.__current_balance += amount
         transaction = "+," + str(amount) + ", " + description
         self.transactions.append(transaction)
         self.incomes.append(transaction)
@@ -35,10 +35,10 @@ class TeamBudget:
             raise TypeError
         if amount <= 0:
             raise ValueError
-        if self.__current_budget < amount:
+        if self.__current_balance < amount:
             return False
 
-        self.__current_budget -= amount
+        self.__current_balance -= amount
         transaction = "-,"+str(amount)+", "+description
         self.transactions.append(transaction)
         self.expanses.append(transaction)
@@ -48,7 +48,7 @@ class TeamBudget:
 
     @property
     def current_budget(self):
-        return self.__current_budget
+        return self.__current_balance
 
     """Getter to the all transactions"""
 
