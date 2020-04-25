@@ -35,11 +35,14 @@ class TeamBudget:
             raise TypeError
         if amount <= 0:
             raise ValueError
+        if self.__current_budget < amount:
+            return False
 
         self.__current_budget -= amount
         transaction = "-,"+str(amount)+", "+description
         self.transactions.append(transaction)
         self.expanses.append(transaction)
+        return True
 
     """Getter to the current budget value"""
 
