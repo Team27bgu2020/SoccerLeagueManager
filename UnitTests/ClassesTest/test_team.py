@@ -70,7 +70,6 @@ class TestTeam(TestCase):
         4. remove_team_members """
 
     def test_team_members_management(self):
-        self.assertRaises(TypeError, self.team.add_team_member, team_member=0)
 
         u1 = TeamUser('user_nam3', 'password', 'NameC', date(1993, 1, 12), "0.0.0.3", 3, self.team, Player())
         u2 = TeamUser('user_nam4', 'password', 'NameD', date(1993, 1, 12), "0.0.0.4", 3, self.team, Player())
