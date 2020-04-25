@@ -41,12 +41,10 @@ class SignedUserController:
             if type(self.__user_data_base.get_signed_user(user_name)) is SystemAdmin:
                 """Check if there is more admins in  system if no return false"""
                 if(self.number_of_admins() < 2):
-                    print("There is only one System admin, You cannot delete him")
-                    return False
+                    raise AssertionError
             self.__user_data_base.delete_signed_user(user_name)
             return True
         else:
-            print("no such user: " + user_name)
             return False
 
     def delete_guest(self, ip):

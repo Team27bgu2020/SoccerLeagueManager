@@ -24,8 +24,6 @@ class TestSignedUserController(TestCase):
         self.assertEqual(2, signed_user_controller.get_guests().get("0.0.0.2").user_id)
         self.assertIsNone(signed_user_controller.get_guests().get("0.0.02"))
 
-        print("Done Successfully: test_add_guest")
-
     """ Received: user_name, password, name, birth_date """
 
     def test_add_system_admin(self):
@@ -39,7 +37,6 @@ class TestSignedUserController(TestCase):
         d = datetime.datetime(2020, 4, 23)
         signed_user_controller.add_system_admin("name_u0", "1234", "ro", d, "0.0.0.5")
         self.assertIsNotNone(signed_user_controller.get_signed_users().get("name_u0"))
-        print("Done Successfully: test_add_system_admin")
 
     """ Received: user_name, password, name, birth_date """
 
