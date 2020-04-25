@@ -103,6 +103,10 @@ class SignedUserController:
         else:
             print(" Something Wrong ")
 
+    """ Edit all of the personal data of signed user """
+    def edit_personal_data(self, user, user_name, password, name, birth_date):
+        user.edit_personal_data(user_name, password, name, birth_date)
+
 
     """Editing personal info"""
 

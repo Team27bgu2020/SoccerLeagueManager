@@ -1,4 +1,5 @@
 from Domain.UnionOrganization import UnionOrganization
+from Service import Logger
 
 
 class UnionController:
@@ -35,6 +36,19 @@ class UnionController:
         if amount <= 0:
             raise ValueError
         self.__union_organization.add_income(amount, description)
+
+    def add_team_to_union(self, team):
+        self.__union_organization.add_team_to_union(team)
+
+    def add_union_employee_to_union(self, employee):
+        self.__union_organization.add_employee_to_union(employee)
+
+    def remove_team_from_union(self, team):
+        try:
+            self.__union_organization.remove_team_from_union(team)
+        except ValueError:
+            Logger.warning_log("Tried to remove team {}  from union - Team not in union".format(team.name))
+            raise ValueError
 
     """ Getter for registration_fee field """
     @property
