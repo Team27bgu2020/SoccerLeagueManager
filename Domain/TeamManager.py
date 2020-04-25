@@ -25,6 +25,12 @@ class TeamManager(Role):
         self.set_approval_add_remove(True)
         self.set_approval_set_permission(True)
 
+    def disapprove_all(self):
+        self.set_approval_open_close(False)
+        self.set_approval_accounting(False)
+        self.set_approval_add_remove(False)
+        self.set_approval_set_permission(False)
+
     """  Method to get approve to open or close team"""
 
     @property

@@ -58,9 +58,9 @@ class AcceptanceTestsFan(TestCase):
     # UC 3.3 -> game status is missing in order to check this UC
     def test_follow_game(self):
         # fan looks for a game to follow and the system retrieves it
-        games = self.game_db.get_games()
+        games = self.game_db.get_all_games()
         # fan follows the chosen game
-        self.fan.follow_game(games.get(date.datetime(2020, 4, 23))[0])
+        self.fan.follow_game(self.game_db.get(self.team1.name, self.team2.name, date.datetime(2020, 4, 23)))
         self.assertEqual(self.game, self.fan.followed_games[0])
 
     # UC 3.4

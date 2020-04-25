@@ -84,11 +84,6 @@ class Fan(SignedUser):
 
         self.__followed_games.remove(game)
 
-    """ This method will update the fan in case of alerts in games/personal pages """
-
-    def update(self, message):
-        print(message)
-
     """ Setter for recommendation system """
 
     def set_recommendation_system(self, recommendation_system):
