@@ -32,6 +32,7 @@ class Complaint:
     def description(self):
         return self.__description
 
+    @property
     def complainer(self):
         return self.__complainer
 

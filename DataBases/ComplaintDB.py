@@ -9,9 +9,9 @@ class ComplaintDB:
     def add(self, complaint):
         complaint_id = complaint.complaint_ID
         if complaint_id not in self.__complaints.keys():
-            self.__complaints[(complaint_id, complaint.complainer())] = []
+            self.__complaints[(complaint_id, complaint.complainer)] = []
 
-        self.__complaints[(complaint_id, complaint.complainer())].append(complaint)
+        self.__complaints[(complaint_id, complaint.complainer)].append(complaint)
 
     """ This method returns all the complaints in the database """
 
