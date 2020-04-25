@@ -2,7 +2,7 @@ from Domain.GameEvent import GameEvent
 from DataBases.GameDB import GameDB
 
 
-class MatchController:
+class MathController:
 
     def __init__(self, game_db):
 
