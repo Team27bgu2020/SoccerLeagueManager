@@ -1,4 +1,4 @@
-import datetime as date
+from datetime import datetime
 from unittest import TestCase
 from Domain.Game import Game
 from Domain.Referee import Referee
@@ -12,7 +12,7 @@ class TestGame(TestCase):
 
     home_team = Team("Barcelona")
     away_team = Team("Real Madrid")
-    d = date.datetime(2020, 5, 5)
+    d = datetime(2020, 5, 5)
     field = "Camp Nou"
     game = Game(home_team, away_team, d, field)
 
@@ -20,7 +20,7 @@ class TestGame(TestCase):
 
     def test_set_main_referee(self):
 
-        referee = Referee(RefereeQualificationEnum.MAIN)
+        referee = Referee(RefereeQualificationEnum.MAIN, 'Dor123', '12345678', 'Dor', datetime(1990, 8, 8), '1.1.1.1', '')
         self.assertRaises(TypeError, self.game.main_referee, main_referee=self.home_team)
         self.game.main_referee = referee
         self.assertEqual(referee, self.game._Game__main_referee)
@@ -30,7 +30,7 @@ class TestGame(TestCase):
     def test_set_match_time(self):
 
         self.assertRaises(TypeError, self.game.match_time, match_time=[])
-        self.assertEqual(date.datetime(2020, 5, 5), self.game._Game__match_time)
+        self.assertEqual(datetime(2020, 5, 5), self.game._Game__match_time)
 
     """ Testing the set field method """
 
@@ -54,8 +54,8 @@ class TestGame(TestCase):
 
     def test_add_remove_referee(self):
 
-        m_r = Referee(RefereeQualificationEnum.MAIN)
-        r = Referee(RefereeQualificationEnum.REGULAR)
+        m_r = Referee(RefereeQualificationEnum.MAIN, 'Dor123', '12345678', 'Dor', datetime(1990, 8, 8), '1.1.1.1', '')
+        r = Referee(RefereeQualificationEnum.REGULAR, 'Dor12', '12345678', 'Dor', datetime(1990, 8, 8), '1.1.1.1', '')
 
         self.game.main_referee = m_r
 
@@ -69,13 +69,14 @@ class TestGame(TestCase):
 
     def test_add_remove_event(self):
 
-        r = Referee(RefereeQualificationEnum.MAIN)
+        r = Referee(RefereeQualificationEnum.MAIN, 'Dor123', '12345678', 'Dor', datetime(1990, 8, 8), '1.1.1.1', '')
         self.game.add_referee(r)
-        game_event = GameEvent(self.game, r, "type", "des", date.datetime(2020, 5, 5), 89)
+        game_event = GameEvent(self.game, r, "type", "des", datetime(2020, 5, 5), 89)
         g = Game(self.home_team, self.away_team, self.d, self.field)
-        g.main_referee = Referee(RefereeQualificationEnum.MAIN)
+        g.main_referee = Referee(RefereeQualificationEnum.MAIN, 'Dor12', '12345678', 'Dor', datetime(1990, 8, 8),
+                                 '1.1.1.1', '')
         not_game_event = GameEvent(g, g.main_referee,
-                                   EventTypeEnum.GOAL, "des", date.datetime(2020, 5, 5), 89)
+                                   EventTypeEnum.GOAL, "des", datetime(2020, 5, 5), 89)
 
         self.assertRaises(ValueError, self.game.add_event, event=not_game_event)
         self.assertNotIn(not_game_event, self.game._Game__events)

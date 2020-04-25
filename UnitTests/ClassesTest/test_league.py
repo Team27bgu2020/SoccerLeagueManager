@@ -1,4 +1,5 @@
 from unittest import TestCase
+from datetime import datetime
 from Domain.Team import Team
 from Domain.Referee import Referee
 from Domain.Season import Season
@@ -33,7 +34,7 @@ class TestLeague(TestCase):
 
     def test_add_remove_referee(self):
 
-        ref = Referee(RefereeQualificationEnum.MAIN)
+        ref = Referee(RefereeQualificationEnum.MAIN, 'Dor123', '12345678', 'Dor', datetime(1990, 8, 8), '1.1.1.1', '')
         self.league.add_referee(ref)
         self.assertIn(ref, self.league._League__referees)
 

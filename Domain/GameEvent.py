@@ -2,17 +2,17 @@
 from Domain.Game import Game
 from Domain.Referee import Referee
 from Enums.EventTypeEnum import EventTypeEnum
-import datetime as date
+from datetime import datetime
 """ Dor """
 
 
 class GameEvent:
 
     def __init__(self, game: Game, referee: Referee, event_type: EventTypeEnum, event_description: str,
-                 datetime: date.datetime, min_in_game: int):
+                 date: datetime, min_in_game: int):
 
         self.__min_in_game = min_in_game
-        self.__datetime = datetime
+        self.__datetime = date
         self.__event_description = event_description
         self.__event_type = event_type
         self.__referee = referee

@@ -30,8 +30,8 @@ class MatchController:
 
     """ This function create and adds new game event """
 
-    def add_event(self, game, referee, event_type, event_description, min_in_game):
-        GameEvent(game, referee, event_type, event_description, min_in_game)
+    def add_event(self, game, referee, event_type, event_description, date, min_in_game):
+        GameEvent(game, referee, event_type, event_description, date, min_in_game)
 
     """ This function removes the game event """
 
@@ -43,9 +43,9 @@ class MatchController:
 
     """ This function updates an event """
 
-    def edit_event(self, game_event, game, referee, event_type, event_description, min_in_game):
+    def edit_event(self, game_event, game, referee, event_type, event_description, date, min_in_game):
         self.remove_event(game_event)
-        self.add_event(game, referee, event_type, event_description, min_in_game)
+        self.add_event(game, referee, event_type, event_description, date, min_in_game)
 
     def start_game(self, game):
         check_time = datetime.now()

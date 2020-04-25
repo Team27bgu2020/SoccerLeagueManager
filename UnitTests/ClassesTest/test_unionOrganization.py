@@ -93,7 +93,7 @@ class TestUnionOrganization(TestCase):
 
         # Tests
 
-        self.assertTrue(self.organization.add_expense(400, 'Test2'))
+        self.organization.add_expense(400, 'Test2')
         self.assertEqual(len(self.organization.expenses), 1)
         self.assertEqual(self.organization.expenses[0][1], 400)
         self.assertEqual(self.organization.expenses[0][0], 'Test2')
@@ -109,7 +109,7 @@ class TestUnionOrganization(TestCase):
 
         # Test expanse bigger than balance
 
-        self.assertFalse(self.organization.add_expense(1000, 'Test'))
+        self.assertRaises(ValueError, self.organization.add_expense, 1000, 'Test')
 
     def test_is_team_in_union(self):
 

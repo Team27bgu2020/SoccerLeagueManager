@@ -49,6 +49,12 @@ class Game:
 
         return self.__home_team
 
+    """ Getter for events """
+
+    @property
+    def events(self):
+        return self.__events
+
     """ Getter for away team """
 
     @property

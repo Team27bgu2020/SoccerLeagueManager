@@ -10,30 +10,32 @@ from datetime import datetime
 
 class AcceptanceTestsReferee(TestCase):
     # Preparation
+    d_now = datetime.now()
     team1 = Team('team1', [])
     team2 = Team('team2', [])
-    main_referee = Referee(RefereeQualificationEnum.MAIN)
-    referee = Referee(RefereeQualificationEnum.REGULAR)
-    referee2 = Referee(RefereeQualificationEnum.MAIN)
-    referee3 = Referee(RefereeQualificationEnum.REGULAR)
+    main_referee = Referee(RefereeQualificationEnum.MAIN, 'S123', '12345678', 'Sas', datetime(1990, 8, 8), '1.1.1.1', '')
+    referee = Referee(RefereeQualificationEnum.REGULAR, 'S12', '12345678', 'Sde', datetime(1990, 8, 8), '1.1.1.1', '')
+    referee2 = Referee(RefereeQualificationEnum.MAIN, 'S13', '12345678', 'Swqed', datetime(1990, 8, 8), '1.1.1.1', '')
+    referee3 = Referee(RefereeQualificationEnum.REGULAR, 'S23', '12345678', 'Saf', datetime(1990, 8, 8), '1.1.1.1', '')
 
     def setUp(self):
         self.db = GameDB()
+
         self.match_controller = MatchController(self.db)
-        self.match_controller.add_game(self.team1, self.team2, datetime(2020, 4, 23), '',
+        self.match_controller.add_game(self.team1, self.team2, self.d_now, '',
                                        [self.referee], self.main_referee)
         self.match_controller.add_game(self.team1, self.team2, datetime(2021, 4, 23), '', [],
                                        self.referee2)
-        self.game_created = self.match_controller.get_game(self.team1, self.team2, datetime(2020, 4, 23))
+        self.game_created = self.match_controller.get_game(self.team1, self.team2, self.d_now)
         self.match_controller.start_game(self.game_created)
-        self.match_controller.add_event(self.game_created, self.main_referee,
-                                        EventTypeEnum.GOAL, 'Goal to home team', 90)
+        self.match_controller.add_event(self.game_created, self.main_referee, EventTypeEnum.GOAL,
+                                        'Goal to home team', datetime(2020, 4, 4), 90)
 
     # UC 10.2
     def test_watch_games(self):
         # --- Referee want to see future assigned games ---
         game_list = self.main_referee.show_ongoing_games_by_referee()
-        self.assertEqual(game_list[0], self.game_created)
+        self.assertEqual(game_list[-1], self.game_created)
 
         # --- Referee want to see future assigned games without having any ---
         game_list = self.referee3.show_games_by_referee()
@@ -51,15 +53,15 @@ class AcceptanceTestsReferee(TestCase):
         game_event_chosen = game_events_list[0]
 
         # Update game event by user input
-        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, datetime(2020, 4, 23)).events[
+        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, self.d_now).events[
                              0].event_description, 'Goal to home team')
-        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, datetime(2020, 4, 23)).events[
+        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, self.d_now).events[
                              0].min_in_game, 90)
-        self.referee_controller.edit_event(game_event_chosen, game_chosen, self.main_referee,
-                                           EventTypeEnum.RED_CARD, 'Red card for Oscar', 20)
-        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, datetime(2020, 4, 23)).events[
+        self.match_controller.edit_event(game_event_chosen, game_chosen, self.main_referee,
+                                           EventTypeEnum.RED_CARD, 'Red card for Oscar', datetime.now(), 20)
+        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, self.d_now).events[
                              0].event_description, 'Red card for Oscar')
-        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, datetime(2020, 4, 23)).events[
+        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, self.d_now).events[
                              0].min_in_game, 20)
 
         # --- Referee trying to add game event to ongoing game without being assigned to one ---
@@ -82,15 +84,15 @@ class AcceptanceTestsReferee(TestCase):
         game_event_chosen = game_events_list[0]
 
         # Update game event by user input
-        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, datetime(2020, 4, 23)).events[
+        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, self.d_now).events[
                              0].event_description, 'Goal to home team')
-        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, datetime(2020, 4, 23)).events[
+        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, self.d_now).events[
                              0].min_in_game, 90)
         self.match_controller.edit_event(game_event_chosen, game_chosen, self.main_referee,
-                                         EventTypeEnum.YELLOW_CARD, 'Yellow card for Shahar', 50)
-        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, datetime(2020, 4, 23)).events[
+                                         EventTypeEnum.YELLOW_CARD, 'Yellow card for Shahar', self.d_now, 50)
+        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, self.d_now).events[
                              0].event_description, 'Yellow card for Shahar')
-        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, datetime(2020, 4, 23)).events[
+        self.assertEqual(self.match_controller.get_game(self.team1, self.team2, self.d_now).events[
                              0].min_in_game, 50)
 
         # --- Normal referee trying to edit finished game events ---
