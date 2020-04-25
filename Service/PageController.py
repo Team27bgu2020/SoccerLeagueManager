@@ -14,8 +14,7 @@ class PageController:
         page = self.__page_DB.show_personal_page(query)
         if page is None:
             raise ValueError
-            return
-        return self.__page_DB.show_personal_page(query)
+        return page
 
     """ this method is used for an update of a personal page"""
 

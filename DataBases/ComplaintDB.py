@@ -1,4 +1,3 @@
-
 class ComplaintDB:
 
     def __init__(self):
@@ -8,11 +7,11 @@ class ComplaintDB:
     """ This method adds a new complaint to the data base """
 
     def add(self, complaint):
-        complainer = complaint.complainer()
-        if complainer not in self.__complaints.keys():
-            self.__complaints[complainer] = []
+        complaint_id = complaint.complaint_ID
+        if complaint_id not in self.__complaints.keys():
+            self.__complaints[(complaint_id, complaint.complainer())] = []
 
-        self.__complaints[complainer].append(complaint)
+        self.__complaints[(complaint_id, complaint.complainer())].append(complaint)
 
     """ This method returns all the complaints in the database """
 
@@ -22,12 +21,15 @@ class ComplaintDB:
 
     """ This method returns a specific complaint """
 
-    def get_complaints(self, complainer):
+    def get_complaints(self, complainer, ID):
 
-        if complainer not in self.__complaints.keys():
-            return []
+        if (ID, complainer) not in self.__complaints.keys():
+            return None
 
-        return self.__complaints[complainer]
+        for (key_id, key_complainer), complaint in self.__complaints.items():
+            if (ID, complainer) == (key_id, key_complainer):
+                x = complaint[0]
+                return x
 
     @property
     def complaints(self):
