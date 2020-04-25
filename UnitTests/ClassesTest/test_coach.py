@@ -9,4 +9,5 @@ class TestCoach(TestCase):
         self.assertEqual(self.coach.qualification, '1')
         self.coach.qualification = '2'
         self.assertEqual(self.coach.qualification, "2")
+        self.assertRaises(TypeError, self.coach.qualification, 6)
 

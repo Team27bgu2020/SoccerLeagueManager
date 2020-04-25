@@ -1,3 +1,4 @@
+from datetime import date
 from unittest import TestCase
 
 from Domain.Player import Player
@@ -7,25 +8,27 @@ import Domain.Team as TeamDomain
 from Domain.TeamManager import TeamManager
 from Domain.TeamOwner import TeamOwner
 from Domain.TeamUser import TeamUser
+import datetime as date
+
 from Service.TeamManagementController import TeamManagementController
 
 
 class TestTeamManagementController(TestCase):
     control = TeamManagementController()
     barcelona = Team("Barca")
-    manager = TeamUser(barcelona, TeamManager())
-    owner = TeamUser(barcelona, TeamOwner())
-    p1 = TeamUser(barcelona, Player())
-    p2 = TeamUser(barcelona, Player())
-
+    manager = TeamUser('user_nam1', 'password', 'NameA', date.datetime(1993, 1, 1), "0.0.0.1", 2, barcelona,
+                       TeamManager())
+    owner = TeamUser('user_nam2', 'password', 'NameB', date.datetime(1993, 1, 12), "0.0.0.2", 3, barcelona, TeamOwner())
+    p1 = TeamUser('user_nam3', 'password', 'NameC', date.datetime(1993, 1, 12), "0.0.0.3", 3, barcelona, Player())
+    p2 = TeamUser('user_nam4', 'password', 'NameD', date.datetime(1993, 1, 12), "0.0.0.4", 3, barcelona, Player())
     budget = barcelona.budget_manager
-
     """ Testing getting team by name or id """
 
     def test_get_team(self):
         self.control.add_existing_team(self.barcelona)
         test_team = self.control.get_team("Barca")
         self.assertTrue(test_team.__eq__(self.barcelona))
+        self.control.dictionary_team.delete("Barca")
 
     """ Testing adding a new team """
 
@@ -36,13 +39,14 @@ class TestTeamManagementController(TestCase):
     """ Testing closing and reopening of team"""
 
     def test_reopen_team(self):
+        self.control.add_existing_team(self.barcelona)
         test_team = self.control.get_team("Barca")
         self.assertTrue(test_team.is_open)
         self.control.close_team("Barca")
         self.assertFalse(test_team.is_open)
         self.control.reopen_team("Barca")
         self.assertTrue(test_team.is_open)
-
+        self.control.dictionary_team.delete("Barca")
 
     """ Testing adding a new team member,list of members
      and  deletion of list and one member"""
@@ -63,6 +67,7 @@ class TestTeamManagementController(TestCase):
         # remove players
         self.control.remove_team_members_from_team("Barca", [self.p1, self.p2])
         self.assertFalse(self.p1 in test_team.team_members)
+        self.control.dictionary_team.delete("Barca")
 
     """ Testing get,set and remove team manager"""
 
@@ -81,6 +86,7 @@ class TestTeamManagementController(TestCase):
         self.control.set_manager_to_team("Barca", self.manager)
         ret_manager = self.control.get_team_manager("Barca")
         self.assertEqual(ret_manager, self.manager)
+        self.control.dictionary_team.delete("Barca")
 
     """ Testing get,set and remove team owner"""
 
@@ -99,6 +105,7 @@ class TestTeamManagementController(TestCase):
         self.control.set_owner_to_team("Barca", self.owner)
         ret_owner = self.control.get_team_owner("Barca")
         self.assertEqual(ret_owner, self.owner)
+        self.control.dictionary_team.delete("Barca")
 
     """ Testing get_set to stadium of certain team"""
 
@@ -107,16 +114,19 @@ class TestTeamManagementController(TestCase):
         self.control.set_stadium_to_team("Barca", "Camp")
         # self.assertIsNone(self.control.get_team_stadium("Barcelona"),"Camp")
         self.assertEqual(self.control.get_team_stadium("Barca"), "Camp")
+        self.control.dictionary_team.delete("Barca")
 
     """ Testing the team budget component"""
 
     def test_team__budget(self):
         self.control.add_existing_team(self.barcelona)
-        self.control.add_expanse_to_team("Barca", 500, "Arnona")
-        self.assertTrue("-,500, Arnona" in self.control.get_team_expanses("Barca"))
+        self.assertFalse(self.control.add_expanse_to_team("Barca", 500, "Sponsorship"))
+        self.assertFalse("-,500, Arnona" in self.control.get_team_expanses("Barca"))
         self.control.add_income_to_team("Barca", 500, "Sponsorship")
         self.assertTrue("+,500, Sponsorship" in self.control.get_team_incomes("Barca"))
         self.assertTrue("+,500, Sponsorship" in self.control.get_team_transactions("Barca"))
-        self.assertTrue("-,500, Arnona" in self.control.get_team_transactions("Barca"))
-        self.assertEqual(self.control.get_team_budget("Barca"), 0)
-
+        self.control.add_expanse_to_team("Barca", 499, "Sponsorship")
+        self.assertTrue("-,499, Sponsorship" in self.control.get_team_transactions("Barca"))
+        self.assertTrue("-,499, Sponsorship" in self.control.get_team_expanses("Barca"))
+        self.assertEqual(self.control.get_team_budget("Barca"), 1)
+        self.control.dictionary_team.delete("Barca")

@@ -12,8 +12,5 @@ class Coach(Role):
         return self.__qualification
 
     @qualification.setter
-    def qualification(self, qualification):
-
-        if type(qualification) is not str:
-            raise TypeError
+    def qualification(self, qualification: str):
         self.__qualification = qualification

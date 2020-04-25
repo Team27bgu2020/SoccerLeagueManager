@@ -10,6 +10,10 @@ class TeamManagementController:
     def __init__(self):
         self.__dictionary_team = TeamDB()
 
+    @property
+    def dictionary_team(self):
+        return self.__dictionary_team
+
     """Get the team, and check if not None"""
 
     # test: test_get_team
