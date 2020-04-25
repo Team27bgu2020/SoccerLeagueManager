@@ -2,92 +2,79 @@ __author__ = 'Oscar Epshtein'
 
 from Domain.Role import Role
 
+""" This class has 4 different booleans to describe the functionality that is available to the manager"""
+
 
 class TeamManager(Role):
 
-    def __init__(self, assigned_by=None, bool_open_close=False, bool_accounting=False, bool_add_rem=False,
+    def __init__(self, assigned_by=None, bool_open_close=False, bool_accounting=False, bool_add_remove=False,
                  bool_set_permission=False):
         super().__init__(assigned_by)
 
-        self.__roles = []
-        self.__bool_approval_open_close = bool_open_close
-        self.__bool_approval_accounting = bool_accounting
-        self.__bool_approval_add_remove = bool_add_rem
-        self.__bool_approval_set_permission = bool_set_permission
+        self.roles = []
+        self.approval_open_close = bool_open_close
+        self.approval_accounting = bool_accounting
+        self.approval_add_remove = bool_add_remove
+        self.approval_set_permission = bool_set_permission
 
     """  Method to get approve to all options of owner"""
 
     def approve_all(self):
-        self.approval_open_close()
-        self.approval_accounting()
-        self.approval_add_rem()
-        self.approval_set_permission()
+        self.approval_open_close = True
+        self.approval_accounting = True
+        self.approval_add_remove = True
+        self.approval_set_permission = True
 
     """  Method to get approve to open or close team"""
 
+    @property
     def approval_open_close(self):
-        self.__bool_approval_open_close = True
+        return self.__approval_open_close
 
     """  Method to get approval to add expanse and incomes"""
 
+    @property
     def approval_accounting(self):
-        self.__bool_approval_accounting = True
+        return self.__approval_accounting
 
     """  Method to get approval add or remove asset from team"""
 
+    @property
     def approval_add_remove(self):
-        self.__bool_approval_add_remove = True
+        return self.__approval_add_remove
 
     """  Method to get approval to set other team mate manger permission"""
 
+    @property
     def approval_set_permission(self):
-        self.__bool_approval_set_permission = True
+        return self.__approval_set_permission
 
-    """  Method to block approve to all options of owner"""
+    @approval_open_close.setter
+    def approval_open_close(self, value: bool):
+        if value is not False and value is not True:
+            raise TypeError
+        self.__approval_open_close = value
 
-    def disapprove_all(self):
-        self.disapproval_open_close()
-        self.disapproval_accounting()
-        self.disapproval_add_rem()
-        self.disapproval_set_permission()
+    """  Method to get approval to add expanse and incomes"""
 
-    """  Method to block approve to open or close team"""
+    @approval_accounting.setter
+    def approval_accounting(self, value: bool):
+        if value is not False and value is not True:
+            raise TypeError
+        self.__approval_accounting = value
 
-    def disapproval_open_close(self):
-        self.__bool_approval_open_close = False
+    """  Method to get approval add or remove asset from team"""
 
-    """  Method to block approve to open or close team"""
+    @approval_add_remove.setter
+    def approval_add_remove(self, value: bool):
+        if value is not False and value is not True:
+            raise TypeError
+        self.__approval_add_remove = value
 
-    def disapproval_accounting(self):
-        self.__bool_approval_accounting = False
+    """  Method to get approval to set other team mate manger permission"""
 
-    """  Method to block approve add or remove asset from team"""
-
-    def disapproval_add_remove(self):
-        self.__bool_approval_add_remove = False
-
-    """  Method to block approval to set other team mate manger permission"""
-
-    def disapproval_set_permission(self):
-        self.__bool_approval_set_permission = False
-
-    """ Getter to get boolean value of open close approval"""
-
-    def get_bool_approval_open_close(self):
-        return self.__bool_approval_open_close
-
-    """ Getter to get boolean value of accounting approval"""
-
-    def get_bool_approval_accounting(self):
-        return self.__bool_approval_accounting
-
-    """ Getter to get boolean value of add remove approval"""
-
-    def get_bool_approval_add_remove(self):
-        return self.__bool_approval_add_remove
-
-    """ Getter to get boolean value of set permission approval"""
-
-    def get_bool_approval_open_close(self):
-        return self.__bool_approval_open_close
-
+    @approval_set_permission.setter
+    def approval_set_permission(self, value: bool):
+        if value is not False and value is not True:
+            raise TypeError
+        self.__approval_set_permission = value

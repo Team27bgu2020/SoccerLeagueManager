@@ -85,7 +85,7 @@ class Team:
 
         for team_member in team_members:
             self.__team_members.append(team_member)
-            team_member.set_team = self
+            team_member.team = self
 
     """ This method adds a new team member """
 

@@ -17,3 +17,20 @@ class TestSignedUser(TestCase):
                           birth_date='1234')
         self.assertRaises(ValueError, user.edit_personal_data, user_name='', password='password', name='name',
                           birth_date=date.datetime(1993, 12, 1))
+        self.assertRaises(ValueError, user.edit_personal_data, user_name='r', password='password', name='1234',
+                          birth_date=date.datetime(1993, 12, 1))
+        self.assertRaises(ValueError, user.edit_personal_data, user_name='us', password='password', name='1234',
+                          birth_date=date.datetime(1993, 12, 1))
+        self.assertRaises(ValueError, user.edit_personal_data, user_name='usd', password='password', name='j',
+                          birth_date=date.datetime(1993, 12, 1))
+        self.assertRaises(ValueError, user.edit_personal_data, user_name='usd', password='password', name='',
+                          birth_date=date.datetime(1993, 12, 1))
+        self.assertRaises(ValueError, user.edit_personal_data, user_name='us', password='password', name='dd',
+                          birth_date=date.datetime(1993, 12, 1))
+        self.assertRaises(ValueError, user.edit_personal_data, user_name='usd', password='', name='dd',
+                          birth_date=date.datetime(1993, 12, 1))
+        self.assertRaises(ValueError, user.edit_personal_data, user_name='usd', password='2', name='dd',
+                          birth_date=date.datetime(1993, 12, 1))
+        self.assertRaises(ValueError, user.edit_personal_data, user_name='us', password='22', name='dd',
+                          birth_date=date.datetime(1993, 12, 1))
+
