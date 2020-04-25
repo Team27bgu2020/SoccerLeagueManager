@@ -32,6 +32,8 @@ class AcceptanceTestsSystemAdmin(TestCase):
         self.assertEqual(com, complaints.show_complaints())
         # admin chooses a complaint to answer on
         complaint = complaints.get_complaints(self.fan, 1)
-        # admin responds to the complaint
+        # admin tries to respond to the complaint but doesnt write anything
+        self.assertRaises(TypeError, self.complaint_controller.respond_to_complaint, None, complaint.complainer, complaint.complaint_ID)
+        # admin responds to the complaint as he should
         self.complaint_controller.respond_to_complaint(self.answer, complaint.complainer, complaint.complaint_ID)
         self.assertEqual(complaint.answer, self.answer)
