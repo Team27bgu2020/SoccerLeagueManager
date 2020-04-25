@@ -10,7 +10,10 @@ class TestTeamManager(TestCase):
 
     def test_set_assigned_by(self):
         self.team_manger.approve_all()
+        self.assertRaises(TypeError,self.team_manger.approval_open_close, None)
+        self.assertRaises(TypeError,self.team_manger.approval_accounting, None)
         self.assertRaises(TypeError,self.team_manger.approval_add_remove, None)
+        self.assertRaises(TypeError,self.team_manger.approval_set_permission, None)
         self.team_manger.approval_add_remove = False
         self.assertTrue(self.team_manger.approval_add_remove is False)
         self.assertTrue(self.team_manger.approval_open_close is True)
