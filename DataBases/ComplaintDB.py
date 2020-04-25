@@ -7,7 +7,7 @@ class ComplaintDB:
     """ This method adds a new complaint to the data base """
 
     def add(self, complaint):
-        complaint_id = complaint.complaint_ID
+        complaint_id = complaint.complaint_id
         if complaint_id not in self.__complaints.keys():
             self.__complaints[(complaint_id, complaint.complainer)] = []
 

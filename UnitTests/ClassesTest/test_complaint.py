@@ -17,6 +17,6 @@ class TestComplaint(TestCase):
         self.assertEqual(self.complaint.answer, 'complaint ans')
 
     def test_getters(self):
-        self.assertEqual(self.complaint.complaint_ID, 1)
+        self.assertEqual(self.complaint.complaint_id, 1)
         self.assertEqual(self.complaint.description, 'complaint desc')
         self.assertEqual(self.complaint.complainer, self.complainer)

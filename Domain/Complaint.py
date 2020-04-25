@@ -3,16 +3,17 @@
 
 class Complaint:
 
-    def __init__(self, desc, complainer, complaint_ID):
+    def __init__(self, desc, complainer, complaint_id):
 
         if type(desc) is not str:
             return ValueError
-        if type(complaint_ID) is not int:
+        if type(complaint_id) is not int:
             return ValueError
 
         self.__complainer = complainer
         self.__description = desc
         self.__answer = "none"
+        self.__complaint_ID = complaint_id
 
     def set_answer(self, answer):
         if type(answer) is not str:
@@ -22,6 +23,10 @@ class Complaint:
     @property
     def answer(self):
         return self.__answer
+
+    @property
+    def complaint_id(self):
+        return self.__complaint_ID
 
     @property
     def description(self):
