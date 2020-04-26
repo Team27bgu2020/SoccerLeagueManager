@@ -59,11 +59,3 @@ class Logger:
             raise Exception('Logger not initiated')
         Logger.__logging.critical('Critical: ' + message)
 
-
-logger = Logger()
-logger.start_logger('C:\\Users\\sfrei\\Desktop\\Degree\\Y03S02\\Project Preparation\\Part2\\log.log')
-logger.info_log('test')
-logger.warning_log('test2')
-logger.error_log('test3')
-logger.critical_log('test4')
-
