@@ -1,11 +1,8 @@
 """Oscar"""
-from Domain.Coach import Coach
-from Domain.Player import Player
 from Domain.TeamManager import TeamManager
-
-"""This class is responsible for all team operations"""
 from DataBases.TeamDB import TeamDB
-from Domain import TeamUser, TeamOwner, Role
+from Domain import TeamUser
+from Domain.Role import Role
 from Domain.Team import Team
 
 

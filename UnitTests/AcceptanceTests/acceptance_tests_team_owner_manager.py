@@ -13,30 +13,33 @@ from Service.TeamManagementController import TeamManagementController
 """ The Functionality here is presented to all owners only , the team argument is automated from gui"""
 
 
-class AcceptanceTestsOwner_Manager(TestCase):
-    # Preparation
-    control = TeamManagementController()
-    barcelona = Team("Barca")
-    manager = TeamUser('user_nam1', 'password', 'NameA', date.datetime(1993, 1, 1), "0.0.0.1", 2, team=None,
-                       role=None)
-    manager_with_role = TeamUser('user_nam1', 'password', 'NameA', date.datetime(1993, 1, 1), "0.0.0.1", 2,
-                                 role=TeamOwner(),
-                                 team=Team("ajax"))
+class AcceptanceTestsOwnerManager(TestCase):
 
-    owner = TeamUser('user_nam2', 'password', 'NameB', date.datetime(1993, 1, 12), "0.0.0.2", 3, team=None,
-                     role=TeamOwner())
-    add_owner = TeamUser('user_nam2', 'password', 'NameB', date.datetime(1993, 1, 12), "0.0.0.2", 3, team=None,
-                         role=None)
-    p1 = TeamUser('user_nam3', 'password', 'NameC', date.datetime(1993, 1, 12), "0.0.0.3", 3, team=None, role=Player())
-    p2 = TeamUser('user_nam4', 'password', 'NameD', date.datetime(1993, 1, 12), "0.0.0.4", 3, team=None, role=Player())
-    p3 = TeamUser('user_nam4', 'password', 'NameD', date.datetime(1993, 1, 12), "0.0.0.4", 3, team=Team("ajax"),
-                  role=Player())
-    budget = barcelona.budget_manager
-    manager2 = TeamUser('user_nam5', 'password', 'NameD', date.datetime(1993, 1, 12), "0.0.0.4", 3, Team("Macabi"),
-                        TeamManager())
-    control.add_existing_team(barcelona)
-    control.add_existing_team(Team("Bayer"))
+    def setUp(self):
+        # Preparation
+        self.control = TeamManagementController()
+        self.barcelona = Team("Barca")
+        self.manager = TeamUser('user_nam1', 'password', 'NameA', date.datetime(1993, 1, 1), "0.0.0.1", 2, team=None,
+                           role=None)
+        self.manager_with_role = TeamUser('user_nam1', 'password', 'NameA', date.datetime(1993, 1, 1), "0.0.0.1", 2,
+                                     role=TeamOwner(),
+                                     team=Team("ajax"))
 
+        self.owner = TeamUser('user_nam2', 'password', 'NameB', date.datetime(1993, 1, 12), "0.0.0.2", 3, team=None,
+                         role=TeamOwner())
+        self.add_owner = TeamUser('user_nam2', 'password', 'NameB', date.datetime(1993, 1, 12), "0.0.0.2", 3, team=None,
+                             role=None)
+        self.p1 = TeamUser('user_nam3', 'password', 'NameC', date.datetime(1993, 1, 12), "0.0.0.3", 3, team=None,
+                      role=Player())
+        self.p2 = TeamUser('user_nam4', 'password', 'NameD', date.datetime(1993, 1, 12), "0.0.0.4", 3, team=None,
+                      role=Player())
+        self.p3 = TeamUser('user_nam4', 'password', 'NameD', date.datetime(1993, 1, 12), "0.0.0.4", 3, team=Team("ajax"),
+                      role=Player())
+        self.budget = self.barcelona.budget_manager
+        self.manager2 = TeamUser('user_nam5', 'password', 'NameD', date.datetime(1993, 1, 12), "0.0.0.4", 3, Team("Macabi"),
+                            TeamManager())
+        self.control.add_existing_team(self.barcelona)
+        self.control.add_existing_team(Team("Bayer"))
 
     """ Testing adding a new team member,list of members
        and  deletion of list and one member"""
