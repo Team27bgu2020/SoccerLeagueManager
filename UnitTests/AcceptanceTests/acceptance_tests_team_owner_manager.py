@@ -141,7 +141,7 @@ class AcceptanceTestsOwnerManager(TestCase):
 
     def test_remove_owner_not_acceptance(self):
         # Manager try to delete team without add owner
-        self.assertRaises(ValueError, self.control.remove_additional_owner_from_team(), "Bayer")
+        self.assertRaises(ValueError, self.control.remove_additional_owner_from_team, "Bayer", None)
         # Get Gui message says there is no manager to delete
 
     # UC 6.4 add Set team Manager

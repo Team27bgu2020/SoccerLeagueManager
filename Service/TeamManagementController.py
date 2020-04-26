@@ -181,10 +181,10 @@ class TeamManagementController:
         team.additional_owner.role = TeamOwner()
 
     def remove_additional_owner_from_team(self, team_name: str, rem_owner: TeamUser):
-        rem_owner.role.remove_roles()
         team = self.get_team(team_name)
         if team.additional_owner is None:
             raise ValueError("doesnt have manager")
+        rem_owner.role.remove_roles()
         team.additional_owner.team = None
         team.additional_owner.role = None
         team.additional_owner = None
