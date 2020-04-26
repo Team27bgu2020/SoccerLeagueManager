@@ -1,5 +1,6 @@
 from unittest import TestCase
-
+from Domain.TeamUser import TeamUser
+from Domain.TeamOwner import TeamOwner
 from Service.SignedUserController import SignedUserController
 from Service.ComplaintController import ComplaintController
 from DataBases.UserDB import UserDB
@@ -22,6 +23,8 @@ class AcceptanceTestsSystemAdmin(TestCase):
     def setUp(self):
         self.user_db = UserDB()
         self.user_controller = SignedUserController()
+        self.team_owner = TeamUser('user_name', 'password', 'name', date.datetime(1980, 5, 5), '0.0.0.2', 3,
+                                   TeamOwner())
 
         self.complaint_db = ComplaintDB()
         self.complaint_controller = ComplaintController(self.complaint_db)
@@ -46,7 +49,7 @@ class AcceptanceTestsSystemAdmin(TestCase):
 
     # UC 8.1
     def test_close_team(self):
-        self.team_controller.open_new_team("Tiberias")
+        self.team_controller.open_new_team("Tiberias", self.team_owner)
         """admin is connected and chose what team he wants to close"""
         all_teams = self.team_controller.dictionary_team
         """admin see only the team that in the system"""
