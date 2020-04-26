@@ -4,6 +4,7 @@ from DataBases.TeamDB import TeamDB
 from Domain import TeamUser
 from Domain.Role import Role
 from Domain.Team import Team
+from Domain.TeamOwner import TeamOwner
 
 
 class TeamManagementController:
@@ -133,6 +134,14 @@ class TeamManagementController:
         team = self.get_team(team_name)
         return team.owner
 
+    """ Get team owner """
+
+    # test:test_get_set_remove_team_owner
+
+    def get_add_team_owner(self, team_name: str):
+        team = self.get_team(team_name)
+        return team.additional_owner
+
     """ Set Owner To team """
 
     # test:test_get_set_remove_team_owner
@@ -169,9 +178,10 @@ class TeamManagementController:
         if additional_owner.role is not None:
             raise ValueError("Couldn't be set as additional owner")
         team.additional_owner = additional_owner
+        team.additional_owner.role = TeamOwner()
 
     def remove_additional_owner_from_team(self, team_name: str, rem_owner: TeamUser):
-        rem_owner.remove_roles()
+        rem_owner.role.remove_roles()
         team = self.get_team(team_name)
         if team.additional_owner is None:
             raise ValueError("doesnt have manager")
