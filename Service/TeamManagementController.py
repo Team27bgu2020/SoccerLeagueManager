@@ -9,8 +9,8 @@ from Domain.TeamOwner import TeamOwner
 
 class TeamManagementController:
 
-    def __init__(self):
-        self.__dictionary_team = TeamDB()
+    def __init__(self, team_db):
+        self.__dictionary_team = team_db
 
     @property
     def dictionary_team(self):

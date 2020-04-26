@@ -17,7 +17,7 @@ class AcceptanceTestsGuest(TestCase):
 
     def setUp(self):
         self.db = UserDB()
-        self.user_controller = SignedUserController()
+        self.user_controller = SignedUserController(self.db)
         self.user_controller.add_signed_user(self.user_name, self.password, self.name, self.birth_date, self.ip)
 
         self.page_db = PageDB()

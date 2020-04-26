@@ -13,8 +13,8 @@ from DataBases.UserDB import UserDB
 
 class SignedUserController:
 
-    def __init__(self):
-        self.__user_data_base = UserDB()
+    def __init__(self, user_db):
+        self.__user_data_base = user_db
         self.__ID = 0
 
     """ Add new signed user to DB """

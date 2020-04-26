@@ -28,7 +28,7 @@ class AcceptanceTestsFan(TestCase):
 
     def setUp(self):
         self.user_db = UserDB()
-        self.user_controller = SignedUserController()
+        self.user_controller = SignedUserController(self.user_db)
         self.user_controller.add_signed_user(self.user_name, self.password, self.name, self.birth_date, self.ip)
 
         self.fan = Fan(self.user_name, self.password, self.name, self.birth_date, self.ip, self.user_id)

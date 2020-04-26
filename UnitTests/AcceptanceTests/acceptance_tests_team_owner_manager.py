@@ -1,5 +1,7 @@
 from datetime import date
 from unittest import TestCase
+
+from DataBases.TeamDB import TeamDB
 from Domain.Player import Player
 from Domain.Team import Team
 from Domain.TeamManager import TeamManager
@@ -17,7 +19,8 @@ class AcceptanceTestsOwnerManager(TestCase):
 
     def setUp(self):
         # Preparation
-        self.control = TeamManagementController()
+        self.team_db = TeamDB()
+        self.control = TeamManagementController(self.team_db)
         self.barcelona = Team("Barca")
         self.manager = TeamUser('user_nam1', 'password', 'NameA', date.datetime(1993, 1, 1), "0.0.0.1", 2, team=None,
                                 role=None)

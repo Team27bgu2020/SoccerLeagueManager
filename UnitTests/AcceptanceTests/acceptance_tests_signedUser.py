@@ -1,12 +1,15 @@
 from unittest import TestCase
 import datetime as date
+
+from DataBases.UserDB import UserDB
 from Service.SignedUserController import SignedUserController
 
 
 class AcceptanceTestsSignedUser(TestCase):
 
     # Preparation
-    controller = SignedUserController()
+    user_db = UserDB()
+    controller = SignedUserController(user_db)
 
     # UC 4.1, UC 5.1, UC 10.1 acceptance tests
     # Personal details update received from user GUI

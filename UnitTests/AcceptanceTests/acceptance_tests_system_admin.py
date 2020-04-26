@@ -1,4 +1,6 @@
 from unittest import TestCase
+
+from DataBases.TeamDB import TeamDB
 from Domain.TeamUser import TeamUser
 from Domain.TeamOwner import TeamOwner
 from Service.SignedUserController import SignedUserController
@@ -22,7 +24,8 @@ class AcceptanceTestsSystemAdmin(TestCase):
 
     def setUp(self):
         self.user_db = UserDB()
-        self.user_controller = SignedUserController()
+        self.team_db = TeamDB()
+        self.user_controller = SignedUserController(self.user_db)
         self.team_owner = TeamUser('user_name', 'password', 'name', date.datetime(1980, 5, 5), '0.0.0.2', 3,
                                    TeamOwner())
 
@@ -30,7 +33,7 @@ class AcceptanceTestsSystemAdmin(TestCase):
         self.complaint_controller = ComplaintController(self.complaint_db)
         self.complaint_controller.new_complaint('first comp', self.fan)
 
-        self.team_controller = TeamManagementController()
+        self.team_controller = TeamManagementController(self.team_db)
 
 
     # UC 1.1
