@@ -19,6 +19,7 @@ class Team:
         self.__stadium = stadium
         self.__owner = None
         self.__manager = None
+        self.__additional_owner = None
         self.__is_open = True
         self.__budget_manager = TeamBudget()
 
@@ -93,9 +94,9 @@ class Team:
 
         if team_member in self.__team_members:
             raise ValueError
-
+        if team_member.team is not None:
+            raise ValueError
         self.__team_members.append(team_member)
-        #Changed by oscar
         team_member.team = self
 
     """ This method removes all the given team members """
@@ -254,6 +255,18 @@ class Team:
         self.__owner = owner
 
     """ This method checks if the teams are equal """
+
+    """ Team Owner getter"""
+
+    @property
+    def additional_owner(self):
+
+        return self.__additional_owner
+
+    @additional_owner.setter
+    def additional_owner(self,additional_owner):
+
+         self.__additional_owner = additional_owner
 
     def __eq__(self, obj):
 

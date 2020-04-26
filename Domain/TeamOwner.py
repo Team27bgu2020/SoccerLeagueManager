@@ -40,4 +40,7 @@ class TeamOwner(Role):
         else:
             raise ValueError("role doesnt exist")
 
+    """ Remove existing role role to Team Owner"""
 
+    def remove_roles(self):
+        self.roles.clear()

@@ -20,7 +20,6 @@ class AcceptanceTestsReferee(TestCase):
 
     def setUp(self):
         self.db = GameDB()
-
         self.match_controller = MatchController(self.db)
         self.match_controller.add_game(self.team1, self.team2, self.d_now, '',
                                        [self.referee], self.main_referee)

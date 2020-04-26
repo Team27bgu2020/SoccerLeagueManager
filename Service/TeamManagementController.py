@@ -1,7 +1,11 @@
 """Oscar"""
+from Domain.Coach import Coach
+from Domain.Player import Player
+from Domain.TeamManager import TeamManager
+
 """This class is responsible for all team operations"""
 from DataBases.TeamDB import TeamDB
-from Domain import TeamUser, TeamOwner
+from Domain import TeamUser, TeamOwner, Role
 from Domain.Team import Team
 
 
@@ -26,8 +30,13 @@ class TeamManagementController:
 
     # test:test_open_new_team
 
-    def open_new_team(self, team_name: str):
-        self.__dictionary_team.add(Team(team_name))
+    def open_new_team(self, team_name: str, owner: TeamUser):
+        if owner is None:
+            # To add Team User Check has role Owner!!!!
+            raise ValueError("Team Can not be created without owner")
+        new_team = Team(team_name)
+        new_team.owner = owner
+        self.__dictionary_team.add(new_team)
 
     """Add a team existing object, and add it to the team DB-dictionary"""
 
@@ -97,7 +106,13 @@ class TeamManagementController:
     # test:test_get_set_remove_team_manager
 
     def set_manager_to_team(self, team_name: str, manager: TeamUser):
+
         team = self.get_team(team_name)
+        if team.manager is not None:
+            raise ValueError("already has manager")
+        if manager.role is not None:
+            raise ValueError("Couldn't be set as manager")
+        manager.role = TeamManager()
         team.manager = manager
 
     """ Remove Manager from team """
@@ -106,7 +121,12 @@ class TeamManagementController:
 
     def remove_manager_from_team(self, team_name: str):
         team = self.get_team(team_name)
+        if team.manager is None:
+            raise ValueError("doesnt have manager")
+        team.manager.team = None
+        team.manager.role = None
         team.manager = None
+
 
     """ Get team owner """
 
@@ -124,13 +144,43 @@ class TeamManagementController:
         team = self.get_team(team_name)
         team.owner = owner
 
-    """ Remove Owner from team """
+    """ Add role player to Owner  """
+
+    def add_role_to_owner(self, owner: TeamUser, role: Role):
+        owner.role.add_role(role)
+
+    """ remove role from owner  """
+
+    def remove_role_from_owner(self, owner: TeamUser, role: Role):
+        owner.role.remove_role(role)
+
+    """ Remove Owner from team, By UC 6.3! """
+    """ This function removing assigned team owner by the owner and removing his roles"""
+    """Talk with OSCAR"""
 
     # test:test_get_set_remove_team_owner
 
-    def remove_owner_from_team(self, team_name: str):
+    def remove_owner_from_team(self, team_name: str, rem_owner: TeamUser):
+        rem_owner.role.remove_roles()
         team = self.get_team(team_name)
         team.owner = None
+
+    def set__additional_owner_from_team(self, team_name: str, additional_owner: TeamUser):
+        team = self.get_team(team_name)
+        if team.additional_owner is not None:
+            raise ValueError("already has manager")
+        if additional_owner.role is not None:
+            raise ValueError("Couldn't be set as additional owner")
+        team.additional_owner = additional_owner
+
+    def remove_additional_owner_from_team(self, team_name: str, rem_owner: TeamUser):
+        rem_owner.remove_roles()
+        team = self.get_team(team_name)
+        if team.additional_owner is None:
+            raise ValueError("doesnt have manager")
+        team.additional_owner.team = None
+        team.additional_owner.role = None
+        team.additional_owner = None
 
     """ Set stadium To team """
 
@@ -192,3 +242,23 @@ class TeamManagementController:
         team = self.get_team(team_name)
         team.add_expanse(amount, description)
 
+    """ Set Number To Player """
+
+    def set_number_to_player(self, team_user: TeamUser, number: str):
+        team_user.role.number = number
+
+    """ Set Position To Player """
+
+    def set_position_to_player(self, team_user: TeamUser, position: str):
+        team_user.role.position = position
+
+    """ Set qualification To Player """
+
+    def set_qualification_to_player(self, team_user: TeamUser, qualification: str):
+        team_user.role.qualification = qualification
+
+    def check_if_free_team_user(self, team_user: TeamUser):
+        if team_user.team is None:
+            return True
+        else:
+            return False

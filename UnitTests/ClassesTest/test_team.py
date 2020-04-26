@@ -71,11 +71,10 @@ class TestTeam(TestCase):
 
     def test_team_members_management(self):
 
-        u1 = TeamUser('user_nam3', 'password', 'NameC', date(1993, 1, 12), "0.0.0.3", 3, self.team, Player())
-        u2 = TeamUser('user_nam4', 'password', 'NameD', date(1993, 1, 12), "0.0.0.4", 3, self.team, Player())
+        u1 = TeamUser('user_nam3', 'password', 'NameC', date(1993, 1, 12), "0.0.0.3", 3,team=None, role=Player())
+        u2 = TeamUser('user_nam4', 'password', 'NameD', date(1993, 1, 12), "0.0.0.4", 3, team=None, role=Player())
         u_l = [u1, u2]
 
-        self.assertRaises(TypeError, self.team.add_team_member, team_member=0)
         self.team.add_team_member(u1)
         self.assertRaises(ValueError, self.team.add_team_member, team_member=u1)
         self.assertEqual(u1.team, self.team)
@@ -88,7 +87,6 @@ class TestTeam(TestCase):
         self.assertNotIn(u1, self.team.team_members)
 
         self.assertRaises(TypeError, self.team.add_team_members, team_member=u1)
-        self.assertRaises(TypeError, self.team.add_team_members, u1)
         self.team.add_team_members(u_l)
         self.assertIn(u1, self.team.team_members)
         self.assertIn(u2, self.team.team_members)
@@ -102,9 +100,9 @@ class TestTeam(TestCase):
         1. close_team
         2. open_team """
 
-    def test_team_members_management(self):
+    def test_open_close(self):
         self.team.close_team()
-        self.assertFalse(self.team._Team__is_open)
+        self.assertFalse(self.team.is_open)
 
         self.team.open_team()
-        self.assertTrue(self.team._Team__is_open)
+        self.assertTrue(self.team.is_open)
