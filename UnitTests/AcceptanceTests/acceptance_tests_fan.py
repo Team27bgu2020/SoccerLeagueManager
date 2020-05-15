@@ -60,7 +60,10 @@ class AcceptanceTestsFan(TestCase):
         # fan looks for a game to follow and the system retrieves it
         games = self.game_db.get_all_games()
         # fan follows the chosen game
-        self.fan.follow_game(self.game_db.get(self.team1.name, self.team2.name, date.datetime(2020, 4, 23)))
+        self.fan.follow_game(games[0])
+        game = self.match_controller.get_game(self.team1, self.team2, date.datetime(2020, 4, 23))
+        # trying to follow same game twice
+        self.assertRaises(ValueError, self.fan.follow_game, game)
         self.assertEqual(self.game, self.fan.followed_games[0])
 
     # UC 3.4
