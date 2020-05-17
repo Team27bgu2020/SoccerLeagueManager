@@ -1,38 +1,30 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'Gui.ui'
-#
-# Created by: PyQt5 UI code generator 5.13.0
-#
-# WARNING! All changes made in this file will be lost!
-
-from GUI.Ui_Fan import *
+import sys
+from PyQt5.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow(object):
+class MainScreen(QMainWindow):
     def __init__(self):
         super().__init__()
+        self.title = "App"
+        self.top = 100
+        self.left = 100
+        self.width = 564
+        self.height = 537
+        self.InitUI()
 
-    def setupUi(self, MainWindow):
-        MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(564, 537)
-        self.centralwidget = QtWidgets.QWidget(MainWindow)
-        self.centralwidget.setObjectName("centralwidget")
-        # stacked widgets init
-        self.stackedWidget = QtWidgets.QStackedWidget(self.centralwidget)
-        self.stackedWidget.setGeometry(QtCore.QRect(9, -1, 551, 531))
-        self.stackedWidget.setObjectName("stackedWidget")
-        # main screen widget init
-        self.MainScreen = QtWidgets.QWidget()
-        self.MainScreen.setObjectName("MainScreen")
-        # login form, label and btn
-        self.loginLabel = QtWidgets.QLabel(self.MainScreen)
+    def InitUI(self):
+        self.setWindowTitle(self.title)
+        self.setGeometry(self.top, self.left, self.width, self.height)
+
+        self.loginLabel = QtWidgets.QLabel(self)
         self.loginLabel.setGeometry(QtCore.QRect(30, 30, 71, 31))
         self.loginLabel.setScaledContents(False)
         self.loginLabel.setWordWrap(False)
         self.loginLabel.setObjectName("loginLabel")
-        self.formLayoutWidget = QtWidgets.QWidget(self.MainScreen)
+        self.formLayoutWidget = QtWidgets.QWidget(self)
         self.formLayoutWidget.setGeometry(QtCore.QRect(30, 60, 151, 51))
         self.formLayoutWidget.setObjectName("formLayoutWidget")
         self.loginForm = QtWidgets.QFormLayout(self.formLayoutWidget)
@@ -50,16 +42,16 @@ class Ui_MainWindow(object):
         self.passwordLineEdit = QtWidgets.QLineEdit(self.formLayoutWidget)
         self.passwordLineEdit.setObjectName("passwordLineEdit")
         self.loginForm.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.passwordLineEdit)
-        self.loginBtn = QtWidgets.QPushButton(self.MainScreen)
+        self.loginBtn = QtWidgets.QPushButton(self)
         self.loginBtn.setGeometry(QtCore.QRect(30, 110, 151, 23))
         self.loginBtn.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.loginBtn.setObjectName("loginBtn")
         self.loginBtn.clicked.connect(self.verifyLogin)
         # register form, label and btn
-        self.registerLabel = QtWidgets.QLabel(self.MainScreen)
+        self.registerLabel = QtWidgets.QLabel(self)
         self.registerLabel.setGeometry(QtCore.QRect(330, 30, 91, 31))
         self.registerLabel.setObjectName("registerLabel")
-        self.formLayoutWidget_2 = QtWidgets.QWidget(self.MainScreen)
+        self.formLayoutWidget_2 = QtWidgets.QWidget(self)
         self.formLayoutWidget_2.setGeometry(QtCore.QRect(330, 60, 161, 101))
         self.formLayoutWidget_2.setObjectName("formLayoutWidget_2")
         self.registerForm = QtWidgets.QFormLayout(self.formLayoutWidget_2)
@@ -89,12 +81,12 @@ class Ui_MainWindow(object):
         self.dateEdit = QtWidgets.QDateEdit(self.formLayoutWidget_2)
         self.dateEdit.setObjectName("dateEdit")
         self.registerForm.setWidget(3, QtWidgets.QFormLayout.FieldRole, self.dateEdit)
-        self.registerBtn = QtWidgets.QPushButton(self.MainScreen)
+        self.registerBtn = QtWidgets.QPushButton(self)
         self.registerBtn.setGeometry(QtCore.QRect(330, 170, 161, 23))
         self.registerBtn.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.registerBtn.setObjectName("registerBtn")
         # guest btn
-        self.guestBtn = QtWidgets.QPushButton(self.MainScreen)
+        self.guestBtn = QtWidgets.QPushButton(self)
         self.guestBtn.setGeometry(QtCore.QRect(390, 480, 131, 23))
         self.guestBtn.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.guestBtn.setAutoDefault(False)
@@ -102,179 +94,71 @@ class Ui_MainWindow(object):
         self.guestBtn.setObjectName("guestBtn")
         self.guestBtn.clicked.connect(self.setGuestScreen)
         # main screen styling
-        self.backgroundLabel = QtWidgets.QLabel(self.MainScreen)
+        self.backgroundLabel = QtWidgets.QLabel(self)
         self.backgroundLabel.setGeometry(QtCore.QRect(20, 20, 511, 491))
         self.backgroundLabel.setText("")
         self.backgroundLabel.setPixmap(QtGui.QPixmap("coolSoccerField.jpg"))
         self.backgroundLabel.setScaledContents(True)
         self.backgroundLabel.setObjectName("backgroundLabel")
-        self.logoLabel = QtWidgets.QLabel(self.MainScreen)
+        self.logoLabel = QtWidgets.QLabel(self)
         self.logoLabel.setGeometry(QtCore.QRect(408, 364, 91, 91))
         self.logoLabel.setText("")
         self.logoLabel.setPixmap(QtGui.QPixmap("football federation.png"))
         self.logoLabel.setScaledContents(True)
         self.logoLabel.setObjectName("logoLabel")
-        self.line = QtWidgets.QFrame(self.MainScreen)
+        self.line = QtWidgets.QFrame(self)
         self.line.setGeometry(QtCore.QRect(260, 20, 20, 301))
         self.line.setFrameShape(QtWidgets.QFrame.VLine)
         self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line.setObjectName("line")
-        self.line_2 = QtWidgets.QFrame(self.MainScreen)
+        self.line_2 = QtWidgets.QFrame(self)
         self.line_2.setGeometry(QtCore.QRect(27, 310, 501, 20))
         self.line_2.setFrameShape(QtWidgets.QFrame.HLine)
         self.line_2.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line_2.setObjectName("line_2")
         self.backgroundLabel.lower()
-        
-        self.stackedWidget.addWidget(self.MainScreen)
 
-        # guest screen widget init
-        self.GuestScreen = QtWidgets.QWidget()
-        self.GuestScreen.setObjectName("GuestScreen")
-        # login form, label and btn
-        self.formLayoutWidget_5 = QtWidgets.QWidget(self.GuestScreen)
-        self.formLayoutWidget_5.setGeometry(QtCore.QRect(70, 120, 151, 51))
-        self.formLayoutWidget_5.setObjectName("formLayoutWidget_5")
-        self.loginForm_2 = QtWidgets.QFormLayout(self.formLayoutWidget_5)
-        self.loginForm_2.setContentsMargins(0, 0, 0, 0)
-        self.loginForm_2.setObjectName("loginForm_2")
-        self.usernameLabel_4 = QtWidgets.QLabel(self.formLayoutWidget_5)
-        self.usernameLabel_4.setObjectName("usernameLabel_4")
-        self.loginForm_2.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.usernameLabel_4)
-        self.usernameLineEdit_4 = QtWidgets.QLineEdit(self.formLayoutWidget_5)
-        self.usernameLineEdit_4.setObjectName("usernameLineEdit_4")
-        self.loginForm_2.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.usernameLineEdit_4)
-        self.passwordLabel_4 = QtWidgets.QLabel(self.formLayoutWidget_5)
-        self.passwordLabel_4.setObjectName("passwordLabel_4")
-        self.loginForm_2.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.passwordLabel_4)
-        self.passwordLineEdit_4 = QtWidgets.QLineEdit(self.formLayoutWidget_5)
-        self.passwordLineEdit_4.setObjectName("passwordLineEdit_4")
-        self.loginForm_2.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.passwordLineEdit_4)
-        self.loginLabel_2 = QtWidgets.QLabel(self.GuestScreen)
-        self.loginLabel_2.setGeometry(QtCore.QRect(60, 80, 71, 51))
-        self.loginLabel_2.setObjectName("loginLabel_2")
-        self.loginBtn_2 = QtWidgets.QPushButton(self.GuestScreen)
-        self.loginBtn_2.setGeometry(QtCore.QRect(70, 170, 151, 23))
-        self.loginBtn_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.loginBtn_2.setObjectName("loginBtn_2")
-        # register form, label and btn
-        self.registerLabel_2 = QtWidgets.QLabel(self.GuestScreen)
-        self.registerLabel_2.setGeometry(QtCore.QRect(320, 90, 91, 31))
-        self.registerLabel_2.setObjectName("registerLabel_2")
-        self.formLayoutWidget_3 = QtWidgets.QWidget(self.GuestScreen)
-        self.formLayoutWidget_3.setGeometry(QtCore.QRect(320, 120, 161, 101))
-        self.formLayoutWidget_3.setObjectName("formLayoutWidget_3")
-        self.registerForm_2 = QtWidgets.QFormLayout(self.formLayoutWidget_3)
-        self.registerForm_2.setContentsMargins(0, 0, 0, 0)
-        self.registerForm_2.setObjectName("registerForm_2")
-        self.usernameLabel_3 = QtWidgets.QLabel(self.formLayoutWidget_3)
-        self.usernameLabel_3.setObjectName("usernameLabel_3")
-        self.registerForm_2.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.usernameLabel_3)
-        self.usernameLineEdit_3 = QtWidgets.QLineEdit(self.formLayoutWidget_3)
-        self.usernameLineEdit_3.setObjectName("usernameLineEdit_3")
-        self.registerForm_2.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.usernameLineEdit_3)
-        self.passwordLabel_3 = QtWidgets.QLabel(self.formLayoutWidget_3)
-        self.passwordLabel_3.setObjectName("passwordLabel_3")
-        self.registerForm_2.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.passwordLabel_3)
-        self.passwordLineEdit_3 = QtWidgets.QLineEdit(self.formLayoutWidget_3)
-        self.passwordLineEdit_3.setObjectName("passwordLineEdit_3")
-        self.registerForm_2.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.passwordLineEdit_3)
-        self.nameLabel_2 = QtWidgets.QLabel(self.formLayoutWidget_3)
-        self.nameLabel_2.setObjectName("nameLabel_2")
-        self.registerForm_2.setWidget(2, QtWidgets.QFormLayout.LabelRole, self.nameLabel_2)
-        self.nameLineEdit_2 = QtWidgets.QLineEdit(self.formLayoutWidget_3)
-        self.nameLineEdit_2.setObjectName("nameLineEdit_2")
-        self.registerForm_2.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.nameLineEdit_2)
-        self.birthDateLabel_2 = QtWidgets.QLabel(self.formLayoutWidget_3)
-        self.birthDateLabel_2.setObjectName("birthDateLabel_2")
-        self.registerForm_2.setWidget(3, QtWidgets.QFormLayout.LabelRole, self.birthDateLabel_2)
-        self.dateEdit_2 = QtWidgets.QDateEdit(self.formLayoutWidget_3)
-        self.dateEdit_2.setObjectName("dateEdit_2")
-        self.registerForm_2.setWidget(3, QtWidgets.QFormLayout.FieldRole, self.dateEdit_2)
-        self.registerBtn_2 = QtWidgets.QPushButton(self.GuestScreen)
-        self.registerBtn_2.setGeometry(QtCore.QRect(320, 220, 161, 23))
-        self.registerBtn_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.registerBtn_2.setObjectName("registerBtn_2")
-        # search form, label and btn
-        self.searchLabel = QtWidgets.QLabel(self.GuestScreen)
-        self.searchLabel.setGeometry(QtCore.QRect(210, 310, 131, 31))
-        self.searchLabel.setObjectName("searchLabel")
-        self.searchLabel.setStyleSheet('color: black')
-        self.formLayoutWidget_4 = QtWidgets.QWidget(self.GuestScreen)
-        self.formLayoutWidget_4.setGeometry(QtCore.QRect(190, 340, 151, 80))
-        self.formLayoutWidget_4.setObjectName("formLayoutWidget_4")
-        self.searchForm = QtWidgets.QFormLayout(self.formLayoutWidget_4)
-        self.searchForm.setContentsMargins(0, 0, 0, 0)
-        self.searchForm.setObjectName("searchForm")
-        self.nameLabel_3 = QtWidgets.QLabel(self.formLayoutWidget_4)
-        self.nameLabel_3.setObjectName("nameLabel_3")
-        self.nameLabel_3.setStyleSheet('color: white')
-        self.searchForm.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.nameLabel_3)
-        self.nameLineEdit_3 = QtWidgets.QLineEdit(self.formLayoutWidget_4)
-        self.nameLineEdit_3.setObjectName("nameLineEdit_3")
-        self.searchForm.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.nameLineEdit_3)
-        self.roleLabel = QtWidgets.QLabel(self.formLayoutWidget_4)
-        self.roleLabel.setObjectName("roleLabel")
-        self.roleLabel.setStyleSheet('color: white')
-        self.searchForm.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.roleLabel)
-        self.roleComboBox = QtWidgets.QComboBox(self.formLayoutWidget_4)
-        self.roleComboBox.setObjectName("roleComboBox")
-        self.roleComboBox.addItem("")
-        self.roleComboBox.addItem("")
-        self.roleComboBox.addItem("")
-        self.roleComboBox.addItem("")
-        self.searchForm.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.roleComboBox)
-        self.searchBtn = QtWidgets.QPushButton(self.GuestScreen)
-        self.searchBtn.setGeometry(QtCore.QRect(188, 400, 156, 23))
-        self.searchBtn.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.searchBtn.setObjectName("searchBtn")
-        # back to main screen btn
-        self.backBtn = QtWidgets.QPushButton(self.GuestScreen)
-        self.backBtn.setGeometry(QtCore.QRect(405, 475, 70, 23))
-        self.backBtn.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.backBtn.setObjectName("backBtn")
-        self.backBtn.clicked.connect(self.backToMain)
-        # guest screen styling
-        self.label = QtWidgets.QLabel(self.GuestScreen)
-        self.label.setGeometry(QtCore.QRect(200, 20, 151, 61))
-        self.label.setObjectName("label")
-        self.label_4 = QtWidgets.QLabel(self.GuestScreen)
-        self.label_4.setGeometry(QtCore.QRect(390, 320, 91, 91))
-        self.label_4.setText("")
-        self.label_4.setPixmap(QtGui.QPixmap("football federation.png"))
-        self.label_4.setScaledContents(True)
-        self.label_4.setObjectName("label_4")
-        self.line_3 = QtWidgets.QFrame(self.GuestScreen)
-        self.line_3.setGeometry(QtCore.QRect(37, 300, 481, 20))
-        self.line_3.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line_3.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_3.setObjectName("line_3")
-        self.line_4 = QtWidgets.QFrame(self.GuestScreen)
-        self.line_4.setGeometry(QtCore.QRect(30, 70, 481, 20))
-        self.line_4.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line_4.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_4.setObjectName("line_4")
-        self.line_5 = QtWidgets.QFrame(self.GuestScreen)
-        self.line_5.setGeometry(QtCore.QRect(260, 90, 20, 211))
-        self.line_5.setFrameShape(QtWidgets.QFrame.VLine)
-        self.line_5.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_5.setObjectName("line_5")
-        self.backgroundLabel_2 = QtWidgets.QLabel(self.GuestScreen)
-        self.backgroundLabel_2.setGeometry(QtCore.QRect(20, 20, 511, 491))
-        self.backgroundLabel_2.setText("")
-        self.backgroundLabel_2.setPixmap(QtGui.QPixmap("soccerFieldNorway.jpg"))
-        self.backgroundLabel_2.setScaledContents(True)
-        self.backgroundLabel_2.setObjectName("backgroundLabel_2")
-        self.backgroundLabel_2.lower()
+        self.retranslateUi()
+        self.show()
 
-        self.stackedWidget.addWidget(self.GuestScreen)
+    def retranslateUi(self):
+        _translate = QtCore.QCoreApplication.translate
+        # retranslate MainScreen
+        self.registerLabel.setText(_translate("MainWindow",
+                                              "<html><head/><body><p><span style=\" font-size:14pt; font-weight:600;\">Register</span></p></body></html>"))
+        self.loginLabel.setText(_translate("MainWindow",
+                                           "<html><head/><body><p><span style=\" font-size:14pt; font-weight:600;\">Login</span></p></body></html>"))
+        self.guestBtn.setText(_translate("MainWindow", "Sign-In as a guest"))
+        self.usernameLabel_2.setText(_translate("MainWindow", "username:"))
+        self.passwordLabel_2.setText(_translate("MainWindow", "password:"))
+        self.nameLabel.setText(_translate("MainWindow", "name:"))
+        self.birthDateLabel.setText(_translate("MainWindow", "birth date:"))
+        self.usernameLabel.setText(_translate("MainWindow", "username:"))
+        self.passwordLabel.setText(_translate("MainWindow", "password:"))
+        self.loginBtn.setText(_translate("MainWindow", "Login"))
+        self.registerBtn.setText(_translate("MainWindow", "Register"))
 
-        # fan screen widget init
-        self.FanScreen = QtWidgets.QWidget()
-        self.FanScreen.setObjectName("FanScreen")
-        # init tabWidget
-        self.tabWidget = QtWidgets.QTabWidget(self.FanScreen)
-        self.tabWidget.setGeometry(QtCore.QRect(10, 20, 541, 461))
+    @pyqtSlot()
+    def verifyLogin(self):
+        self.fan_ui = FanScreen("idan")
+        self.fan_ui.setName(self.usernameLineEdit.text())
+        self.fan_ui.show()
+        self.close()
+
+    @pyqtSlot()
+    def setGuestScreen(self):
+        self.guest_ui = GuestScreen("idan")
+        self.guest_ui.show()
+        self.close()
+
+
+class FanScreen(QWidget):
+    def __init__(self, value, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle('FanScreen')
+        self.setGeometry(100, 100, 564, 537)
+        self.tabWidget = QtWidgets.QTabWidget(self)
+        self.tabWidget.setGeometry(QtCore.QRect(20, 20, 520, 475))
         self.tabWidget.setObjectName("tabWidget")
         # main tab
         self.MainTab = QtWidgets.QWidget()
@@ -337,13 +221,13 @@ class Ui_MainWindow(object):
         self.saveInfoBtn.setObjectName("saveInfoBtn")
         self.tabWidget.addTab(self.editInfoTab, "")
         # fan screen styling and logout btn
-        self.helloFanLabel = QtWidgets.QLabel(self.FanScreen)
+        self.helloFanLabel = QtWidgets.QLabel(self)
         self.helloFanLabel.setGeometry(QtCore.QRect(190, -20, 151, 61))
         self.helloFanLabel.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         self.helloFanLabel.setFrameShadow(QtWidgets.QFrame.Plain)
         self.helloFanLabel.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByMouse)
         self.helloFanLabel.setObjectName("helloFanLabel")
-        self.logoutBtn = QtWidgets.QPushButton(self.FanScreen)
+        self.logoutBtn = QtWidgets.QPushButton(self)
         self.logoutBtn.setGeometry(QtCore.QRect(414, 500, 131, 23))
         self.logoutBtn.setObjectName("logoutBtn")
         self.logoutBtn.clicked.connect(self.logOut)
@@ -351,36 +235,184 @@ class Ui_MainWindow(object):
         self.tabWidget.raise_()
         self.logoutBtn.raise_()
         self.tabWidget.setCurrentIndex(0)
+        self.retranslateUi()
 
-        self.stackedWidget.addWidget(self.FanScreen)
-
-        MainWindow.setCentralWidget(self.centralwidget)
-
-        self.retranslateUi(MainWindow)
-        self.stackedWidget.setCurrentIndex(0)
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
-
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self):
         _translate = QtCore.QCoreApplication.translate
-        # retranslate MainScreen
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.registerLabel.setText(_translate("MainWindow",
-                                              "<html><head/><body><p><span style=\" font-size:14pt; font-weight:600;\">Register</span></p></body></html>"))
-        self.loginLabel.setText(_translate("MainWindow",
-                                           "<html><head/><body><p><span style=\" font-size:14pt; font-weight:600;\">Login</span></p></body></html>"))
-        self.guestBtn.setText(_translate("MainWindow", "Sign-In as a guest"))
-        self.usernameLabel_2.setText(_translate("MainWindow", "username:"))
-        self.passwordLabel_2.setText(_translate("MainWindow", "password:"))
-        self.nameLabel.setText(_translate("MainWindow", "name:"))
-        self.birthDateLabel.setText(_translate("MainWindow", "birth date:"))
-        self.usernameLabel.setText(_translate("MainWindow", "username:"))
-        self.passwordLabel.setText(_translate("MainWindow", "password:"))
-        self.loginBtn.setText(_translate("MainWindow", "Login"))
-        self.registerBtn.setText(_translate("MainWindow", "Register"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.MainTab), _translate("MainWindow", "Main"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.searchPageTab), _translate("MainWindow", "searchPage"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.searchGameTab), _translate("MainWindow", "searchGame"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.complainTab), _translate("MainWindow", "complain"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.searchHistoryTab),
+                                  _translate("MainWindow", "searchHistory"))
+        self.usernameLabelFan.setText(_translate("MainWindow", "username:"))
+        self.passwordLabelFan.setText(_translate("MainWindow", "password:"))
+        self.nameLabelFan.setText(_translate("MainWindow", "name:"))
+        self.birthDateLabelFan.setText(_translate("MainWindow", "birth date:"))
+        self.labelFan.setText(_translate("MainWindow",
+                                         "<html><head/><body><p><span style=\" font-size:14pt; font-weight:600;\">Edit your personal information</span></p></body></html>"))
+        self.saveInfoBtn.setText(_translate("MainWindow", "Save Info"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.editInfoTab), _translate("MainWindow", "editInfo"))
+        self.helloFanLabel.setText(_translate("MainWindow",
+                                              "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-weight:600;\">Hello Fan</span></p></body></html>"))
+        self.logoutBtn.setText(_translate("MainWindow", "Logout"))
+
+    def setName(self, name):
+        self.helloFanLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; "
+                                   "font-weight:600;\">Hello " + name + "</span></p></body></html>")
+
+    def logOut(self):
+        self.mainScreen = MainScreen()
+        self.mainScreen.show()
+        self.close()
+
+
+class GuestScreen(QWidget):
+    def __init__(self, value, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle('GuestScreen')
+
+        self.formLayoutWidget_5 = QtWidgets.QWidget(self)
+        self.formLayoutWidget_5.setGeometry(QtCore.QRect(70, 120, 151, 51))
+        self.formLayoutWidget_5.setObjectName("formLayoutWidget_5")
+        self.loginForm_2 = QtWidgets.QFormLayout(self.formLayoutWidget_5)
+        self.loginForm_2.setContentsMargins(0, 0, 0, 0)
+        self.loginForm_2.setObjectName("loginForm_2")
+        self.usernameLabel_4 = QtWidgets.QLabel(self.formLayoutWidget_5)
+        self.usernameLabel_4.setObjectName("usernameLabel_4")
+        self.loginForm_2.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.usernameLabel_4)
+        self.usernameLineEdit_4 = QtWidgets.QLineEdit(self.formLayoutWidget_5)
+        self.usernameLineEdit_4.setObjectName("usernameLineEdit_4")
+        self.loginForm_2.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.usernameLineEdit_4)
+        self.passwordLabel_4 = QtWidgets.QLabel(self.formLayoutWidget_5)
+        self.passwordLabel_4.setObjectName("passwordLabel_4")
+        self.loginForm_2.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.passwordLabel_4)
+        self.passwordLineEdit_4 = QtWidgets.QLineEdit(self.formLayoutWidget_5)
+        self.passwordLineEdit_4.setObjectName("passwordLineEdit_4")
+        self.loginForm_2.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.passwordLineEdit_4)
+        self.loginLabel_2 = QtWidgets.QLabel(self)
+        self.loginLabel_2.setGeometry(QtCore.QRect(60, 80, 71, 51))
+        self.loginLabel_2.setObjectName("loginLabel_2")
+        self.loginBtn_2 = QtWidgets.QPushButton(self)
+        self.loginBtn_2.setGeometry(QtCore.QRect(70, 170, 151, 23))
+        self.loginBtn_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.loginBtn_2.setObjectName("loginBtn_2")
+        # register form, label and btn
+        self.registerLabel_2 = QtWidgets.QLabel(self)
+        self.registerLabel_2.setGeometry(QtCore.QRect(320, 90, 91, 31))
+        self.registerLabel_2.setObjectName("registerLabel_2")
+        self.formLayoutWidget_3 = QtWidgets.QWidget(self)
+        self.formLayoutWidget_3.setGeometry(QtCore.QRect(320, 120, 161, 101))
+        self.formLayoutWidget_3.setObjectName("formLayoutWidget_3")
+        self.registerForm_2 = QtWidgets.QFormLayout(self.formLayoutWidget_3)
+        self.registerForm_2.setContentsMargins(0, 0, 0, 0)
+        self.registerForm_2.setObjectName("registerForm_2")
+        self.usernameLabel_3 = QtWidgets.QLabel(self.formLayoutWidget_3)
+        self.usernameLabel_3.setObjectName("usernameLabel_3")
+        self.registerForm_2.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.usernameLabel_3)
+        self.usernameLineEdit_3 = QtWidgets.QLineEdit(self.formLayoutWidget_3)
+        self.usernameLineEdit_3.setObjectName("usernameLineEdit_3")
+        self.registerForm_2.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.usernameLineEdit_3)
+        self.passwordLabel_3 = QtWidgets.QLabel(self.formLayoutWidget_3)
+        self.passwordLabel_3.setObjectName("passwordLabel_3")
+        self.registerForm_2.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.passwordLabel_3)
+        self.passwordLineEdit_3 = QtWidgets.QLineEdit(self.formLayoutWidget_3)
+        self.passwordLineEdit_3.setObjectName("passwordLineEdit_3")
+        self.registerForm_2.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.passwordLineEdit_3)
+        self.nameLabel_2 = QtWidgets.QLabel(self.formLayoutWidget_3)
+        self.nameLabel_2.setObjectName("nameLabel_2")
+        self.registerForm_2.setWidget(2, QtWidgets.QFormLayout.LabelRole, self.nameLabel_2)
+        self.nameLineEdit_2 = QtWidgets.QLineEdit(self.formLayoutWidget_3)
+        self.nameLineEdit_2.setObjectName("nameLineEdit_2")
+        self.registerForm_2.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.nameLineEdit_2)
+        self.birthDateLabel_2 = QtWidgets.QLabel(self.formLayoutWidget_3)
+        self.birthDateLabel_2.setObjectName("birthDateLabel_2")
+        self.registerForm_2.setWidget(3, QtWidgets.QFormLayout.LabelRole, self.birthDateLabel_2)
+        self.dateEdit_2 = QtWidgets.QDateEdit(self.formLayoutWidget_3)
+        self.dateEdit_2.setObjectName("dateEdit_2")
+        self.registerForm_2.setWidget(3, QtWidgets.QFormLayout.FieldRole, self.dateEdit_2)
+        self.registerBtn_2 = QtWidgets.QPushButton(self)
+        self.registerBtn_2.setGeometry(QtCore.QRect(320, 220, 161, 23))
+        self.registerBtn_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.registerBtn_2.setObjectName("registerBtn_2")
+        # search form, label and btn
+        self.searchLabel = QtWidgets.QLabel(self)
+        self.searchLabel.setGeometry(QtCore.QRect(210, 310, 131, 31))
+        self.searchLabel.setObjectName("searchLabel")
+        self.searchLabel.setStyleSheet('color: black')
+        self.formLayoutWidget_4 = QtWidgets.QWidget(self)
+        self.formLayoutWidget_4.setGeometry(QtCore.QRect(190, 340, 151, 80))
+        self.formLayoutWidget_4.setObjectName("formLayoutWidget_4")
+        self.searchForm = QtWidgets.QFormLayout(self.formLayoutWidget_4)
+        self.searchForm.setContentsMargins(0, 0, 0, 0)
+        self.searchForm.setObjectName("searchForm")
+        self.nameLabel_3 = QtWidgets.QLabel(self.formLayoutWidget_4)
+        self.nameLabel_3.setObjectName("nameLabel_3")
+        self.nameLabel_3.setStyleSheet('color: white')
+        self.searchForm.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.nameLabel_3)
+        self.nameLineEdit_3 = QtWidgets.QLineEdit(self.formLayoutWidget_4)
+        self.nameLineEdit_3.setObjectName("nameLineEdit_3")
+        self.searchForm.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.nameLineEdit_3)
+        self.roleLabel = QtWidgets.QLabel(self.formLayoutWidget_4)
+        self.roleLabel.setObjectName("roleLabel")
+        self.roleLabel.setStyleSheet('color: white')
+        self.searchForm.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.roleLabel)
+        self.roleComboBox = QtWidgets.QComboBox(self.formLayoutWidget_4)
+        self.roleComboBox.setObjectName("roleComboBox")
+        self.roleComboBox.addItem("")
+        self.roleComboBox.addItem("")
+        self.roleComboBox.addItem("")
+        self.roleComboBox.addItem("")
+        self.searchForm.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.roleComboBox)
+        self.searchBtn = QtWidgets.QPushButton(self)
+        self.searchBtn.setGeometry(QtCore.QRect(188, 400, 156, 23))
+        self.searchBtn.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.searchBtn.setObjectName("searchBtn")
+        # back to main screen btn
+        self.backBtn = QtWidgets.QPushButton(self)
+        self.backBtn.setGeometry(QtCore.QRect(405, 475, 70, 23))
+        self.backBtn.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.backBtn.setObjectName("backBtn")
+        self.backBtn.clicked.connect(self.backToMain)
+        # guest screen styling
+        self.label = QtWidgets.QLabel(self)
+        self.label.setGeometry(QtCore.QRect(200, 20, 151, 61))
+        self.label.setObjectName("label")
+        self.label_4 = QtWidgets.QLabel(self)
+        self.label_4.setGeometry(QtCore.QRect(390, 320, 91, 91))
+        self.label_4.setText("")
+        self.label_4.setPixmap(QtGui.QPixmap("football federation.png"))
+        self.label_4.setScaledContents(True)
+        self.label_4.setObjectName("label_4")
+        self.line_3 = QtWidgets.QFrame(self)
+        self.line_3.setGeometry(QtCore.QRect(37, 300, 481, 20))
+        self.line_3.setFrameShape(QtWidgets.QFrame.HLine)
+        self.line_3.setFrameShadow(QtWidgets.QFrame.Sunken)
+        self.line_3.setObjectName("line_3")
+        self.line_4 = QtWidgets.QFrame(self)
+        self.line_4.setGeometry(QtCore.QRect(30, 70, 481, 20))
+        self.line_4.setFrameShape(QtWidgets.QFrame.HLine)
+        self.line_4.setFrameShadow(QtWidgets.QFrame.Sunken)
+        self.line_4.setObjectName("line_4")
+        self.line_5 = QtWidgets.QFrame(self)
+        self.line_5.setGeometry(QtCore.QRect(260, 90, 20, 211))
+        self.line_5.setFrameShape(QtWidgets.QFrame.VLine)
+        self.line_5.setFrameShadow(QtWidgets.QFrame.Sunken)
+        self.line_5.setObjectName("line_5")
+        self.backgroundLabel_2 = QtWidgets.QLabel(self)
+        self.backgroundLabel_2.setGeometry(QtCore.QRect(20, 20, 511, 491))
+        self.backgroundLabel_2.setText("")
+        self.backgroundLabel_2.setPixmap(QtGui.QPixmap("soccerFieldNorway.jpg"))
+        self.backgroundLabel_2.setScaledContents(True)
+        self.backgroundLabel_2.setObjectName("backgroundLabel_2")
+        self.backgroundLabel_2.lower()
+
+        self.retranslateUi()
+
+    def retranslateUi(self):
+        _translate = QtCore.QCoreApplication.translate
         self.searchLabel.setText(_translate("MainWindow",
                                             "<html><head/><body><p><span style=\" font-size:14pt; font-weight:600;\">Search Page</span></p></body></html>"))
-
-        # retranslate GuestScreen
         self.usernameLabel_3.setText(_translate("MainWindow", "username:"))
         self.passwordLabel_3.setText(_translate("MainWindow", "password:"))
         self.nameLabel_2.setText(_translate("MainWindow", "name:"))
@@ -404,55 +436,13 @@ class Ui_MainWindow(object):
         self.searchBtn.setText(_translate("MainWindow", "Search"))
         self.backBtn.setText(_translate("MainWindow", "Logout"))
 
-        # retranslate FanScreen
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.MainTab), _translate("MainWindow", "Main"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.searchPageTab), _translate("MainWindow", "searchPage"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.searchGameTab), _translate("MainWindow", "searchGame"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.complainTab), _translate("MainWindow", "complain"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.searchHistoryTab), _translate("MainWindow", "searchHistory"))
-        self.usernameLabelFan.setText(_translate("MainWindow", "username:"))
-        self.passwordLabelFan.setText(_translate("MainWindow", "password:"))
-        self.nameLabelFan.setText(_translate("MainWindow", "name:"))
-        self.birthDateLabelFan.setText(_translate("MainWindow", "birth date:"))
-        self.labelFan.setText(_translate("MainWindow",
-                                      "<html><head/><body><p><span style=\" font-size:14pt; font-weight:600;\">Edit your personal information</span></p></body></html>"))
-        self.saveInfoBtn.setText(_translate("MainWindow", "Save Info"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.editInfoTab), _translate("MainWindow", "editInfo"))
-        self.helloFanLabel.setText(_translate("MainWindow",
-                                              "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-weight:600;\">Hello Fan</span></p></body></html>"))
-        self.logoutBtn.setText(_translate("MainWindow", "Logout"))
-
-    def setGuestScreen(self):
-        self.stackedWidget.setCurrentIndex(1)
-
     def backToMain(self):
-        self.stackedWidget.setCurrentIndex(0)
-
-    def verifyLogin(self):
-        # from GUI.Ui_Fan import Ui_Form
-        # # need to check if username and password match in Users_DB
-        # self.window = QtWidgets.QWidget()
-        # self.ui = Ui_Form()
-        # self.ui.setupUi(self.window)
-        # self.ui.setName(self.usernameLineEdit.text())
-        # MainWindow.hide()
-        # self.window.show()
-        self.setName(self.usernameLineEdit.text())
-        self.stackedWidget.setCurrentIndex(2)
-
-    def setName(self, name):
-        self.helloFanLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-weight:600;\">Hello "+ name +"</span></p></body></html>")
-
-    def logOut(self):
-        self.stackedWidget.setCurrentIndex(0)
+        self.mainScreen = MainScreen()
+        self.mainScreen.show()
+        self.close()
 
 
-if __name__ == "__main__":
-    import sys
-
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    ex = MainScreen()
     sys.exit(app.exec_())
