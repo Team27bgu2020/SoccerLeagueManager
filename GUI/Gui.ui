@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="MainScreen">
      <widget class="QLabel" name="registerLabel">
@@ -380,7 +380,7 @@
         <x>190</x>
         <y>340</y>
         <width>151</width>
-        <height>80</height>
+        <height>61</height>
        </rect>
       </property>
       <layout class="QFormLayout" name="formLayout">
@@ -533,10 +533,107 @@
        <string>Register</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>194</x>
+        <y>410</y>
+        <width>141</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Search</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="FanScreen">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>541</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="MainTab">
+       <attribute name="title">
+        <string>Main</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="searchPageTab">
+       <attribute name="title">
+        <string>searchPage</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="searchGameTab">
+       <attribute name="title">
+        <string>searchGame</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="complainTab">
+       <attribute name="title">
+        <string>complain</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="searchHistoryTab">
+       <attribute name="title">
+        <string>searchHistory</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="editInfoTab">
+       <attribute name="title">
+        <string>editInfo</string>
+       </attribute>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="helloFanLabel">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>-5</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Hello Fan&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse</set>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>loginBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>helloFanLabel</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>114</x>
+     <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>284</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
