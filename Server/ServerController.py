@@ -44,7 +44,6 @@ def get_user_info(mess_info):
 
 def update_user_info(mess_info):
     """ Change implementation """
-    print(mess_info)
     return confirmation_massage()
 
 
