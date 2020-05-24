@@ -178,7 +178,7 @@ class TeamManagementController:
         team = self.get_team(team_name)
         if rem_owner not in team.owners:
             raise ValueError("doesnt have manager")
-        team.remove_team_manager(rem_owner)
+        team.remove_team_owner(rem_owner)
 
 
     """ Set stadium To team """

@@ -17,9 +17,9 @@ class Team:
         self.__past_games = []
         self.__leagues = {}
         self.__stadium = stadium
-        self.__owner = None
-        self.__manager = None
-        self.__additional_owner = None
+        self.__owners = []
+        self.__managers = []
+        # self.__additional_owner = None
         self.__is_open = True
         self.__budget_manager = TeamBudget()
 
@@ -117,6 +117,63 @@ class Team:
             self.__team_members.remove(team_member)
             team_member.team = None
 
+    """ This method adds a new team owner """
+
+    def add_team_owner(self, team_member):
+
+        if team_member in self.owners:
+            raise ValueError
+        if team_member.team is not None:
+            raise ValueError
+        self.__owners.append(team_member)
+        team_member.team = self
+
+    """ This method removes a team owner """
+
+    def remove_team_owner(self, team_member):
+        if len(self.__owners) == 1:
+            raise ValueError("Team Must have one Team Owner")
+
+        if team_member in self.owners:
+            self.__owners.remove(team_member)
+            team_member.team = None
+            self.cascade_remove(team_member)
+
+    def cascade_remove(self, team_member):
+
+        for player in self.team_members:
+            if player.role.assigned_by == team_member:
+                self.remove_team_member(player)
+        for manager in self.managers:
+            if manager.role.assigned_by == team_member:
+                self.remove_team_member(manager)
+        for owner in self.owners:
+            if owner.role.assigned_by == team_member:
+                self.remove_team_member(owner)
+
+    """ This method adds a new team manager """
+
+    def add_team_manager(self, team_member):
+
+        if team_member in self.managers:
+            raise ValueError
+        if team_member.team is not None:
+            raise ValueError
+        self.__managers.append(team_member)
+        team_member.team = self
+
+    """ This method removes a team manager """
+
+    def remove_team_manager(self, team_member):
+        if team_member in self.__managers:
+            self.__managers.remove(team_member)
+            team_member.team = None
+
+    """ This method set the assigned by value"""
+
+    def set_assigned_by(self, team_member, assigning_user):
+        team_member.role.assigned_by = assigning_user
+
     """ This method closes the team """
 
     def close_team(self):
@@ -177,6 +234,20 @@ class Team:
 
         return self.__team_members
 
+    """ team members getter """
+
+    @property
+    def owners(self):
+
+        return self.__owners
+
+    """ team members getter """
+
+    @property
+    def managers(self):
+
+        return self.__managers
+
     """ upcoming games getter """
 
     @property
@@ -207,17 +278,17 @@ class Team:
 
     """ Team Owner getter"""
 
-    @property
-    def owner(self):
-
-        return self.__owner
-
-    """ Team Manager getter"""
-
-    @property
-    def manager(self):
-
-        return self.__manager
+    # @property
+    # def owner(self):
+    #
+    #     return self.__owner
+    #
+    # """ Team Manager getter"""
+    #
+    # @property
+    # def manager(self):
+    #
+    #     return self.__manager
 
     """ Budget Controller getter"""
 
@@ -242,31 +313,31 @@ class Team:
 
     """ Manger setter """
 
-    @manager.setter
-    def manager(self, manager):
-
-        self.__manager = manager
-
-    """ Manger setter """
-
-    @owner.setter
-    def owner(self, owner):
-
-        self.__owner = owner
+    # @manager.setter
+    # def manager(self, manager):
+    #
+    #     self.__manager = manager
+    #
+    # """ Manger setter """
+    #
+    # @owner.setter
+    # def owner(self, owner):
+    #
+    #     self.__owner = owner
 
     """ This method checks if the teams are equal """
 
     """ Team Owner getter"""
 
-    @property
-    def additional_owner(self):
-
-        return self.__additional_owner
-
-    @additional_owner.setter
-    def additional_owner(self,additional_owner):
-
-         self.__additional_owner = additional_owner
+    # @property
+    # def additional_owner(self):
+    #
+    #     return self.__additional_owner
+    #
+    # @additional_owner.setter
+    # def additional_owner(self,additional_owner):
+    #
+    #      self.__additional_owner = additional_owner
 
     def __eq__(self, obj):
 
