@@ -19,7 +19,6 @@ class Team:
         self.__stadium = stadium
         self.__owners = []
         self.__managers = []
-        # self.__additional_owner = None
         self.__is_open = True
         self.__budget_manager = TeamBudget()
 
@@ -102,7 +101,6 @@ class Team:
     """ This method removes all the given team members """
 
     def remove_team_members(self, team_members):
-        # who can use it?
         if type(team_members) is not list:
             raise TypeError
 
@@ -112,7 +110,6 @@ class Team:
     """ This method removes a team member """
 
     def remove_team_member(self, team_member):
-        # who can use it?
         if team_member in self.__team_members:
             self.__team_members.remove(team_member)
             team_member.team = None
@@ -202,6 +199,10 @@ class Team:
     def notify_team_members(self, notification):
         for team_member in self.team_members:
             team_member.notify(notification)
+        for team_manager in self.managers:
+            team_manager.notify(notification)
+        for team_owner in self.owners:
+            team_owner.notify(notification)
 
     """ Get expanses"""
 
