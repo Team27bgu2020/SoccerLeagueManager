@@ -1,6 +1,5 @@
 """Oscar"""
 from Domain.TeamManager import TeamManager
-from DataBases.TeamDB import TeamDB
 from Domain import TeamUser
 from Domain.Role import Role
 from Domain.Team import Team
