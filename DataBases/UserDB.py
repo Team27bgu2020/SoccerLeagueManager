@@ -73,3 +73,7 @@ class UserDB:
         if dict1_cond is None:
             return 0
         return len(dict1_cond)
+
+    def is_in_data(self, ip):
+        return ip in self.__guests.keys()
+
