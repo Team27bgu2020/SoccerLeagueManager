@@ -7,6 +7,7 @@ class Logger:
 
     __logging = None
 
+#נךשנש
     @staticmethod
     def get_instance():
 
