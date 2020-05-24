@@ -23,7 +23,7 @@ class Logger:
 
     @staticmethod
     def start_logger(log_file_path):
-        logging.basicConfig(filename=log_file_path, format='%(asctime)s %(message)s')
+        logging.basicConfig(filename=log_file_path, format="%(levelname)s %(asctime)s %(message)s")
         Logger.__logging = logging.getLogger('main')
         Logger.__logging.setLevel(logging.DEBUG)
 
@@ -59,3 +59,6 @@ class Logger:
             raise Exception('Logger not initiated')
         Logger.__logging.critical('Critical: ' + message)
 
+
+logger =Logger.get_instance()
+logger.start_logger
