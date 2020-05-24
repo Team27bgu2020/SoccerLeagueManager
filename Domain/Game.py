@@ -1,5 +1,6 @@
 import datetime as date
 from Domain.Team import Team
+from Service.Logger import *
 # from Domain.ClassesTypeCheckImports import *
 """ Dor """
 
@@ -13,8 +14,8 @@ class Game:
 
         self.home_team = home_team
         self.away_team = away_team
-        self.match_time = match_time
-        self.field = field
+        self.__match_time = match_time
+        self.__field = field
 
         self.__home_score = 0
         self.__away_score = 0
@@ -24,6 +25,8 @@ class Game:
 
         self.__is_game_on = False
         self.__is_game_finished = False
+
+        self.fan_following = []
 
     @property
     def is_game_finished(self):
@@ -117,6 +120,8 @@ class Game:
 
         self.__match_time = match_time
 
+        self.notify_referees('Game date and time changed to {}'.format(match_time))
+
     """ Setter for game field """
 
     @field.setter
@@ -126,6 +131,8 @@ class Game:
             raise TypeError
 
         self.__field = field
+
+        self.notify_referees('Game location changed to {} field'.format(field))
 
     """ Setter for home team """
 
@@ -141,6 +148,28 @@ class Game:
 
         self.__away_team = away_team
 
+    """ Add follower to the game"""
+    def add_follower(self, fan):
+        self.fan_following.append(fan)
+
+    """ Remove follower from the game"""
+    def remove_follower(self, fan):
+        if fan not in self.fan_following:
+            raise ValueError("Fan is not following the game")
+        self.fan_following.remove(fan)
+
+    """ Notify all followers about game notification """
+    def notify_followers(self, notification):
+        for follower in self.fan_following:
+            follower.notify(notification)
+
+    """ Notify referees about given notification """
+    def notify_referees(self, notification):
+        for referee in self.referees:
+            referee.notify(notification)
+
+        self.main_referee.notify(notification)
+
     """ This method adds a referee to the game """
 
     def add_referee(self, referee):
@@ -150,12 +179,20 @@ class Game:
 
         self.__referees.append(referee)
 
+        self.notify_followers(
+            '{} added as a referee to {}-{} game'.format(referee.name, self.home_team.name, self.away_team.name)
+        )
+
     """ This method remove the given referee from the game """
 
     def remove_referee(self, referee):
 
         if referee in self.__referees:
             self.__referees.remove(referee)
+
+        self.notify_followers(
+            '{} removed as a referee from {}-{} game'.format(referee.name, self.home_team.name, self.away_team.name)
+        )
 
     """ This method adds a game event to the event list """
 
@@ -169,6 +206,10 @@ class Game:
             raise ValueError
 
         self.__events.append(event)
+
+        self.notify_followers(
+            '{} just added as game event by referee {}'.format(event.event_type, ref.name)
+        )
 
     """ This method removes a game event from the event list """
 

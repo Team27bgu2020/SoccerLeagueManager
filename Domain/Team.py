@@ -122,12 +122,14 @@ class Team:
     def close_team(self):
 
         self.__is_open = False
+        self.notify_team_members("Team {} is now closed".format(self.name))
 
     """ This method opens the team """
 
     def open_team(self):
 
         self.__is_open = True
+        self.notify_team_members("Team {} is now reopened".format(self.name))
 
     """ Add expanse"""
 
@@ -138,6 +140,11 @@ class Team:
 
     def add_income(self, amount, description):
         self.__budget_manager.add_income(amount, description)
+
+    """ Notify team members with a certain notification """
+    def notify_team_members(self, notification):
+        for team_member in self.team_members:
+            team_member.notify(notification)
 
     """ Get expanses"""
 

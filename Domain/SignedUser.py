@@ -13,6 +13,7 @@ class SignedUser(User):
         self.name = name
         self.password = password
         self.user_name = user_name
+        self.notifications = []
         super().__init__(ip_address, user_id)
 
     """ Edit the personal data of the user """
@@ -44,7 +45,7 @@ class SignedUser(User):
     @name.setter
     def name(self, name: str):
         if not str.isalpha(name) or len(name) < 2:
-            raise ValueError
+            raise ValueError('Name cant contain numbers and has to be longer than 2 letters')
         self.__name = name
 
     """ Getter for user_name field """
@@ -70,3 +71,7 @@ class SignedUser(User):
         if len(password) < 3:
             raise ValueError("Password is less then 3 characters")
         self.__password = password
+
+    """ add notification to user """
+    def notify(self, notification: str):
+        self.notifications.append(notification)

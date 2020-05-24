@@ -78,7 +78,7 @@ class UnionOrganization:
         if amount <= 0:
             raise ValueError
         if amount > self.__balance:
-            raise ValueError
+            self.notify_employees("Union budget is negative.")
         self.__expanses.append((description, amount))
         self.__balance -= amount
 
@@ -86,3 +86,8 @@ class UnionOrganization:
 
     def is_team_in_union(self, team):
         return team in self.__teams_in_union
+
+    """ Notify all employees about given notification"""
+    def notify_employees(self, notification):
+        for employee in self.employees:
+            employee.notify(notification)
