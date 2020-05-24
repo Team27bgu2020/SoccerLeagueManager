@@ -85,109 +85,101 @@ class TeamManagementController:
 
     """Delete team a list members from a team"""
 
-    # test:test_add_team_member_to_team
-
     def remove_team_members_from_team(self, team_name: str, team_members: list):
         team = self.get_team(team_name)
         team.remove_team_members(team_members)
 
-    """ Get team manager """
+    """ Get team managers """
 
-    # test:test_get_set_remove_team|_manager
-
-    def get_team_manager(self, team_name: str):
+    def get_team_managers(self, team_name: str):
         team = self.get_team(team_name)
-        return team.manager
+        return team.managers
 
-    """ Set Manager To team """
+    """ Add Manager To team """
 
-    # test:test_get_set_remove_team_manager
-
-    def set_manager_to_team(self, team_name: str, manager: TeamUser):
+    def add_manager_to_team(self, team_name: str, manager: TeamUser):
 
         team = self.get_team(team_name)
-        if team.manager is not None:
-            raise ValueError("already has manager")
-        if manager.role is not None:
-            raise ValueError("Couldn't be set as manager")
-        manager.role = TeamManager()
-        team.manager = manager
+        if manager in team.managers:
+            raise ValueError("Already exist in team")
+        team.add_team_manager(manager)
 
     """ Remove Manager from team """
 
-    # test:test_get_set_remove_team_manager
-
-    def remove_manager_from_team(self, team_name: str):
+    def remove_manager_from_team(self, team_name: str, manager: TeamUser):
         team = self.get_team(team_name)
-        if team.manager is None:
+        if manager not in team.managers:
             raise ValueError("doesnt have manager")
-        team.manager.team = None
-        team.manager.role = None
-        team.manager = None
+        team.remove_team_manager(manager)
 
 
-    """ Get team owner """
+    """ Get team owners """
 
     # test:test_get_set_remove_team_owner
 
-    def get_team_owner(self, team_name: str):
+    def get_team_owners(self, team_name: str):
         team = self.get_team(team_name)
-        return team.owner
-
-    """ Get team owner """
-
-    # test:test_get_set_remove_team_owner
-
-    def get_add_team_owner(self, team_name: str):
-        team = self.get_team(team_name)
-        return team.additional_owner
-
-    """ Set Owner To team """
-
-    # test:test_get_set_remove_team_owner
-
-    def set_owner_to_team(self, team_name: str, owner: TeamUser):
-        team = self.get_team(team_name)
-        team.owner = owner
+        return team.owners
 
     """ Add role player to Owner  """
 
-    def add_role_to_owner(self, owner: TeamUser, role: Role):
-        owner.role.add_role(role)
+    def add_role_player_to_owner(self, owner: TeamUser, role: Role):
+        if owner.role.role_player is not None:
+            raise ValueError("already has role player")
+        owner.role.role_player = role
 
     """ remove role from owner  """
+    def remove_role_player_from_owner(self, owner: TeamUser):
+        if owner.role.role_player is None:
+            raise ValueError("Owner dont Have player role")
+        owner.role.role_player = None
 
-    def remove_role_from_owner(self, owner: TeamUser, role: Role):
-        owner.role.remove_role(role)
+    """ Add role coach to Owner  """
+
+    def add_role_coach_to_owner(self, owner: TeamUser, role: Role):
+        if owner.role.role_coach is not None:
+            raise ValueError("already has role coach")
+        owner.role.role_coach = role
+
+    """ remove coach from owner  """
+
+    def remove_role_coach_from_owner(self, owner: TeamUser):
+        if owner.role.role_coach is None:
+            raise ValueError("Owner dont Have player role")
+        owner.role.role_coach = None
+
+    """ Add manager role player to Owner  """
+
+    def add_role_manager_to_owner(self, owner: TeamUser, role: Role):
+        if owner.role.role_manager is not None:
+            raise ValueError("Owner already has manager role ")
+        owner.role.role_manager = role
+
+    """ remove manager role from owner  """
+
+    def remove_role_from_owner(self, owner: TeamUser):
+        if owner.role.role_manager is None:
+            raise ValueError("Owner dont Have  manager role")
+        owner.role.role_manager = None
 
     """ Remove Owner from team, By UC 6.3! """
     """ This function removing assigned team owner by the owner and removing his roles"""
     """Talk with OSCAR"""
 
-    # test:test_get_set_remove_team_owner
+    """ Add Owner To team """
+
+    def add_owner_to_team(self, team_name: str, owner: TeamUser):
+        team = self.get_team(team_name)
+        if owner in team.owners:
+            raise ValueError("Already exist in team")
+        team.add_team_owner(owner)
 
     def remove_owner_from_team(self, team_name: str, rem_owner: TeamUser):
-        rem_owner.role.remove_roles()
         team = self.get_team(team_name)
-        team.owner = None
-
-    def set__additional_owner_from_team(self, team_name: str, additional_owner: TeamUser):
-        team = self.get_team(team_name)
-        if team.additional_owner is not None:
-            raise ValueError("already has manager")
-        if additional_owner.role is not None:
-            raise ValueError("Couldn't be set as additional owner")
-        team.additional_owner = additional_owner
-        team.additional_owner.role = TeamOwner()
-
-    def remove_additional_owner_from_team(self, team_name: str, rem_owner: TeamUser):
-        team = self.get_team(team_name)
-        if team.additional_owner is None:
+        if rem_owner not in team.owners:
             raise ValueError("doesnt have manager")
-        rem_owner.role.remove_roles()
-        team.additional_owner.team = None
-        team.additional_owner.role = None
-        team.additional_owner = None
+        team.remove_team_manager(rem_owner)
+
 
     """ Set stadium To team """
 
