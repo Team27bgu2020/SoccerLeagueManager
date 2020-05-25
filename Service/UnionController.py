@@ -1,5 +1,6 @@
 from Domain.UnionOrganization import UnionOrganization
 # from Service import Logger
+from Log.Logger import *
 
 
 class UnionController:
@@ -8,22 +9,34 @@ class UnionController:
     def __init__(self, union_organization, registration_fee=1000):
         self.__union_organization = union_organization
         self.registration_fee = registration_fee
+        Logger.start_logger()
 
     """ Collects registration_fee amount of money from each team balance, adds it to UnionOrganization balance 
     and update incomes accordingly"""
     def collect_registration_fee(self):
-        for team in self.__union_organization.teams_in_union:
-            if team.add_expanse(self.__registration_fee, "Union registration fee"):
-                self.__union_organization.\
-                    add_income(self.__registration_fee, 'registration_fee from {} team'.format(team.name))
-            else:
-                self.__union_organization.remove_team_from_union(team)
+        try:
+            for team in self.__union_organization.teams_in_union:
+                if team.add_expanse(self.__registration_fee, "Union registration fee"):
+                    self.__union_organization.\
+                        add_income(self.__registration_fee, 'registration_fee from {} team'.format(team.name))
+                    Logger.info_log("Team {0} paid registration fee".format(team.name))
+                else:
+                    self.__union_organization.remove_team_from_union(team)
+                    Logger.info_log("Team {0} have not paid registration fee was removed from union".format(team.name))
+        except Exception as err:
+            Logger.error_log(err.__str__())
+            raise err
 
     """ Reduce (num of employees)*(Their salary) money from the union organization balance 
     and adds expanses accordingly """
     def pay_employees(self):
-        for employee in self.__union_organization.employees:
-            self.__union_organization.add_expense(employee.salary, "Salary for {} employee".format(employee.name))
+        try:
+            for employee in self.__union_organization.employees:
+                self.__union_organization.add_expense(employee.salary, "Salary for {} employee".format(employee.name))
+            Logger.info_log("Employees were paid")
+        except Exception as err:
+            Logger.error_log("Error while paying employees")
+            raise Exception("Error while paying employees")
 
     """ Add expanse in the given amount and with the given description to union organization """
     def add_expense(self, amount: int, description: str):

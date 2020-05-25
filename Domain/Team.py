@@ -81,7 +81,7 @@ class Team:
     def add_team_members(self, team_members):
 
         if type(team_members) is not list:
-            raise TypeError
+            raise TypeError("Should receive list of users")
 
         for team_member in team_members:
             self.__team_members.append(team_member)
@@ -92,9 +92,9 @@ class Team:
     def add_team_member(self, team_member):
 
         if team_member in self.__team_members:
-            raise ValueError
+            raise ValueError("Team member already exists")
         if team_member.team is not None:
-            raise ValueError
+            raise ValueError("Team member already has team")
         self.__team_members.append(team_member)
         team_member.team = self
 
@@ -286,18 +286,6 @@ class Team:
 
     """ Team Owner getter"""
 
-    # @property
-    # def owner(self):
-    #
-    #     return self.__owner
-    #
-    # """ Team Manager getter"""
-    #
-    # @property
-    # def manager(self):
-    #
-    #     return self.__manager
-
     """ Budget Controller getter"""
 
     @property
@@ -318,34 +306,6 @@ class Team:
     def stadium(self, stadium):
 
         self.__stadium = stadium
-
-    """ Manger setter """
-
-    # @manager.setter
-    # def manager(self, manager):
-    #
-    #     self.__manager = manager
-    #
-    # """ Manger setter """
-    #
-    # @owner.setter
-    # def owner(self, owner):
-    #
-    #     self.__owner = owner
-
-    """ This method checks if the teams are equal """
-
-    """ Team Owner getter"""
-
-    # @property
-    # def additional_owner(self):
-    #
-    #     return self.__additional_owner
-    #
-    # @additional_owner.setter
-    # def additional_owner(self,additional_owner):
-    #
-    #      self.__additional_owner = additional_owner
 
     def __eq__(self, obj):
 
