@@ -21,16 +21,19 @@ import datetime as date
 """ This class is the controller that connects the server to the Domain """
 
 signed_user_controller = SignedUserController(UserDB())
-signed_user_controller.add_signed_user('dor', '1234', 'dor', date.datetime(1994, 1, 20), '0.0.0.0')
+signed_user_controller.add_fan_to_data('dor', '1234', 'dor', date.datetime(1994, 1, 20), '0.0.0.0')
 
 
 def user_login(mess_info):
     user_name = mess_info['data']['user_name']
     password = mess_info['data']['password']
     if not signed_user_controller.confirm_user(user_name, password):
-        return error_mess()
+        return 'Error'
     else:
-        return confirmation_massage()
+        return {
+                    'user_name': user_name,
+                    'user_type': str(type(signed_user_controller.get_user(user_name))).split('.')[1]
+                }
 
 
 def get_user_info(mess_info):
