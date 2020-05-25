@@ -10,6 +10,3 @@ class SystemAdmin(SignedUser):
 
     def __init__(self, user_name, password, name, birth_date, ip_address, user_id):
         super(SystemAdmin, self).__init__(user_name, password, name, birth_date, ip_address, user_id)
-
-
-

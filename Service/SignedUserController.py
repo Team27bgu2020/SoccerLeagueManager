@@ -179,8 +179,8 @@ class SignedUserController:
 
     def add_referee_to_data(self, qualification, user_name, password, name, birth_date, ip_address):
         self.__ID = self.__ID + 1
-        r = Referee(qualification, user_name, password, name, birth_date, ip_address, self.__ID)
-        self.add_user(r)
+        referee_user = Referee(qualification, user_name, password, name, birth_date, ip_address, self.__ID)
+        self.add_user(referee_user)
 
     def number_of_admins(self):
         """
