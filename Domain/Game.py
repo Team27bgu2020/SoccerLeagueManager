@@ -1,6 +1,6 @@
 import datetime as date
 from Domain.Team import Team
-from Service.Logger import *
+
 # from Domain.ClassesTypeCheckImports import *
 """ Dor """
 
