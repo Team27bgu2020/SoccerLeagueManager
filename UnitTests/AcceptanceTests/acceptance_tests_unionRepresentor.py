@@ -104,7 +104,6 @@ class AcceptanceTestsUnionRepresentor(TestCase):
         self.assertEqual(0, organization.balance)
         # wrong value
         self.assertRaises(ValueError, union_controller.add_expense, -10000, '')
-        self.assertRaises(ValueError, union_controller.add_expense, 10000, '')
 
         self.assertIn(t2, organization.teams_in_union)
         union_controller.collect_registration_fee()

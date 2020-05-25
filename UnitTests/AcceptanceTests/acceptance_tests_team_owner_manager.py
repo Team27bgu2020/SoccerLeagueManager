@@ -59,7 +59,7 @@ class AcceptanceTestsOwnerManager(TestCase):
 
     def test_add_team_member_to_team(self):
         # acceptance
-        test_team = self.control.get_team("Barca")
+        test_team = self.control.get_team("Barca", None)
         # add player
         self.control.add_team_member_to_team("Barca", self.p1)
         self.assertTrue(self.p1 in test_team.team_members)
@@ -90,7 +90,7 @@ class AcceptanceTestsOwnerManager(TestCase):
         self.control.set_qualification_to_player(self.p1, "9")
         self.assertTrue(self.p1.role.qualification == "9")
         self.control.set_stadium_to_team("Barca", "Camp")
-        self.assertTrue(self.control.get_team("Barca").stadium == "Camp")
+        self.assertTrue(self.control.get_team("Barca", None).stadium == "Camp")
         # Message presented
 
         # not acceptance
@@ -106,21 +106,21 @@ class AcceptanceTestsOwnerManager(TestCase):
         # add player
         self.control.add_team_member_to_team("Barca", self.p2)
         # preparation for UC
-        self.assertTrue(self.p2 in self.control.get_team("Barca").team_members)
+        self.assertTrue(self.p2 in self.control.get_team("Barca", None).team_members)
         # owner goes to remove member
         # Gui Ask if he is sure
         # owner agree ,remove player
         self.control.remove_team_member_from_team("Barca", self.p2)
-        self.assertFalse(self.p2 in self.control.get_team("Barca").team_members)
+        self.assertFalse(self.p2 in self.control.get_team("Barca", None).team_members)
 
         # not acceptance
         self.control.add_team_member_to_team("Barca", self.p2)
         # preparation for UC
-        self.assertTrue(self.p2 in self.control.get_team("Barca").team_members)
+        self.assertTrue(self.p2 in self.control.get_team("Barca", None).team_members)
         # owner goes to remove member
         # Gui Ask if he is sure
         # owner disagree
-        self.assertTrue(self.p2 in self.control.get_team("Barca").team_members)
+        self.assertTrue(self.p2 in self.control.get_team("Barca", None).team_members)
         # nothing happens
 
     # UC 6.2 add Set team additional owner
@@ -181,7 +181,7 @@ class AcceptanceTestsOwnerManager(TestCase):
     # UC 6.6.1 Close Team
     def test_close_team_acceptance(self):
         # Owner chose close team
-        test_team = self.control.get_team("Barca")
+        test_team = self.control.get_team("Barca", None)
         self.assertTrue(test_team.is_open)
         # chose option to close
         # GUI ask if you sure
@@ -192,7 +192,7 @@ class AcceptanceTestsOwnerManager(TestCase):
 
     def test_close_team_not_acceptance(self):
         # Owner chose  close team
-        test_team = self.control.get_team("Barca")
+        test_team = self.control.get_team("Barca", None)
         self.assertTrue(test_team.is_open)
         # chose option to close
         # GUI ask if you sure
@@ -205,7 +205,7 @@ class AcceptanceTestsOwnerManager(TestCase):
         # prepertion
         self.control.close_team("Barca")
         # Owner open  close team
-        test_team = self.control.get_team("Barca")
+        test_team = self.control.get_team("Barca", None)
         self.assertFalse(test_team.is_open)
         # chose option to open
         # GUI ask if you sure
@@ -218,7 +218,7 @@ class AcceptanceTestsOwnerManager(TestCase):
         # prepertion
         self.control.close_team("Barca")
         # Owner open  close team
-        test_team = self.control.get_team("Barca")
+        test_team = self.control.get_team("Barca", None)
         self.assertFalse(test_team.is_open)
         # chose option to open
         # GUI ask if you sure
