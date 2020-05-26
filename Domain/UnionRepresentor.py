@@ -14,6 +14,6 @@ class UnionRepresentor(SignedUser):
     @salary.setter
     def salary(self, salary):
         if salary < 0:
-            raise ValueError
+            raise ValueError('Salary cant be a negative number')
 
         self.__salary = salary
