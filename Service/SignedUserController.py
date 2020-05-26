@@ -1,12 +1,17 @@
 import hashlib
 from typing import Any
 
+from Domain.Coach import Coach
 from Domain.Fan import Fan
+from Domain.Player import Player
 from Domain.Referee import Referee
 from Domain.SystemAdmin import SystemAdmin
 from Domain.SignedUser import SignedUser
 from Domain.Guest import Guest
 from DataBases.UserDB import UserDB
+from Domain.TeamManager import TeamManager
+from Domain.TeamOwner import TeamOwner
+from Domain.TeamUser import TeamUser
 
 """ Created By Roman"""
 
@@ -184,6 +189,31 @@ class SignedUserController:
         self.__ID = self.__ID + 1
         referee_user = Referee(qualification, user_name, password, name, birth_date, ip_address, self.__ID)
         self.add_user(referee_user)
+
+    def add_team_owner_to_data(self, user_name, password, name, birth_date, ip_address, assigned_by=None, roles=None, team=None):
+        self.__ID = self.__ID + 1
+        team_owner = TeamOwner(assigned_by, roles)
+        team_user = TeamUser(user_name, password, name, birth_date, ip_address, self.__ID, team, team_owner)
+        self.add_user(team_user)
+
+    def add_team_manager_to_data(self, user_name, password, name, birth_date, ip_address, assigned_by=None, bool_open_close=False, bool_accounting=False, bool_add_remove=False,
+                 bool_set_permission=False, team=None):
+        self.__ID = self.__ID + 1
+        team_manager = TeamManager(assigned_by, bool_open_close, bool_accounting, bool_add_remove, bool_set_permission)
+        team_user = TeamUser(user_name, password, name, birth_date, ip_address, self.__ID, team, team_manager)
+        self.add_user(team_user)
+
+    def add_coach_to_data(self, user_name, password, name, birth_date, ip_address, assigned_by=None, qualification: str=None, team=None):
+        self.__ID = self.__ID + 1
+        coach = Coach(assigned_by, qualification)
+        team_user = TeamUser(user_name, password, name, birth_date, ip_address, self.__ID, team, coach)
+        self.add_user(team_user)
+
+    def add_player_to_data(self, user_name, password, name, birth_date, ip_address, assigned_by=None, position:  str = None, number=0, team=None):
+        self.__ID = self.__ID + 1
+        player = Player(assigned_by, position, number)
+        team_user = TeamUser(user_name, password, name, birth_date, ip_address, self.__ID, team, player)
+        self.add_user(team_user)
 
     def number_of_admins(self):
         """
