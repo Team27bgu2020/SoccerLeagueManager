@@ -25,9 +25,8 @@ import datetime as date
 signed_user_controller = SignedUserController(UserDB())
 notification_controller = NotificationController()
 signed_user_controller.add_fan_to_data('dor', '1234', 'dor', date.datetime(1994, 1, 20), '0.0.0.0')
-
-
 # signed_user_controller.add_system_admin('idan', '1234', 'idan', date.datetime(1994, 1, 20), '0.0.0.0')
+signed_user_controller.add_guest('0.0.0.0')
 
 
 def user_login(mess_info):
@@ -63,14 +62,6 @@ def user_register(mess_info):
         return 'Error'
 
 
-def guest_login(mess_info):
-    signed_user_controller.add_guest('0.0.0.0')
-    return {
-        'user_name': 'Guest',
-        'user_type': 'Guest'
-    }
-
-
 def get_user_info(mess_info):
     """ Change implementation """
     return {
@@ -94,7 +85,7 @@ def get_user_notifications(mess_info):
                     'user_notifications': notification_controller.check_user_notifications(user)
             }
     except Exception as err:
-        return err
+        return 'Error'
 
 
 """ dictionary of all the handle functions - add your function to the dictionary """
@@ -103,8 +94,7 @@ handle_functions = {
                     'update_user_info': update_user_info,
                     'user_login': user_login,
                     'get_user_notifications': get_user_notifications,
-                    'user_register': user_register,
-                    'guest_login': guest_login
+                    'user_register': user_register
                 }
 
 
