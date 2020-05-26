@@ -1,65 +1,60 @@
 import logging
 
 
-class Logger:
-
+class ErrorLogger:
     __logger = None
 
     __logging = None
 
-#נךשנש
     @staticmethod
     def get_instance():
 
-        if Logger.__logger is None:
-            Logger()
-        return Logger.__logger
+        if ErrorLogger.__logger is None:
+            ErrorLogger()
+        return ErrorLogger.__logger
 
     def __init__(self):
 
-        if Logger.__logger is not None:
+        if ErrorLogger.__logger is not None:
             raise Exception("Unauthorized access to Logger constructor")
         else:
-            Logger.__logger = self
+            ErrorLogger.__logger = self
 
-    @staticmethod
-    def start_logger(log_file_path):
+    def start_logger(log_file_path = "..\\..\\Log\\Error_Log.txt"):
         logging.basicConfig(filename=log_file_path, format="%(levelname)s %(asctime)s %(message)s")
-        Logger.__logging = logging.getLogger('main')
-        Logger.__logging.setLevel(logging.DEBUG)
+        ErrorLogger.__logging = logging.getLogger('main')
+        ErrorLogger.__logging.setLevel(logging.DEBUG)
 
     """ Adds a information log to the log file with the given message"""
 
     @staticmethod
     def info_log(message: str):
-        if Logger.__logging is None:
+        if ErrorLogger.__logging is None:
             raise Exception('Logger not initiated')
-        Logger.__logging.info('Info: ' + message)
+        ErrorLogger.__logging.info('Info: ' + message)
 
     """ Adds a warning log to the log file with the given message"""
 
     @staticmethod
     def warning_log(message: str):
-        if Logger.__logging is None:
+        if ErrorLogger.__logging is None:
             raise Exception('Logger not initiated')
-        Logger.__logging.warning('Warning: ' + message)
+        ErrorLogger.__logging.warning('Warning: ' + message)
 
     """ Adds a error log to the log file with the given message"""
 
     @staticmethod
     def error_log(message: str):
-        if Logger.__logging is None:
+        if ErrorLogger.__logging is None:
             raise Exception('Logger not initiated')
-        Logger.__logging.error('Error: ' + message)
+        ErrorLogger.__logging.error('Error: ' + message)
 
     """ Adds a critical event log to the log file with the given message"""
 
     @staticmethod
     def critical_log(message: str):
-        if Logger.__logging is None:
+        if ErrorLogger.__logging is None:
             raise Exception('Logger not initiated')
-        Logger.__logging.critical('Critical: ' + message)
+        ErrorLogger.__logging.critical('Critical: ' + message)
 
 
-logger =Logger.get_instance()
-logger.start_logger

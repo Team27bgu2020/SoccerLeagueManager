@@ -57,7 +57,7 @@ class Team:
             try:
                 self.add_game(game)
             except ValueError as err:
-                exception = exception + err + '\n'
+                exception = exception + str(err) + '\n'
 
         if exception is not '':
             raise ValueError(exception)
@@ -104,7 +104,7 @@ class Team:
                 self.__team_members.append(team_member)
                 team_member.team = self
             except ValueError as err:
-                exception = exception + err + '\n'
+                exception = exception + str(err) + '\n'
 
         if exception is not '':
             raise ValueError(exception)
@@ -132,7 +132,7 @@ class Team:
             try:
                 self.remove_team_member(team_member)
             except ValueError as err:
-                exception = exception + err + '\n'
+                exception = exception + str(err) + '\n'
 
         if exception is not '':
             raise ValueError(exception)
@@ -181,19 +181,19 @@ class Team:
                 try:
                     self.remove_team_member(player)
                 except ValueError as err:
-                    exception = exception + err + '\n'
+                    exception = exception + str(err) + '\n'
         for manager in self.managers:
             if manager.role.assigned_by == team_member:
                 try:
                     self.remove_team_member(manager)
                 except ValueError as err:
-                    exception = exception + err + '\n'
+                    exception = exception + str(err) + '\n'
         for owner in self.owners:
             if owner.role.assigned_by == team_member:
                 try:
                     self.remove_team_member(owner)
                 except ValueError as err:
-                    exception = exception + err + '\n'
+                    exception = exception + str(err) + '\n'
 
         if exception is not '':
             raise Exception(exception)

@@ -1,0 +1,120 @@
+INFO 2020-05-24 22:22:52,911 Info: try
+INFO 2020-05-24 22:22:52,916 Info: Team barca created
+ERROR 2020-05-24 22:22:52,916 Error: Team barca alredy Exist
+INFO 2020-05-24 22:23:11,336 Info: try
+INFO 2020-05-24 22:23:21,878 Info: Team barca created
+ERROR 2020-05-24 22:23:34,291 Error: Team barca alredy Exist
+INFO 2020-05-24 22:24:41,856 Info: try
+INFO 2020-05-24 22:24:41,859 Info: Team barca created
+ERROR 2020-05-24 22:24:41,859 Error: Team barca alredy Exist
+INFO 2020-05-24 22:26:30,145 Info: try
+INFO 2020-05-24 22:26:30,145 Info: Team barca created
+ERROR 2020-05-24 22:26:30,145 Error: Team barca alredy Exist
+INFO 2020-05-24 22:26:30,149 Info: Team barca created
+ERROR 2020-05-24 22:26:30,149 Error: Team barca alredy Exist
+INFO 2020-05-24 22:27:02,406 Info: try
+INFO 2020-05-24 22:27:26,065 Info: Team barca created
+ERROR 2020-05-24 22:27:26,065 Error: Team barca alredy Exist
+INFO 2020-05-24 22:28:27,052 Info: try
+INFO 2020-05-24 22:28:27,052 Info: Team barca created
+ERROR 2020-05-24 22:28:27,052 Error: Team barca alredy Exist
+INFO 2020-05-24 22:28:27,056 Info: Team barca created
+ERROR 2020-05-24 22:28:27,056 Error: Team barca alredy Exist
+INFO 2020-05-24 22:28:49,843 Info: try
+INFO 2020-05-24 22:28:49,843 Info: Team barca created
+ERROR 2020-05-24 22:28:49,843 Error: Team barca alredy Exist
+INFO 2020-05-24 22:28:49,846 Info: Team barca created
+ERROR 2020-05-24 22:28:49,846 Error: Team barca alredy Exist
+INFO 2020-05-24 22:29:04,592 Info: try
+INFO 2020-05-24 22:29:04,593 Info: Team barca created
+ERROR 2020-05-24 22:29:04,593 Error: Team barca alredy Exist
+INFO 2020-05-24 22:29:04,595 Info: Team barca created
+ERROR 2020-05-24 22:29:04,595 Error: Team barca alredy Exist
+INFO 2020-05-24 22:29:18,827 Info: try
+INFO 2020-05-24 22:29:18,827 Info: Team barca created
+ERROR 2020-05-24 22:29:18,828 Error: Team barca alredy Exist
+INFO 2020-05-24 22:29:18,830 Info: Team barca created
+ERROR 2020-05-24 22:29:18,830 Error: Team barca alredy Exist
+INFO 2020-05-24 22:42:26,822 Info: try
+INFO 2020-05-24 22:42:26,823 Info: Team  created
+INFO 2020-05-24 22:42:26,823 Info: Team barca created
+ERROR 2020-05-24 22:42:26,823 Error: Team barca alredy Exist
+INFO 2020-05-24 22:42:26,826 Info: Team barca created
+ERROR 2020-05-24 22:42:26,826 Error: Team barca alredy Exist
+INFO 2020-05-24 22:42:42,890 Info: try
+INFO 2020-05-24 22:42:42,890 Info: Team  created
+INFO 2020-05-24 22:42:42,890 Info: Team barca created
+ERROR 2020-05-24 22:42:42,890 Error: Team barca alredy Exist
+INFO 2020-05-24 22:42:42,894 Info: Team barca created
+ERROR 2020-05-24 22:42:42,894 Error: Team barca alredy Exist
+INFO 2020-05-24 22:42:45,314 Info: try
+INFO 2020-05-24 22:42:45,314 Info: Team  created
+INFO 2020-05-24 22:42:45,315 Info: Team barca created
+ERROR 2020-05-24 22:42:45,315 Error: Team barca alredy Exist
+INFO 2020-05-24 22:42:45,318 Info: Team barca created
+ERROR 2020-05-24 22:42:45,318 Error: Team barca alredy Exist
+INFO 2020-05-24 22:42:46,437 Info: try
+INFO 2020-05-24 22:42:46,437 Info: Team  created
+INFO 2020-05-24 22:42:46,437 Info: Team barca created
+ERROR 2020-05-24 22:42:46,437 Error: Team barca alredy Exist
+INFO 2020-05-24 22:42:46,441 Info: Team barca created
+ERROR 2020-05-24 22:42:46,441 Error: Team barca alredy Exist
+INFO 2020-05-24 22:43:03,515 Info: try
+INFO 2020-05-24 22:43:29,122 Info: try
+INFO 2020-05-24 22:43:35,628 Info: Team  created
+INFO 2020-05-24 22:43:37,509 Info: Team barca created
+ERROR 2020-05-24 22:43:37,509 Error: Team barca alredy Exist
+INFO 2020-05-24 22:43:40,035 Info: Team barca created
+ERROR 2020-05-24 22:43:40,035 Error: Team barca alredy Exist
+INFO 2020-05-25 11:25:01,033 Info: try
+INFO 2020-05-25 11:26:00,099 Info: Team  created
+INFO 2020-05-25 11:26:01,330 Info: Team barca created
+ERROR 2020-05-25 11:26:01,330 Error: Team barca alredy Exist
+INFO 2020-05-25 11:26:02,542 Info: Team barca created
+ERROR 2020-05-25 11:26:02,542 Error: Team barca alredy Exist
+INFO 2020-05-25 11:26:08,660 Info: try
+INFO 2020-05-25 11:26:08,660 Info: Team  created
+INFO 2020-05-25 11:26:08,660 Info: Team barca created
+ERROR 2020-05-25 11:26:08,661 Error: Team barca alredy Exist
+INFO 2020-05-25 11:26:08,663 Info: Team barca created
+ERROR 2020-05-25 11:26:08,663 Error: Team barca alredy Exist
+INFO 2020-05-25 11:41:41,453 Info: try
+INFO 2020-05-25 11:41:48,871 Info: Team  created
+INFO 2020-05-25 11:44:48,691 Info: Team barca created
+ERROR 2020-05-25 11:45:16,277 Error: Team barca alredy Exist
+INFO 2020-05-25 11:45:18,012 Info: Team barca created
+ERROR 2020-05-25 11:45:18,499 Error: Team barca alredy Exist
+INFO 2020-05-25 11:57:50,980 Info: Team barca created
+ERROR 2020-05-25 11:57:50,980 Error: Team barca alredy Exist
+INFO 2020-05-25 11:57:52,453 Info: Team barca created
+ERROR 2020-05-25 11:57:52,453 Error: Team barca alredy Exist
+INFO 2020-05-25 12:08:58,787 Info: Team created
+INFO 2020-05-25 12:08:58,787 Info: Team created
+ERROR 2020-05-25 12:08:58,787 Error: Team barca alredy Exist
+INFO 2020-05-25 12:08:58,789 Info: Team created
+ERROR 2020-05-25 12:08:58,789 Error: Team barca alredy Exist
+INFO 2020-05-25 12:09:12,641 Info: Team created
+INFO 2020-05-25 12:14:06,454 Info: Team created
+INFO 2020-05-25 12:14:06,454 Info: Team created
+ERROR 2020-05-25 12:14:06,454 Error: Team barca alredy Exist
+INFO 2020-05-25 12:14:06,457 Info: Team created
+ERROR 2020-05-25 12:14:06,457 Error: Team barca alredy Exist
+INFO 2020-05-25 12:30:47,489 Info: Team created
+ERROR 2020-05-25 12:30:47,490 Error: Team barca alredy Exist
+INFO 2020-05-25 12:30:47,490 Info: Team created
+ERROR 2020-05-25 12:30:47,490 Error: Team barca alredy Exist
+INFO 2020-05-25 12:30:47,493 Info: Team created
+ERROR 2020-05-25 12:30:47,493 Error: Team barca alredy Exist
+INFO 2020-05-25 12:31:00,490 Info: Team created
+ERROR 2020-05-25 12:31:00,491 Error: Team barca alredy Exist
+INFO 2020-05-25 12:31:00,491 Info: Team created
+ERROR 2020-05-25 12:31:00,491 Error: Team barca alredy Exist
+INFO 2020-05-25 12:31:00,493 Info: Team created
+ERROR 2020-05-25 12:31:00,493 Error: Team barca alredy Exist
+INFO 2020-05-25 12:34:45,036 Info: Logger
+INFO 2020-05-25 12:34:45,036 Info: TeamController
+ERROR 2020-05-25 12:34:45,036 Error: Team barca alredy Exist
+INFO 2020-05-25 12:34:45,036 Info: TeamController
+ERROR 2020-05-25 12:34:45,036 Error: Team barca alredy Exist
+INFO 2020-05-25 12:34:45,038 Info: TeamController
+ERROR 2020-05-25 12:34:45,038 Error: Team barca alredy Exist

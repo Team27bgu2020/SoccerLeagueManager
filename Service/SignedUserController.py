@@ -142,7 +142,10 @@ class SignedUserController:
         self.__user_data_base.add_search(user_name, massage)
 
     def get_user(self, user_name):
-        return self.__user_data_base.signed_users[user_name]
+        if user_name in self.__user_data_base.signed_users:
+            return self.__user_data_base.signed_users[user_name]
+        else:
+            return None
 
     def get_signed_users(self):
         return self.__user_data_base.signed_users

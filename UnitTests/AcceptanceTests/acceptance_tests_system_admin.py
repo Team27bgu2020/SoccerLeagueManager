@@ -58,7 +58,7 @@ class AcceptanceTestsSystemAdmin(TestCase):
         """admin see only the team that in the system"""
         """if admin want to exit he press on exit and stop here"""
         self.team_controller.close_team("Tiberias")
-        self.assertFalse(self.team_controller.get_team("Tiberias").is_open)
+        self.assertFalse(self.team_controller.get_team("Tiberias", None).is_open)
 
 
 

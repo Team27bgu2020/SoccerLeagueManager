@@ -19,11 +19,14 @@ from DataBases.SeasonDB import SeasonDB
 from DataBases.TeamDB import TeamDB
 
 import datetime as date
+
 """ This class is the controller that connects the server to the Domain """
 
 signed_user_controller = SignedUserController(UserDB())
 notification_controller = NotificationController()
 signed_user_controller.add_fan_to_data('dor', '1234', 'dor', date.datetime(1994, 1, 20), '0.0.0.0')
+# signed_user_controller.add_system_admin('idan', '1234', 'idan', date.datetime(1994, 1, 20), '0.0.0.0')
+signed_user_controller.add_guest('0.0.0.0')
 
 
 def user_login(mess_info):
@@ -38,6 +41,21 @@ def user_login(mess_info):
                     'user_type': str(type(user)).split('.')[1],
                     'user_notification': notification_controller.check_user_notifications(user)
                 }
+
+
+def user_register(mess_info):
+    user_name = mess_info['data']['user_name']
+    password = mess_info['data']['password']
+    name = mess_info['data']['name']
+    birth_date = mess_info['data']['birth_date']
+    if signed_user_controller.get_user(user_name) is None:
+        signed_user_controller.add_fan_to_data(user_name, password, name, date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+        return {
+            'user_name': user_name,
+            'user_type': str(type(signed_user_controller.get_user(user_name))).split('.')[1]
+        }
+    else:
+        return 'Error'
 
 
 def get_user_info(mess_info):
@@ -71,7 +89,8 @@ handle_functions = {
                     'get_user_info': get_user_info,
                     'update_user_info': update_user_info,
                     'user_login': user_login,
-                    'get_user_notifications': get_user_notifications
+                    'get_user_notifications': get_user_notifications,
+                    'user_register': user_register
                 }
 
 
