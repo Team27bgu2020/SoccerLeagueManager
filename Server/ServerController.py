@@ -49,10 +49,32 @@ def user_register(mess_info):
     password = mess_info['data']['password']
     name = mess_info['data']['name']
     birth_date = mess_info['data']['birth_date']
+    role = mess_info['data']['role']
     if signed_user_controller.get_user(user_name) is None:
         try:
-            signed_user_controller.add_fan_to_data(user_name, password, name,
-                                                   date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+            if role == 'Fan':
+                signed_user_controller.add_fan_to_data(user_name, password, name,
+                                                    date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+            elif role == 'Player':
+                signed_user_controller.add_player_to_data(user_name, password, name,
+                                                    date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+            elif role == 'Coach':
+                signed_user_controller.add_coach_to_data(user_name, password, name,
+                                                          date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+            elif role == 'Team Manager':
+                signed_user_controller.add_team_manager_to_data(user_name, password, name,
+                                                          date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+            elif role == "Team Owner":
+                signed_user_controller.add_team_owner_to_data(user_name, password, name,
+                                                          date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+            elif role == 'Union Representor':
+                signed_user_controller.add_union_representor(user_name, password, name,
+                                                        date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+            elif role == 'System Admin':
+                signed_user_controller.add_system_admin(user_name, password, name,
+                                                          date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+            else:
+                return 'Error'
         except Exception:
             return 'Error'
         return {
@@ -60,15 +82,15 @@ def user_register(mess_info):
             'user_type': str(type(signed_user_controller.get_user(user_name))).split('.')[1]
         }
     else:
-        return 'Error'
+        return 'Username Error'
 
 
-def guest_login(mess_info):
-    signed_user_controller.add_guest('0.0.0.0')
-    return {
-        'user_name': 'Guest',
-        'user_type': 'Guest'
-    }
+
+
+
+
+
+
 
 
 def get_user_info(mess_info):
@@ -103,9 +125,8 @@ handle_functions = {
                     'update_user_info': update_user_info,
                     'user_login': user_login,
                     'get_user_notifications': get_user_notifications,
-                    'user_register': user_register,
-                    'guest_login': guest_login
-                }
+                    'user_register': user_register
+}
 
 
 def create_server(listen_port):

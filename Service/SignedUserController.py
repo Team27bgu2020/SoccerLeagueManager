@@ -12,6 +12,7 @@ from DataBases.UserDB import UserDB
 from Domain.TeamManager import TeamManager
 from Domain.TeamOwner import TeamOwner
 from Domain.TeamUser import TeamUser
+from Domain.UnionRepresentor import UnionRepresentor
 
 """ Created By Roman"""
 
@@ -184,6 +185,11 @@ class SignedUserController:
         self.__ID = self.__ID + 1
         admin = SystemAdmin(user_name, password, name, birth_date, ip_address, self.__ID)
         self.add_user(admin)
+
+    def add_union_representor(self, user_name, password, name, birth_date, ip_address):
+        self.__ID = self.__ID + 1
+        union_rep = UnionRepresentor(user_name, password, name, birth_date, ip_address, self.__ID)
+        self.add_user(union_rep)
 
     def add_referee_to_data(self, qualification, user_name, password, name, birth_date, ip_address):
         self.__ID = self.__ID + 1
