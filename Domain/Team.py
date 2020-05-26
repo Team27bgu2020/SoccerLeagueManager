@@ -29,14 +29,17 @@ class Team:
         if league.season.year not in self.__leagues.keys():
             self.__leagues[league.season.year] = []
 
-        self.__leagues[league.season.year].append(league)
+        if league not in self.__leagues[league.season.year]:
+            self.__leagues[league.season.year].append(league)
+        else:
+            raise ValueError('team is already in this league')
 
     """ This method transfer the given game to the past games """
 
     def game_over(self, game):
 
         if game not in self.__upcoming_games or game in self.__past_games:
-            raise ValueError
+            raise ValueError('Team {} is not participating in this game'.format(self.name))
 
         self.__upcoming_games.remove(game)
         self.__past_games.append(game)
@@ -46,10 +49,18 @@ class Team:
     def add_games(self, games):
 
         if type(games) is not list:
-            raise TypeError
+            raise TypeError('Expected list of game, recieved {}'.format(games))
+
+        exception = ''
 
         for game in games:
-            self.add_game(game)
+            try:
+                self.add_game(game)
+            except ValueError as err:
+                exception = exception + err + '\n'
+
+        if exception is not '':
+            raise ValueError(exception)
 
     """ This method adds a game to the team games list """
 
@@ -57,8 +68,9 @@ class Team:
 
         if not self.collision_game_check(game):
             self.__upcoming_games.append(game)
-            return True
-        return False
+        else:
+            raise ValueError('The {}-{} game has collision with another team game'
+                             .format(game.home_team.name, game.away_team.name))
 
     """ This method removes a game from the team games list """
 
@@ -66,6 +78,8 @@ class Team:
 
         if game in self.__upcoming_games:
             self.__upcoming_games.remove(game)
+        else:
+            raise ValueError('The team is not in this game')
 
     """ This method check if the given game collides with the team games (same day) """
 
@@ -81,20 +95,28 @@ class Team:
     def add_team_members(self, team_members):
 
         if type(team_members) is not list:
-            raise TypeError
+            raise TypeError('Expected list, received {}'.format(team_members))
+
+        exception = ''
 
         for team_member in team_members:
-            self.__team_members.append(team_member)
-            team_member.team = self
+            try:
+                self.__team_members.append(team_member)
+                team_member.team = self
+            except ValueError as err:
+                exception = exception + err + '\n'
+
+        if exception is not '':
+            raise ValueError(exception)
 
     """ This method adds a new team member """
 
     def add_team_member(self, team_member):
 
         if team_member in self.__team_members:
-            raise ValueError
+            raise ValueError('User {} already in this team'.format(team_member.user_name))
         if team_member.team is not None:
-            raise ValueError
+            raise ValueError('User {} already have a team'.format(team_member.user_name))
         self.__team_members.append(team_member)
         team_member.team = self
 
@@ -102,10 +124,18 @@ class Team:
 
     def remove_team_members(self, team_members):
         if type(team_members) is not list:
-            raise TypeError
+            raise TypeError('Expected a list, received {}'.format(team_members))
+
+        exception = ''
 
         for team_member in team_members:
-            self.remove_team_member(team_member)
+            try:
+                self.remove_team_member(team_member)
+            except ValueError as err:
+                exception = exception + err + '\n'
+
+        if exception is not '':
+            raise ValueError(exception)
 
     """ This method removes a team member """
 
@@ -113,15 +143,17 @@ class Team:
         if team_member in self.__team_members:
             self.__team_members.remove(team_member)
             team_member.team = None
+        else:
+            raise ValueError('User {} is not a player or a coach in this team'.format(team_member.user_name))
 
     """ This method adds a new team owner """
 
     def add_team_owner(self, team_member):
 
         if team_member in self.owners:
-            raise ValueError
+            raise ValueError('User {} is already a owner in this team'.format(team_member.user_name))
         if team_member.team is not None:
-            raise ValueError
+            raise ValueError('User {} already in a team'.format(team_member.user_name))
         self.__owners.append(team_member)
         team_member.team = self
 
@@ -129,33 +161,51 @@ class Team:
 
     def remove_team_owner(self, team_member):
         if len(self.__owners) == 1:
-            raise ValueError("Team Must have one Team Owner")
+            raise Exception("Team must have at least one Team Owner")
 
         if team_member in self.owners:
             self.__owners.remove(team_member)
             team_member.team = None
             self.cascade_remove(team_member)
+        else:
+            raise ValueError('User {} is not a team owner in this team'.format(team_member.user_name))
+
+    """ Remove all team members assigned by given team member"""
 
     def cascade_remove(self, team_member):
 
+        exception = ''
+
         for player in self.team_members:
             if player.role.assigned_by == team_member:
-                self.remove_team_member(player)
+                try:
+                    self.remove_team_member(player)
+                except ValueError as err:
+                    exception = exception + err + '\n'
         for manager in self.managers:
             if manager.role.assigned_by == team_member:
-                self.remove_team_member(manager)
+                try:
+                    self.remove_team_member(manager)
+                except ValueError as err:
+                    exception = exception + err + '\n'
         for owner in self.owners:
             if owner.role.assigned_by == team_member:
-                self.remove_team_member(owner)
+                try:
+                    self.remove_team_member(owner)
+                except ValueError as err:
+                    exception = exception + err + '\n'
+
+        if exception is not '':
+            raise Exception(exception)
 
     """ This method adds a new team manager """
 
     def add_team_manager(self, team_member):
 
         if team_member in self.managers:
-            raise ValueError
+            raise ValueError('User {} is already a manager in the team'.format(team_member.user_name))
         if team_member.team is not None:
-            raise ValueError
+            raise ValueError('User {} is already in another team'.format(team_member.user_name))
         self.__managers.append(team_member)
         team_member.team = self
 
@@ -165,6 +215,8 @@ class Team:
         if team_member in self.__managers:
             self.__managers.remove(team_member)
             team_member.team = None
+        else:
+            raise ValueError('User {} is not a manager in the team'.format(team_member.user_name))
 
     """ This method set the assigned by value"""
 
@@ -175,24 +227,34 @@ class Team:
 
     def close_team(self):
 
-        self.__is_open = False
-        self.notify_team_members("Team {} is now closed".format(self.name))
+        if self.__is_open:
+            self.__is_open = False
+            self.notify_team_members("Team {} is now closed".format(self.name))
+        else:
+            raise Exception('Team is already closed')
 
     """ This method opens the team """
 
     def open_team(self):
 
-        self.__is_open = True
-        self.notify_team_members("Team {} is now reopened".format(self.name))
+        if not self.__is_open:
+            self.__is_open = True
+            self.notify_team_members("Team {} is now reopened".format(self.name))
+        else:
+            raise Exception('Team is already open')
 
     """ Add expanse"""
 
     def add_expanse(self, amount, description):
+        if amount <= 0:
+            raise ValueError("expanse can't be a negative number")
         return self.__budget_manager.add_expanse(amount, description)
 
     """ Add income"""
 
     def add_income(self, amount, description):
+        if amount <= 0:
+            raise ValueError("income can't be a negative number")
         self.__budget_manager.add_income(amount, description)
 
     """ Notify team members with a certain notification """
@@ -284,20 +346,6 @@ class Team:
 
         return self.__is_open
 
-    """ Team Owner getter"""
-
-    # @property
-    # def owner(self):
-    #
-    #     return self.__owner
-    #
-    # """ Team Manager getter"""
-    #
-    # @property
-    # def manager(self):
-    #
-    #     return self.__manager
-
     """ Budget Controller getter"""
 
     @property
@@ -319,33 +367,7 @@ class Team:
 
         self.__stadium = stadium
 
-    """ Manger setter """
-
-    # @manager.setter
-    # def manager(self, manager):
-    #
-    #     self.__manager = manager
-    #
-    # """ Manger setter """
-    #
-    # @owner.setter
-    # def owner(self, owner):
-    #
-    #     self.__owner = owner
-
     """ This method checks if the teams are equal """
-
-    """ Team Owner getter"""
-
-    # @property
-    # def additional_owner(self):
-    #
-    #     return self.__additional_owner
-    #
-    # @additional_owner.setter
-    # def additional_owner(self,additional_owner):
-    #
-    #      self.__additional_owner = additional_owner
 
     def __eq__(self, obj):
 

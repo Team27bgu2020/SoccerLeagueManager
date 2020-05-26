@@ -26,12 +26,23 @@ class League:
 
     def add_teams(self, teams):
 
+        exception = ''
+
         for team in teams:
-            self.add_team(team)
+            try:
+                self.add_team(team)
+            except ValueError as err:
+                exception = exception + err + '\n'
+
+        if exception is not '':
+            raise ValueError(exception)
 
     """ This method adds a new team to the league """
 
     def add_team(self, team):
+
+        if team.name in self.__teams:
+            raise ValueError('Team {} already in this league'.format(team.name))
 
         self.__teams[team.name] = [team, 0]
 
@@ -39,11 +50,17 @@ class League:
 
     def remove_team(self, team_name):
 
+        if team_name not in self.__teams:
+            raise ValueError('{} team is not in this league'.format(team_name))
+
         del self.__teams[team_name]
 
     """ This method updates the teams score if the team won the game """
 
     def won(self, team_name):
+
+        if team_name not in self.__teams:
+            raise ValueError('{} team is not in this league')
 
         self.__teams[team_name][self.SCORE_INDEX] += self.points_calculation_policy.win_points
 
@@ -51,11 +68,17 @@ class League:
 
     def tied(self, team_name):
 
+        if team_name not in self.__teams:
+            raise ValueError('{} team is not in this league')
+
         self.__teams[team_name][self.SCORE_INDEX] += self.points_calculation_policy.tie_points
 
     """ This method updates the teams score if the team lost the game """
 
     def lost(self, team_name):
+
+        if team_name not in self.__teams:
+            raise ValueError('{} team is not in this league')
 
         self.__teams[team_name][self.SCORE_INDEX] += self.points_calculation_policy.lose_points
 
@@ -63,11 +86,17 @@ class League:
 
     def add_referee(self, referee):
 
+        if referee in self.__referees:
+            raise ValueError('referee is already in this league')
+
         self.__referees.append(referee)
 
     """ This method removes the given referee from the league """
 
     def remove_referee(self, referee):
+
+        if referee not in self.__referees:
+            raise ValueError('referee is not in this league')
 
         self.__referees.remove(referee)
 
