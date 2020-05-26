@@ -32,7 +32,7 @@ class League:
             try:
                 self.add_team(team)
             except ValueError as err:
-                exception = exception + err + '\n'
+                exception = exception + str(err) + '\n'
 
         if exception is not '':
             raise ValueError(exception)
