@@ -16,6 +16,9 @@ class Referee(SignedUser):
 
     def add_game(self, game):
 
+        if game in self.referee_in_games:
+            raise ValueError('game is already tracked by this referee')
+
         self.__referee_in_games.append(game)
 
     """ This method removes game """
@@ -23,6 +26,8 @@ class Referee(SignedUser):
     def remove_game(self, game):
         if game in self.__referee_in_games:
             self.__referee_in_games.remove(game)
+        else:
+            raise ValueError('Game is not refereed by this referee')
 
     """ events getter """
 
@@ -40,6 +45,9 @@ class Referee(SignedUser):
 
     def add_event(self, event):
 
+        if event in self.__events:
+            raise ValueError('event is already in this game')
+
         self.__events.append(event)
 
     """ This method removes game event """
@@ -48,6 +56,8 @@ class Referee(SignedUser):
 
         if event in self.__events:
             self.__events.remove(event)
+        else:
+            raise ValueError('event is not in this game')
 
     """ Getter for referee qualification """
 

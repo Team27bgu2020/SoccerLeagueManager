@@ -150,6 +150,8 @@ class Game:
 
     """ Add follower to the game"""
     def add_follower(self, fan):
+        if fan in self.fan_following:
+            raise ValueError('User is already following this game')
         self.fan_following.append(fan)
 
     """ Remove follower from the game"""

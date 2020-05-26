@@ -16,6 +16,10 @@ class TestTeam(TestCase):
     team = Team("Real Madrid")
     field = "Camp Nou"
 
+    def setUp(self):
+        self.team = Team("Real Madrid")
+        self.field = "Camp Nou"
+
     """ Testing the arguments of init"""
 
     def test_init(self):
@@ -53,14 +57,14 @@ class TestTeam(TestCase):
         self.team.add_games(g_l)
         self.assertRaises(TypeError,self.team.add_games, g)
         self.assertIn(g, self.team.upcoming_games)
-        self.team.remove_upcoming_game(None)
         self.assertIn(g, self.team.upcoming_games)
         self.team.remove_upcoming_game(g)
         self.assertNotIn(g, self.team.upcoming_games)
 
-        self.assertTrue(self.team.add_game(g))
+        self.team.add_game(g)
+        self.assertEqual(1, len(self.team.upcoming_games))
         self.assertTrue(self.team.collision_game_check(g))
-        self.assertFalse(self.team.add_game(g))
+        self.assertRaises(ValueError, self.team.add_game, g)
         self.assertIn(g, self.team.upcoming_games)
 
     """ Testing methods:
@@ -80,9 +84,6 @@ class TestTeam(TestCase):
         self.assertEqual(u1.team, self.team)
         self.assertIn(u1, self.team.team_members)
 
-        self.team.remove_team_member(0)
-        self.assertIn(u1, self.team.team_members)
-        self.assertNotIn(0, self.team.team_members)
         self.team.remove_team_member(u1)
         self.assertNotIn(u1, self.team.team_members)
 

@@ -27,20 +27,23 @@ class TeamOwner(Role):
     def add_role(self, role):
 
         if len(self.roles) == 3:
-            raise ValueError("Reached Maximum numbers of roles")
+            raise ValueError("Reached maximum numbers of roles")
         else:
+            for owner_role in self.roles:
+                if type(owner_role) is type(role):
+                    raise ValueError('Owner already have this role')
             self.__roles.append(role)
 
-    """ Remove existing role role to Team Owner"""
+    """ Remove existing role to Team Owner"""
 
     def remove_role(self, role):
 
         if role in self.__roles:
             self.__roles.remove(role)
         else:
-            raise ValueError("role doesnt exist")
+            raise ValueError("Owner does not assigned to this role")
 
-    """ Remove existing role role to Team Owner"""
+    """ Remove all roles from Team Owner"""
 
     def remove_roles(self):
         self.roles.clear()

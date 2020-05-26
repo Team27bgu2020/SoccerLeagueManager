@@ -107,10 +107,6 @@ class TestUnionOrganization(TestCase):
 
         self.assertRaises(ValueError, self.organization.add_expense, 0, 'Test 2')
 
-        # Test expanse bigger than balance
-
-        self.assertRaises(ValueError, self.organization.add_expense, 1000, 'Test')
-
     def test_is_team_in_union(self):
 
         # Preparation

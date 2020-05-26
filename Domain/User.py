@@ -16,13 +16,13 @@ class User:
             socket.inet_aton(ip_address)
             self.__ip_address = ip_address
         except socket.error:
-            raise ValueError
-
+            raise ValueError('The ip address given is not valid')
 
     """ If the user_id only made of numbers, updates self.user_id with it. otherwise raise ValueError"""
-    def set_user_id(self, user_id):
-        if not type(user_id) == int or user_id <= 0:
-            raise ValueError
+
+    def set_user_id(self, user_id: int):
+        if type(user_id) is not int or user_id < 0:
+            raise ValueError("Invalid user id. Expected positive integer, received {}".format(user_id))
         self.__user_id = user_id
 
     """ Returns the user id of the user"""
