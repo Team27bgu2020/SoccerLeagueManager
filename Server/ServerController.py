@@ -23,8 +23,9 @@ import datetime as date
 
 signed_user_controller = SignedUserController(UserDB())
 signed_user_controller.add_fan_to_data('dor', '1234', 'dor', date.datetime(1994, 1, 20), '0.0.0.0')
+
+
 # signed_user_controller.add_system_admin('idan', '1234', 'idan', date.datetime(1994, 1, 20), '0.0.0.0')
-signed_user_controller.add_guest('0.0.0.0')
 
 
 def user_login(mess_info):
@@ -45,13 +46,25 @@ def user_register(mess_info):
     name = mess_info['data']['name']
     birth_date = mess_info['data']['birth_date']
     if signed_user_controller.get_user(user_name) is None:
-        signed_user_controller.add_fan_to_data(user_name, password, name, date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+        try:
+            signed_user_controller.add_fan_to_data(user_name, password, name,
+                                                   date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+        except Exception:
+            return 'Error'
         return {
             'user_name': user_name,
             'user_type': str(type(signed_user_controller.get_user(user_name))).split('.')[1]
         }
     else:
         return 'Error'
+
+
+def guest_login(mess_info):
+    signed_user_controller.add_guest('0.0.0.0')
+    return {
+        'user_name': 'Guest',
+        'user_type': 'Guest'
+    }
 
 
 def get_user_info(mess_info):
@@ -73,7 +86,8 @@ handle_functions = {
     'get_user_info': get_user_info,
     'update_user_info': update_user_info,
     'user_login': user_login,
-    'user_register': user_register
+    'user_register': user_register,
+    'guest_login': guest_login
 }
 
 
