@@ -5,11 +5,11 @@ from Domain.Role import Role
 
 class TeamOwner(Role):
 
-    def __init__(self, assigned_by=None, roles=None):
+    def __init__(self, assigned_by=None, additional_roles=None):
         super().__init__(assigned_by)
-        if roles is None:
-            roles = []
-        self.roles = roles
+        if additional_roles is None:
+            additional_roles = []
+        self.roles = additional_roles
 
     """ Getter for Roles"""
     @property
