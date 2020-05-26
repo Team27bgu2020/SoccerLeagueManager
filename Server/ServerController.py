@@ -18,10 +18,13 @@ from DataBases.SeasonDB import SeasonDB
 from DataBases.TeamDB import TeamDB
 
 import datetime as date
+
 """ This class is the controller that connects the server to the Domain """
 
 signed_user_controller = SignedUserController(UserDB())
 signed_user_controller.add_fan_to_data('dor', '1234', 'dor', date.datetime(1994, 1, 20), '0.0.0.0')
+# signed_user_controller.add_system_admin('idan', '1234', 'idan', date.datetime(1994, 1, 20), '0.0.0.0')
+signed_user_controller.add_guest('0.0.0.0')
 
 
 def user_login(mess_info):
@@ -31,9 +34,24 @@ def user_login(mess_info):
         return 'Error'
     else:
         return {
-                    'user_name': user_name,
-                    'user_type': str(type(signed_user_controller.get_user(user_name))).split('.')[1]
-                }
+            'user_name': user_name,
+            'user_type': str(type(signed_user_controller.get_user(user_name))).split('.')[1]
+        }
+
+
+def user_register(mess_info):
+    user_name = mess_info['data']['user_name']
+    password = mess_info['data']['password']
+    name = mess_info['data']['name']
+    birth_date = mess_info['data']['birth_date']
+    if signed_user_controller.get_user(user_name) is None:
+        signed_user_controller.add_fan_to_data(user_name, password, name, date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+        return {
+            'user_name': user_name,
+            'user_type': str(type(signed_user_controller.get_user(user_name))).split('.')[1]
+        }
+    else:
+        return 'Error'
 
 
 def get_user_info(mess_info):
@@ -52,10 +70,11 @@ def update_user_info(mess_info):
 
 """ dictionary of all the handle functions - add your function to the dictionary """
 handle_functions = {
-                    'get_user_info': get_user_info,
-                    'update_user_info': update_user_info,
-                    'user_login': user_login
-                }
+    'get_user_info': get_user_info,
+    'update_user_info': update_user_info,
+    'user_login': user_login,
+    'user_register': user_register
+}
 
 
 def create_server(listen_port):
@@ -74,7 +93,6 @@ def handle_message(message):
     message_info = json.loads(message)
     print(message_info)
     return json.dumps(handle_functions[message_info['type']](message_info))
-
 
 
 server = create_server(10000)
