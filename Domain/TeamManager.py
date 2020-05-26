@@ -11,7 +11,6 @@ class TeamManager(Role):
                  bool_set_permission=False):
         super().__init__(assigned_by)
 
-        self.roles = []
         self.__approval_open_close = bool_open_close
         self.__approval_accounting = bool_accounting
         self.__approval_add_remove = bool_add_remove
