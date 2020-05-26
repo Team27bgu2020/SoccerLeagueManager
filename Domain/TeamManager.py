@@ -56,27 +56,23 @@ class TeamManager(Role):
         return self.__approval_set_permission
 
     def set_approval_open_close(self, value: bool):
-        if value is not False and value is not True:
-            raise TypeError
+
         self.__approval_open_close = value
 
     """  Method to get approval to add expanse and incomes"""
 
     def set_approval_accounting(self, value: bool):
-        if value is not False and value is not True:
-            raise TypeError
+
         self.__approval_accounting = value
 
     """  Method to get approval add or remove asset from team"""
 
     def set_approval_add_remove(self, value: bool):
-        if value is not False and value is not True:
-            raise TypeError
+
         self.__approval_add_remove = value
 
     """  Method to get approval to set other team mate manger permission"""
 
     def set_approval_set_permission(self, value: bool):
-        if value is not False and value is not True:
-            raise TypeError
+
         self.__approval_set_permission = value

@@ -17,10 +17,8 @@ class TeamBudget:
 
     def add_income(self, amount: int, description: str):
 
-        if not isinstance(description, str) or not isinstance(amount, int):
-            raise TypeError
         if amount <= 0:
-            raise ValueError
+            raise ValueError("Income amount can't be negative")
 
         self.__current_balance += amount
         transaction = "+," + str(amount) + ", " + description
@@ -31,10 +29,8 @@ class TeamBudget:
 
     def add_expanse(self, amount: int, description: str):
 
-        if not isinstance(description, str) or not isinstance(amount, int):
-            raise TypeError
         if amount <= 0:
-            raise ValueError
+            raise ValueError("Expanse amount can't be negative")
         if self.__current_balance < amount:
             return False
 

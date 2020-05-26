@@ -6,9 +6,9 @@ class Complaint:
     def __init__(self, desc, complainer, complaint_id):
 
         if type(desc) is not str:
-            return ValueError
+            return ValueError('{} is not a valid complaint description'.format(desc))
         if type(complaint_id) is not int:
-            return ValueError
+            return ValueError('{} is not a valid complaint id'.format(complaint_id))
 
         self.__complainer = complainer
         self.__description = desc
@@ -17,7 +17,7 @@ class Complaint:
 
     def set_answer(self, answer):
         if type(answer) is not str:
-            return ValueError
+            return ValueError('{} is not a valid complaint answer'.format(answer))
         self.__answer = answer
 
     @property

@@ -18,7 +18,7 @@ class Season:
     def add_league(self, league):
 
         if league in self.__leagues:
-            raise ValueError
+            raise ValueError('League is already in this season')
 
         self.__leagues.append(league)
 
@@ -26,8 +26,16 @@ class Season:
 
     def add_leagues(self, leagues):
 
+        exception = ''
+
         for league in leagues:
-            self.add_league(league)
+            try:
+                self.add_league(league)
+            except Exception as err:
+                exception = exception + str(err) + '\n'
+
+        if exception is not '':
+            raise ValueError(exception)
 
     """ This method removes the given league from the season """
 
@@ -35,6 +43,8 @@ class Season:
 
         if league in self.__leagues:
             self.__leagues.remove(league)
+        else:
+            raise ValueError('League is not in this season')
 
     """ This methods returns the seasons year """
 

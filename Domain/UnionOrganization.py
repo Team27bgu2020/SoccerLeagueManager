@@ -42,30 +42,39 @@ class UnionOrganization:
     def add_team_to_union(self, team):
         if team not in self.__teams_in_union:
             self.__teams_in_union.append(team)
+        else:
+            raise ValueError('Team {} already in union'.format(team.name))
 
     """ Removes team from union """
 
     def remove_team_from_union(self, team):
-        self.__teams_in_union.remove(team)
+        if team in self.__teams_in_union:
+            self.__teams_in_union.remove(team)
+        else:
+            raise ValueError("Team {} is not in the union".format(team.name))
 
     """ Add employee to union """
 
     def add_employee_to_union(self, employee):
         if employee not in self.__employees:
             self.__employees.append(employee)
+        else:
+            raise ValueError('User {} is already an employee in the union'.format(employee.user_name))
 
     """ Remove employee from union """
 
     def remove_employee_from_union(self, employee):
-        self.__employees.remove(employee)
+        if employee in self.__employees:
+            self.__employees.remove(employee)
+        else:
+            raise ValueError('User {} is not an employee in the union'.format(employee.user_name))
 
     """ Add income to union budget """
 
     def add_income(self, amount, description):
-        if type(amount) is not int or type(description) is not str:
-            raise TypeError
+
         if amount <= 0:
-            raise ValueError
+            raise ValueError("income can't be a negative number")
         self.__incomes.append((description, amount))
         self.__balance += amount
         return True
@@ -73,10 +82,9 @@ class UnionOrganization:
     """ Add expanse to union budget """
 
     def add_expense(self, amount, description):
-        if type(amount) is not int or type(description) is not str:
-            raise TypeError
+
         if amount <= 0:
-            raise ValueError
+            raise ValueError("income can't be a negative number")
         if amount > self.__balance:
             self.notify_employees("Union budget is negative.")
         self.__expanses.append((description, amount))
