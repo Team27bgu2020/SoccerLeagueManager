@@ -77,10 +77,16 @@ def user_register(mess_info):
                 return 'Error'
         except Exception:
             return 'Error'
-        return {
-            'user_name': user_name,
-            'user_type': str(type(signed_user_controller.get_user(user_name))).split('.')[1]
-        }
+        if str(type(signed_user_controller.get_user(user_name))).split('.')[1] == 'TeamUser':
+            return {
+                'user_name': user_name,
+                'user_type': str(type(signed_user_controller.get_user(user_name).role)).split('.')[1]
+            }
+        else:
+            return {
+                'user_name': user_name,
+                'user_type': str(type(signed_user_controller.get_user(user_name))).split('.')[1]
+            }
     else:
         return 'Username Error'
 
