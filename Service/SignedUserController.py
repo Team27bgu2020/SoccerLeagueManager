@@ -285,7 +285,7 @@ class SignedUserController:
             Logger.error_log("{0}:".format(user_id) + err.__str__())
             raise err
 
-    def add_union_representor(self, user_name, password, name, birth_date, ip_address):
+    def add_union_representor(self, user_name, password, name, birth_date, ip_address, user_id=""):
         try:
             self.__ID = self.__ID + 1
             union_rep = UnionRepresentor(user_name, password, name, birth_date, ip_address, self.__ID)
