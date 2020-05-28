@@ -1,4 +1,5 @@
 import json
+import hashlib
 from Server import Server
 from Service.SignedUserController import SignedUserController
 from Service.ComplaintController import ComplaintController
@@ -115,10 +116,15 @@ def get_user_info(mess_info):
 
 
 def update_user_info(mess_info):
+    user_id = mess_info['user_id']
+    user_name = mess_info['data']['user_name']
+    password = str(hashlib.sha256(mess_info['data']['password'].encode()).hexdigest())
+    name = mess_info['data']['name']
+    birth_date = mess_info['data']['birth_date']
     try:
-        signed_user_controller.edit_personal_data(signed_user_controller.get_user(mess_info['user_id']),
-                                mess_info['data']['user_name'], mess_info['data']['password'], mess_info['data']['name'],
-                                date.datetime.strptime(mess_info['data']['birth_date'], '%Y-%m-%d'))
+        signed_user_controller.user_data_base.signed_users[user_name] = signed_user_controller.user_data_base.signed_users.pop(signed_user_controller.get_user(user_id).user_name)
+        signed_user_controller.edit_personal_data(signed_user_controller.get_user(user_name),
+                                user_name, password, name, date.datetime.strptime(birth_date, '%Y-%m-%d'))
         return confirmation_massage()
     except Exception:
         return 'Error'
