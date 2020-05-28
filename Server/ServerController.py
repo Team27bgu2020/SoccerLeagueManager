@@ -27,7 +27,6 @@ notification_controller = NotificationController()
 signed_user_controller.add_fan_to_data('dor', '1234', 'dor', date.datetime(1994, 1, 20), '0.0.0.0')
 
 
-# signed_user_controller.add_system_admin('idan', '1234', 'idan', date.datetime(1994, 1, 20), '0.0.0.0')
 
 
 def user_login(mess_info):
@@ -55,15 +54,6 @@ def user_register(mess_info):
             if role == 'Fan':
                 signed_user_controller.add_fan_to_data(user_name, password, name,
                                                     date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
-            elif role == 'Player':
-                signed_user_controller.add_player_to_data(user_name, password, name,
-                                                    date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
-            elif role == 'Coach':
-                signed_user_controller.add_coach_to_data(user_name, password, name,
-                                                          date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
-            elif role == 'Team Manager':
-                signed_user_controller.add_team_manager_to_data(user_name, password, name,
-                                                          date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
             elif role == "Team Owner":
                 signed_user_controller.add_team_owner_to_data(user_name, password, name,
                                                           date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
@@ -91,13 +81,29 @@ def user_register(mess_info):
         return 'Username Error'
 
 
+def ref_register(mess_info):
+    user_name = mess_info['data']['user_name']
+    password = mess_info['data']['password']
+    name = mess_info['data']['name']
+    birth_date = mess_info['data']['birth_date']
+    qualification = mess_info['data']['qualification']
+    if signed_user_controller.get_user(user_name) is None:
+        try:
+            signed_user_controller.add_referee_to_data(qualification, user_name, password, name,
+                                                          date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+        except Exception:
+            return 'Error'
+    else:
+        return 'Username Error'
 
 
-
-
-
-
-
+def remove_user(mess_info):
+    user_name = mess_info['data']['user_name']
+    if signed_user_controller.get_user(user_name) is None:
+            return 'Error'
+    else:
+        signed_user_controller.delete_signed_user(user_name)
+        return 'Success'
 
 def get_user_info(mess_info):
     """ Change implementation """
@@ -109,8 +115,13 @@ def get_user_info(mess_info):
 
 
 def update_user_info(mess_info):
-    """ Change implementation """
-    return confirmation_massage()
+    try:
+        signed_user_controller.edit_personal_data(signed_user_controller.get_user(mess_info['user_id']),
+                                mess_info['data']['user_name'], mess_info['data']['password'], mess_info['data']['name'],
+                                date.datetime.strptime(mess_info['data']['birth_date'], '%Y-%m-%d'))
+        return confirmation_massage()
+    except Exception:
+        return 'Error'
 
 
 def get_user_notifications(mess_info):
@@ -131,7 +142,9 @@ handle_functions = {
                     'update_user_info': update_user_info,
                     'user_login': user_login,
                     'get_user_notifications': get_user_notifications,
-                    'user_register': user_register
+                    'user_register': user_register,
+                    'ref_register': ref_register,
+                    'remove_user': remove_user
 }
 
 
