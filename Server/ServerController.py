@@ -20,6 +20,7 @@ from DataBases.SeasonDB import SeasonDB
 from DataBases.TeamDB import TeamDB
 
 import datetime as date
+import csv
 
 """ This class is the controller that connects the server to the Domain """
 
@@ -106,6 +107,7 @@ def remove_user(mess_info):
         signed_user_controller.delete_signed_user(user_name)
         return 'Success'
 
+
 def get_user_info(mess_info):
     """ Change implementation """
     return {
@@ -142,6 +144,13 @@ def get_user_notifications(mess_info):
         return err
 
 
+def get_logs(mess_info):
+    people = []
+    reader = csv.reader(open('../Service/Event_Log.txt'), delimiter='\n')
+    for row in reader:
+        people.append(row)
+    return people
+
 """ dictionary of all the handle functions - add your function to the dictionary """
 handle_functions = {
                     'get_user_info': get_user_info,
@@ -150,7 +159,8 @@ handle_functions = {
                     'get_user_notifications': get_user_notifications,
                     'user_register': user_register,
                     'ref_register': ref_register,
-                    'remove_user': remove_user
+                    'remove_user': remove_user,
+                    'get_logs': get_logs
 }
 
 
@@ -175,3 +185,4 @@ def handle_message(message):
 
 server = create_server(10000)
 server.listen()
+
