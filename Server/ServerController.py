@@ -19,6 +19,11 @@ from DataBases.PageDB import PageDB
 from DataBases.SeasonDB import SeasonDB
 from DataBases.TeamDB import TeamDB
 
+from Domain.GameSchedulePolicy import GameSchedulePolicy
+from Domain.PointsCalculationPolicy import PointsCalculationPolicy
+from Domain.TeamBudgetPolicy import TeamBudgetPolicy
+from Enums.GameAssigningPoliciesEnum import GameAssigningPoliciesEnum
+
 import datetime as date
 import csv
 
@@ -26,8 +31,8 @@ import csv
 
 signed_user_controller = SignedUserController(UserDB())
 notification_controller = NotificationController()
+league_controller = LeagueController(LeagueDB(),SeasonDB(),PolicyDB())
 signed_user_controller.add_fan_to_data('dor', '1234', 'dor', date.datetime(1994, 1, 20), '0.0.0.0')
-
 
 
 
@@ -151,6 +156,37 @@ def get_logs(mess_info):
         people.append(row)
     return people
 
+
+def add_league(mess_info):
+    league_name = mess_info['data']['league_name']
+    season = mess_info['data']['season']
+    points_win = mess_info['data']['pointsWin']
+    points_draw = mess_info['data']['pointsDraw']
+    points_lose = mess_info['data']['pointsLose']
+    game_against_each_team = mess_info['data']['game_against_each_team']
+    games_per_week = mess_info['data']['games_per_week']
+    stadium = mess_info['data']['stadium']
+    min_budget = mess_info['data']['min_budget']
+    if stadium == 'Random Stadium':
+        games_policy_enum = GameAssigningPoliciesEnum('Random')
+    elif stadium == 'Home & Away Stadiums':
+        games_policy_enum = GameAssigningPoliciesEnum('Equal')
+    else:
+        return 'Stadium Error'
+    points_policy = PointsCalculationPolicy(points_win, points_draw, points_lose)
+    game_policy = GameSchedulePolicy(int(game_against_each_team), games_per_week, games_policy_enum)
+    budget_policy = TeamBudgetPolicy(min_budget)
+    try:
+        theSeason = league_controller.create_new_season(int(season))
+    except:
+        theSeason = league_controller.get_season(int(season))
+    try:
+        league_controller.create_new_league(league_name, theSeason, points_policy, game_policy, budget_policy)
+        return confirmation_massage()
+    except:
+        return 'League Name Error'
+
+
 """ dictionary of all the handle functions - add your function to the dictionary """
 handle_functions = {
                     'get_user_info': get_user_info,
@@ -160,7 +196,8 @@ handle_functions = {
                     'user_register': user_register,
                     'ref_register': ref_register,
                     'remove_user': remove_user,
-                    'get_logs': get_logs
+                    'get_logs': get_logs,
+                    'add_league': add_league,
 }
 
 
