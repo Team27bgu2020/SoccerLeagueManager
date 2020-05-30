@@ -127,7 +127,7 @@ class SignedUserController:
                     self.__ID = self.__ID - 1
                 else:
                     self.__user_data_base.add_guest(user)
-                    Logger.info_log("{0}:".format(user_id) + "added guest with ip {0}".format(user.ip))
+                    Logger.info_log("{0}:".format(user_id) + "added guest with ip {0}".format(user.user_ip))
             else:
                 """ Not a guest and not a signed user """
                 raise TypeError("Trying to add not a guest and not a signed user")
