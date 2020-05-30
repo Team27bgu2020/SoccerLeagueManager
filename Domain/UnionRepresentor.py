@@ -3,8 +3,8 @@ from Domain.SignedUser import SignedUser
 
 class UnionRepresentor(SignedUser):
 
-    def __init__(self, user_name, password, name, birth_date, ip_address, user_id, salary):
-        super().__init__(user_name, password, name, birth_date, ip_address, user_id)
+    def __init__(self, user_name, password, name, birth_date, user_id, salary):
+        super().__init__(user_name, password, name, birth_date, user_id)
         self.salary = salary
 
     @property

@@ -6,11 +6,11 @@ import copy
 
 class Referee(SignedUser):
 
-    def __init__(self, qualification: RefereeQualificationEnum, user_name, password, name, birth_date, ip_address, user_id):
+    def __init__(self, qualification: RefereeQualificationEnum, user_name, password, name, birth_date, user_id):
         self.__events = []
         self.__referee_in_games = []
         self.qualification = qualification
-        super().__init__(user_name, password, name, birth_date, ip_address, user_id)
+        super().__init__(user_name, password, name, birth_date, user_id)
 
     """ This method adds new game """
 
@@ -41,6 +41,14 @@ class Referee(SignedUser):
     def referee_in_games(self):
         return copy.copy(self.__referee_in_games)
 
+    @referee_in_games.setter
+    def referee_in_games(self, value):
+        self.__referee_in_games = value
+
+    @events.setter
+    def events(self, value):
+        self.__events = value
+
     """ This method adds new game event """
 
     def add_event(self, event):
@@ -57,7 +65,7 @@ class Referee(SignedUser):
         if event in self.__events:
             self.__events.remove(event)
         else:
-            raise ValueError('event is not in this game')
+            raise ValueError('event is not created by this referee')
 
     """ Getter for referee qualification """
 
@@ -72,20 +80,4 @@ class Referee(SignedUser):
     def qualification(self, qualification: RefereeQualificationEnum):
 
         self.__qualification = qualification
-
-    def show_games_by_referee(self):
-
-        result = []
-        for game in self.__referee_in_games:
-            if (self in game.referees and not game.is_game_finished) or self == game.main_referee:
-                result.append(game)
-        return result
-
-    def show_ongoing_games_by_referee(self):
-        referee_games = self.show_games_by_referee()
-        result = []
-        for game in referee_games:
-            if game.is_game_on:
-                result.append(game)
-        return result
 

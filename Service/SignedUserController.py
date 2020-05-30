@@ -4,8 +4,12 @@ from typing import Any
 from Domain.Fan import Fan
 from Domain.Referee import Referee
 from Domain.SystemAdmin import SystemAdmin
-from Domain.SignedUser import SignedUser
-from Domain.Guest import Guest
+from Domain.TeamUser import TeamUser
+from Domain.Player import Player
+from Domain.Coach import Coach
+from Domain.TeamManager import TeamManager
+from Domain.TeamOwner import TeamOwner
+from Domain.UnionRepresentor import UnionRepresentor
 from DataBases.UserDB import UserDB
 
 """ Created By Roman"""
@@ -15,81 +19,24 @@ class SignedUserController:
 
     def __init__(self, user_db):
         self.__user_data_base = user_db
-        self.__ID = 0
-
-    """ Add new signed user to DB """
-
-    def add_signed_user(self, user_name, password, name, birth_date, ip_address):
-        """
-
-        @param user_name:
-        @param password:
-        @param name:
-        @param birth_date:
-        @param ip_address:
-        @return: add signed user to DB
-        """
-        self.__ID = self.__ID + 1
-        new_signed_user = SignedUser(user_name, password, name, birth_date, ip_address, self.__ID)
-        self.add_user(new_signed_user)
-
-    def add_guest(self, ip):
-        self.__ID = self.__ID + 1
-        new_guest = Guest(ip, self.__ID)
-        self.add_user(new_guest)
-
-    def add_Team_User(self, user_name, password, name, birth_date, ip_address):
-        self.__ID = self.__ID + 1
-        new_signed_user = SignedUser(user_name, password, name, birth_date, ip_address, self.__ID)
-        self.add_user(new_signed_user)
+        self.__ID = self.__user_data_base.get_id_counter()
 
     """ delete user by user name """
 
-    def delete_signed_user(self, user_name):
-        if self.__user_data_base.is_sign_user(user_name):
-            if type(self.__user_data_base.get_signed_user(user_name)) is SystemAdmin:
+    def delete_signed_user(self, user_id):
+        if self.__user_data_base.is_sign_user(user_id):
+            if type(self.__user_data_base.get_signed_user(user_id)) is SystemAdmin:
                 """Check if there is more admins in  system if no return false"""
-                if(self.number_of_admins() < 2):
-                    raise AssertionError
-            self.__user_data_base.delete_signed_user(user_name)
-            return True
-        else:
-            return False
-
-    def delete_guest(self, ip):
-        if self.__user_data_base.is_guest_in_data(ip):
-            self.__user_data_base.delete_guest(ip)
+                if self.__user_data_base.get_number_of_admins() < 2:
+                    raise AssertionError("System has to have at least one system admin")
+            self.__user_data_base.delete_user(user_id)
             return True
         else:
             return False
 
     def show_all_users(self):
-        """
 
-        @return: 2 values: 1. signed users  2. guests
-        """
-        return self.get_signed_users(), self.get_guests()
-
-    def add_user(self, user):
-        """
-        Adding users to dictionary by type
-        @param user: can be guest or signed user
-        """
-        if isinstance(user, SignedUser):
-            if self.__user_data_base.is_sign_user(user.user_name):
-                self.__ID = self.__ID - 1
-            else:
-                self.__user_data_base.add_sign_user(user)
-
-        elif type(user) is Guest:
-            if self.__user_data_base.is_guest_in_data(user.user_ip):
-                self.__ID = self.__ID - 1
-            else:
-                self.__user_data_base.add_guest(user)
-
-        else:
-            """ Not a guest and not a signed user """
-            raise TypeError
+        return self.__user_data_base.get_all_signed_users
 
     def confirm_user(self, user_name, password):
         """
@@ -97,97 +44,117 @@ class SignedUserController:
         @param password: for confirm
         @return: if the user exist - the function will return the type of the user
         """
-        user = self.__user_data_base.get_signed_user(user_name)
-        if user is None:
+        try:
+            user = self.__user_data_base.get_signed_user_by_user_name(user_name)
+        except Exception as err:
             return False
 
         if user.password == str(hashlib.sha256(password.encode()).hexdigest()):
-            return str(type(user).__name__)
+            if type(user) is not TeamUser:
+                return str(type(user).__name__)
+            return str(type(user.role).__name__)
 
-        else:
-            return False
+    def get_user_by_id(self, user_id):
+        return self.__user_data_base.get_signed_user(user_id)
+
+    def get_user_by_name(self, user_name):
+        return self.__user_data_base.get_signed_user_by_user_name(user_name)
+
+    def get_all_signed_users(self):
+        return self.__user_data_base.get_all_signed_users()
 
     """ Edit all of the personal data of signed user """
-    def edit_personal_data(self, user, user_name, password, name, birth_date):
-        user.edit_personal_data(user_name, password, name, birth_date)
+    def edit_personal_data(self, user_id, user_name, password, name, birth_date):
 
+        user = self.__user_data_base.get_signed_user(user_id)
+        user.edit_personal_data(user_name, password, name, birth_date)
+        self.__user_data_base.update_signed_user(user)
 
     """Editing personal info"""
 
-    def edit_personal_name(self, user_name, new_name):
-        if self.__user_data_base.is_sign_user(user_name):
-            signed_user = self.__user_data_base.get_signed_user(user_name)
+    def edit_personal_name(self, user_id, new_name):
+        if self.__user_data_base.is_sign_user(user_id):
+            signed_user = self.__user_data_base.get_signed_user(user_id)
             signed_user.name = new_name
+            self.__user_data_base.update_signed_user(signed_user)
             return True
         else:
             return False
 
-    def edit_personal_birth_date(self, user_name: str, new_birth_date):
-        if self.__user_data_base.is_sign_user(user_name):
-            signed_user = self.__user_data_base.get_signed_user(user_name)
+    def edit_personal_birth_date(self, user_id, new_birth_date):
+        if self.__user_data_base.is_sign_user(user_id):
+            signed_user = self.__user_data_base.get_signed_user(user_id)
             signed_user.birth_date = new_birth_date
+            self.__user_data_base.update_signed_user(signed_user)
             return True
         else:
             return False
 
-    def edit_personal_password(self, user_name, old_password, new_password):
-        if self.confirm_user(user_name, old_password):
-            signed_user = self.__user_data_base.get_signed_user(user_name)
+    def edit_personal_password(self, user_id, old_password, new_password):
+        if self.confirm_user(user_id, old_password):
+            signed_user = self.__user_data_base.get_signed_user(user_id)
             signed_user.password = str(hashlib.sha256(new_password.encode()).hexdigest())
+            self.__user_data_base.update_signed_user(signed_user)
             return True
         else:
             return False
-
-    def add_search(self, user_name, massage):
-        self.__user_data_base.add_search(user_name, massage)
-
-    def get_user(self, user_name):
-        if user_name in self.__user_data_base.signed_users:
-            return self.__user_data_base.signed_users[user_name]
-        else:
-            return None
-
-    def get_signed_users(self):
-        return self.__user_data_base.signed_users
-
-    def get_guests(self):
-        return self.__user_data_base.guests
-
-    @property
-    def user_data_base(self):
-        return self.__user_data_base
 
     """ Adding users by type =>"""
 
-    def add_fan_to_data(self, user_name, password, name, birth_date, ip_address):
+    def add_fan(self, user_name, password, name, birth_date):
         """
         add`s fan to DB - the fan is signed user
         @param user_name: string
         @param password: given string before security algorithm
         @param name: name - no numbers
         @param birth_date: date Type only!
-        @param ip_address: ip of the user
         @return: no return
         """
-        self.__ID = self.__ID + 1
-        f = Fan(user_name, password, name, birth_date, ip_address, self.__ID)
-        self.add_user(f)
+        fan = Fan(user_name, password, name, birth_date, self.__ID)
+        self.__user_data_base.add_signed_user(fan, 'fan')
+        self.update_counter()
 
-    """ When we init the signed controller the first user is system admin """
+    def add_system_admin(self, user_name, password, name, birth_date):
+        admin = SystemAdmin(user_name, password, name, birth_date, self.__ID)
+        self.__user_data_base.add_signed_user(admin, 'system_admin')
+        self.update_counter()
 
-    def add_system_admin(self, user_name, password, name, birth_date, ip_address):
-        self.__ID = self.__ID + 1
-        admin = SystemAdmin(user_name, password, name, birth_date, ip_address, self.__ID)
-        self.add_user(admin)
+    def add_referee(self, qualification, user_name, password, name, birth_date):
+        referee_user = Referee(qualification, user_name, password, name, birth_date, self.__ID)
+        self.__user_data_base.add_signed_user(referee_user, 'referee')
+        self.update_counter()
 
-    def add_referee_to_data(self, qualification, user_name, password, name, birth_date, ip_address):
-        self.__ID = self.__ID + 1
-        referee_user = Referee(qualification, user_name, password, name, birth_date, ip_address, self.__ID)
-        self.add_user(referee_user)
+    def add_union_representor(self, user_name, password, name, birth_date, salary):
+        union_rep = UnionRepresentor(user_name, password, name, birth_date, self.__ID, salary)
+        self.__user_data_base.add_signed_user(union_rep, 'union_representor')
+        self.update_counter()
 
-    def number_of_admins(self):
-        """
+    def add_player(self, user_name, password, name, birth_date, assigned_by=None, position=None, number=0):
+        player_role = Player(assigned_by, position, number)
+        player = TeamUser(user_name, password, name, birth_date, self.__ID, role=player_role)
+        self.__user_data_base.add_signed_user(player, 'player')
+        self.update_counter()
 
-        @return: number of admins that in the system
-        """
-        return self.__user_data_base.get_number_of_admins_in_system()
+    def add_coach(self, user_name, password, name, birth_date, assigned_by=None, qualifications=None):
+        coach_role = Coach(assigned_by, qualifications)
+        coach = TeamUser(user_name, password, name, birth_date, self.__ID, role=coach_role)
+        self.__user_data_base.add_signed_user(coach, 'coach')
+        self.update_counter()
+
+    def add_team_manager(self, user_name, password, name, birth_date, assigned_by=None,
+                         bool_open_close=False, bool_accounting=False, bool_add_remove=False, bool_set_permission=False):
+        team_manager_role = TeamManager(assigned_by, bool_open_close, bool_accounting,
+                                        bool_add_remove, bool_set_permission)
+        team_manager = TeamUser(user_name, password, name, birth_date, self.__ID, role=team_manager_role)
+        self.__user_data_base.add_signed_user(team_manager, 'team_manager')
+        self.update_counter()
+
+    def add_team_owner(self, user_name, password, name, birth_date, assigned_by=None, additional_roles=[]):
+        team_owner_role = TeamOwner(assigned_by, additional_roles)
+        team_owner = TeamUser(user_name, password, name, birth_date, self.__ID, role=team_owner_role)
+        self.__user_data_base.add_signed_user(team_owner, 'team_owner')
+        self.update_counter()
+
+    def update_counter(self):
+        self.__ID += 1
+        self.__user_data_base.update_id_counter(self.__ID)

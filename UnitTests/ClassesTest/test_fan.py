@@ -26,9 +26,8 @@ class TestFan(TestCase):
         password = 'default'
         name = 'default'
         birth_date = date.datetime(2000, 1, 1)
-        ip = '1.1.1.1'
         user_id = 111
-        self.fan = Fan(user_name, password, name, birth_date, ip, user_id)
+        self.fan = Fan(user_name, password, name, birth_date, user_id)
 
     def tearDown(self):
         pass
