@@ -2773,3 +2773,93 @@
 2020-05-30 15:55:28,292 INFO Info: : Team team1 was deleted
 2020-05-30 15:55:28,293 INFO Info: : Team team2 was deleted
 2020-05-30 15:55:28,293 INFO Info: : Team team2 was deleted
+2020-05-30 18:04:54,303 INFO Info: : Team team1 was created
+2020-05-30 18:04:54,303 INFO Info: : Team team1 was created
+2020-05-30 18:04:54,311 INFO Info: : Team team2 was created
+2020-05-30 18:04:54,311 INFO Info: : Team team2 was created
+2020-05-30 18:04:54,389 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 18:04:54,389 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 18:04:54,412 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 18:04:54,412 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 18:04:54,420 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 18:04:54,420 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 18:04:54,445 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 18:04:54,445 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 18:04:54,447 INFO Info: : Asked for game event 1
+2020-05-30 18:04:54,447 INFO Info: : Asked for game event 1
+2020-05-30 18:04:54,451 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 18:04:54,451 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 18:04:54,454 INFO Info: : Asked for game event 1
+2020-05-30 18:04:54,454 INFO Info: : Asked for game event 1
+2020-05-30 18:04:54,458 INFO Info: :edited event 1 
+2020-05-30 18:04:54,458 INFO Info: :edited event 1 
+2020-05-30 18:04:54,460 INFO Info: : Asked for game event 1
+2020-05-30 18:04:54,460 INFO Info: : Asked for game event 1
+2020-05-30 18:04:54,461 INFO Info: : Asked for game event 1
+2020-05-30 18:04:54,461 INFO Info: : Asked for game event 1
+2020-05-30 18:04:54,478 INFO Info: :removed event Yellow card for Shahar 
+2020-05-30 18:04:54,478 INFO Info: :removed event Yellow card for Shahar 
+2020-05-30 18:04:54,479 INFO Info: :Deleted game 2 
+2020-05-30 18:04:54,479 INFO Info: :Deleted game 2 
+2020-05-30 18:04:54,482 INFO Info: :Deleted game 1 
+2020-05-30 18:04:54,482 INFO Info: :Deleted game 1 
+2020-05-30 18:04:54,492 INFO Info: : Team team1 was deleted
+2020-05-30 18:04:54,492 INFO Info: : Team team1 was deleted
+2020-05-30 18:04:54,493 INFO Info: : Team team2 was deleted
+2020-05-30 18:04:54,493 INFO Info: : Team team2 was deleted
+2020-05-30 18:04:54,510 INFO Info: : Team team1 was created
+2020-05-30 18:04:54,510 INFO Info: : Team team1 was created
+2020-05-30 18:04:54,515 INFO Info: : Team team2 was created
+2020-05-30 18:04:54,515 INFO Info: : Team team2 was created
+2020-05-30 18:04:54,548 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 18:04:54,548 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 18:04:54,568 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 18:04:54,568 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 18:04:54,575 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 18:04:54,575 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 18:04:54,586 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 18:04:54,586 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 18:04:54,589 INFO Info: : Asked for game event 2
+2020-05-30 18:04:54,589 INFO Info: : Asked for game event 2
+2020-05-30 18:04:54,593 INFO Info: : Asked for game event 2
+2020-05-30 18:04:54,593 INFO Info: : Asked for game event 2
+2020-05-30 18:04:54,600 INFO Info: :edited event 2 
+2020-05-30 18:04:54,600 INFO Info: :edited event 2 
+2020-05-30 18:04:54,601 INFO Info: : Asked for game event 2
+2020-05-30 18:04:54,601 INFO Info: : Asked for game event 2
+2020-05-30 18:04:54,603 INFO Info: : Asked for game event 2
+2020-05-30 18:04:54,603 INFO Info: : Asked for game event 2
+2020-05-30 18:04:54,618 INFO Info: :removed event Red card for Oscar 
+2020-05-30 18:04:54,618 INFO Info: :removed event Red card for Oscar 
+2020-05-30 18:04:54,619 INFO Info: :Deleted game 4 
+2020-05-30 18:04:54,619 INFO Info: :Deleted game 4 
+2020-05-30 18:04:54,621 INFO Info: :Deleted game 3 
+2020-05-30 18:04:54,621 INFO Info: :Deleted game 3 
+2020-05-30 18:04:54,632 INFO Info: : Team team1 was deleted
+2020-05-30 18:04:54,632 INFO Info: : Team team1 was deleted
+2020-05-30 18:04:54,634 INFO Info: : Team team2 was deleted
+2020-05-30 18:04:54,634 INFO Info: : Team team2 was deleted
+2020-05-30 18:04:54,665 INFO Info: : Team team1 was created
+2020-05-30 18:04:54,665 INFO Info: : Team team1 was created
+2020-05-30 18:04:54,670 INFO Info: : Team team2 was created
+2020-05-30 18:04:54,670 INFO Info: : Team team2 was created
+2020-05-30 18:04:54,707 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 18:04:54,707 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 18:04:54,728 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 18:04:54,728 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 18:04:54,735 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 18:04:54,735 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 18:04:54,745 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 18:04:54,745 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 18:04:54,747 INFO Info: : Asked for game event 3
+2020-05-30 18:04:54,747 INFO Info: : Asked for game event 3
+2020-05-30 18:04:54,762 INFO Info: :removed event Goal to home team 
+2020-05-30 18:04:54,762 INFO Info: :removed event Goal to home team 
+2020-05-30 18:04:54,764 INFO Info: :Deleted game 6 
+2020-05-30 18:04:54,764 INFO Info: :Deleted game 6 
+2020-05-30 18:04:54,765 INFO Info: :Deleted game 5 
+2020-05-30 18:04:54,765 INFO Info: :Deleted game 5 
+2020-05-30 18:04:54,779 INFO Info: : Team team1 was deleted
+2020-05-30 18:04:54,779 INFO Info: : Team team1 was deleted
+2020-05-30 18:04:54,781 INFO Info: : Team team2 was deleted
+2020-05-30 18:04:54,781 INFO Info: : Team team2 was deleted
