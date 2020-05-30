@@ -35,8 +35,7 @@ team_management_controller = TeamManagementController(TeamDB())
 policy_db = PolicyDB()
 league_controller = LeagueController(LeagueDB(),SeasonDB(),policy_db)
 signed_user_controller.add_fan_to_data('dor', '1234', 'dor', date.datetime(1994, 1, 20), '0.0.0.0')
-# signed_user_controller.add_system_admin('idan', '1234', 'idan', date.datetime(1994, 1, 20), '0.0.0.0')
-signed_user_controller.add_guest('0.0.0.0')
+
 
 
 def user_login(mess_info):
@@ -54,9 +53,9 @@ def user_login(mess_info):
         else:
             return {
                     'user_name': user_name,
-                    'user_type': str(type(signed_user_controller.get_user(user_name))).split('.')[1],
+                    'user_type': str(type(user)).split('.')[1],
+                    'user_notification': notification_controller.check_user_notifications(user)
                 }
-
 
 
 def user_register(mess_info):
@@ -150,9 +149,12 @@ def get_user_notifications(mess_info):
     user_name = mess_info['data']['user_name']
     try:
         user = signed_user_controller.get_user(user_name)
-        return notification_controller.check_user_notifications(user)
+        return {
+                    'user_name': user_name,
+                    'user_notifications': notification_controller.check_user_notifications(user)
+            }
     except Exception as err:
-        return 'Error'
+        return err
 
 
 def get_logs(mess_info):
@@ -236,15 +238,11 @@ def confirmation_massage():
 
 def handle_message(message):
     message_info = json.loads(message)
-    answer = handle_functions[message_info['type']](message_info)
-    notifications = handle_functions['get_user_notifications'](message_info)
-    ans_message = {
-        'message': answer,
-        'notifications': notifications
-    }
-    return json.dumps(ans_message)
+    print(message_info)
+    return json.dumps(handle_functions[message_info['type']](message_info))
 
 
 
 server = create_server(10000)
 server.listen()
+
