@@ -3,24 +3,21 @@
 
 class League:
 
-    TEAM_INDEX = 0
-    SCORE_INDEX = 1
-
-    def __init__(self, name: str, season, points_calculation_policy, games_schedule_policy, team_budget_policy):
+    def __init__(self, name: str, season, points_calculation_policy, games_schedule_policy, team_budget_policy, league_id):
 
         if type(name) is not str:
             raise TypeError
 
+        self.__league_id = league_id
         self.__name = name
         self.__referees = []
         self.__teams = {}
-        self.__policies = {}
-        self.points_calculation_policy = points_calculation_policy
-        self.game_schedule_policy = games_schedule_policy
-        self.team_budget_policy = team_budget_policy
+        self.__policies = {
+            'Points': points_calculation_policy,
+            'Schedule': games_schedule_policy,
+            'Budget': team_budget_policy
+        }
         self.__season = season
-        # adds the created league to the season (connection)
-        self.__season.add_league(self)
 
     """ This method adds teams to the league """
 
@@ -39,12 +36,12 @@ class League:
 
     """ This method adds a new team to the league """
 
-    def add_team(self, team):
+    def add_team(self, team_name):
 
-        if team.name in self.__teams:
-            raise ValueError('Team {} already in this league'.format(team.name))
+        if team_name in self.__teams:
+            raise ValueError('Team {} already in this league'.format(team_name.name))
 
-        self.__teams[team.name] = [team, 0]
+        self.__teams[team_name] = 0
 
     """ This method removes the given team from the league """
 
@@ -62,7 +59,7 @@ class League:
         if team_name not in self.__teams:
             raise ValueError('{} team is not in this league')
 
-        self.__teams[team_name][self.SCORE_INDEX] += self.points_calculation_policy.win_points
+        self.__teams[team_name] += self.points_calculation_policy.win_points
 
     """ This method updates the teams score if the team tied the game """
 
@@ -71,7 +68,7 @@ class League:
         if team_name not in self.__teams:
             raise ValueError('{} team is not in this league')
 
-        self.__teams[team_name][self.SCORE_INDEX] += self.points_calculation_policy.tie_points
+        self.__teams[team_name] += self.points_calculation_policy.tie_points
 
     """ This method updates the teams score if the team lost the game """
 
@@ -80,7 +77,7 @@ class League:
         if team_name not in self.__teams:
             raise ValueError('{} team is not in this league')
 
-        self.__teams[team_name][self.SCORE_INDEX] += self.points_calculation_policy.lose_points
+        self.__teams[team_name] += self.points_calculation_policy.lose_points
 
     """ This method adds a new referee to the league """
 
@@ -106,11 +103,19 @@ class League:
     def teams(self):
         return self.__teams
 
+    @teams.setter
+    def teams(self, value):
+        self.__teams = value
+
     """ This method returns the league referees """
 
     @property
     def referees(self):
         return self.__referees
+
+    @referees.setter
+    def referees(self, value):
+        self.__referees = value
 
     """ This method returns the league points calculation policy """
 
@@ -162,5 +167,13 @@ class League:
     def team_budget_policy(self, policy):
 
         self.__policies["Budget"] = policy
+
+    @property
+    def league_id(self):
+        return self.__league_id
+
+    @league_id.setter
+    def league_id(self, value):
+        self.__league_id = value
 
 

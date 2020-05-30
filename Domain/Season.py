@@ -59,3 +59,7 @@ class Season:
     def leagues(self):
 
         return self.__leagues
+
+    @leagues.setter
+    def leagues(self, value):
+        self.__leagues = value

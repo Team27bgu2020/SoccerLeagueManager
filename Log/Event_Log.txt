@@ -1,0 +1,2775 @@
+2020-05-27 19:06:54,105 INFO Info: : Page MaorMelikson add
+2020-05-27 19:10:24,610 INFO Info: : Page MaorMelikson add
+2020-05-27 19:10:38,279 INFO Info: : Page MaorMelikson add
+2020-05-27 19:11:01,232 INFO Info: : Page MaorMelikson add
+2020-05-27 19:11:09,028 INFO Info: : Page MaorMelikson add
+2020-05-27 19:11:17,330 INFO Info: : Page MaorMelikson add
+2020-05-27 19:11:50,408 INFO Info: : Page MaorMelikson add
+2020-05-27 19:11:58,594 INFO Info: : Page MaorMelikson add
+2020-05-27 19:12:43,657 INFO Info: : Page MaorMelikson add
+2020-05-27 19:14:04,243 INFO Info: : Page MaorMelikson add
+2020-05-27 19:14:58,489 INFO Info: : Page MaorMelikson add
+2020-05-27 19:15:29,191 INFO Info: : Page MaorMelikson add
+2020-05-27 19:16:52,365 INFO Info: : Page MaorMelikson add
+2020-05-27 19:17:10,066 INFO Info: : Page MaorMelikson add
+2020-05-27 19:18:05,791 INFO Info: : Page MaorMelikson add
+2020-05-27 19:18:16,216 INFO Info: : Page MaorMelikson add
+2020-05-27 19:19:23,599 INFO Info: : created new game schedule policy
+2020-05-27 19:19:23,599 INFO Info: : update game schedule policy 
+2020-05-27 19:19:23,600 INFO Info: : created new calculation policy
+2020-05-27 19:19:23,600 INFO Info: : update calculation policy 
+2020-05-27 19:19:23,600 INFO Info: : created new budget policy
+2020-05-27 19:19:23,600 INFO Info: : Update budget policy in league Euro
+2020-05-27 19:19:23,601 INFO Info: : created Euro league 
+2020-05-27 19:19:23,602 INFO Info: : created 2020 season 
+2020-05-27 19:19:23,602 INFO Info: : Added Euro league to season
+2020-05-27 19:19:23,602 INFO Info: : Added list of leagues to season
+2020-05-27 19:19:23,604 INFO Info: :Add income: 10000,
+2020-05-27 19:19:23,604 INFO Info: :Add income: 10000,
+2020-05-27 19:19:23,604 INFO Info: :Add expanse: 10000,
+2020-05-27 19:19:23,604 INFO Info: :Add expanse: 10000,
+2020-05-27 19:19:23,604 INFO Info: :Team  paid registration fee
+2020-05-27 19:19:23,604 INFO Info: :Team  paid registration fee
+2020-05-27 19:19:23,605 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-27 19:19:23,605 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-27 19:19:33,895 INFO Info: : created new game schedule policy
+2020-05-27 19:19:33,896 INFO Info: : update game schedule policy 
+2020-05-27 19:19:33,899 INFO Info: : created new calculation policy
+2020-05-27 19:19:33,899 INFO Info: : update calculation policy 
+2020-05-27 19:19:33,901 INFO Info: : created new budget policy
+2020-05-27 19:19:33,901 INFO Info: : Update budget policy in league Euro
+2020-05-27 19:19:33,903 INFO Info: : created Euro league 
+2020-05-27 19:19:33,905 INFO Info: : created 2020 season 
+2020-05-27 19:19:33,905 INFO Info: : Added Euro league to season
+2020-05-27 19:19:33,906 INFO Info: : Added list of leagues to season
+2020-05-27 19:19:33,909 INFO Info: :Add income: 10000,
+2020-05-27 19:19:33,909 INFO Info: :Add income: 10000,
+2020-05-27 19:19:33,910 INFO Info: :Add expanse: 10000,
+2020-05-27 19:19:33,910 INFO Info: :Add expanse: 10000,
+2020-05-27 19:19:33,911 INFO Info: :Team  paid registration fee
+2020-05-27 19:19:33,911 INFO Info: :Team  paid registration fee
+2020-05-27 19:19:33,911 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-27 19:19:33,911 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-27 19:19:39,748 INFO Info: : Page MaorMelikson add
+2020-05-27 19:19:46,545 INFO Info: : Present Page 
+2020-05-27 19:19:46,545 INFO Info: : Present Page 
+2020-05-27 19:19:53,149 INFO Info: : Page MaorMelikson add
+2020-05-27 19:20:01,921 INFO Info: : Present Page 
+2020-05-27 19:20:01,921 INFO Info: : Present Page 
+2020-05-27 19:20:32,611 INFO Info: : Page MaorMelikson add
+2020-05-27 19:20:34,578 INFO Info: : Present Page 
+2020-05-27 19:20:34,578 INFO Info: : Present Page 
+2020-05-27 19:20:55,880 INFO Info: : Page MaorMelikson add
+2020-05-27 19:20:59,957 INFO Info: : Present Page 
+2020-05-27 19:20:59,957 INFO Info: : Present Page 
+2020-05-27 19:22:12,118 INFO Info: : Page MaorMelikson add
+2020-05-27 19:22:21,597 INFO Info: : Page MaorMelikson add
+2020-05-27 19:24:14,879 INFO Info: : Page MaorMelikson add
+2020-05-27 19:25:07,676 INFO Info: : Page MaorMelikson add
+2020-05-27 19:40:05,638 INFO Info: : Page MaorMelikson add
+2020-05-27 19:41:26,764 INFO Info: : Page MaorMelikson add
+2020-05-27 19:43:11,265 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:43:11,265 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:43:11,265 INFO Info: :started game between team1 and team2 at the 2020-05-27 19:43:11.261455 
+2020-05-27 19:43:11,265 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 19:43:11,265 INFO Info: :ended game between team1 and team2 at the 2020-05-27 19:43:11.261455 
+2020-05-27 19:43:11,265 INFO Info: :removed event Goal to home team 
+2020-05-27 19:43:11,265 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-27 19:43:11,265 INFO Info: :edit event to Goal to home team 
+2020-05-27 19:43:11,267 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:43:11,267 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:43:11,267 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:43:11,267 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:43:11,267 INFO Info: :started game between team1 and team2 at the 2020-05-27 19:43:11.261455 
+2020-05-27 19:43:11,267 INFO Info: :started game between team1 and team2 at the 2020-05-27 19:43:11.261455 
+2020-05-27 19:43:11,267 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 19:43:11,267 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 19:43:11,267 INFO Info: :removed event Goal to home team 
+2020-05-27 19:43:11,267 INFO Info: :removed event Goal to home team 
+2020-05-27 19:43:11,268 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-27 19:43:11,268 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-27 19:43:11,268 INFO Info: :edit event to Goal to home team 
+2020-05-27 19:43:11,268 INFO Info: :edit event to Goal to home team 
+2020-05-27 19:43:11,269 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:43:11,269 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:43:11,269 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:43:11,269 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:43:11,269 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:43:11,269 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:43:11,269 INFO Info: :started game between team1 and team2 at the 2020-05-27 19:43:11.261455 
+2020-05-27 19:43:11,269 INFO Info: :started game between team1 and team2 at the 2020-05-27 19:43:11.261455 
+2020-05-27 19:43:11,269 INFO Info: :started game between team1 and team2 at the 2020-05-27 19:43:11.261455 
+2020-05-27 19:43:11,269 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 19:43:11,269 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 19:43:11,269 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 19:59:25,982 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:59:25,982 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:59:25,982 INFO Info: :started game between team1 and team2 at the 2020-05-27 19:59:25.978415 
+2020-05-27 19:59:25,982 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 19:59:25,982 INFO Info: :ended game between team1 and team2 at the 2020-05-27 19:59:25.978415 
+2020-05-27 19:59:25,983 INFO Info: :removed event Goal to home team 
+2020-05-27 19:59:25,983 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-27 19:59:25,983 INFO Info: :edit event to Goal to home team 
+2020-05-27 19:59:25,984 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:59:25,984 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:59:25,984 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:59:25,984 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:59:25,984 INFO Info: :started game between team1 and team2 at the 2020-05-27 19:59:25.978415 
+2020-05-27 19:59:25,984 INFO Info: :started game between team1 and team2 at the 2020-05-27 19:59:25.978415 
+2020-05-27 19:59:25,985 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 19:59:25,985 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 19:59:25,985 INFO Info: :removed event Goal to home team 
+2020-05-27 19:59:25,985 INFO Info: :removed event Goal to home team 
+2020-05-27 19:59:25,985 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-27 19:59:25,985 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-27 19:59:25,985 INFO Info: :edit event to Goal to home team 
+2020-05-27 19:59:25,985 INFO Info: :edit event to Goal to home team 
+2020-05-27 19:59:25,987 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:59:25,987 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:59:25,987 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:59:25,987 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:59:25,987 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:59:25,987 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 19:59:25,988 INFO Info: :started game between team1 and team2 at the 2020-05-27 19:59:25.978415 
+2020-05-27 19:59:25,988 INFO Info: :started game between team1 and team2 at the 2020-05-27 19:59:25.978415 
+2020-05-27 19:59:25,988 INFO Info: :started game between team1 and team2 at the 2020-05-27 19:59:25.978415 
+2020-05-27 19:59:25,988 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 19:59:25,988 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 19:59:25,988 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 20:00:03,581 INFO Info: : Team Tiberias was created
+2020-05-27 20:00:03,582 INFO Info: : Team Tiberias closed
+2020-05-27 20:00:13,423 INFO Info: : Team Tiberias was created
+2020-05-27 20:00:13,423 INFO Info: : Team Tiberias closed
+2020-05-27 20:00:53,482 INFO Info: : Team Tiberias was created
+2020-05-27 20:00:53,482 INFO Info: : Team Tiberias closed
+2020-05-27 20:01:34,533 INFO Info: : Team Tiberias was created
+2020-05-27 20:01:34,534 INFO Info: : Team Tiberias closed
+2020-05-27 20:02:33,209 INFO Info: : Team Tiberias was created
+2020-05-27 20:02:33,209 INFO Info: : Team Tiberias closed
+2020-05-27 20:03:45,743 INFO Info: : Team Tiberias was created
+2020-05-27 20:03:45,744 INFO Info: : Team Tiberias closed
+2020-05-27 20:05:08,930 INFO Info: : Team Tiberias was created
+2020-05-27 20:05:08,930 INFO Info: : Team Tiberias closed
+2020-05-27 20:07:00,211 INFO Info: : Team Tiberias was created
+2020-05-27 20:07:00,211 INFO Info: : Team Tiberias closed
+2020-05-27 20:08:24,824 INFO Info: : Team Tiberias was created
+2020-05-27 20:08:24,825 INFO Info: : Team Tiberias closed
+2020-05-27 20:08:47,944 INFO Info: : Team Tiberias was created
+2020-05-27 20:08:47,945 INFO Info: : Team Tiberias closed
+2020-05-27 20:09:51,644 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 20:09:51,644 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 20:09:51,644 INFO Info: :started game between team1 and team2 at the 2020-05-27 20:09:51.641819 
+2020-05-27 20:09:51,644 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 20:09:51,644 INFO Info: :ended game between team1 and team2 at the 2020-05-27 20:09:51.641819 
+2020-05-27 20:09:51,644 INFO Info: :removed event Goal to home team 
+2020-05-27 20:09:51,644 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-27 20:09:51,644 INFO Info: :edit event to Goal to home team 
+2020-05-27 20:09:51,645 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 20:09:51,645 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 20:09:51,646 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 20:09:51,646 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 20:09:51,646 INFO Info: :started game between team1 and team2 at the 2020-05-27 20:09:51.641819 
+2020-05-27 20:09:51,646 INFO Info: :started game between team1 and team2 at the 2020-05-27 20:09:51.641819 
+2020-05-27 20:09:51,646 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 20:09:51,646 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 20:09:51,646 INFO Info: :removed event Goal to home team 
+2020-05-27 20:09:51,646 INFO Info: :removed event Goal to home team 
+2020-05-27 20:09:51,646 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-27 20:09:51,646 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-27 20:09:51,646 INFO Info: :edit event to Goal to home team 
+2020-05-27 20:09:51,646 INFO Info: :edit event to Goal to home team 
+2020-05-27 20:09:51,648 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 20:09:51,648 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 20:09:51,648 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 20:09:51,648 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 20:09:51,648 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 20:09:51,648 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-27 20:09:51,648 INFO Info: :started game between team1 and team2 at the 2020-05-27 20:09:51.641819 
+2020-05-27 20:09:51,648 INFO Info: :started game between team1 and team2 at the 2020-05-27 20:09:51.641819 
+2020-05-27 20:09:51,648 INFO Info: :started game between team1 and team2 at the 2020-05-27 20:09:51.641819 
+2020-05-27 20:09:51,648 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 20:09:51,648 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 20:09:51,648 INFO Info: :add event Goal to home team in min 90 
+2020-05-27 20:10:01,318 INFO Info: : Team Tiberias was created
+2020-05-27 20:10:01,319 INFO Info: : Team Tiberias closed
+2020-05-27 20:10:10,060 INFO Info: : Team Tiberias was created
+2020-05-27 20:10:10,060 INFO Info: : Team Tiberias closed
+2020-05-27 20:10:31,436 INFO Info: : Team Tiberias was created
+2020-05-27 20:10:31,437 INFO Info: : Team Tiberias closed
+2020-05-27 20:10:55,955 INFO Info: : Team Tiberias was created
+2020-05-27 20:10:55,956 INFO Info: : Team Tiberias closed
+2020-05-27 20:11:39,931 INFO Info: : Team Tiberias was created
+2020-05-27 20:11:39,932 INFO Info: : Team Tiberias closed
+2020-05-27 20:13:13,636 INFO Info: : Team Tiberias was created
+2020-05-27 20:13:13,637 INFO Info: : Team Tiberias closed
+2020-05-27 20:14:45,899 INFO Info: : Team Tiberias was created
+2020-05-27 20:14:45,900 INFO Info: : Team Tiberias closed
+2020-05-27 20:15:03,404 INFO Info: : Team Tiberias was created
+2020-05-27 20:15:03,404 INFO Info: : Team Tiberias closed
+2020-05-27 20:15:25,966 INFO Info: : Team Tiberias was created
+2020-05-27 20:15:25,967 INFO Info: : Team Tiberias closed
+2020-05-27 20:16:27,271 INFO Info: : Team Tiberias was created
+2020-05-27 20:16:27,271 INFO Info: : Team Tiberias closed
+2020-05-27 20:16:43,411 INFO Info: : Team Tiberias was created
+2020-05-27 20:16:43,412 INFO Info: : Team Tiberias closed
+2020-05-27 20:18:20,155 INFO Info: : Team Tiberias was created
+2020-05-27 20:18:20,156 INFO Info: : Team Tiberias closed
+2020-05-27 20:18:33,956 INFO Info: : Team Tiberias was created
+2020-05-27 20:18:33,957 INFO Info: : Team Tiberias closed
+2020-05-27 20:19:34,979 INFO Info: : Team Tiberias was created
+2020-05-27 20:19:34,980 INFO Info: : Team Tiberias closed
+2020-05-27 20:20:40,809 INFO Info: : Team Tiberias was created
+2020-05-27 20:20:40,809 INFO Info: : Team Tiberias closed
+2020-05-27 20:21:18,271 INFO Info: : Team Tiberias was created
+2020-05-27 20:21:18,272 INFO Info: : Team Tiberias closed
+2020-05-27 20:21:46,426 INFO Info: : Team Tiberias was created
+2020-05-27 20:21:46,427 INFO Info: : Team Tiberias closed
+2020-05-27 20:23:08,776 INFO Info: : Team Tiberias was created
+2020-05-27 20:23:08,777 INFO Info: : Team Tiberias closed
+2020-05-27 20:24:11,051 INFO Info: : Team Tiberias was created
+2020-05-27 20:24:11,052 INFO Info: : Team Tiberias closed
+2020-05-27 20:24:55,052 INFO Info: : Team Tiberias was created
+2020-05-27 20:24:55,052 INFO Info: : Team Tiberias closed
+2020-05-27 20:26:23,144 INFO Info: : Team Tiberias was created
+2020-05-27 20:26:23,144 INFO Info: : Team Tiberias closed
+2020-05-27 20:26:39,672 INFO Info: : Team Tiberias was created
+2020-05-27 20:26:39,673 INFO Info: : Team Tiberias closed
+2020-05-27 20:28:29,271 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-27 20:28:29,271 INFO Info: : Add expanse to team Barca : 499, Sponsorship
+2020-05-27 20:28:29,275 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-27 20:28:29,275 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-27 20:28:29,275 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-27 20:28:29,278 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,278 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,278 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,278 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,278 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,281 INFO Info: : User NameC was added to Barca
+2020-05-27 20:28:29,281 INFO Info: : User NameC was added to Barca
+2020-05-27 20:28:29,281 INFO Info: : User NameC was added to Barca
+2020-05-27 20:28:29,281 INFO Info: : User NameC was added to Barca
+2020-05-27 20:28:29,281 INFO Info: : User NameC was added to Barca
+2020-05-27 20:28:29,281 INFO Info: : User NameC was added to Barca
+2020-05-27 20:28:29,281 INFO Info: : User NameC was added to Barca
+2020-05-27 20:28:29,282 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,282 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,282 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,282 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,282 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,282 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,282 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,282 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,284 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,284 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,284 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,284 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,284 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,284 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,284 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,284 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,284 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,288 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,288 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,288 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,288 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,288 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,288 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,288 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,288 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,288 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,288 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,288 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,289 INFO Info: :Team Barca reopened
+2020-05-27 20:28:29,289 INFO Info: :Team Barca reopened
+2020-05-27 20:28:29,289 INFO Info: :Team Barca reopened
+2020-05-27 20:28:29,289 INFO Info: :Team Barca reopened
+2020-05-27 20:28:29,289 INFO Info: :Team Barca reopened
+2020-05-27 20:28:29,289 INFO Info: :Team Barca reopened
+2020-05-27 20:28:29,289 INFO Info: :Team Barca reopened
+2020-05-27 20:28:29,289 INFO Info: :Team Barca reopened
+2020-05-27 20:28:29,289 INFO Info: :Team Barca reopened
+2020-05-27 20:28:29,289 INFO Info: :Team Barca reopened
+2020-05-27 20:28:29,289 INFO Info: :Team Barca reopened
+2020-05-27 20:28:29,291 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,291 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,291 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,291 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,291 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,291 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,291 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,291 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,291 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,291 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,291 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,291 INFO Info: : Team Barca closed
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was removed from Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was removed from Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was removed from Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was removed from Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was removed from Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was removed from Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was removed from Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was removed from Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was removed from Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was removed from Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was removed from Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was removed from Barca
+2020-05-27 20:28:29,293 INFO Info: : Owner NameB was removed from Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,295 INFO Info: : Owner NameB was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,296 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,297 INFO Info: : User NameD was deleted from Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,298 INFO Info: : User NameD was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,300 INFO Info: : Manager NameA was added to Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,301 INFO Info: : User NameA was deleted from Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:29,307 INFO Info: : Stadium Camp was set to Barca
+2020-05-27 20:28:34,801 INFO Info: : created new game schedule policy
+2020-05-27 20:28:34,801 INFO Info: : update game schedule policy 
+2020-05-27 20:28:34,802 INFO Info: : created new calculation policy
+2020-05-27 20:28:34,802 INFO Info: : update calculation policy 
+2020-05-27 20:28:34,802 INFO Info: : created new budget policy
+2020-05-27 20:28:34,802 INFO Info: : Update budget policy in league Euro
+2020-05-27 20:28:34,803 INFO Info: : created Euro league 
+2020-05-27 20:28:34,804 INFO Info: : created 2020 season 
+2020-05-27 20:28:34,804 INFO Info: : Added Euro league to season
+2020-05-27 20:28:34,805 INFO Info: : Added list of leagues to season
+2020-05-27 20:28:34,807 INFO Info: :Add income: 10000,
+2020-05-27 20:28:34,807 INFO Info: :Add income: 10000,
+2020-05-27 20:28:34,808 INFO Info: :Add expanse: 10000,
+2020-05-27 20:28:34,808 INFO Info: :Add expanse: 10000,
+2020-05-27 20:28:34,808 INFO Info: :Team  paid registration fee
+2020-05-27 20:28:34,808 INFO Info: :Team  paid registration fee
+2020-05-27 20:28:34,808 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-27 20:28:34,808 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-27 20:28:45,971 INFO Info: : created new game schedule policy
+2020-05-27 20:28:45,971 INFO Info: : update game schedule policy 
+2020-05-27 20:28:45,972 INFO Info: : created new calculation policy
+2020-05-27 20:28:45,972 INFO Info: : update calculation policy 
+2020-05-27 20:28:45,973 INFO Info: : created new budget policy
+2020-05-27 20:28:45,973 INFO Info: : Update budget policy in league Euro
+2020-05-27 20:28:45,973 INFO Info: : created Euro league 
+2020-05-27 20:28:45,974 INFO Info: : created 2020 season 
+2020-05-27 20:28:45,974 INFO Info: : Added Euro league to season
+2020-05-27 20:28:45,974 INFO Info: : Added list of leagues to season
+2020-05-27 20:28:45,975 INFO Info: :Add income: 10000,
+2020-05-27 20:28:45,975 INFO Info: :Add income: 10000,
+2020-05-27 20:28:45,976 INFO Info: :Add expanse: 10000,
+2020-05-27 20:28:45,976 INFO Info: :Add expanse: 10000,
+2020-05-27 20:28:45,976 INFO Info: :Team  paid registration fee
+2020-05-27 20:28:45,976 INFO Info: :Team  paid registration fee
+2020-05-27 20:28:45,976 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-27 20:28:45,976 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-27 20:28:45,977 INFO Info: :Dor have been payed
+2020-05-27 20:28:45,977 INFO Info: :Dor have been payed
+2020-05-27 20:28:45,977 INFO Info: :Employees were paid
+2020-05-27 20:28:45,977 INFO Info: :Employees were paid
+2020-05-27 20:28:50,571 INFO Info: : Page MaorMelikson add
+2020-05-27 20:29:21,759 INFO Info: : Page MaorMelikson add
+2020-05-27 20:30:52,679 INFO Info: : Page MaorMelikson add
+2020-05-28 11:35:08,598 INFO Info: : Page MaorMelikson add
+2020-05-28 11:35:08,600 INFO Info: : Present Page 
+2020-05-28 11:35:08,600 INFO Info: : Present Page 
+2020-05-28 11:35:34,755 INFO Info: : Page MaorMelikson add
+2020-05-28 11:35:34,756 INFO Info: : Present Page 
+2020-05-28 11:35:34,756 INFO Info: : Present Page 
+2020-05-28 11:35:57,799 INFO Info: : Page MaorMelikson add
+2020-05-28 11:35:57,800 INFO Info: : Present Page 
+2020-05-28 11:35:57,800 INFO Info: : Present Page 
+2020-05-28 11:36:14,493 INFO Info: : Page MaorMelikson add
+2020-05-28 11:36:14,494 INFO Info: : Present Page 
+2020-05-28 11:36:14,494 INFO Info: : Present Page 
+2020-05-28 11:36:35,561 INFO Info: : Page MaorMelikson add
+2020-05-28 11:36:35,562 INFO Info: : Present Page 
+2020-05-28 11:36:35,562 INFO Info: : Present Page 
+2020-05-28 11:36:42,378 INFO Info: : Page MaorMelikson add
+2020-05-28 11:36:50,410 INFO Info: : Page MaorMelikson add
+2020-05-28 11:37:06,036 INFO Info: : Page MaorMelikson add
+2020-05-28 11:42:32,699 INFO Info: : Page MaorMelikson add
+2020-05-28 11:42:32,699 INFO Info: : Page MaorMelikson add
+2020-05-28 11:42:51,382 INFO Info: : Page MaorMelikson add
+2020-05-28 11:42:51,382 INFO Info: : Page MaorMelikson add
+2020-05-28 11:43:21,542 INFO Info: : Page MaorMelikson add
+2020-05-28 11:43:21,542 INFO Info: : Page MaorMelikson add
+2020-05-28 11:43:43,936 INFO Info: : Page MaorMelikson add
+2020-05-28 11:43:43,936 INFO Info: : Page MaorMelikson add
+2020-05-28 11:44:02,015 INFO Info: : Page MaorMelikson add
+2020-05-28 11:44:02,015 INFO Info: : Page MaorMelikson add
+2020-05-28 11:44:25,209 INFO Info: : Page MaorMelikson add
+2020-05-28 11:44:25,209 INFO Info: : Page MaorMelikson add
+2020-05-28 11:48:39,728 INFO Info: : Page MaorMelikson add
+2020-05-28 11:48:39,728 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:05,923 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:05,923 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:05,928 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:05,928 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:05,930 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:05,930 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:31,156 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:31,156 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:31,164 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:31,164 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:31,167 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:31,167 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:47,609 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:47,609 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:47,616 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:47,616 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:47,618 INFO Info: : Page MaorMelikson add
+2020-05-28 11:49:47,618 INFO Info: : Page MaorMelikson add
+2020-05-28 11:55:48,310 INFO Info: : Page MaorMelikson add
+2020-05-28 11:55:48,310 INFO Info: : Page MaorMelikson add
+2020-05-28 11:55:48,310 INFO Info: : Present Page 
+2020-05-28 11:55:48,310 INFO Info: : Present Page 
+2020-05-28 11:55:52,078 INFO Info: : Page MaorMelikson add
+2020-05-28 11:55:52,078 INFO Info: : Page MaorMelikson add
+2020-05-28 11:55:52,079 INFO Info: : Present Page 
+2020-05-28 11:55:52,079 INFO Info: : Present Page 
+2020-05-28 11:55:56,862 INFO Info: : Page MaorMelikson add
+2020-05-28 11:55:56,862 INFO Info: : Page MaorMelikson add
+2020-05-28 11:55:56,868 INFO Info: : Page MaorMelikson add
+2020-05-28 11:55:56,868 INFO Info: : Page MaorMelikson add
+2020-05-28 11:55:56,872 INFO Info: : Page MaorMelikson add
+2020-05-28 11:55:56,872 INFO Info: : Page MaorMelikson add
+2020-05-28 11:55:56,876 INFO Info: : Page MaorMelikson add
+2020-05-28 11:55:56,876 INFO Info: : Page MaorMelikson add
+2020-05-28 11:55:56,877 INFO Info: : Present Page 
+2020-05-28 11:55:56,877 INFO Info: : Present Page 
+2020-05-28 11:57:01,276 INFO Info: : Page MaorMelikson add
+2020-05-28 11:57:01,276 INFO Info: : Page MaorMelikson add
+2020-05-28 11:58:22,050 INFO Info: : Page MaorMelikson add
+2020-05-28 11:58:22,050 INFO Info: : Page MaorMelikson add
+2020-05-28 11:58:22,054 INFO Info: : Page MaorMelikson add
+2020-05-28 11:58:22,054 INFO Info: : Page MaorMelikson add
+2020-05-28 11:58:22,061 INFO Info: : Page MaorMelikson add
+2020-05-28 11:58:22,061 INFO Info: : Page MaorMelikson add
+2020-05-28 11:58:22,066 INFO Info: : Page MaorMelikson add
+2020-05-28 11:58:22,066 INFO Info: : Page MaorMelikson add
+2020-05-28 11:58:22,066 INFO Info: : Present Page 
+2020-05-28 11:58:22,066 INFO Info: : Present Page 
+2020-05-28 12:05:22,063 INFO Info: : Page MaorMelikson add
+2020-05-28 12:05:22,063 INFO Info: : Page MaorMelikson add
+2020-05-28 12:05:22,070 INFO Info: : Page MaorMelikson add
+2020-05-28 12:05:22,070 INFO Info: : Page MaorMelikson add
+2020-05-28 12:05:22,073 INFO Info: : Page MaorMelikson add
+2020-05-28 12:05:22,073 INFO Info: : Page MaorMelikson add
+2020-05-28 12:05:22,078 INFO Info: : Page MaorMelikson add
+2020-05-28 12:05:22,078 INFO Info: : Page MaorMelikson add
+2020-05-28 12:05:22,078 INFO Info: : Present Page 
+2020-05-28 12:05:22,078 INFO Info: : Present Page 
+2020-05-28 12:05:22,082 INFO Info: : Page MaorMelikson add
+2020-05-28 12:05:22,082 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:22,850 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:22,850 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:26,360 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:26,360 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:30,333 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:30,333 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:30,337 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:30,337 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:30,341 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:30,341 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:30,346 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:30,346 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:30,347 INFO Info: : Present Page 
+2020-05-28 12:06:30,347 INFO Info: : Present Page 
+2020-05-28 12:06:30,350 INFO Info: : Page MaorMelikson add
+2020-05-28 12:06:30,350 INFO Info: : Page MaorMelikson add
+2020-05-28 12:07:01,517 INFO Info: : Page MaorMelikson add
+2020-05-28 12:07:01,517 INFO Info: : Page MaorMelikson add
+2020-05-28 12:07:01,520 INFO Info: : Page MaorMelikson add
+2020-05-28 12:07:01,520 INFO Info: : Page MaorMelikson add
+2020-05-28 12:07:01,524 INFO Info: : Page MaorMelikson add
+2020-05-28 12:07:01,524 INFO Info: : Page MaorMelikson add
+2020-05-28 12:07:01,528 INFO Info: : Page MaorMelikson add
+2020-05-28 12:07:01,528 INFO Info: : Page MaorMelikson add
+2020-05-28 12:07:01,528 INFO Info: : Present Page 
+2020-05-28 12:07:01,528 INFO Info: : Present Page 
+2020-05-28 12:07:01,531 INFO Info: : Page MaorMelikson add
+2020-05-28 12:07:01,531 INFO Info: : Page MaorMelikson add
+2020-05-28 12:08:02,455 INFO Info: : Page MaorMelikson add
+2020-05-28 12:08:02,455 INFO Info: : Page MaorMelikson add
+2020-05-28 12:08:13,097 INFO Info: : Page MaorMelikson add
+2020-05-28 12:08:13,097 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:08,069 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:08,069 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:08,074 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:08,074 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:08,078 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:08,078 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:08,081 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:08,081 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:08,081 INFO Info: : Present Page 
+2020-05-28 12:09:08,081 INFO Info: : Present Page 
+2020-05-28 12:09:08,085 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:08,085 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:12,705 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:12,705 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:12,710 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:12,710 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:12,712 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:12,712 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:12,715 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:12,715 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:12,715 INFO Info: : Present Page 
+2020-05-28 12:09:12,715 INFO Info: : Present Page 
+2020-05-28 12:09:12,720 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:12,720 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:41,641 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:41,641 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:41,645 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:41,645 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:41,647 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:41,647 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:41,650 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:41,650 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:41,650 INFO Info: : Present Page 
+2020-05-28 12:09:41,650 INFO Info: : Present Page 
+2020-05-28 12:09:41,652 INFO Info: : Page MaorMelikson add
+2020-05-28 12:09:41,652 INFO Info: : Page MaorMelikson add
+2020-05-28 12:15:43,716 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:43,717 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:43,717 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:15:43.710384 
+2020-05-28 12:15:43,717 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:15:43,718 INFO Info: :ended game between team1 and team2 at the 2020-05-28 12:15:43.710384 
+2020-05-28 12:15:43,718 INFO Info: :removed event Goal to home team 
+2020-05-28 12:15:43,718 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-28 12:15:43,718 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:15:43,720 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:43,720 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:43,720 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:43,720 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:43,721 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:15:43.710384 
+2020-05-28 12:15:43,721 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:15:43.710384 
+2020-05-28 12:15:43,721 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:15:43,721 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:15:43,721 INFO Info: :removed event Goal to home team 
+2020-05-28 12:15:43,721 INFO Info: :removed event Goal to home team 
+2020-05-28 12:15:43,722 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-28 12:15:43,722 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-28 12:15:43,722 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:15:43,722 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:15:43,724 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:43,724 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:43,724 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:43,725 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:43,725 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:43,725 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:43,725 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:15:43.710384 
+2020-05-28 12:15:43,725 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:15:43.710384 
+2020-05-28 12:15:43,725 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:15:43.710384 
+2020-05-28 12:15:43,726 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:15:43,726 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:15:43,726 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:15:49,134 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:49,135 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:49,135 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:15:49.130929 
+2020-05-28 12:15:49,135 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:15:49,135 INFO Info: :ended game between team1 and team2 at the 2020-05-28 12:15:49.130929 
+2020-05-28 12:15:49,135 INFO Info: :removed event Goal to home team 
+2020-05-28 12:15:49,135 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-28 12:15:49,135 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:15:49,136 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:49,136 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:49,137 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:49,137 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:49,137 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:15:49.130929 
+2020-05-28 12:15:49,137 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:15:49.130929 
+2020-05-28 12:15:49,137 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:15:49,137 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:15:49,137 INFO Info: :removed event Goal to home team 
+2020-05-28 12:15:49,137 INFO Info: :removed event Goal to home team 
+2020-05-28 12:15:49,137 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-28 12:15:49,137 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-28 12:15:49,137 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:15:49,137 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:15:49,138 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:49,138 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:49,138 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:49,138 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:49,138 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:49,138 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:15:49,138 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:15:49.130929 
+2020-05-28 12:15:49,138 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:15:49.130929 
+2020-05-28 12:15:49,138 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:15:49.130929 
+2020-05-28 12:15:49,139 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:15:49,139 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:15:49,139 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:15:57,641 INFO Info: : Page MaorMelikson add
+2020-05-28 12:15:57,641 INFO Info: : Page MaorMelikson add
+2020-05-28 12:15:57,645 INFO Info: : Page MaorMelikson add
+2020-05-28 12:15:57,645 INFO Info: : Page MaorMelikson add
+2020-05-28 12:15:57,647 INFO Info: : Page MaorMelikson add
+2020-05-28 12:15:57,647 INFO Info: : Page MaorMelikson add
+2020-05-28 12:15:57,649 INFO Info: : Page MaorMelikson add
+2020-05-28 12:15:57,649 INFO Info: : Page MaorMelikson add
+2020-05-28 12:15:57,650 INFO Info: : Present Page 
+2020-05-28 12:15:57,650 INFO Info: : Present Page 
+2020-05-28 12:15:57,653 INFO Info: : Page MaorMelikson add
+2020-05-28 12:15:57,653 INFO Info: : Page MaorMelikson add
+2020-05-28 12:16:01,542 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:16:01,542 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:16:01,542 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:16:01.538722 
+2020-05-28 12:16:01,542 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:16:01,542 INFO Info: :ended game between team1 and team2 at the 2020-05-28 12:16:01.538722 
+2020-05-28 12:16:01,543 INFO Info: :removed event Goal to home team 
+2020-05-28 12:16:01,543 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-28 12:16:01,543 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:16:01,545 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:16:01,545 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:16:01,545 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:16:01,545 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:16:01,545 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:16:01.538722 
+2020-05-28 12:16:01,545 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:16:01.538722 
+2020-05-28 12:16:01,546 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:16:01,546 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:16:01,546 INFO Info: :removed event Goal to home team 
+2020-05-28 12:16:01,546 INFO Info: :removed event Goal to home team 
+2020-05-28 12:16:01,546 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-28 12:16:01,546 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-28 12:16:01,546 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:16:01,546 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:16:01,547 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:16:01,547 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:16:01,547 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:16:01,547 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:16:01,547 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:16:01,547 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:16:01,548 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:16:01.538722 
+2020-05-28 12:16:01,548 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:16:01.538722 
+2020-05-28 12:16:01,548 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:16:01.538722 
+2020-05-28 12:16:01,548 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:16:01,548 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:16:01,548 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:18:57,635 INFO Info: : Page MaorMelikson add
+2020-05-28 12:18:57,635 INFO Info: : Page MaorMelikson add
+2020-05-28 12:18:57,641 INFO Info: : Page MaorMelikson add
+2020-05-28 12:18:57,641 INFO Info: : Page MaorMelikson add
+2020-05-28 12:18:57,645 INFO Info: : Page MaorMelikson add
+2020-05-28 12:18:57,645 INFO Info: : Page MaorMelikson add
+2020-05-28 12:18:57,648 INFO Info: : Page MaorMelikson add
+2020-05-28 12:18:57,648 INFO Info: : Page MaorMelikson add
+2020-05-28 12:18:57,648 INFO Info: : Present Page 
+2020-05-28 12:18:57,648 INFO Info: : Present Page 
+2020-05-28 12:18:57,651 INFO Info: : Page MaorMelikson add
+2020-05-28 12:18:57,651 INFO Info: : Page MaorMelikson add
+2020-05-28 12:19:01,331 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:19:01,331 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:19:01,331 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:19:01.328089 
+2020-05-28 12:19:01,331 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:19:01,331 INFO Info: :ended game between team1 and team2 at the 2020-05-28 12:19:01.328089 
+2020-05-28 12:19:01,331 INFO Info: :removed event Goal to home team 
+2020-05-28 12:19:01,331 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-28 12:19:01,331 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:19:01,333 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:19:01,333 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:19:01,333 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:19:01,333 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:19:01,333 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:19:01.328089 
+2020-05-28 12:19:01,333 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:19:01.328089 
+2020-05-28 12:19:01,334 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:19:01,334 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:19:01,334 INFO Info: :removed event Goal to home team 
+2020-05-28 12:19:01,334 INFO Info: :removed event Goal to home team 
+2020-05-28 12:19:01,334 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-28 12:19:01,334 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-28 12:19:01,334 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:19:01,334 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:19:01,336 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:19:01,336 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:19:01,336 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:19:01,336 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:19:01,336 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:19:01,336 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:19:01,336 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:19:01.328089 
+2020-05-28 12:19:01,336 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:19:01.328089 
+2020-05-28 12:19:01,336 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:19:01.328089 
+2020-05-28 12:19:01,336 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:19:01,336 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:19:01,336 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:19:53,981 INFO Info: : Team Tiberias was created
+2020-05-28 12:19:53,982 INFO Info: : Team Tiberias closed
+2020-05-28 12:20:20,268 INFO Info: : Team Tiberias was created
+2020-05-28 12:20:20,268 INFO Info: : Team Tiberias closed
+2020-05-28 12:21:01,447 INFO Info: : Team Tiberias was created
+2020-05-28 12:21:01,447 INFO Info: : Team Tiberias closed
+2020-05-28 12:22:30,136 INFO Info: : Team Tiberias was created
+2020-05-28 12:22:30,136 INFO Info: : Team Tiberias closed
+2020-05-28 12:22:33,599 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-28 12:22:33,599 INFO Info: : Add expanse to team Barca : 499, Sponsorship
+2020-05-28 12:22:33,601 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-28 12:22:33,601 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-28 12:22:33,601 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-28 12:22:33,604 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,604 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,604 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,604 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,604 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,607 INFO Info: : User NameC was added to Barca
+2020-05-28 12:22:33,607 INFO Info: : User NameC was added to Barca
+2020-05-28 12:22:33,607 INFO Info: : User NameC was added to Barca
+2020-05-28 12:22:33,607 INFO Info: : User NameC was added to Barca
+2020-05-28 12:22:33,607 INFO Info: : User NameC was added to Barca
+2020-05-28 12:22:33,607 INFO Info: : User NameC was added to Barca
+2020-05-28 12:22:33,607 INFO Info: : User NameC was added to Barca
+2020-05-28 12:22:33,609 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,609 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,609 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,609 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,609 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,609 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,609 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,609 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,610 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,610 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,610 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,610 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,610 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,610 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,610 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,610 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,610 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,614 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,614 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,614 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,614 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,614 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,614 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,614 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,614 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,614 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,614 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,614 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,614 INFO Info: :Team Barca reopened
+2020-05-28 12:22:33,614 INFO Info: :Team Barca reopened
+2020-05-28 12:22:33,614 INFO Info: :Team Barca reopened
+2020-05-28 12:22:33,614 INFO Info: :Team Barca reopened
+2020-05-28 12:22:33,614 INFO Info: :Team Barca reopened
+2020-05-28 12:22:33,614 INFO Info: :Team Barca reopened
+2020-05-28 12:22:33,614 INFO Info: :Team Barca reopened
+2020-05-28 12:22:33,614 INFO Info: :Team Barca reopened
+2020-05-28 12:22:33,614 INFO Info: :Team Barca reopened
+2020-05-28 12:22:33,614 INFO Info: :Team Barca reopened
+2020-05-28 12:22:33,614 INFO Info: :Team Barca reopened
+2020-05-28 12:22:33,616 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,616 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,616 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,616 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,616 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,616 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,616 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,616 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,616 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,616 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,616 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,616 INFO Info: : Team Barca closed
+2020-05-28 12:22:33,617 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,617 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,617 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,617 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,617 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,617 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,617 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,617 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,617 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,617 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,617 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,617 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,617 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,618 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,618 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,618 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,618 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,618 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,618 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,618 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,618 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,618 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,618 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,618 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,618 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,618 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,619 INFO Info: : Owner NameB was removed from Barca
+2020-05-28 12:22:33,619 INFO Info: : Owner NameB was removed from Barca
+2020-05-28 12:22:33,619 INFO Info: : Owner NameB was removed from Barca
+2020-05-28 12:22:33,619 INFO Info: : Owner NameB was removed from Barca
+2020-05-28 12:22:33,619 INFO Info: : Owner NameB was removed from Barca
+2020-05-28 12:22:33,619 INFO Info: : Owner NameB was removed from Barca
+2020-05-28 12:22:33,619 INFO Info: : Owner NameB was removed from Barca
+2020-05-28 12:22:33,619 INFO Info: : Owner NameB was removed from Barca
+2020-05-28 12:22:33,619 INFO Info: : Owner NameB was removed from Barca
+2020-05-28 12:22:33,619 INFO Info: : Owner NameB was removed from Barca
+2020-05-28 12:22:33,619 INFO Info: : Owner NameB was removed from Barca
+2020-05-28 12:22:33,619 INFO Info: : Owner NameB was removed from Barca
+2020-05-28 12:22:33,619 INFO Info: : Owner NameB was removed from Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,620 INFO Info: : Owner NameB was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,623 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was deleted from Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,624 INFO Info: : User NameD was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : Manager NameA was added to Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,626 INFO Info: : User NameA was deleted from Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:33,631 INFO Info: : Stadium Camp was set to Barca
+2020-05-28 12:22:37,150 INFO Info: : created new game schedule policy
+2020-05-28 12:22:37,150 INFO Info: : update game schedule policy 
+2020-05-28 12:22:37,151 INFO Info: : created new calculation policy
+2020-05-28 12:22:37,151 INFO Info: : update calculation policy 
+2020-05-28 12:22:37,152 INFO Info: : created new budget policy
+2020-05-28 12:22:37,152 INFO Info: : Update budget policy in league Euro
+2020-05-28 12:22:37,153 INFO Info: : created Euro league 
+2020-05-28 12:22:37,154 INFO Info: : created 2020 season 
+2020-05-28 12:22:37,154 INFO Info: : Added Euro league to season
+2020-05-28 12:22:37,154 INFO Info: : Added list of leagues to season
+2020-05-28 12:22:37,156 INFO Info: :Add income: 10000,
+2020-05-28 12:22:37,156 INFO Info: :Add income: 10000,
+2020-05-28 12:22:37,156 INFO Info: :Add expanse: 10000,
+2020-05-28 12:22:37,156 INFO Info: :Add expanse: 10000,
+2020-05-28 12:22:37,156 INFO Info: :Team  paid registration fee
+2020-05-28 12:22:37,156 INFO Info: :Team  paid registration fee
+2020-05-28 12:22:37,156 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-28 12:22:37,156 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-28 12:22:37,157 INFO Info: :Dor have been payed
+2020-05-28 12:22:37,157 INFO Info: :Dor have been payed
+2020-05-28 12:22:37,157 INFO Info: :Employees were paid
+2020-05-28 12:22:37,157 INFO Info: :Employees were paid
+2020-05-28 12:22:41,525 INFO Info: : Page MaorMelikson add
+2020-05-28 12:22:41,525 INFO Info: : Page MaorMelikson add
+2020-05-28 12:22:41,529 INFO Info: : Page MaorMelikson add
+2020-05-28 12:22:41,529 INFO Info: : Page MaorMelikson add
+2020-05-28 12:22:41,531 INFO Info: : Page MaorMelikson add
+2020-05-28 12:22:41,531 INFO Info: : Page MaorMelikson add
+2020-05-28 12:22:41,534 INFO Info: : Page MaorMelikson add
+2020-05-28 12:22:41,534 INFO Info: : Page MaorMelikson add
+2020-05-28 12:22:41,534 INFO Info: : Present Page 
+2020-05-28 12:22:41,534 INFO Info: : Present Page 
+2020-05-28 12:22:41,537 INFO Info: : Page MaorMelikson add
+2020-05-28 12:22:41,537 INFO Info: : Page MaorMelikson add
+2020-05-28 12:22:45,857 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:22:45,857 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:22:45,857 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:22:45.854412 
+2020-05-28 12:22:45,857 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:22:45,857 INFO Info: :ended game between team1 and team2 at the 2020-05-28 12:22:45.854412 
+2020-05-28 12:22:45,857 INFO Info: :removed event Goal to home team 
+2020-05-28 12:22:45,857 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-28 12:22:45,858 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:22:45,859 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:22:45,859 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:22:45,859 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:22:45,859 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:22:45,859 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:22:45.854412 
+2020-05-28 12:22:45,859 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:22:45.854412 
+2020-05-28 12:22:45,859 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:22:45,859 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:22:45,860 INFO Info: :removed event Goal to home team 
+2020-05-28 12:22:45,860 INFO Info: :removed event Goal to home team 
+2020-05-28 12:22:45,860 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-28 12:22:45,860 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-28 12:22:45,860 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:22:45,860 INFO Info: :edit event to Goal to home team 
+2020-05-28 12:22:45,861 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:22:45,861 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:22:45,861 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:22:45,862 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:22:45,862 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:22:45,862 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-28 12:22:45,862 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:22:45.854412 
+2020-05-28 12:22:45,862 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:22:45.854412 
+2020-05-28 12:22:45,862 INFO Info: :started game between team1 and team2 at the 2020-05-28 12:22:45.854412 
+2020-05-28 12:22:45,862 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:22:45,862 INFO Info: :add event Goal to home team in min 90 
+2020-05-28 12:22:45,862 INFO Info: :add event Goal to home team in min 90 
+2020-05-29 13:34:11,219 INFO Info: : created 2020 season 
+2020-05-29 13:35:10,948 INFO Info: : created 2020 season 
+2020-05-29 13:41:40,567 INFO Info: : created 2020 season 
+2020-05-29 13:43:41,749 INFO Info: : created 2020 season 
+2020-05-29 13:44:21,667 INFO Info: : created 2020 season 
+2020-05-29 13:44:23,646 INFO Info: : created Shahar league 
+2020-05-29 13:45:34,878 INFO Info: : created 2020 season 
+2020-05-29 13:45:37,516 INFO Info: : created Shahar league 
+2020-05-29 13:48:25,124 INFO Info: : created 2020 season 
+2020-05-29 13:48:26,620 INFO Info: : created Shahar league 
+2020-05-29 13:49:26,372 INFO Info: : created 2020 season 
+2020-05-29 13:49:27,004 INFO Info: : created Shahar league 
+2020-05-29 13:52:10,086 INFO Info: : update game schedule policy 
+2020-05-29 13:52:54,334 INFO Info: : update calculation policy 
+2020-05-29 13:53:26,915 INFO Info: : Update budget policy in league Shahar
+2020-05-29 13:57:57,887 INFO Info: : Add to league Shahar referee 1
+2020-05-29 14:02:56,721 INFO Info: : Add to league Shahar referee 1
+2020-05-29 14:10:32,715 INFO Info: : Added 1 to league
+2020-05-29 14:10:32,715 INFO Info: : Added 1 to league
+2020-05-29 14:10:33,620 INFO Info: : Added 2 to league
+2020-05-29 14:10:33,620 INFO Info: : Added 2 to league
+2020-05-29 14:10:34,542 INFO Info: : Added 3 to league
+2020-05-29 14:10:34,542 INFO Info: : Added 3 to league
+2020-05-29 14:13:37,131 INFO Info: : created sec league 
+2020-05-29 17:15:30,490 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 17:22:39,679 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 17:24:57,431 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 17:34:34,966 INFO Info: :add event desc in min 34 
+2020-05-29 17:42:07,621 INFO Info: :add event desc in min 34 
+2020-05-29 17:47:50,530 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 17:48:58,183 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 17:50:17,680 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 17:51:56,014 INFO Info: :add event a in min 35 
+2020-05-29 17:56:56,761 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 18:01:37,035 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 18:09:35,026 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 18:10:29,062 INFO Info: :add event desc in min 34 
+2020-05-29 18:12:24,427 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 18:12:24,427 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 18:14:23,787 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 18:14:23,787 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 18:15:23,011 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 18:15:23,011 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 18:16:29,665 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 18:16:29,665 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 18:17:51,539 INFO Info: :add event desc in min 34 
+2020-05-29 18:18:18,805 INFO Info: :removed event desc 
+2020-05-29 18:22:11,100 INFO Info: :Created new game between home:1 and away:2 
+2020-05-29 18:23:01,572 INFO Info: :add event desc in min 34 
+2020-05-29 18:23:58,288 INFO Info: :removed event desc 
+2020-05-29 18:24:00,368 INFO Info: :add event desc in min 34 
+2020-05-29 18:24:01,314 INFO Info: :edited event 6 
+2020-05-29 18:26:12,837 INFO Info: :removed event desc 
+2020-05-29 18:26:12,852 INFO Info: :add event asfkljha in min 34 
+2020-05-29 18:26:12,852 INFO Info: :edited event 7 
+2020-05-29 18:28:31,449 INFO Info: :started game between 1 and 2 at the 2019-01-01 00:00:00 
+2020-05-29 18:43:53,023 INFO Info: :Created new game between home:1 and away:2 
+2020-05-30 10:56:01,603 INFO Info: : Team Freiman was created
+2020-05-30 10:57:58,438 INFO Info: : Team Freiman closed
+2020-05-30 11:01:18,991 INFO Info: : Team Freiman was created
+2020-05-30 11:01:56,536 INFO Info: : Team Freiman closed
+2020-05-30 11:02:15,874 INFO Info: :Team Freiman reopened
+2020-05-30 11:05:20,518 INFO Info: : User Shaha was added to Freiman
+2020-05-30 11:07:02,545 INFO Info: : User Shaha was deleted from Freiman
+2020-05-30 11:10:25,997 INFO Info: : Manager manager was added to Freiman
+2020-05-30 11:12:49,511 INFO Info: : User manager was deleted from Freiman
+2020-05-30 11:17:54,550 INFO Info: : Owner Dor was added to Freiman
+2020-05-30 11:19:50,293 INFO Info: : Owner Dor was removed from Freiman
+2020-05-30 11:20:06,409 INFO Info: : Owner Dor was added to Freiman
+2020-05-30 11:26:19,277 INFO Info: : Stadium Stadium was set to Freiman
+2020-05-30 11:27:37,387 INFO Info: : Add income to team Freiman : 500, Income
+2020-05-30 11:28:54,658 INFO Info: : Add expanse to team Freiman : 600, expense
+2020-05-30 11:29:59,782 INFO Info: : Add expanse to team Freiman : 600, expense
+2020-05-30 11:30:49,699 INFO Info: : Add expanse to team Freiman : 400, expense
+2020-05-30 11:47:36,767 INFO Info: :Team Freiman added to union
+2020-05-30 11:47:36,767 INFO Info: :Team Freiman added to union
+2020-05-30 12:48:35,936 INFO Info: : Checked if user 16 is in union
+2020-05-30 12:48:35,936 INFO Info: : Checked if user 16 is in union
+2020-05-30 12:48:35,938 INFO Info: :Employee 16 added to union
+2020-05-30 12:48:35,938 INFO Info: :Employee 16 added to union
+2020-05-30 12:48:50,194 INFO Info: : Checked if user 18 is in union
+2020-05-30 12:48:50,194 INFO Info: : Checked if user 18 is in union
+2020-05-30 12:48:50,196 INFO Info: :Employee 18 added to union
+2020-05-30 12:48:50,196 INFO Info: :Employee 18 added to union
+2020-05-30 12:49:03,814 INFO Info: : Checked if user 18 is in union
+2020-05-30 12:49:03,814 INFO Info: : Checked if user 18 is in union
+2020-05-30 12:49:03,817 INFO Info: :User 18 removed from union
+2020-05-30 12:49:03,817 INFO Info: :User 18 removed from union
+2020-05-30 12:50:55,917 INFO Info: : Checked if user 18 is in union
+2020-05-30 12:50:55,917 INFO Info: : Checked if user 18 is in union
+2020-05-30 12:51:21,611 INFO Info: :Add income: 2000,income
+2020-05-30 12:51:21,611 INFO Info: :Add income: 2000,income
+2020-05-30 12:51:44,260 INFO Info: :Add expanse: 500,expense
+2020-05-30 12:51:44,260 INFO Info: :Add expanse: 500,expense
+2020-05-30 12:52:03,528 INFO Info: :Shahar have been payed
+2020-05-30 12:52:03,528 INFO Info: :Shahar have been payed
+2020-05-30 12:52:03,528 INFO Info: :Employees were paid
+2020-05-30 12:52:03,528 INFO Info: :Employees were paid
+2020-05-30 12:53:27,424 INFO Info: : Add income to team Freiman : 1000, income
+2020-05-30 12:53:27,424 INFO Info: : Add income to team Freiman : 1000, income
+2020-05-30 12:56:02,546 INFO Info: : Checked if team Freiman is in union
+2020-05-30 12:56:02,546 INFO Info: : Checked if team Freiman is in union
+2020-05-30 12:56:02,548 INFO Info: :Team Freiman added to union
+2020-05-30 12:56:02,548 INFO Info: :Team Freiman added to union
+2020-05-30 12:56:18,219 INFO Info: :Team  paid registration fee
+2020-05-30 12:56:18,219 INFO Info: :Team  paid registration fee
+2020-05-30 12:56:39,271 INFO Info: :Team  paid registration fee
+2020-05-30 12:56:39,271 INFO Info: :Team  paid registration fee
+2020-05-30 12:57:30,634 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-30 12:57:30,634 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-30 12:58:18,155 INFO Info: :negative budget on Union Organization - notification sent to employees
+2020-05-30 12:58:18,155 INFO Info: :negative budget on Union Organization - notification sent to employees
+2020-05-30 13:00:05,317 INFO Info: :negative budget on Union Organization - notification sent to employees
+2020-05-30 13:00:05,317 INFO Info: :negative budget on Union Organization - notification sent to employees
+2020-05-30 13:02:04,397 INFO Info: : Checked if team aksdjh is in union
+2020-05-30 13:02:04,397 INFO Info: : Checked if team aksdjh is in union
+2020-05-30 13:02:11,577 INFO Info: : Checked if team Freiman is in union
+2020-05-30 13:02:11,577 INFO Info: : Checked if team Freiman is in union
+2020-05-30 13:02:25,400 INFO Info: : Checked if team Freiman is in union
+2020-05-30 13:02:25,400 INFO Info: : Checked if team Freiman is in union
+2020-05-30 13:02:25,402 INFO Info: :Team Freiman added to union
+2020-05-30 13:02:25,402 INFO Info: :Team Freiman added to union
+2020-05-30 13:02:30,724 INFO Info: : Checked if team Freiman is in union
+2020-05-30 13:02:30,724 INFO Info: : Checked if team Freiman is in union
+2020-05-30 13:02:30,726 INFO Info: :Team Freiman removed to union
+2020-05-30 13:02:30,726 INFO Info: :Team Freiman removed to union
+2020-05-30 13:17:44,456 INFO Info: : Page MaorMelikson add
+2020-05-30 13:17:44,456 INFO Info: : Page MaorMelikson add
+2020-05-30 13:18:10,929 INFO Info: : Page MaorMelikson add
+2020-05-30 13:18:10,929 INFO Info: : Page MaorMelikson add
+2020-05-30 13:49:44,992 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 13:49:44,992 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 13:49:44,992 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 13:49:44,992 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:08:38,512 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:08:38,512 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:08:38,512 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:08:38,512 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:09:59,710 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:09:59,710 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:09:59,710 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:09:59,710 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:10:54,820 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:10:54,820 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:10:54,820 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:10:54,820 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:11:40,091 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:11:40,091 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:11:40,091 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:11:40,091 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:12:28,383 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:12:28,383 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:12:28,383 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:12:28,383 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:13:32,088 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:13:32,088 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:13:32,088 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:13:32,088 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:14:55,731 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:14:55,731 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:14:55,731 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:14:55,731 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:15:58,366 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:15:58,366 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:15:58,366 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:15:58,366 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:17:50,692 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:17:50,692 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:17:50,692 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:17:50,692 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:21:19,634 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:21:19,634 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:21:19,634 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:21:19,634 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:21:58,737 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:21:58,737 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:21:58,737 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:21:58,737 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:21:58,743 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:21:58,743 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:21:58,743 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:21:58,743 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:21:58,775 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:21:58,775 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:21:58,775 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:21:58,775 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:21:58,797 INFO Info: : Page MaorMelikson add
+2020-05-30 14:21:58,797 INFO Info: : Page MaorMelikson add
+2020-05-30 14:21:58,797 INFO Info: : Page MaorMelikson add
+2020-05-30 14:21:58,797 INFO Info: : Page MaorMelikson add
+2020-05-30 14:21:58,833 INFO Info: :Deleted game 1 
+2020-05-30 14:21:58,833 INFO Info: :Deleted game 1 
+2020-05-30 14:21:58,833 INFO Info: :Deleted game 1 
+2020-05-30 14:21:58,833 INFO Info: :Deleted game 1 
+2020-05-30 14:26:44,039 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,039 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,039 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,039 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,045 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,045 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,045 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,045 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,076 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,076 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,076 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,076 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,099 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,099 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,099 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,099 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,133 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,133 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,133 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,133 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,135 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,135 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,135 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,135 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,136 INFO Info: :Deleted game 1 
+2020-05-30 14:26:44,136 INFO Info: :Deleted game 1 
+2020-05-30 14:26:44,136 INFO Info: :Deleted game 1 
+2020-05-30 14:26:44,136 INFO Info: :Deleted game 1 
+2020-05-30 14:26:44,156 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,156 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,156 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,156 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,161 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,161 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,161 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,161 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,177 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,177 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,177 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,177 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,184 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,184 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,184 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,184 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,200 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,200 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,200 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,200 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,202 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,202 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,202 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,202 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,203 INFO Info: :Deleted game 2 
+2020-05-30 14:26:44,203 INFO Info: :Deleted game 2 
+2020-05-30 14:26:44,203 INFO Info: :Deleted game 2 
+2020-05-30 14:26:44,203 INFO Info: :Deleted game 2 
+2020-05-30 14:26:44,223 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,223 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,223 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,223 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,228 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,228 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,228 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,228 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,242 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,242 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,242 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,242 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,250 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,250 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,250 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,250 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,254 INFO Info: : Add 12 to game 
+2020-05-30 14:26:44,254 INFO Info: : Add 12 to game 
+2020-05-30 14:26:44,254 INFO Info: : Add 12 to game 
+2020-05-30 14:26:44,254 INFO Info: : Add 12 to game 
+2020-05-30 14:26:44,256 INFO Info: : Add 12 to game 
+2020-05-30 14:26:44,256 INFO Info: : Add 12 to game 
+2020-05-30 14:26:44,256 INFO Info: : Add 12 to game 
+2020-05-30 14:26:44,256 INFO Info: : Add 12 to game 
+2020-05-30 14:26:44,268 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,268 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,268 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,268 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,269 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,269 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,269 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,269 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,271 INFO Info: :Deleted game 3 
+2020-05-30 14:26:44,271 INFO Info: :Deleted game 3 
+2020-05-30 14:26:44,271 INFO Info: :Deleted game 3 
+2020-05-30 14:26:44,271 INFO Info: :Deleted game 3 
+2020-05-30 14:26:44,289 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,289 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,289 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,289 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:26:44,295 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,295 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,295 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,295 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:26:44,309 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,309 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,309 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,309 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:26:44,316 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,316 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,316 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,316 INFO Info: : Page MaorMelikson add
+2020-05-30 14:26:44,328 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,328 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,328 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,328 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:26:44,329 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,329 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,329 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,329 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:26:44,331 INFO Info: :Deleted game 4 
+2020-05-30 14:26:44,331 INFO Info: :Deleted game 4 
+2020-05-30 14:26:44,331 INFO Info: :Deleted game 4 
+2020-05-30 14:26:44,331 INFO Info: :Deleted game 4 
+2020-05-30 14:27:11,223 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,223 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,223 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,223 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,229 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,229 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,229 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,229 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,248 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,248 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,248 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,248 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,258 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,258 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,258 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,258 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,283 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,283 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,283 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,283 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,285 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,285 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,285 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,285 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,287 INFO Info: :Deleted game 5 
+2020-05-30 14:27:11,287 INFO Info: :Deleted game 5 
+2020-05-30 14:27:11,287 INFO Info: :Deleted game 5 
+2020-05-30 14:27:11,287 INFO Info: :Deleted game 5 
+2020-05-30 14:27:11,308 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,308 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,308 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,308 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,313 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,313 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,313 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,313 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,327 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,327 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,327 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,327 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,333 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,333 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,333 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,333 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,349 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,349 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,349 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,349 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,351 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,351 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,351 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,351 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,352 INFO Info: :Deleted game 6 
+2020-05-30 14:27:11,352 INFO Info: :Deleted game 6 
+2020-05-30 14:27:11,352 INFO Info: :Deleted game 6 
+2020-05-30 14:27:11,352 INFO Info: :Deleted game 6 
+2020-05-30 14:27:11,368 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,368 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,368 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,368 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,372 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,372 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,372 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,372 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,385 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,385 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,385 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,385 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,392 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,392 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,392 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,392 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,396 INFO Info: : Add 28 to game 
+2020-05-30 14:27:11,396 INFO Info: : Add 28 to game 
+2020-05-30 14:27:11,396 INFO Info: : Add 28 to game 
+2020-05-30 14:27:11,396 INFO Info: : Add 28 to game 
+2020-05-30 14:27:11,398 INFO Info: : Add 28 to game 
+2020-05-30 14:27:11,398 INFO Info: : Add 28 to game 
+2020-05-30 14:27:11,398 INFO Info: : Add 28 to game 
+2020-05-30 14:27:11,398 INFO Info: : Add 28 to game 
+2020-05-30 14:27:11,407 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,407 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,407 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,407 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,409 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,409 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,409 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,409 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,411 INFO Info: :Deleted game 7 
+2020-05-30 14:27:11,411 INFO Info: :Deleted game 7 
+2020-05-30 14:27:11,411 INFO Info: :Deleted game 7 
+2020-05-30 14:27:11,411 INFO Info: :Deleted game 7 
+2020-05-30 14:27:11,435 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,435 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,435 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,435 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:11,442 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,442 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,442 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,442 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:11,463 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,463 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,463 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,463 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:11,473 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,473 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,473 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,473 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:11,489 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,489 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,489 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,489 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:11,491 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,491 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,491 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,491 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:11,493 INFO Info: :Deleted game 8 
+2020-05-30 14:27:11,493 INFO Info: :Deleted game 8 
+2020-05-30 14:27:11,493 INFO Info: :Deleted game 8 
+2020-05-30 14:27:11,493 INFO Info: :Deleted game 8 
+2020-05-30 14:27:34,515 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:34,515 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:34,515 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:34,515 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:34,522 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:34,522 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:34,522 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:34,522 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:34,545 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:34,545 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:34,545 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:34,545 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:34,556 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:34,556 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:34,556 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:34,556 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:38,687 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:38,687 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:38,687 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:38,687 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:38,689 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:38,689 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:38,689 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:38,689 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:38,692 INFO Info: :Deleted game 9 
+2020-05-30 14:27:38,692 INFO Info: :Deleted game 9 
+2020-05-30 14:27:38,692 INFO Info: :Deleted game 9 
+2020-05-30 14:27:38,692 INFO Info: :Deleted game 9 
+2020-05-30 14:27:39,717 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:39,717 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:39,717 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:39,717 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:39,724 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:39,724 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:39,724 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:39,724 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:39,747 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:39,747 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:39,747 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:39,747 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:39,758 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:39,758 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:39,758 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:39,758 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:45,784 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:45,784 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:45,784 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:45,784 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:27:45,786 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:45,786 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:45,786 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:45,786 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:27:45,789 INFO Info: :Deleted game 10 
+2020-05-30 14:27:45,789 INFO Info: :Deleted game 10 
+2020-05-30 14:27:45,789 INFO Info: :Deleted game 10 
+2020-05-30 14:27:45,789 INFO Info: :Deleted game 10 
+2020-05-30 14:27:47,542 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:47,542 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:47,542 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:47,542 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:27:47,549 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:47,549 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:47,549 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:47,549 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:27:47,572 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:47,572 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:47,572 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:47,572 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:27:47,584 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:47,584 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:47,584 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:47,584 INFO Info: : Page MaorMelikson add
+2020-05-30 14:27:47,590 INFO Info: : Add 44 to game 
+2020-05-30 14:27:47,590 INFO Info: : Add 44 to game 
+2020-05-30 14:27:47,590 INFO Info: : Add 44 to game 
+2020-05-30 14:27:47,590 INFO Info: : Add 44 to game 
+2020-05-30 14:27:58,767 INFO Info: : Add 44 to game 
+2020-05-30 14:27:58,767 INFO Info: : Add 44 to game 
+2020-05-30 14:27:58,767 INFO Info: : Add 44 to game 
+2020-05-30 14:27:58,767 INFO Info: : Add 44 to game 
+2020-05-30 14:28:01,862 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:28:01,862 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:28:01,862 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:28:01,862 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:28:01,864 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:28:01,864 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:28:01,864 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:28:01,864 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:28:01,866 INFO Info: :Deleted game 11 
+2020-05-30 14:28:01,866 INFO Info: :Deleted game 11 
+2020-05-30 14:28:01,866 INFO Info: :Deleted game 11 
+2020-05-30 14:28:01,866 INFO Info: :Deleted game 11 
+2020-05-30 14:28:49,068 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:28:49,068 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:28:49,068 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:28:49,068 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:28:49,076 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:28:49,076 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:28:49,076 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:28:49,076 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:28:49,113 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:28:49,113 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:28:49,113 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:28:49,113 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:28:49,139 INFO Info: : Page MaorMelikson add
+2020-05-30 14:28:49,139 INFO Info: : Page MaorMelikson add
+2020-05-30 14:28:49,139 INFO Info: : Page MaorMelikson add
+2020-05-30 14:28:49,139 INFO Info: : Page MaorMelikson add
+2020-05-30 14:28:54,202 INFO Info: : Add 4 to game 
+2020-05-30 14:28:54,202 INFO Info: : Add 4 to game 
+2020-05-30 14:28:54,202 INFO Info: : Add 4 to game 
+2020-05-30 14:28:54,202 INFO Info: : Add 4 to game 
+2020-05-30 14:31:27,629 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:27,629 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:27,629 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:27,629 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:27,637 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:27,637 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:27,637 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:27,637 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:27,677 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:27,677 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:27,677 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:27,677 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:27,703 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:27,703 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:27,703 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:27,703 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:27,750 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:27,750 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:27,750 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:27,750 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:27,751 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:27,751 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:27,751 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:27,751 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:27,753 INFO Info: :Deleted game 1 
+2020-05-30 14:31:27,753 INFO Info: :Deleted game 1 
+2020-05-30 14:31:27,753 INFO Info: :Deleted game 1 
+2020-05-30 14:31:27,753 INFO Info: :Deleted game 1 
+2020-05-30 14:31:28,268 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:28,268 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:28,268 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:28,268 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:28,275 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:28,275 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:28,275 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:28,275 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:28,298 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:28,298 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:28,298 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:28,298 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:28,309 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:28,309 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:28,309 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:28,309 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:28,333 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:28,333 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:28,333 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:28,333 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:28,335 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:28,335 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:28,335 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:28,335 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:28,337 INFO Info: :Deleted game 2 
+2020-05-30 14:31:28,337 INFO Info: :Deleted game 2 
+2020-05-30 14:31:28,337 INFO Info: :Deleted game 2 
+2020-05-30 14:31:28,337 INFO Info: :Deleted game 2 
+2020-05-30 14:31:28,903 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:28,903 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:28,903 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:28,903 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:28,910 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:28,910 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:28,910 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:28,910 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:28,931 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:28,931 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:28,931 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:28,931 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:28,943 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:28,943 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:28,943 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:28,943 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:30,786 INFO Info: : Add 12 to game 
+2020-05-30 14:31:30,786 INFO Info: : Add 12 to game 
+2020-05-30 14:31:30,786 INFO Info: : Add 12 to game 
+2020-05-30 14:31:30,786 INFO Info: : Add 12 to game 
+2020-05-30 14:31:49,942 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:49,942 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:49,942 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:49,942 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:49,944 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:49,944 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:49,944 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:49,944 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:49,946 INFO Info: :Deleted game 3 
+2020-05-30 14:31:49,946 INFO Info: :Deleted game 3 
+2020-05-30 14:31:49,946 INFO Info: :Deleted game 3 
+2020-05-30 14:31:49,946 INFO Info: :Deleted game 3 
+2020-05-30 14:31:52,643 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:52,643 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:52,643 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:52,643 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:52,651 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:52,651 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:52,651 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:52,651 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:52,673 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:52,673 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:52,673 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:52,673 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:52,684 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:52,684 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:52,684 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:52,684 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:52,702 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:52,702 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:52,702 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:52,702 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:52,705 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:52,705 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:52,705 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:52,705 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:52,707 INFO Info: :Deleted game 4 
+2020-05-30 14:31:52,707 INFO Info: :Deleted game 4 
+2020-05-30 14:31:52,707 INFO Info: :Deleted game 4 
+2020-05-30 14:31:52,707 INFO Info: :Deleted game 4 
+2020-05-30 14:31:59,235 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,235 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,235 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,235 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,240 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,240 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,240 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,240 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,255 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,255 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,255 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,255 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,263 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,263 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,263 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,263 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,287 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,287 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,287 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,287 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,289 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,289 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,289 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,289 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,291 INFO Info: :Deleted game 5 
+2020-05-30 14:31:59,291 INFO Info: :Deleted game 5 
+2020-05-30 14:31:59,291 INFO Info: :Deleted game 5 
+2020-05-30 14:31:59,291 INFO Info: :Deleted game 5 
+2020-05-30 14:31:59,308 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,308 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,308 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,308 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,313 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,313 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,313 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,313 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,329 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,329 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,329 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,329 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,336 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,336 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,336 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,336 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,353 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,353 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,353 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,353 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,355 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,355 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,355 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,355 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,356 INFO Info: :Deleted game 6 
+2020-05-30 14:31:59,356 INFO Info: :Deleted game 6 
+2020-05-30 14:31:59,356 INFO Info: :Deleted game 6 
+2020-05-30 14:31:59,356 INFO Info: :Deleted game 6 
+2020-05-30 14:31:59,373 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,373 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,373 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,373 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,379 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,379 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,379 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,379 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,393 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,393 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,393 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,393 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,400 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,400 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,400 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,400 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,410 INFO Info: : Add 28 to game 
+2020-05-30 14:31:59,410 INFO Info: : Add 28 to game 
+2020-05-30 14:31:59,410 INFO Info: : Add 28 to game 
+2020-05-30 14:31:59,410 INFO Info: : Add 28 to game 
+2020-05-30 14:31:59,428 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,428 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,428 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,428 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,430 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,430 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,430 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,430 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,431 INFO Info: :Deleted game 7 
+2020-05-30 14:31:59,431 INFO Info: :Deleted game 7 
+2020-05-30 14:31:59,431 INFO Info: :Deleted game 7 
+2020-05-30 14:31:59,431 INFO Info: :Deleted game 7 
+2020-05-30 14:31:59,448 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,448 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,448 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,448 INFO Info: : Team Hapoel beer sheva was created
+2020-05-30 14:31:59,453 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,453 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,453 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,453 INFO Info: : Team Maccabi Tel Aviv was created
+2020-05-30 14:31:59,468 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,468 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,468 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,468 INFO Info: :Created new game between home:Hapoel beer sheva and away:Maccabi Tel Aviv 
+2020-05-30 14:31:59,475 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,475 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,475 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,475 INFO Info: : Page MaorMelikson add
+2020-05-30 14:31:59,487 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,487 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,487 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,487 INFO Info: : Team Hapoel beer sheva was deleted
+2020-05-30 14:31:59,489 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,489 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,489 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,489 INFO Info: : Team Maccabi Tel Aviv was deleted
+2020-05-30 14:31:59,491 INFO Info: :Deleted game 8 
+2020-05-30 14:31:59,491 INFO Info: :Deleted game 8 
+2020-05-30 14:31:59,491 INFO Info: :Deleted game 8 
+2020-05-30 14:31:59,491 INFO Info: :Deleted game 8 
+2020-05-30 15:29:59,792 INFO Info: : Team team1 was created
+2020-05-30 15:29:59,792 INFO Info: : Team team1 was created
+2020-05-30 15:29:59,805 INFO Info: : Team team2 was created
+2020-05-30 15:29:59,805 INFO Info: : Team team2 was created
+2020-05-30 15:30:45,604 INFO Info: : Team team1 was created
+2020-05-30 15:30:45,604 INFO Info: : Team team1 was created
+2020-05-30 15:30:45,611 INFO Info: : Team team2 was created
+2020-05-30 15:30:45,611 INFO Info: : Team team2 was created
+2020-05-30 15:32:13,803 INFO Info: : Team team1 was created
+2020-05-30 15:32:13,803 INFO Info: : Team team1 was created
+2020-05-30 15:32:13,810 INFO Info: : Team team2 was created
+2020-05-30 15:32:13,810 INFO Info: : Team team2 was created
+2020-05-30 15:33:13,924 INFO Info: : Team team1 was created
+2020-05-30 15:33:13,924 INFO Info: : Team team1 was created
+2020-05-30 15:33:14,346 INFO Info: : Team team2 was created
+2020-05-30 15:33:14,346 INFO Info: : Team team2 was created
+2020-05-30 15:33:42,947 INFO Info: : Team team1 was created
+2020-05-30 15:33:42,947 INFO Info: : Team team1 was created
+2020-05-30 15:33:43,112 INFO Info: : Team team2 was created
+2020-05-30 15:33:43,112 INFO Info: : Team team2 was created
+2020-05-30 15:35:55,370 INFO Info: : Team team1 was created
+2020-05-30 15:35:55,370 INFO Info: : Team team1 was created
+2020-05-30 15:35:55,375 INFO Info: : Team team2 was created
+2020-05-30 15:35:55,375 INFO Info: : Team team2 was created
+2020-05-30 15:36:41,876 INFO Info: : Team team1 was created
+2020-05-30 15:36:41,876 INFO Info: : Team team1 was created
+2020-05-30 15:36:42,042 INFO Info: : Team team2 was created
+2020-05-30 15:36:42,042 INFO Info: : Team team2 was created
+2020-05-30 15:38:10,493 INFO Info: : Team team1 was created
+2020-05-30 15:38:10,493 INFO Info: : Team team1 was created
+2020-05-30 15:38:10,502 INFO Info: : Team team2 was created
+2020-05-30 15:38:10,502 INFO Info: : Team team2 was created
+2020-05-30 15:38:10,560 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:10,560 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:10,588 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:10,588 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:38,259 INFO Info: : Team team1 was created
+2020-05-30 15:38:38,259 INFO Info: : Team team1 was created
+2020-05-30 15:38:38,268 INFO Info: : Team team2 was created
+2020-05-30 15:38:38,268 INFO Info: : Team team2 was created
+2020-05-30 15:38:38,323 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:38,323 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:38,345 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:38,345 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:38,355 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:38:38,355 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:38:38,386 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:38:38,386 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:38:38,388 INFO Info: : Asked for game event 1
+2020-05-30 15:38:38,388 INFO Info: : Asked for game event 1
+2020-05-30 15:38:38,392 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:38:38,392 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:38:38,408 INFO Info: :removed event Goal to home team 
+2020-05-30 15:38:38,408 INFO Info: :removed event Goal to home team 
+2020-05-30 15:38:38,409 INFO Info: :Deleted game 2 
+2020-05-30 15:38:38,409 INFO Info: :Deleted game 2 
+2020-05-30 15:38:38,411 INFO Info: :Deleted game 1 
+2020-05-30 15:38:38,411 INFO Info: :Deleted game 1 
+2020-05-30 15:38:38,426 INFO Info: : Team team1 was deleted
+2020-05-30 15:38:38,426 INFO Info: : Team team1 was deleted
+2020-05-30 15:38:38,428 INFO Info: : Team team2 was deleted
+2020-05-30 15:38:38,428 INFO Info: : Team team2 was deleted
+2020-05-30 15:38:38,471 INFO Info: : Team team1 was created
+2020-05-30 15:38:38,471 INFO Info: : Team team1 was created
+2020-05-30 15:38:38,476 INFO Info: : Team team2 was created
+2020-05-30 15:38:38,476 INFO Info: : Team team2 was created
+2020-05-30 15:38:38,528 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:38,528 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:38,558 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:38,558 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:38,570 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:38:38,570 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:38:38,586 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:38:38,586 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:38:38,588 INFO Info: : Asked for game event 2
+2020-05-30 15:38:38,588 INFO Info: : Asked for game event 2
+2020-05-30 15:38:38,597 INFO Info: :removed event Goal to home team 
+2020-05-30 15:38:38,597 INFO Info: :removed event Goal to home team 
+2020-05-30 15:38:38,601 INFO Info: :Deleted game 4 
+2020-05-30 15:38:38,601 INFO Info: :Deleted game 4 
+2020-05-30 15:38:38,602 INFO Info: :Deleted game 3 
+2020-05-30 15:38:38,602 INFO Info: :Deleted game 3 
+2020-05-30 15:38:38,611 INFO Info: : Team team1 was deleted
+2020-05-30 15:38:38,611 INFO Info: : Team team1 was deleted
+2020-05-30 15:38:38,612 INFO Info: : Team team2 was deleted
+2020-05-30 15:38:38,612 INFO Info: : Team team2 was deleted
+2020-05-30 15:38:38,635 INFO Info: : Team team1 was created
+2020-05-30 15:38:38,635 INFO Info: : Team team1 was created
+2020-05-30 15:38:38,639 INFO Info: : Team team2 was created
+2020-05-30 15:38:38,639 INFO Info: : Team team2 was created
+2020-05-30 15:38:38,672 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:38,672 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:38,695 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:38,695 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:38:38,705 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:38:38,705 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:38:38,719 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:38:38,719 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:38:38,721 INFO Info: : Asked for game event 3
+2020-05-30 15:38:38,721 INFO Info: : Asked for game event 3
+2020-05-30 15:38:38,736 INFO Info: :removed event Goal to home team 
+2020-05-30 15:38:38,736 INFO Info: :removed event Goal to home team 
+2020-05-30 15:38:38,737 INFO Info: :Deleted game 6 
+2020-05-30 15:38:38,737 INFO Info: :Deleted game 6 
+2020-05-30 15:38:38,738 INFO Info: :Deleted game 5 
+2020-05-30 15:38:38,738 INFO Info: :Deleted game 5 
+2020-05-30 15:38:38,751 INFO Info: : Team team1 was deleted
+2020-05-30 15:38:38,751 INFO Info: : Team team1 was deleted
+2020-05-30 15:38:38,753 INFO Info: : Team team2 was deleted
+2020-05-30 15:38:38,753 INFO Info: : Team team2 was deleted
+2020-05-30 15:39:55,987 INFO Info: : Team team1 was created
+2020-05-30 15:39:55,987 INFO Info: : Team team1 was created
+2020-05-30 15:39:55,992 INFO Info: : Team team2 was created
+2020-05-30 15:39:55,992 INFO Info: : Team team2 was created
+2020-05-30 15:39:56,051 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:39:56,051 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:39:56,073 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:39:56,073 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:39:56,079 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:39:56,079 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:39:56,112 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:39:56,112 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:39:56,117 INFO Info: : Asked for game event 1
+2020-05-30 15:39:56,117 INFO Info: : Asked for game event 1
+2020-05-30 15:39:56,123 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:39:56,123 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:39:56,126 INFO Info: : Asked for game event 1
+2020-05-30 15:39:56,126 INFO Info: : Asked for game event 1
+2020-05-30 15:39:56,141 INFO Info: :removed event Goal to home team 
+2020-05-30 15:39:56,141 INFO Info: :removed event Goal to home team 
+2020-05-30 15:39:56,156 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-30 15:39:56,156 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-30 15:39:56,156 INFO Info: :edited event 1 
+2020-05-30 15:39:56,156 INFO Info: :edited event 1 
+2020-05-30 15:41:08,625 INFO Info: : Team team1 was created
+2020-05-30 15:41:08,625 INFO Info: : Team team1 was created
+2020-05-30 15:41:08,635 INFO Info: : Team team2 was created
+2020-05-30 15:41:08,635 INFO Info: : Team team2 was created
+2020-05-30 15:41:08,718 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:41:08,718 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:41:08,752 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:41:08,752 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:41:08,762 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:41:08,762 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:41:08,802 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:41:08,802 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:41:08,805 INFO Info: : Asked for game event 1
+2020-05-30 15:41:08,805 INFO Info: : Asked for game event 1
+2020-05-30 15:41:08,813 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:41:08,813 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:41:30,025 INFO Info: : Asked for game event 1
+2020-05-30 15:41:30,025 INFO Info: : Asked for game event 1
+2020-05-30 15:42:07,670 INFO Info: :removed event Goal to home team 
+2020-05-30 15:42:07,670 INFO Info: :removed event Goal to home team 
+2020-05-30 15:42:32,889 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-30 15:42:32,889 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-30 15:42:33,969 INFO Info: :edited event 1 
+2020-05-30 15:42:33,969 INFO Info: :edited event 1 
+2020-05-30 15:44:12,223 INFO Info: : Team team1 was created
+2020-05-30 15:44:12,223 INFO Info: : Team team1 was created
+2020-05-30 15:44:12,230 INFO Info: : Team team2 was created
+2020-05-30 15:44:12,230 INFO Info: : Team team2 was created
+2020-05-30 15:44:12,318 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:12,318 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:12,353 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:12,353 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:12,364 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:12,364 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:12,412 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:12,412 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:12,415 INFO Info: : Asked for game event 1
+2020-05-30 15:44:12,415 INFO Info: : Asked for game event 1
+2020-05-30 15:44:12,437 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:12,437 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:12,440 INFO Info: :Deleted game 2 
+2020-05-30 15:44:12,440 INFO Info: :Deleted game 2 
+2020-05-30 15:44:12,442 INFO Info: :Deleted game 1 
+2020-05-30 15:44:12,442 INFO Info: :Deleted game 1 
+2020-05-30 15:44:12,461 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:12,461 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:12,464 INFO Info: : Team team2 was deleted
+2020-05-30 15:44:12,464 INFO Info: : Team team2 was deleted
+2020-05-30 15:44:26,263 INFO Info: : Team team1 was created
+2020-05-30 15:44:26,263 INFO Info: : Team team1 was created
+2020-05-30 15:44:26,274 INFO Info: : Team team2 was created
+2020-05-30 15:44:26,274 INFO Info: : Team team2 was created
+2020-05-30 15:44:26,340 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:26,340 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:26,376 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:26,376 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:26,388 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:26,388 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:26,408 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:26,408 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:26,411 INFO Info: : Asked for game event 2
+2020-05-30 15:44:26,411 INFO Info: : Asked for game event 2
+2020-05-30 15:44:26,421 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:44:26,421 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:44:30,356 INFO Info: : Asked for game event 2
+2020-05-30 15:44:30,356 INFO Info: : Asked for game event 2
+2020-05-30 15:44:43,324 INFO Info: :edited event 2 
+2020-05-30 15:44:43,324 INFO Info: :edited event 2 
+2020-05-30 15:44:44,579 INFO Info: : Asked for game event 2
+2020-05-30 15:44:44,579 INFO Info: : Asked for game event 2
+2020-05-30 15:44:45,628 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:45,628 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:45,631 INFO Info: :Deleted game 4 
+2020-05-30 15:44:45,631 INFO Info: :Deleted game 4 
+2020-05-30 15:44:45,637 INFO Info: :Deleted game 3 
+2020-05-30 15:44:45,637 INFO Info: :Deleted game 3 
+2020-05-30 15:44:45,662 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:45,662 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:45,665 INFO Info: : Team team2 was deleted
+2020-05-30 15:44:45,665 INFO Info: : Team team2 was deleted
+2020-05-30 15:44:45,718 INFO Info: : Team team1 was created
+2020-05-30 15:44:45,718 INFO Info: : Team team1 was created
+2020-05-30 15:44:45,728 INFO Info: : Team team2 was created
+2020-05-30 15:44:45,728 INFO Info: : Team team2 was created
+2020-05-30 15:44:45,814 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:45,814 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:45,858 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:45,858 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:45,872 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:45,872 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:45,892 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:45,892 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:45,895 INFO Info: : Asked for game event 3
+2020-05-30 15:44:45,895 INFO Info: : Asked for game event 3
+2020-05-30 15:44:45,913 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:45,913 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:45,918 INFO Info: :Deleted game 6 
+2020-05-30 15:44:45,918 INFO Info: :Deleted game 6 
+2020-05-30 15:44:45,920 INFO Info: :Deleted game 5 
+2020-05-30 15:44:45,920 INFO Info: :Deleted game 5 
+2020-05-30 15:44:45,936 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:45,936 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:45,938 INFO Info: : Team team2 was deleted
+2020-05-30 15:44:45,938 INFO Info: : Team team2 was deleted
+2020-05-30 15:44:45,976 INFO Info: : Team team1 was created
+2020-05-30 15:44:45,976 INFO Info: : Team team1 was created
+2020-05-30 15:44:45,985 INFO Info: : Team team2 was created
+2020-05-30 15:44:45,985 INFO Info: : Team team2 was created
+2020-05-30 15:44:46,041 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:46,041 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:46,073 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:46,073 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:46,084 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:46,084 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:46,101 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:46,101 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:46,104 INFO Info: : Asked for game event 4
+2020-05-30 15:44:46,104 INFO Info: : Asked for game event 4
+2020-05-30 15:44:46,124 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:46,124 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:46,126 INFO Info: :Deleted game 8 
+2020-05-30 15:44:46,126 INFO Info: :Deleted game 8 
+2020-05-30 15:44:46,128 INFO Info: :Deleted game 7 
+2020-05-30 15:44:46,128 INFO Info: :Deleted game 7 
+2020-05-30 15:44:46,145 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:46,145 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:46,154 INFO Info: : Team team2 was deleted
+2020-05-30 15:44:46,154 INFO Info: : Team team2 was deleted
+2020-05-30 15:44:53,140 INFO Info: : Team team1 was created
+2020-05-30 15:44:53,140 INFO Info: : Team team1 was created
+2020-05-30 15:44:53,145 INFO Info: : Team team2 was created
+2020-05-30 15:44:53,145 INFO Info: : Team team2 was created
+2020-05-30 15:44:53,189 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:53,189 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:53,212 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:53,212 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:53,222 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:53,222 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:53,237 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:53,237 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:53,239 INFO Info: : Asked for game event 5
+2020-05-30 15:44:53,239 INFO Info: : Asked for game event 5
+2020-05-30 15:44:53,243 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:44:53,243 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:44:53,246 INFO Info: : Asked for game event 5
+2020-05-30 15:44:53,246 INFO Info: : Asked for game event 5
+2020-05-30 15:44:53,253 INFO Info: :edited event 5 
+2020-05-30 15:44:53,253 INFO Info: :edited event 5 
+2020-05-30 15:44:53,254 INFO Info: : Asked for game event 5
+2020-05-30 15:44:53,254 INFO Info: : Asked for game event 5
+2020-05-30 15:44:53,263 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:53,263 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:53,264 INFO Info: :Deleted game 10 
+2020-05-30 15:44:53,264 INFO Info: :Deleted game 10 
+2020-05-30 15:44:53,266 INFO Info: :Deleted game 9 
+2020-05-30 15:44:53,266 INFO Info: :Deleted game 9 
+2020-05-30 15:44:53,276 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:53,276 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:53,277 INFO Info: : Team team2 was deleted
+2020-05-30 15:44:53,277 INFO Info: : Team team2 was deleted
+2020-05-30 15:44:53,298 INFO Info: : Team team1 was created
+2020-05-30 15:44:53,298 INFO Info: : Team team1 was created
+2020-05-30 15:44:53,305 INFO Info: : Team team2 was created
+2020-05-30 15:44:53,305 INFO Info: : Team team2 was created
+2020-05-30 15:44:53,336 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:53,336 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:53,356 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:53,356 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:53,361 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:53,361 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:53,374 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:53,374 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:53,375 INFO Info: : Asked for game event 6
+2020-05-30 15:44:53,375 INFO Info: : Asked for game event 6
+2020-05-30 15:44:53,389 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:53,389 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:53,390 INFO Info: :Deleted game 12 
+2020-05-30 15:44:53,390 INFO Info: :Deleted game 12 
+2020-05-30 15:44:53,392 INFO Info: :Deleted game 11 
+2020-05-30 15:44:53,392 INFO Info: :Deleted game 11 
+2020-05-30 15:44:53,405 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:53,405 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:53,407 INFO Info: : Team team2 was deleted
+2020-05-30 15:44:53,407 INFO Info: : Team team2 was deleted
+2020-05-30 15:44:53,437 INFO Info: : Team team1 was created
+2020-05-30 15:44:53,437 INFO Info: : Team team1 was created
+2020-05-30 15:44:53,443 INFO Info: : Team team2 was created
+2020-05-30 15:44:53,443 INFO Info: : Team team2 was created
+2020-05-30 15:44:53,495 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:53,495 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:53,518 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:53,518 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:44:53,525 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:53,525 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:44:53,538 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:53,538 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:44:53,540 INFO Info: : Asked for game event 7
+2020-05-30 15:44:53,540 INFO Info: : Asked for game event 7
+2020-05-30 15:44:53,555 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:53,555 INFO Info: :removed event Goal to home team 
+2020-05-30 15:44:53,556 INFO Info: :Deleted game 14 
+2020-05-30 15:44:53,556 INFO Info: :Deleted game 14 
+2020-05-30 15:44:53,557 INFO Info: :Deleted game 13 
+2020-05-30 15:44:53,557 INFO Info: :Deleted game 13 
+2020-05-30 15:44:53,570 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:53,570 INFO Info: : Team team1 was deleted
+2020-05-30 15:44:53,571 INFO Info: : Team team2 was deleted
+2020-05-30 15:44:53,571 INFO Info: : Team team2 was deleted
+2020-05-30 15:46:37,642 INFO Info: : Team team1 was created
+2020-05-30 15:46:37,642 INFO Info: : Team team1 was created
+2020-05-30 15:46:37,653 INFO Info: : Team team2 was created
+2020-05-30 15:46:37,653 INFO Info: : Team team2 was created
+2020-05-30 15:46:37,726 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:46:37,726 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:46:37,760 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:46:37,760 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:46:37,773 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:46:37,773 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:46:37,807 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:46:37,807 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:46:37,809 INFO Info: : Asked for game event 1
+2020-05-30 15:46:37,809 INFO Info: : Asked for game event 1
+2020-05-30 15:46:37,822 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:46:37,822 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:46:40,022 INFO Info: : Asked for game event 1
+2020-05-30 15:46:40,022 INFO Info: : Asked for game event 1
+2020-05-30 15:46:41,621 INFO Info: :removed event Goal to home team 
+2020-05-30 15:46:41,621 INFO Info: :removed event Goal to home team 
+2020-05-30 15:46:41,623 INFO Info: :Deleted game 2 
+2020-05-30 15:46:41,623 INFO Info: :Deleted game 2 
+2020-05-30 15:46:41,625 INFO Info: :Deleted game 1 
+2020-05-30 15:46:41,625 INFO Info: :Deleted game 1 
+2020-05-30 15:46:41,644 INFO Info: : Team team1 was deleted
+2020-05-30 15:46:41,644 INFO Info: : Team team1 was deleted
+2020-05-30 15:46:41,646 INFO Info: : Team team2 was deleted
+2020-05-30 15:46:41,646 INFO Info: : Team team2 was deleted
+2020-05-30 15:49:59,388 INFO Info: : Team team1 was created
+2020-05-30 15:49:59,388 INFO Info: : Team team1 was created
+2020-05-30 15:49:59,394 INFO Info: : Team team2 was created
+2020-05-30 15:49:59,394 INFO Info: : Team team2 was created
+2020-05-30 15:49:59,453 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:49:59,453 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:49:59,474 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:49:59,474 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:49:59,481 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:49:59,481 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:49:59,509 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:49:59,509 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:49:59,511 INFO Info: : Asked for game event 1
+2020-05-30 15:49:59,511 INFO Info: : Asked for game event 1
+2020-05-30 15:49:59,525 INFO Info: :removed event Goal to home team 
+2020-05-30 15:49:59,525 INFO Info: :removed event Goal to home team 
+2020-05-30 15:49:59,526 INFO Info: :Deleted game 2 
+2020-05-30 15:49:59,526 INFO Info: :Deleted game 2 
+2020-05-30 15:49:59,528 INFO Info: :Deleted game 1 
+2020-05-30 15:49:59,528 INFO Info: :Deleted game 1 
+2020-05-30 15:49:59,541 INFO Info: : Team team1 was deleted
+2020-05-30 15:49:59,541 INFO Info: : Team team1 was deleted
+2020-05-30 15:49:59,543 INFO Info: : Team team2 was deleted
+2020-05-30 15:49:59,543 INFO Info: : Team team2 was deleted
+2020-05-30 15:50:30,756 INFO Info: : Team team1 was created
+2020-05-30 15:50:30,756 INFO Info: : Team team1 was created
+2020-05-30 15:50:30,762 INFO Info: : Team team2 was created
+2020-05-30 15:50:30,762 INFO Info: : Team team2 was created
+2020-05-30 15:50:30,819 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:50:30,819 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:50:30,841 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:50:30,841 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:50:30,847 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:50:30,847 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:50:30,877 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:50:30,877 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:50:30,879 INFO Info: : Asked for game event 1
+2020-05-30 15:50:30,879 INFO Info: : Asked for game event 1
+2020-05-30 15:50:30,895 INFO Info: :removed event Goal to home team 
+2020-05-30 15:50:30,895 INFO Info: :removed event Goal to home team 
+2020-05-30 15:50:30,896 INFO Info: :Deleted game 2 
+2020-05-30 15:50:30,896 INFO Info: :Deleted game 2 
+2020-05-30 15:50:30,897 INFO Info: :Deleted game 1 
+2020-05-30 15:50:30,897 INFO Info: :Deleted game 1 
+2020-05-30 15:50:30,911 INFO Info: : Team team1 was deleted
+2020-05-30 15:50:30,911 INFO Info: : Team team1 was deleted
+2020-05-30 15:50:30,912 INFO Info: : Team team2 was deleted
+2020-05-30 15:50:30,912 INFO Info: : Team team2 was deleted
+2020-05-30 15:50:51,958 INFO Info: : Team team1 was created
+2020-05-30 15:50:51,958 INFO Info: : Team team1 was created
+2020-05-30 15:50:51,962 INFO Info: : Team team2 was created
+2020-05-30 15:50:51,962 INFO Info: : Team team2 was created
+2020-05-30 15:50:51,996 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:50:51,996 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:50:52,023 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:50:52,023 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:50:52,028 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:50:52,028 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:50:52,039 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:50:52,039 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:50:52,040 INFO Info: : Asked for game event 2
+2020-05-30 15:50:52,040 INFO Info: : Asked for game event 2
+2020-05-30 15:50:52,043 INFO Info: : Asked for game event 2
+2020-05-30 15:50:52,043 INFO Info: : Asked for game event 2
+2020-05-30 15:50:52,047 INFO Info: :edited event 2 
+2020-05-30 15:50:52,047 INFO Info: :edited event 2 
+2020-05-30 15:50:52,050 INFO Info: : Asked for game event 2
+2020-05-30 15:50:52,050 INFO Info: : Asked for game event 2
+2020-05-30 15:50:52,052 INFO Info: : Asked for game event 2
+2020-05-30 15:50:52,052 INFO Info: : Asked for game event 2
+2020-05-30 15:50:52,061 INFO Info: :removed event Red card for Oscar 
+2020-05-30 15:50:52,061 INFO Info: :removed event Red card for Oscar 
+2020-05-30 15:50:52,063 INFO Info: :Deleted game 4 
+2020-05-30 15:50:52,063 INFO Info: :Deleted game 4 
+2020-05-30 15:50:52,064 INFO Info: :Deleted game 3 
+2020-05-30 15:50:52,064 INFO Info: :Deleted game 3 
+2020-05-30 15:50:52,077 INFO Info: : Team team1 was deleted
+2020-05-30 15:50:52,077 INFO Info: : Team team1 was deleted
+2020-05-30 15:50:52,078 INFO Info: : Team team2 was deleted
+2020-05-30 15:50:52,078 INFO Info: : Team team2 was deleted
+2020-05-30 15:52:13,595 INFO Info: : Team team1 was created
+2020-05-30 15:52:13,595 INFO Info: : Team team1 was created
+2020-05-30 15:52:13,604 INFO Info: : Team team2 was created
+2020-05-30 15:52:13,604 INFO Info: : Team team2 was created
+2020-05-30 15:52:13,669 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:52:13,669 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:52:13,704 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:52:13,704 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:52:13,713 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:52:13,713 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:52:13,737 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:52:13,737 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:52:13,740 INFO Info: : Asked for game event 3
+2020-05-30 15:52:13,740 INFO Info: : Asked for game event 3
+2020-05-30 15:52:13,745 INFO Info: : Asked for game event 3
+2020-05-30 15:52:13,745 INFO Info: : Asked for game event 3
+2020-05-30 15:53:15,513 INFO Info: : Team team1 was created
+2020-05-30 15:53:15,513 INFO Info: : Team team1 was created
+2020-05-30 15:53:15,524 INFO Info: : Team team2 was created
+2020-05-30 15:53:15,524 INFO Info: : Team team2 was created
+2020-05-30 15:53:15,608 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:15,608 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:15,643 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:15,643 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:15,657 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:53:15,657 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:53:15,697 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:53:15,697 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:53:15,702 INFO Info: : Asked for game event 1
+2020-05-30 15:53:15,702 INFO Info: : Asked for game event 1
+2020-05-30 15:53:15,708 INFO Info: : Asked for game event 1
+2020-05-30 15:53:15,708 INFO Info: : Asked for game event 1
+2020-05-30 15:53:46,096 INFO Info: : Team team1 was created
+2020-05-30 15:53:46,096 INFO Info: : Team team1 was created
+2020-05-30 15:53:46,106 INFO Info: : Team team2 was created
+2020-05-30 15:53:46,106 INFO Info: : Team team2 was created
+2020-05-30 15:53:46,175 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:46,175 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:46,199 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:46,199 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:46,208 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:53:46,208 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:53:46,238 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:53:46,238 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:53:46,240 INFO Info: : Asked for game event 1
+2020-05-30 15:53:46,240 INFO Info: : Asked for game event 1
+2020-05-30 15:53:46,244 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:53:46,244 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:53:46,247 INFO Info: : Asked for game event 1
+2020-05-30 15:53:46,247 INFO Info: : Asked for game event 1
+2020-05-30 15:53:46,254 INFO Info: :edited event 1 
+2020-05-30 15:53:46,254 INFO Info: :edited event 1 
+2020-05-30 15:53:46,255 INFO Info: : Asked for game event 1
+2020-05-30 15:53:46,255 INFO Info: : Asked for game event 1
+2020-05-30 15:53:46,257 INFO Info: : Asked for game event 1
+2020-05-30 15:53:46,257 INFO Info: : Asked for game event 1
+2020-05-30 15:53:46,269 INFO Info: :removed event Yellow card for Shahar 
+2020-05-30 15:53:46,269 INFO Info: :removed event Yellow card for Shahar 
+2020-05-30 15:53:46,270 INFO Info: :Deleted game 2 
+2020-05-30 15:53:46,270 INFO Info: :Deleted game 2 
+2020-05-30 15:53:46,272 INFO Info: :Deleted game 1 
+2020-05-30 15:53:46,272 INFO Info: :Deleted game 1 
+2020-05-30 15:53:46,293 INFO Info: : Team team1 was deleted
+2020-05-30 15:53:46,293 INFO Info: : Team team1 was deleted
+2020-05-30 15:53:46,294 INFO Info: : Team team2 was deleted
+2020-05-30 15:53:46,294 INFO Info: : Team team2 was deleted
+2020-05-30 15:53:46,341 INFO Info: : Team team1 was created
+2020-05-30 15:53:46,341 INFO Info: : Team team1 was created
+2020-05-30 15:53:46,345 INFO Info: : Team team2 was created
+2020-05-30 15:53:46,345 INFO Info: : Team team2 was created
+2020-05-30 15:53:46,377 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:46,377 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:46,395 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:46,395 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:46,405 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:53:46,405 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:53:46,413 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:53:46,413 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:53:46,414 INFO Info: : Asked for game event 2
+2020-05-30 15:53:46,414 INFO Info: : Asked for game event 2
+2020-05-30 15:53:46,420 INFO Info: : Asked for game event 2
+2020-05-30 15:53:46,420 INFO Info: : Asked for game event 2
+2020-05-30 15:53:46,424 INFO Info: :edited event 2 
+2020-05-30 15:53:46,424 INFO Info: :edited event 2 
+2020-05-30 15:53:46,425 INFO Info: : Asked for game event 2
+2020-05-30 15:53:46,425 INFO Info: : Asked for game event 2
+2020-05-30 15:53:46,426 INFO Info: : Asked for game event 2
+2020-05-30 15:53:46,426 INFO Info: : Asked for game event 2
+2020-05-30 15:53:46,439 INFO Info: :removed event Red card for Oscar 
+2020-05-30 15:53:46,439 INFO Info: :removed event Red card for Oscar 
+2020-05-30 15:53:46,440 INFO Info: :Deleted game 4 
+2020-05-30 15:53:46,440 INFO Info: :Deleted game 4 
+2020-05-30 15:53:46,441 INFO Info: :Deleted game 3 
+2020-05-30 15:53:46,441 INFO Info: :Deleted game 3 
+2020-05-30 15:53:46,453 INFO Info: : Team team1 was deleted
+2020-05-30 15:53:46,453 INFO Info: : Team team1 was deleted
+2020-05-30 15:53:46,454 INFO Info: : Team team2 was deleted
+2020-05-30 15:53:46,454 INFO Info: : Team team2 was deleted
+2020-05-30 15:53:46,472 INFO Info: : Team team1 was created
+2020-05-30 15:53:46,472 INFO Info: : Team team1 was created
+2020-05-30 15:53:46,477 INFO Info: : Team team2 was created
+2020-05-30 15:53:46,477 INFO Info: : Team team2 was created
+2020-05-30 15:53:46,512 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:46,512 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:46,537 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:46,537 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:53:46,543 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:53:46,543 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:53:46,556 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:53:46,556 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:53:46,558 INFO Info: : Asked for game event 3
+2020-05-30 15:53:46,558 INFO Info: : Asked for game event 3
+2020-05-30 15:53:46,572 INFO Info: :removed event Goal to home team 
+2020-05-30 15:53:46,572 INFO Info: :removed event Goal to home team 
+2020-05-30 15:53:46,574 INFO Info: :Deleted game 6 
+2020-05-30 15:53:46,574 INFO Info: :Deleted game 6 
+2020-05-30 15:53:46,575 INFO Info: :Deleted game 5 
+2020-05-30 15:53:46,575 INFO Info: :Deleted game 5 
+2020-05-30 15:53:46,585 INFO Info: : Team team1 was deleted
+2020-05-30 15:53:46,585 INFO Info: : Team team1 was deleted
+2020-05-30 15:53:46,586 INFO Info: : Team team2 was deleted
+2020-05-30 15:53:46,586 INFO Info: : Team team2 was deleted
+2020-05-30 15:54:06,658 INFO Info: : Team team1 was created
+2020-05-30 15:54:06,658 INFO Info: : Team team1 was created
+2020-05-30 15:54:06,662 INFO Info: : Team team2 was created
+2020-05-30 15:54:06,662 INFO Info: : Team team2 was created
+2020-05-30 15:54:06,693 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:06,693 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:06,715 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:06,715 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:06,723 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:54:06,723 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:54:06,737 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:54:06,737 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:54:06,739 INFO Info: : Asked for game event 4
+2020-05-30 15:54:06,739 INFO Info: : Asked for game event 4
+2020-05-30 15:54:06,745 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:54:06,745 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:54:06,752 INFO Info: : Asked for game event 4
+2020-05-30 15:54:06,752 INFO Info: : Asked for game event 4
+2020-05-30 15:54:06,757 INFO Info: :edited event 4 
+2020-05-30 15:54:06,757 INFO Info: :edited event 4 
+2020-05-30 15:54:06,758 INFO Info: : Asked for game event 4
+2020-05-30 15:54:06,758 INFO Info: : Asked for game event 4
+2020-05-30 15:54:06,759 INFO Info: : Asked for game event 4
+2020-05-30 15:54:06,759 INFO Info: : Asked for game event 4
+2020-05-30 15:54:06,773 INFO Info: :removed event Yellow card for Shahar 
+2020-05-30 15:54:06,773 INFO Info: :removed event Yellow card for Shahar 
+2020-05-30 15:54:06,774 INFO Info: :Deleted game 8 
+2020-05-30 15:54:06,774 INFO Info: :Deleted game 8 
+2020-05-30 15:54:06,775 INFO Info: :Deleted game 7 
+2020-05-30 15:54:06,775 INFO Info: :Deleted game 7 
+2020-05-30 15:54:06,787 INFO Info: : Team team1 was deleted
+2020-05-30 15:54:06,787 INFO Info: : Team team1 was deleted
+2020-05-30 15:54:06,788 INFO Info: : Team team2 was deleted
+2020-05-30 15:54:06,788 INFO Info: : Team team2 was deleted
+2020-05-30 15:54:06,806 INFO Info: : Team team1 was created
+2020-05-30 15:54:06,806 INFO Info: : Team team1 was created
+2020-05-30 15:54:06,810 INFO Info: : Team team2 was created
+2020-05-30 15:54:06,810 INFO Info: : Team team2 was created
+2020-05-30 15:54:06,842 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:06,842 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:06,861 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:06,861 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:06,868 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:54:06,868 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:54:06,877 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:54:06,877 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:54:06,879 INFO Info: : Asked for game event 5
+2020-05-30 15:54:06,879 INFO Info: : Asked for game event 5
+2020-05-30 15:54:06,881 INFO Info: : Asked for game event 5
+2020-05-30 15:54:06,881 INFO Info: : Asked for game event 5
+2020-05-30 15:54:06,889 INFO Info: :edited event 5 
+2020-05-30 15:54:06,889 INFO Info: :edited event 5 
+2020-05-30 15:54:06,890 INFO Info: : Asked for game event 5
+2020-05-30 15:54:06,890 INFO Info: : Asked for game event 5
+2020-05-30 15:54:06,891 INFO Info: : Asked for game event 5
+2020-05-30 15:54:06,891 INFO Info: : Asked for game event 5
+2020-05-30 15:54:06,904 INFO Info: :removed event Red card for Oscar 
+2020-05-30 15:54:06,904 INFO Info: :removed event Red card for Oscar 
+2020-05-30 15:54:06,905 INFO Info: :Deleted game 10 
+2020-05-30 15:54:06,905 INFO Info: :Deleted game 10 
+2020-05-30 15:54:06,906 INFO Info: :Deleted game 9 
+2020-05-30 15:54:06,906 INFO Info: :Deleted game 9 
+2020-05-30 15:54:06,914 INFO Info: : Team team1 was deleted
+2020-05-30 15:54:06,914 INFO Info: : Team team1 was deleted
+2020-05-30 15:54:06,916 INFO Info: : Team team2 was deleted
+2020-05-30 15:54:06,916 INFO Info: : Team team2 was deleted
+2020-05-30 15:54:06,937 INFO Info: : Team team1 was created
+2020-05-30 15:54:06,937 INFO Info: : Team team1 was created
+2020-05-30 15:54:06,940 INFO Info: : Team team2 was created
+2020-05-30 15:54:06,940 INFO Info: : Team team2 was created
+2020-05-30 15:54:06,973 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:06,973 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:06,991 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:06,991 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:06,996 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:54:06,996 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:54:07,011 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:54:07,011 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:54:07,013 INFO Info: : Asked for game event 6
+2020-05-30 15:54:07,013 INFO Info: : Asked for game event 6
+2020-05-30 15:54:07,026 INFO Info: :removed event Goal to home team 
+2020-05-30 15:54:07,026 INFO Info: :removed event Goal to home team 
+2020-05-30 15:54:07,027 INFO Info: :Deleted game 12 
+2020-05-30 15:54:07,027 INFO Info: :Deleted game 12 
+2020-05-30 15:54:07,029 INFO Info: :Deleted game 11 
+2020-05-30 15:54:07,029 INFO Info: :Deleted game 11 
+2020-05-30 15:54:07,041 INFO Info: : Team team1 was deleted
+2020-05-30 15:54:07,041 INFO Info: : Team team1 was deleted
+2020-05-30 15:54:07,042 INFO Info: : Team team2 was deleted
+2020-05-30 15:54:07,042 INFO Info: : Team team2 was deleted
+2020-05-30 15:54:36,591 INFO Info: : Team team1 was created
+2020-05-30 15:54:36,591 INFO Info: : Team team1 was created
+2020-05-30 15:54:36,597 INFO Info: : Team team2 was created
+2020-05-30 15:54:36,597 INFO Info: : Team team2 was created
+2020-05-30 15:54:36,645 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:36,645 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:36,672 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:36,672 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:36,677 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:54:36,677 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:54:36,692 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:54:36,692 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:54:36,693 INFO Info: : Asked for game event 7
+2020-05-30 15:54:36,693 INFO Info: : Asked for game event 7
+2020-05-30 15:54:36,698 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:54:36,698 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:54:36,704 INFO Info: : Asked for game event 7
+2020-05-30 15:54:36,704 INFO Info: : Asked for game event 7
+2020-05-30 15:54:36,708 INFO Info: :edited event 7 
+2020-05-30 15:54:36,708 INFO Info: :edited event 7 
+2020-05-30 15:54:36,709 INFO Info: : Asked for game event 7
+2020-05-30 15:54:36,709 INFO Info: : Asked for game event 7
+2020-05-30 15:54:36,711 INFO Info: : Asked for game event 7
+2020-05-30 15:54:36,711 INFO Info: : Asked for game event 7
+2020-05-30 15:54:36,725 INFO Info: :removed event Yellow card for Shahar 
+2020-05-30 15:54:36,725 INFO Info: :removed event Yellow card for Shahar 
+2020-05-30 15:54:36,726 INFO Info: :Deleted game 14 
+2020-05-30 15:54:36,726 INFO Info: :Deleted game 14 
+2020-05-30 15:54:36,728 INFO Info: :Deleted game 13 
+2020-05-30 15:54:36,728 INFO Info: :Deleted game 13 
+2020-05-30 15:54:36,741 INFO Info: : Team team1 was deleted
+2020-05-30 15:54:36,741 INFO Info: : Team team1 was deleted
+2020-05-30 15:54:36,742 INFO Info: : Team team2 was deleted
+2020-05-30 15:54:36,742 INFO Info: : Team team2 was deleted
+2020-05-30 15:54:43,141 INFO Info: : Team team1 was created
+2020-05-30 15:54:43,141 INFO Info: : Team team1 was created
+2020-05-30 15:54:43,147 INFO Info: : Team team2 was created
+2020-05-30 15:54:43,147 INFO Info: : Team team2 was created
+2020-05-30 15:54:43,195 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:43,195 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:43,221 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:43,221 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:43,228 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:54:43,228 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:54:43,243 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:54:43,243 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:54:43,245 INFO Info: : Asked for game event 8
+2020-05-30 15:54:43,245 INFO Info: : Asked for game event 8
+2020-05-30 15:54:43,249 INFO Info: : Asked for game event 8
+2020-05-30 15:54:43,249 INFO Info: : Asked for game event 8
+2020-05-30 15:54:43,257 INFO Info: :edited event 8 
+2020-05-30 15:54:43,257 INFO Info: :edited event 8 
+2020-05-30 15:54:43,258 INFO Info: : Asked for game event 8
+2020-05-30 15:54:43,258 INFO Info: : Asked for game event 8
+2020-05-30 15:54:43,259 INFO Info: : Asked for game event 8
+2020-05-30 15:54:43,259 INFO Info: : Asked for game event 8
+2020-05-30 15:54:43,276 INFO Info: :removed event Red card for Oscar 
+2020-05-30 15:54:43,276 INFO Info: :removed event Red card for Oscar 
+2020-05-30 15:54:43,277 INFO Info: :Deleted game 16 
+2020-05-30 15:54:43,277 INFO Info: :Deleted game 16 
+2020-05-30 15:54:43,278 INFO Info: :Deleted game 15 
+2020-05-30 15:54:43,278 INFO Info: :Deleted game 15 
+2020-05-30 15:54:43,293 INFO Info: : Team team1 was deleted
+2020-05-30 15:54:43,293 INFO Info: : Team team1 was deleted
+2020-05-30 15:54:43,295 INFO Info: : Team team2 was deleted
+2020-05-30 15:54:43,295 INFO Info: : Team team2 was deleted
+2020-05-30 15:54:49,900 INFO Info: : Team team1 was created
+2020-05-30 15:54:49,900 INFO Info: : Team team1 was created
+2020-05-30 15:54:49,907 INFO Info: : Team team2 was created
+2020-05-30 15:54:49,907 INFO Info: : Team team2 was created
+2020-05-30 15:54:49,946 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:49,946 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:49,971 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:49,971 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:54:49,977 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:54:49,977 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:54:49,991 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:54:49,991 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:54:49,993 INFO Info: : Asked for game event 9
+2020-05-30 15:54:49,993 INFO Info: : Asked for game event 9
+2020-05-30 15:54:50,009 INFO Info: :removed event Goal to home team 
+2020-05-30 15:54:50,009 INFO Info: :removed event Goal to home team 
+2020-05-30 15:54:50,011 INFO Info: :Deleted game 18 
+2020-05-30 15:54:50,011 INFO Info: :Deleted game 18 
+2020-05-30 15:54:50,012 INFO Info: :Deleted game 17 
+2020-05-30 15:54:50,012 INFO Info: :Deleted game 17 
+2020-05-30 15:54:50,026 INFO Info: : Team team1 was deleted
+2020-05-30 15:54:50,026 INFO Info: : Team team1 was deleted
+2020-05-30 15:54:50,027 INFO Info: : Team team2 was deleted
+2020-05-30 15:54:50,027 INFO Info: : Team team2 was deleted
+2020-05-30 15:55:16,039 INFO Info: : Team team1 was created
+2020-05-30 15:55:16,039 INFO Info: : Team team1 was created
+2020-05-30 15:55:16,044 INFO Info: : Team team2 was created
+2020-05-30 15:55:16,044 INFO Info: : Team team2 was created
+2020-05-30 15:55:16,082 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:16,082 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:16,111 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:16,111 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:16,117 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:55:16,117 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:55:16,127 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:55:16,127 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:55:16,129 INFO Info: : Asked for game event 10
+2020-05-30 15:55:16,129 INFO Info: : Asked for game event 10
+2020-05-30 15:55:16,142 INFO Info: :removed event Goal to home team 
+2020-05-30 15:55:16,142 INFO Info: :removed event Goal to home team 
+2020-05-30 15:55:16,143 INFO Info: :Deleted game 20 
+2020-05-30 15:55:16,143 INFO Info: :Deleted game 20 
+2020-05-30 15:55:16,144 INFO Info: :Deleted game 19 
+2020-05-30 15:55:16,144 INFO Info: :Deleted game 19 
+2020-05-30 15:55:16,157 INFO Info: : Team team1 was deleted
+2020-05-30 15:55:16,157 INFO Info: : Team team1 was deleted
+2020-05-30 15:55:16,158 INFO Info: : Team team2 was deleted
+2020-05-30 15:55:16,158 INFO Info: : Team team2 was deleted
+2020-05-30 15:55:20,125 INFO Info: : Team team1 was created
+2020-05-30 15:55:20,125 INFO Info: : Team team1 was created
+2020-05-30 15:55:20,130 INFO Info: : Team team2 was created
+2020-05-30 15:55:20,130 INFO Info: : Team team2 was created
+2020-05-30 15:55:20,175 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:20,175 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:20,196 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:20,196 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:20,206 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:55:20,206 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:55:20,219 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:55:20,219 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:55:20,221 INFO Info: : Asked for game event 11
+2020-05-30 15:55:20,221 INFO Info: : Asked for game event 11
+2020-05-30 15:55:20,237 INFO Info: :removed event Goal to home team 
+2020-05-30 15:55:20,237 INFO Info: :removed event Goal to home team 
+2020-05-30 15:55:20,239 INFO Info: :Deleted game 22 
+2020-05-30 15:55:20,239 INFO Info: :Deleted game 22 
+2020-05-30 15:55:20,240 INFO Info: :Deleted game 21 
+2020-05-30 15:55:20,240 INFO Info: :Deleted game 21 
+2020-05-30 15:55:20,254 INFO Info: : Team team1 was deleted
+2020-05-30 15:55:20,254 INFO Info: : Team team1 was deleted
+2020-05-30 15:55:20,255 INFO Info: : Team team2 was deleted
+2020-05-30 15:55:20,255 INFO Info: : Team team2 was deleted
+2020-05-30 15:55:27,824 INFO Info: : Team team1 was created
+2020-05-30 15:55:27,824 INFO Info: : Team team1 was created
+2020-05-30 15:55:27,829 INFO Info: : Team team2 was created
+2020-05-30 15:55:27,829 INFO Info: : Team team2 was created
+2020-05-30 15:55:27,876 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:27,876 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:27,904 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:27,904 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:27,911 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:55:27,911 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:55:27,926 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:55:27,926 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:55:27,928 INFO Info: : Asked for game event 12
+2020-05-30 15:55:27,928 INFO Info: : Asked for game event 12
+2020-05-30 15:55:27,936 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:55:27,936 INFO Info: :ended game between team team1 and team team2 at the 30.5.2020 
+2020-05-30 15:55:27,940 INFO Info: : Asked for game event 12
+2020-05-30 15:55:27,940 INFO Info: : Asked for game event 12
+2020-05-30 15:55:27,945 INFO Info: :edited event 12 
+2020-05-30 15:55:27,945 INFO Info: :edited event 12 
+2020-05-30 15:55:27,946 INFO Info: : Asked for game event 12
+2020-05-30 15:55:27,946 INFO Info: : Asked for game event 12
+2020-05-30 15:55:27,948 INFO Info: : Asked for game event 12
+2020-05-30 15:55:27,948 INFO Info: : Asked for game event 12
+2020-05-30 15:55:27,964 INFO Info: :removed event Yellow card for Shahar 
+2020-05-30 15:55:27,964 INFO Info: :removed event Yellow card for Shahar 
+2020-05-30 15:55:27,969 INFO Info: :Deleted game 24 
+2020-05-30 15:55:27,969 INFO Info: :Deleted game 24 
+2020-05-30 15:55:27,971 INFO Info: :Deleted game 23 
+2020-05-30 15:55:27,971 INFO Info: :Deleted game 23 
+2020-05-30 15:55:27,981 INFO Info: : Team team1 was deleted
+2020-05-30 15:55:27,981 INFO Info: : Team team1 was deleted
+2020-05-30 15:55:27,986 INFO Info: : Team team2 was deleted
+2020-05-30 15:55:27,986 INFO Info: : Team team2 was deleted
+2020-05-30 15:55:28,009 INFO Info: : Team team1 was created
+2020-05-30 15:55:28,009 INFO Info: : Team team1 was created
+2020-05-30 15:55:28,015 INFO Info: : Team team2 was created
+2020-05-30 15:55:28,015 INFO Info: : Team team2 was created
+2020-05-30 15:55:28,054 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:28,054 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:28,076 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:28,076 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:28,084 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:55:28,084 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:55:28,095 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:55:28,095 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:55:28,097 INFO Info: : Asked for game event 13
+2020-05-30 15:55:28,097 INFO Info: : Asked for game event 13
+2020-05-30 15:55:28,103 INFO Info: : Asked for game event 13
+2020-05-30 15:55:28,103 INFO Info: : Asked for game event 13
+2020-05-30 15:55:28,107 INFO Info: :edited event 13 
+2020-05-30 15:55:28,107 INFO Info: :edited event 13 
+2020-05-30 15:55:28,108 INFO Info: : Asked for game event 13
+2020-05-30 15:55:28,108 INFO Info: : Asked for game event 13
+2020-05-30 15:55:28,110 INFO Info: : Asked for game event 13
+2020-05-30 15:55:28,110 INFO Info: : Asked for game event 13
+2020-05-30 15:55:28,125 INFO Info: :removed event Red card for Oscar 
+2020-05-30 15:55:28,125 INFO Info: :removed event Red card for Oscar 
+2020-05-30 15:55:28,126 INFO Info: :Deleted game 26 
+2020-05-30 15:55:28,126 INFO Info: :Deleted game 26 
+2020-05-30 15:55:28,128 INFO Info: :Deleted game 25 
+2020-05-30 15:55:28,128 INFO Info: :Deleted game 25 
+2020-05-30 15:55:28,141 INFO Info: : Team team1 was deleted
+2020-05-30 15:55:28,141 INFO Info: : Team team1 was deleted
+2020-05-30 15:55:28,143 INFO Info: : Team team2 was deleted
+2020-05-30 15:55:28,143 INFO Info: : Team team2 was deleted
+2020-05-30 15:55:28,163 INFO Info: : Team team1 was created
+2020-05-30 15:55:28,163 INFO Info: : Team team1 was created
+2020-05-30 15:55:28,171 INFO Info: : Team team2 was created
+2020-05-30 15:55:28,171 INFO Info: : Team team2 was created
+2020-05-30 15:55:28,212 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:28,212 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:28,238 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:28,238 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-30 15:55:28,244 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:55:28,244 INFO Info: :started game between team1 and team2 at the 30.5.2020 
+2020-05-30 15:55:28,258 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:55:28,258 INFO Info: :add event Goal to home team in min 90 
+2020-05-30 15:55:28,260 INFO Info: : Asked for game event 14
+2020-05-30 15:55:28,260 INFO Info: : Asked for game event 14
+2020-05-30 15:55:28,276 INFO Info: :removed event Goal to home team 
+2020-05-30 15:55:28,276 INFO Info: :removed event Goal to home team 
+2020-05-30 15:55:28,277 INFO Info: :Deleted game 28 
+2020-05-30 15:55:28,277 INFO Info: :Deleted game 28 
+2020-05-30 15:55:28,278 INFO Info: :Deleted game 27 
+2020-05-30 15:55:28,278 INFO Info: :Deleted game 27 
+2020-05-30 15:55:28,292 INFO Info: : Team team1 was deleted
+2020-05-30 15:55:28,292 INFO Info: : Team team1 was deleted
+2020-05-30 15:55:28,293 INFO Info: : Team team2 was deleted
+2020-05-30 15:55:28,293 INFO Info: : Team team2 was deleted

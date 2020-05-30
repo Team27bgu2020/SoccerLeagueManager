@@ -22,30 +22,30 @@ class AcceptanceTestsOwnerManager(TestCase):
         self.team_db = TeamDB()
         self.control = TeamManagementController(self.team_db)
         self.barcelona = Team("Barca")
-        self.manager = TeamUser('user_nam1', 'password', 'NameA', date.datetime(1993, 1, 1), "0.0.0.1", 2, team=None,
+        self.manager = TeamUser('user_nam1', 'password', 'NameA', date.datetime(1993, 1, 1), 2, team=None,
                                 role=None)
-        self.manager_with_team = TeamUser('user_nam1', 'password', 'NameA', date.datetime(1993, 1, 1), "0.0.0.1", 2,
+        self.manager_with_team = TeamUser('user_nam1', 'password', 'NameA', date.datetime(1993, 1, 1), 2,
                                           team=Team("ajax"), role=TeamManager())
 
-        self.owner = TeamUser('user_nam2', 'password', 'NameB', date.datetime(1993, 1, 12), "0.0.0.2", 3,
+        self.owner = TeamUser('user_nam2', 'password', 'NameB', date.datetime(1993, 1, 12), 3,
                               team=Team("ajax"),
                               role=TeamOwner())
-        self.add_owner = TeamUser('user_nam2', 'password', 'NameB', date.datetime(1993, 1, 12), "0.0.0.2", 3, team=None,
+        self.add_owner = TeamUser('user_nam2', 'password', 'NameB', date.datetime(1993, 1, 12), 3, team=None,
                                   role=TeamOwner())
-        self.add_owner2 = TeamUser('user_nam2', 'password', 'NameB', date.datetime(1993, 1, 12), "0.0.0.2", 3,
+        self.add_owner2 = TeamUser('user_nam2', 'password', 'NameB', date.datetime(1993, 1, 12), 3,
                                    team=None, role=TeamOwner())
 
-        self.add_owner3 = TeamUser('user_nam2', 'password', 'NameB', date.datetime(1993, 1, 12), "0.0.0.2", 3,
+        self.add_owner3 = TeamUser('user_nam2', 'password', 'NameB', date.datetime(1993, 1, 12), 3,
                                    team=Team("ajax"), role=TeamOwner())
-        self.p1 = TeamUser('user_nam3', 'password', 'NameC', date.datetime(1993, 1, 12), "0.0.0.3", 3, team=None,
+        self.p1 = TeamUser('user_nam3', 'password', 'NameC', date.datetime(1993, 1, 12), 3, team=None,
                            role=Player())
-        self.p2 = TeamUser('user_nam4', 'password', 'NameD', date.datetime(1993, 1, 12), "0.0.0.4", 3, team=None,
+        self.p2 = TeamUser('user_nam4', 'password', 'NameD', date.datetime(1993, 1, 12), 3, team=None,
                            role=Player())
-        self.p3 = TeamUser('user_nam4', 'password', 'NameD', date.datetime(1993, 1, 12), "0.0.0.4", 3,
+        self.p3 = TeamUser('user_nam4', 'password', 'NameD', date.datetime(1993, 1, 12), 3,
                            team=Team("ajax"),
                            role=Player())
         self.budget = self.barcelona.budget_manager
-        self.manager2 = TeamUser('user_nam5', 'password', 'NameD', date.datetime(1993, 1, 12), "0.0.0.4", 3,
+        self.manager2 = TeamUser('user_nam5', 'password', 'NameD', date.datetime(1993, 1, 12), 3,
                                  Team("Macabi"),
                                  TeamManager())
         self.control.add_existing_team(self.barcelona)

@@ -111,7 +111,7 @@ class AcceptanceTestsUnionRepresentor(TestCase):
         self.assertIn(t1, organization.teams_in_union)
         self.assertNotIn(t2, organization.teams_in_union)
 
-        representor = UnionRepresentor('Dor123', '12345678', 'Dor', datetime(1990, 8, 8), '1.1.1.1', '', 2000)
+        representor = UnionRepresentor('Dor123', '12345678', 'Dor', datetime(1990, 8, 8), '', 2000)
         organization.add_employee_to_union(representor)
         union_controller.pay_employees()
         self.assertEqual(3000, organization.balance)

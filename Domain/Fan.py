@@ -6,14 +6,16 @@ from Domain.SignedUser import SignedUser
 class Fan(SignedUser):
     """ Constructor for Fan class getting arguments, checks them and updates the relevant fields"""
 
-    def __init__(self, user_name, password, name, birth_date, ip_address, user_id):
-        super().__init__(user_name, password, name, birth_date, ip_address, user_id)
+    def __init__(self, user_name, password, name, birth_date, user_id,
+                 followed_pages=[], followed_games=[], complaints=[], recommendation_system=None):
+
+        super().__init__(user_name, password, name, birth_date, user_id)
 
         self.__search_history = []
-        self.__followed_pages = []
-        self.__followed_games = []
-        self.__complaints = []
-        self.__recommendation_system = None
+        self.__followed_pages = followed_pages
+        self.__followed_games = followed_games
+        self.__complaints = complaints
+        self.__recommendation_system = recommendation_system
 
     @property
     def complaints(self):

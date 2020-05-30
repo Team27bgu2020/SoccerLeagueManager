@@ -17,5 +17,4 @@ class TeamBudgetPolicy:
 
         if self.min_amount != other.min_amount:
             return False
-
         return True

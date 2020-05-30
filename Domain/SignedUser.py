@@ -5,16 +5,15 @@ from Domain.User import User
 
 
 class SignedUser(User):
-    user_id = 0
 
     """ Constructor for SignedUser class """
-    def __init__(self, user_name, password, name, birth_date, ip_address, user_id):
+    def __init__(self, user_name, password, name, birth_date, user_id):
         self.birth_date = birth_date
         self.name = name
         self.password = password
         self.user_name = user_name
         self.notifications = []
-        super().__init__(ip_address, user_id)
+        super().__init__(user_id)
 
     """ Edit the personal data of the user """
     def edit_personal_data(self, user_name, password, name, birth_date):
@@ -33,7 +32,7 @@ class SignedUser(User):
     @birth_date.setter
     def birth_date(self, birth_date: date.datetime):
         if type(birth_date) is not date.datetime:
-            raise TypeError
+            raise TypeError('Expected datetime object, received {}'.format(birth_date))
         self.__birth_date = birth_date
 
     """ Getter for name field """
@@ -57,7 +56,7 @@ class SignedUser(User):
     @user_name.setter
     def user_name(self, user_name: str):
         if len(user_name) < 3:
-            raise ValueError
+            raise ValueError("Username is less than 3 letters long")
         self.__user_name = user_name
 
     """ Getter for password field """
