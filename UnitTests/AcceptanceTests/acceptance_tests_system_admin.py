@@ -5,7 +5,7 @@ from Domain.TeamUser import TeamUser
 from Domain.TeamOwner import TeamOwner
 from Service.SignedUserController import SignedUserController
 from Service.ComplaintController import ComplaintController
-from DataBases.UserDB import UserDB
+from DataBases.MongoDB.MongoUsersDB import MongoUserDB
 from DataBases.ComplaintDB import ComplaintDB
 from Domain.SystemAdmin import SystemAdmin
 from Domain.Team import Team
@@ -17,16 +17,16 @@ from Service.TeamManagementController import TeamManagementController
 
 class AcceptanceTestsSystemAdmin(TestCase):
     # Preparation
-    fan = Fan('fan', '1234', 'name', date.datetime(1993, 1, 9), '1.1.1.1', 2)
-    system_admin = SystemAdmin('boss', '1234', 'name', date.datetime(1993, 1, 9), '1.1.1.1', 1)
+    fan = Fan('fan', '1234', 'name', date.datetime(1993, 1, 9), 2)
+    system_admin = SystemAdmin('boss', '1234', 'name', date.datetime(1993, 1, 9), 1)
     team1 = Team("Beer Sheva", [])
     answer = 'complaint ans'
 
     def setUp(self):
-        self.user_db = UserDB()
+        self.user_db = MongoUserDB()
         self.team_db = TeamDB()
         self.user_controller = SignedUserController(self.user_db)
-        self.team_owner = TeamUser('user_name', 'password', 'name', date.datetime(1980, 5, 5), '0.0.0.2', 3,
+        self.team_owner = TeamUser('user_name', 'password', 'name', date.datetime(1980, 5, 5), 3,
                                    TeamOwner())
 
         self.complaint_db = ComplaintDB()
@@ -35,20 +35,19 @@ class AcceptanceTestsSystemAdmin(TestCase):
 
         self.team_controller = TeamManagementController(self.team_db)
 
-
     # UC 1.1
     def test_init_system(self):
         """we init the DataBase in set up function ^ """
         d2 = date.datetime(1998, 4, 23)
-        self.user_controller.add_system_admin("admin", "1234", "ro", d2, "0.0.0.6")
-        self.assertIn("admin", self.user_controller.get_signed_users())
+        self.user_controller.add_system_admin("admin", "1234", "ro", d2)
+        admin = self.user_controller.get_user_by_name('admin')
+        self.assertTrue(self.user_controller.confirm_user('admin', '1234'))
+        self.assertRaises(AssertionError, self.user_controller.delete_signed_user, admin.user_id)
 
     def test_init_system_no_acceptance(self):
         """we init the DataBase in set up function ^ """
         d2 = date.datetime(1998, 4, 23)
-        self.assertRaises(ValueError, self.user_controller.add_system_admin, "", "1234", "ro", d2, "0.0.0.6")
-
-
+        self.assertRaises(ValueError, self.user_controller.add_system_admin, "", "1234", "ro", d2)
 
     # UC 8.1
     def test_close_team(self):
@@ -60,20 +59,16 @@ class AcceptanceTestsSystemAdmin(TestCase):
         self.team_controller.close_team("Tiberias")
         self.assertFalse(self.team_controller.get_team("Tiberias", None).is_open)
 
-
-
     #UC 8.2
     def test_remove_signed_user(self):
         """ Admin in connected and want to close team """
         d1 = date.datetime(2020, 4, 23)
         d2 = date.datetime(1998, 4, 23)
-        self.user_controller.add_signed_user("name_u1", "1234", "ro", d1, "0.0.0.5")
-        self.user_controller.add_system_admin("admin", "1234", "ro", d2, "0.0.0.6")
-        self.assertTrue(self.user_controller.delete_signed_user("name_u1"))
-        self.assertRaises(AssertionError, self.user_controller.delete_signed_user, "admin")
-        """admin chose a user name from data"""
-
-
+        self.user_controller.add_system_admin("name_u1", "1234", "ro", d1)
+        self.user_controller.add_system_admin("admin", "1234", "ro", d2)
+        admin = self.user_controller.get_user_by_name('name_u1')
+        self.assertTrue(self.user_controller.delete_signed_user(admin.user_id))
+        admin = self.user_controller.get_user_by_name('admin')
 
     # UC 8.3
     def test_show_complaint_and_respond(self):

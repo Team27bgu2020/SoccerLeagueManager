@@ -7,13 +7,14 @@ from Domain.Team import Team
 
 class Game:
 
-    def __init__(self, home_team: Team, away_team: Team, match_time:  date.datetime, field: str):
+    def __init__(self, game_id, home_team, away_team, match_time:  date.datetime, field: str):
 
         if home_team == away_team:
-            raise ValueError
+            raise ValueError("Team cannot play against herself")
 
-        self.home_team = home_team
-        self.away_team = away_team
+        self.__game_id = game_id
+        self.__home_team = home_team
+        self.__away_team = away_team
         self.__match_time = match_time
         self.__field = field
 
@@ -27,6 +28,14 @@ class Game:
         self.__is_game_finished = False
 
         self.fan_following = []
+
+    @property
+    def game_id(self):
+        return self.__game_id
+
+    @game_id.setter
+    def game_id(self, value):
+        self.__game_id = value
 
     @property
     def is_game_finished(self):
@@ -57,6 +66,10 @@ class Game:
     @property
     def events(self):
         return self.__events
+
+    @events.setter
+    def events(self, value):
+        self.__events = value
 
     """ Getter for away team """
 
@@ -93,6 +106,10 @@ class Game:
 
         return self.__referees
 
+    @referees.setter
+    def referees(self, value):
+        self.__referees = value
+
     """ Getter for Field """
 
     @property
@@ -102,6 +119,22 @@ class Game:
             'home': self.__home_score,
             'away': self.__away_score
         }
+
+    @property
+    def home_score(self):
+        return self.__home_score
+
+    @home_score.setter
+    def home_score(self, value):
+        self.__home_score = value
+
+    @property
+    def away_score(self):
+        return self.__away_score
+
+    @away_score.setter
+    def away_score(self, value):
+        self.__away_score = value
 
     """ Setter for main referee object """
 
@@ -120,8 +153,6 @@ class Game:
 
         self.__match_time = match_time
 
-        self.notify_referees('Game date and time changed to {}'.format(match_time))
-
     """ Setter for game field """
 
     @field.setter
@@ -131,8 +162,6 @@ class Game:
             raise TypeError
 
         self.__field = field
-
-        self.notify_referees('Game location changed to {} field'.format(field))
 
     """ Setter for home team """
 
@@ -160,30 +189,14 @@ class Game:
             raise ValueError("Fan is not following the game")
         self.fan_following.remove(fan)
 
-    """ Notify all followers about game notification """
-    def notify_followers(self, notification):
-        for follower in self.fan_following:
-            follower.notify(notification)
-
-    """ Notify referees about given notification """
-    def notify_referees(self, notification):
-        for referee in self.referees:
-            referee.notify(notification)
-
-        self.main_referee.notify(notification)
-
     """ This method adds a referee to the game """
 
     def add_referee(self, referee):
 
         if referee in self.__referees or referee == self.__main_referee:
-            raise ValueError
+            raise ValueError("referee already defined for this game")
 
         self.__referees.append(referee)
-
-        self.notify_followers(
-            '{} added as a referee to {}-{} game'.format(referee.name, self.home_team.name, self.away_team.name)
-        )
 
     """ This method remove the given referee from the game """
 
@@ -192,26 +205,14 @@ class Game:
         if referee in self.__referees:
             self.__referees.remove(referee)
 
-        self.notify_followers(
-            '{} removed as a referee from {}-{} game'.format(referee.name, self.home_team.name, self.away_team.name)
-        )
-
     """ This method adds a game event to the event list """
 
     def add_event(self, event):
-
-        ref = event.referee
-        if ref not in self.__referees and ref != self.__main_referee:
-            raise ValueError
 
         if event in self.__events:
             raise ValueError
 
         self.__events.append(event)
-
-        self.notify_followers(
-            '{} just added as game event by referee {}'.format(event.event_type, ref.name)
-        )
 
     """ This method removes a game event from the event list """
 

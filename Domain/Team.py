@@ -5,7 +5,7 @@ from Domain.TeamBudget import TeamBudget
 
 class Team:
 
-    def __init__(self, name, team_members=[], stadium=None):
+    def __init__(self, name, team_members=[], stadium=None, upcoming_games=[], past_games=[], leagues={}, owners=[], managers=[], is_open=True, team_budget=TeamBudget()):
 
         if type(name) is not str:
             raise TypeError
@@ -13,24 +13,24 @@ class Team:
         self.__team_members = []
         self.add_team_members(team_members)
         self.__name = name
-        self.__upcoming_games = []
-        self.__past_games = []
-        self.__leagues = {}
+        self.__upcoming_games = upcoming_games
+        self.__past_games = past_games
+        self.__leagues = leagues
         self.__stadium = stadium
-        self.__owners = []
-        self.__managers = []
-        self.__is_open = True
-        self.__budget_manager = TeamBudget()
+        self.__owners = owners
+        self.__managers = managers
+        self.__is_open = is_open
+        self.__budget_manager = team_budget
 
     """ This method adds a new season """
 
-    def add_league(self, league):
+    def add_league(self, league, year):
 
-        if league.season.year not in self.__leagues.keys():
-            self.__leagues[league.season.year] = []
+        if year not in self.__leagues.keys():
+            self.__leagues[year] = []
 
-        if league not in self.__leagues[league.season.year]:
-            self.__leagues[league.season.year].append(league)
+        if league not in self.__leagues[year]:
+            self.__leagues[year].append(league)
         else:
             raise ValueError('team is already in this league')
 
@@ -66,11 +66,7 @@ class Team:
 
     def add_game(self, game):
 
-        if not self.collision_game_check(game):
-            self.__upcoming_games.append(game)
-        else:
-            raise ValueError('The {}-{} game has collision with another team game'
-                             .format(game.home_team.name, game.away_team.name))
+        self.__upcoming_games.append(game)
 
     """ This method removes a game from the team games list """
 
@@ -80,15 +76,6 @@ class Team:
             self.__upcoming_games.remove(game)
         else:
             raise ValueError('The team is not in this game')
-
-    """ This method check if the given game collides with the team games (same day) """
-
-    def collision_game_check(self, new_game):
-
-        for game in self.__upcoming_games:
-            if game.match_time.date() == new_game.match_time.date():
-                return True
-        return False
 
     """ This method adds all the given team members """
 
@@ -101,8 +88,7 @@ class Team:
 
         for team_member in team_members:
             try:
-                self.__team_members.append(team_member)
-                team_member.team = self
+                self.add_team_member(team_member)
             except ValueError as err:
                 exception = exception + str(err) + '\n'
 
@@ -115,10 +101,7 @@ class Team:
 
         if team_member in self.__team_members:
             raise ValueError('User {} already in this team'.format(team_member.user_name))
-        if team_member.team is not None:
-            raise ValueError('User {} already have a team'.format(team_member.user_name))
         self.__team_members.append(team_member)
-        team_member.team = self
 
     """ This method removes all the given team members """
 
@@ -142,20 +125,17 @@ class Team:
     def remove_team_member(self, team_member):
         if team_member in self.__team_members:
             self.__team_members.remove(team_member)
-            team_member.team = None
         else:
-            raise ValueError('User {} is not a player or a coach in this team'.format(team_member.user_name))
+            raise ValueError('User {} is not a player or a coach in this team'.format(team_member))
 
     """ This method adds a new team owner """
 
     def add_team_owner(self, team_member):
 
         if team_member in self.owners:
-            raise ValueError('User {} is already a owner in this team'.format(team_member.user_name))
-        if team_member.team is not None:
-            raise ValueError('User {} already in a team'.format(team_member.user_name))
+            raise ValueError('User {} is already a owner in this team'.format(team_member))
+
         self.__owners.append(team_member)
-        team_member.team = self
 
     """ This method removes a team owner """
 
@@ -165,63 +145,24 @@ class Team:
 
         if team_member in self.owners:
             self.__owners.remove(team_member)
-            team_member.team = None
-            self.cascade_remove(team_member)
         else:
-            raise ValueError('User {} is not a team owner in this team'.format(team_member.user_name))
-
-    """ Remove all team members assigned by given team member"""
-
-    def cascade_remove(self, team_member):
-
-        exception = ''
-
-        for player in self.team_members:
-            if player.role.assigned_by == team_member:
-                try:
-                    self.remove_team_member(player)
-                except ValueError as err:
-                    exception = exception + str(err) + '\n'
-        for manager in self.managers:
-            if manager.role.assigned_by == team_member:
-                try:
-                    self.remove_team_member(manager)
-                except ValueError as err:
-                    exception = exception + str(err) + '\n'
-        for owner in self.owners:
-            if owner.role.assigned_by == team_member:
-                try:
-                    self.remove_team_member(owner)
-                except ValueError as err:
-                    exception = exception + str(err) + '\n'
-
-        if exception is not '':
-            raise Exception(exception)
+            raise ValueError('User {} is not a team owner in this team'.format(team_member))
 
     """ This method adds a new team manager """
 
     def add_team_manager(self, team_member):
 
         if team_member in self.managers:
-            raise ValueError('User {} is already a manager in the team'.format(team_member.user_name))
-        if team_member.team is not None:
-            raise ValueError('User {} is already in another team'.format(team_member.user_name))
+            raise ValueError('User {} is already a manager in the team'.format(team_member))
         self.__managers.append(team_member)
-        team_member.team = self
 
     """ This method removes a team manager """
 
     def remove_team_manager(self, team_member):
         if team_member in self.__managers:
             self.__managers.remove(team_member)
-            team_member.team = None
         else:
-            raise ValueError('User {} is not a manager in the team'.format(team_member.user_name))
-
-    """ This method set the assigned by value"""
-
-    def set_assigned_by(self, team_member, assigning_user):
-        team_member.role.assigned_by = assigning_user
+            raise ValueError('User {} is not a manager in the team'.format(team_member))
 
     """ This method closes the team """
 
@@ -229,7 +170,6 @@ class Team:
 
         if self.__is_open:
             self.__is_open = False
-            self.notify_team_members("Team {} is now closed".format(self.name))
         else:
             raise Exception('Team is already closed')
 
@@ -239,13 +179,12 @@ class Team:
 
         if not self.__is_open:
             self.__is_open = True
-            self.notify_team_members("Team {} is now reopened".format(self.name))
         else:
             raise Exception('Team is already open')
 
     """ Add expanse"""
 
-    def add_expanse(self, amount, description):
+    def add_expense(self, amount, description):
         if amount <= 0:
             raise ValueError("expanse can't be a negative number")
         return self.__budget_manager.add_expanse(amount, description)
@@ -256,15 +195,6 @@ class Team:
         if amount <= 0:
             raise ValueError("income can't be a negative number")
         self.__budget_manager.add_income(amount, description)
-
-    """ Notify team members with a certain notification """
-    def notify_team_members(self, notification):
-        for team_member in self.team_members:
-            team_member.notify(notification)
-        for team_manager in self.managers:
-            team_manager.notify(notification)
-        for team_owner in self.owners:
-            team_owner.notify(notification)
 
     """ Get expanses"""
 

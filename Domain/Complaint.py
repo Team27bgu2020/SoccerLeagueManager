@@ -5,11 +5,6 @@ class Complaint:
 
     def __init__(self, desc, complainer, complaint_id):
 
-        if type(desc) is not str:
-            return ValueError('{} is not a valid complaint description'.format(desc))
-        if type(complaint_id) is not int:
-            return ValueError('{} is not a valid complaint id'.format(complaint_id))
-
         self.__complainer = complainer
         self.__description = desc
         self.__answer = "none"

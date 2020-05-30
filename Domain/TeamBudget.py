@@ -7,11 +7,11 @@
 
 class TeamBudget:
 
-    def __init__(self):
-        self.__transactions = []
-        self.__income_transactions = []
-        self.__expanses_transactions = []
-        self.__current_balance = 0
+    def __init__(self, transactions=[], income_transactions=[], expanses_transactions=[], current_balance=0):
+        self.__transactions = transactions
+        self.__income_transactions = income_transactions
+        self.__expanses_transactions = expanses_transactions
+        self.__current_balance = current_balance
 
     """ Add income to team, use positive numbers"""
 
