@@ -1,4 +1,5 @@
 import logging
+import os.path
 
 formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
 
@@ -23,7 +24,8 @@ class Logger:
             Logger.__logger = self
 
     @staticmethod
-    def start_logger(log_file_path="..\\..\\Log\\Event_Log.txt", error_file_path = "..\\..\\Log\\Error_Log.txt"):
+    def start_logger(log_file_path=os.path.dirname(__file__) + "\\LogFiles\\Event_Log.txt",
+                     error_file_path=os.path.dirname(__file__) + "\\LogFiles\\Error_Log.txt"):
         # logging.basicConfig(filename=log_file_path, format=formatter)
         handler = logging.FileHandler(log_file_path)
         handler.setFormatter(formatter)
