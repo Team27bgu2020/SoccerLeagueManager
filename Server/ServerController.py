@@ -31,6 +31,7 @@ import csv
 
 signed_user_controller = SignedUserController(UserDB())
 notification_controller = NotificationController()
+team_management_controller = TeamManagementController(TeamDB())
 policy_db = PolicyDB()
 league_controller = LeagueController(LeagueDB(),SeasonDB(),policy_db)
 signed_user_controller.add_fan_to_data('dor', '1234', 'dor', date.datetime(1994, 1, 20), '0.0.0.0')
@@ -44,7 +45,13 @@ def user_login(mess_info):
         return 'Error'
     else:
         user = signed_user_controller.get_user(user_name)
-        return {
+        if str(type(user)).split('.')[1] == 'TeamUser':
+            return {
+                'user_name': user_name,
+                'user_type': str(type(user.role)).split('.')[1]
+            }
+        else:
+            return {
                     'user_name': user_name,
                     'user_type': str(type(user)).split('.')[1],
                     'user_notification': notification_controller.check_user_notifications(user)
@@ -193,6 +200,15 @@ def add_policy(mess_info):
             return 'Error policy exists'
 
 
+def add_team(mess_info):
+    team_name = mess_info['data']['team_name']
+    user = mess_info['user_id']
+    try:
+        team_management_controller.open_new_team(team_name, signed_user_controller.get_user(user))
+    except:
+        return 'Error'
+
+
 """ dictionary of all the handle functions - add your function to the dictionary """
 handle_functions = {
                     'get_user_info': get_user_info,
@@ -203,7 +219,8 @@ handle_functions = {
                     'ref_register': ref_register,
                     'remove_user': remove_user,
                     'get_logs': get_logs,
-                    'add_policy': add_policy
+                    'add_policy': add_policy,
+                    'add_team': add_team,
 }
 
 
