@@ -124,7 +124,7 @@ class SignedUserController:
         self.__user_data_base.add_signed_user(referee_user, 'referee')
         self.update_counter()
 
-    def add_union_representor(self, user_name, password, name, birth_date, salary):
+    def add_union_representor(self, user_name, password, name, birth_date, salary=0):
         union_rep = UnionRepresentor(user_name, password, name, birth_date, self.__ID, salary)
         self.__user_data_base.add_signed_user(union_rep, 'union_representor')
         self.update_counter()

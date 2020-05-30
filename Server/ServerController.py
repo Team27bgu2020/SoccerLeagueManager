@@ -10,32 +10,31 @@ from Service.TeamManagementController import TeamManagementController
 from Service.UnionController import UnionController
 from Service.NotificationsController import NotificationController
 
-from DataBases.UserDB import UserDB
+from DataBases.MongoDB.MongoUsersDB import MongoUserDB
 from DataBases.PolicyDB import PolicyDB
 from DataBases.ComplaintDB import ComplaintDB
-from DataBases.GameDB import GameDB
+from DataBases.MongoDB.MongoGameDB import MongoGameDB
 from DataBases.LeagueDB import LeagueDB
 from DataBases.PageDB import PageDB
 from DataBases.SeasonDB import SeasonDB
-from DataBases.TeamDB import TeamDB
+from DataBases.MongoDB.MongoTeamDB import MongoTeamDB
 
 from Domain.GameSchedulePolicy import GameSchedulePolicy
 from Domain.PointsCalculationPolicy import PointsCalculationPolicy
 from Domain.TeamBudgetPolicy import TeamBudgetPolicy
 from Enums.GameAssigningPoliciesEnum import GameAssigningPoliciesEnum
+from Enums.RefereeQualificationEnum import RefereeQualificationEnum
 
 import datetime as date
 import csv
 
 """ This class is the controller that connects the server to the Domain """
 
-signed_user_controller = SignedUserController(UserDB())
-notification_controller = NotificationController()
-team_management_controller = TeamManagementController(TeamDB())
-policy_db = PolicyDB()
-league_controller = LeagueController(LeagueDB(),SeasonDB(),policy_db)
-signed_user_controller.add_fan_to_data('dor', '1234', 'dor', date.datetime(1994, 1, 20), '0.0.0.0')
-
+users_db = MongoUserDB()
+team_db = MongoTeamDB()
+signed_user_controller = SignedUserController(users_db)
+notification_controller = NotificationController(users_db, MongoGameDB())
+team_management_controller = TeamManagementController(team_db, users_db)
 
 
 def user_login(mess_info):
@@ -44,7 +43,7 @@ def user_login(mess_info):
     if not signed_user_controller.confirm_user(user_name, password):
         return 'Error'
     else:
-        user = signed_user_controller.get_user(user_name)
+        user = signed_user_controller.get_user_by_name(user_name)
         if str(type(user)).split('.')[1] == 'TeamUser':
             return {
                 'user_name': user_name,
@@ -52,10 +51,10 @@ def user_login(mess_info):
             }
         else:
             return {
-                    'user_name': user_name,
-                    'user_type': str(type(user)).split('.')[1],
-                    'user_notification': notification_controller.check_user_notifications(user)
-                }
+                'user_name': user_name,
+                'user_type': str(type(user)).split('.')[1],
+                'user_notification': notification_controller.check_user_notifications(user.user_id)
+            }
 
 
 def user_register(mess_info):
@@ -64,36 +63,37 @@ def user_register(mess_info):
     name = mess_info['data']['name']
     birth_date = mess_info['data']['birth_date']
     role = mess_info['data']['role']
-    if signed_user_controller.get_user(user_name) is None:
+    try:
+        if signed_user_controller.get_user_by_name(user_name) is not None:
+            return 'Username Error'
+    except:
         try:
             if role == 'Fan':
-                signed_user_controller.add_fan_to_data(user_name, password, name,
-                                                    date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+                signed_user_controller.add_fan(user_name, password, name,
+                                               date.datetime.strptime(birth_date, '%Y-%m-%d'))
             elif role == "Team Owner":
-                signed_user_controller.add_team_owner_to_data(user_name, password, name,
-                                                          date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+                signed_user_controller.add_team_owner(user_name, password, name,
+                                                      date.datetime.strptime(birth_date, '%Y-%m-%d'))
             elif role == 'Union Representor':
                 signed_user_controller.add_union_representor(user_name, password, name,
-                                                        date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+                                                             date.datetime.strptime(birth_date, '%Y-%m-%d'))
             elif role == 'System Admin':
                 signed_user_controller.add_system_admin(user_name, password, name,
-                                                          date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+                                                        date.datetime.strptime(birth_date, '%Y-%m-%d'))
             else:
                 return 'Error'
         except Exception:
             return 'Error'
-        if str(type(signed_user_controller.get_user(user_name))).split('.')[1] == 'TeamUser':
+        if str(type(signed_user_controller.get_user_by_name(user_name))).split('.')[1] == 'TeamUser':
             return {
                 'user_name': user_name,
-                'user_type': str(type(signed_user_controller.get_user(user_name).role)).split('.')[1]
+                'user_type': str(type(signed_user_controller.get_user_by_name(user_name).role)).split('.')[1]
             }
         else:
             return {
                 'user_name': user_name,
-                'user_type': str(type(signed_user_controller.get_user(user_name))).split('.')[1]
+                'user_type': str(type(signed_user_controller.get_user_by_name(user_name))).split('.')[1]
             }
-    else:
-        return 'Username Error'
 
 
 def ref_register(mess_info):
@@ -101,24 +101,28 @@ def ref_register(mess_info):
     password = mess_info['data']['password']
     name = mess_info['data']['name']
     birth_date = mess_info['data']['birth_date']
-    qualification = mess_info['data']['qualification']
-    if signed_user_controller.get_user(user_name) is None:
+    qualification = RefereeQualificationEnum(mess_info['data']['qualification'])
+    try:
+        if signed_user_controller.get_user_by_name(user_name) is not None:
+            return 'Username Error'
+    except:
         try:
-            signed_user_controller.add_referee_to_data(qualification, user_name, password, name,
-                                                          date.datetime.strptime(birth_date, '%Y-%m-%d'), '0.0.0.0')
+            signed_user_controller.add_referee(qualification, user_name, password, name,
+                                               date.datetime.strptime(birth_date, '%Y-%m-%d'))
+            return confirmation_massage()
         except Exception:
             return 'Error'
-    else:
-        return 'Username Error'
 
 
 def remove_user(mess_info):
     user_name = mess_info['data']['user_name']
-    if signed_user_controller.get_user(user_name) is None:
-            return 'Error'
-    else:
-        signed_user_controller.delete_signed_user(user_name)
-        return 'Success'
+    try:
+        if signed_user_controller.get_user_by_name(user_name) is not None:
+            user_id = signed_user_controller.get_user_by_name(user_name).user_id
+            signed_user_controller.delete_signed_user(user_id)
+            return 'Success'
+    except:
+        return 'Error'
 
 
 def get_user_info(mess_info):
@@ -133,13 +137,13 @@ def get_user_info(mess_info):
 def update_user_info(mess_info):
     user_id = mess_info['user_id']
     user_name = mess_info['data']['user_name']
-    password = str(hashlib.sha256(mess_info['data']['password'].encode()).hexdigest())
+    password = mess_info['data']['password']
     name = mess_info['data']['name']
     birth_date = mess_info['data']['birth_date']
     try:
-        signed_user_controller.user_data_base.signed_users[user_name] = signed_user_controller.user_data_base.signed_users.pop(signed_user_controller.get_user(user_id).user_name)
-        signed_user_controller.edit_personal_data(signed_user_controller.get_user(user_name),
-                                user_name, password, name, date.datetime.strptime(birth_date, '%Y-%m-%d'))
+        signed_user_controller.edit_personal_data(signed_user_controller.get_user_by_name(user_id).user_id,
+                                                  user_name, password, name,
+                                                  date.datetime.strptime(birth_date, '%Y-%m-%d'))
         return confirmation_massage()
     except Exception:
         return 'Error'
@@ -148,11 +152,11 @@ def update_user_info(mess_info):
 def get_user_notifications(mess_info):
     user_name = mess_info['data']['user_name']
     try:
-        user = signed_user_controller.get_user(user_name)
+        user = signed_user_controller.get_user_by_name(user_name)
         return {
-                    'user_name': user_name,
-                    'user_notifications': notification_controller.check_user_notifications(user)
-            }
+            'user_name': user_name,
+            'user_notifications': notification_controller.check_user_notifications(user)
+        }
     except Exception as err:
         return err
 
@@ -204,23 +208,23 @@ def add_team(mess_info):
     team_name = mess_info['data']['team_name']
     user = mess_info['user_id']
     try:
-        team_management_controller.open_new_team(team_name, signed_user_controller.get_user(user))
+        team_management_controller.open_new_team(team_name, signed_user_controller.get_user_by_name(user).user_id)
     except:
         return 'Error'
 
 
 """ dictionary of all the handle functions - add your function to the dictionary """
 handle_functions = {
-                    'get_user_info': get_user_info,
-                    'update_user_info': update_user_info,
-                    'user_login': user_login,
-                    'get_user_notifications': get_user_notifications,
-                    'user_register': user_register,
-                    'ref_register': ref_register,
-                    'remove_user': remove_user,
-                    'get_logs': get_logs,
-                    'add_policy': add_policy,
-                    'add_team': add_team,
+    'get_user_info': get_user_info,
+    'update_user_info': update_user_info,
+    'user_login': user_login,
+    'get_user_notifications': get_user_notifications,
+    'user_register': user_register,
+    'ref_register': ref_register,
+    'remove_user': remove_user,
+    'get_logs': get_logs,
+    'add_policy': add_policy,
+    'add_team': add_team,
 }
 
 
@@ -242,7 +246,5 @@ def handle_message(message):
     return json.dumps(handle_functions[message_info['type']](message_info))
 
 
-
 server = create_server(10000)
 server.listen()
-
