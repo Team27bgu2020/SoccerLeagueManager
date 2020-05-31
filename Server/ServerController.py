@@ -1,27 +1,18 @@
 import json
-import hashlib
+
+from DataBases.MongoDB.MongoLeagueDB import MongoLeagueDB
+from DataBases.MongoDB.MongoSeasonDB import MongoSeasonDB
 from Server import Server
 from Service.SignedUserController import SignedUserController
-from Service.ComplaintController import ComplaintController
 from Service.LeagueController import LeagueController
-from Service.MatchController import MatchController
-from Service.PageController import PageController
 from Service.TeamManagementController import TeamManagementController
-from Service.UnionController import UnionController
 from Service.NotificationsController import NotificationController
 
 from DataBases.MongoDB.MongoUsersDB import MongoUserDB
-from DataBases.PolicyDB import PolicyDB
-from DataBases.ComplaintDB import ComplaintDB
+from DataBases.MongoDB.MongoPolicyDB import MongoPolicyDB
 from DataBases.MongoDB.MongoGameDB import MongoGameDB
-from DataBases.LeagueDB import LeagueDB
-from DataBases.PageDB import PageDB
-from DataBases.SeasonDB import SeasonDB
 from DataBases.MongoDB.MongoTeamDB import MongoTeamDB
 
-from Domain.GameSchedulePolicy import GameSchedulePolicy
-from Domain.PointsCalculationPolicy import PointsCalculationPolicy
-from Domain.TeamBudgetPolicy import TeamBudgetPolicy
 from Enums.GameAssigningPoliciesEnum import GameAssigningPoliciesEnum
 from Enums.RefereeQualificationEnum import RefereeQualificationEnum
 
@@ -32,7 +23,10 @@ import csv
 
 users_db = MongoUserDB()
 team_db = MongoTeamDB()
-policy_db = PolicyDB()
+policy_db = MongoPolicyDB()
+league_db = MongoLeagueDB()
+season_db = MongoSeasonDB()
+league_controller = LeagueController(league_db, season_db, users_db, policy_db)
 signed_user_controller = SignedUserController(users_db)
 notification_controller = NotificationController(users_db, MongoGameDB())
 team_management_controller = TeamManagementController(team_db, users_db)
@@ -176,9 +170,8 @@ def add_policy(mess_info):
         points_win = mess_info['data']['pointsWin']
         points_draw = mess_info['data']['pointsDraw']
         points_lose = mess_info['data']['pointsLose']
-        points_policy = PointsCalculationPolicy(points_win, points_draw, points_lose)
         try:
-            policy_db.add(points_policy)
+            league_controller.create_points_policy(points_win, points_draw, points_lose)
         except:
             return 'Error policy exists'
     elif policy_type == 'games':
@@ -191,16 +184,14 @@ def add_policy(mess_info):
             games_policy_enum = GameAssigningPoliciesEnum('Equal')
         else:
             return 'Error'
-        game_policy = GameSchedulePolicy(int(game_against_each_team), games_per_week, games_policy_enum)
         try:
-            policy_db.add(game_policy)
+            league_controller.create_game_schedule_policy(int(game_against_each_team), int(games_per_week), games_policy_enum)
         except:
             return 'Error policy exists'
     elif policy_type == 'budget':
         min_budget = mess_info['data']['min_budget']
-        budget_policy = TeamBudgetPolicy(min_budget)
         try:
-            policy_db.add(budget_policy)
+            league_controller.create_team_budget_policy(min_budget)
         except:
             return 'Error policy exists'
 
