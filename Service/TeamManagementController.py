@@ -31,6 +31,9 @@ class TeamManagementController:
         except Exception as err:
             Logger.error_log("{0}:".format(user_id) + err.__str__())
 
+    def get_all_teams(self):
+        return self.__dictionary_team.get_all()
+
     """Open a new team, and add it to the team DB-dictionary"""
 
     # test:test_open_new_team
@@ -50,6 +53,19 @@ class TeamManagementController:
 
     def delete_team(self, team_name, user_id=""):
         try:
+            team = self.__dictionary_team.get(team_name)
+            for member_id in team.team_members:
+                self.remove_team_member_from_team(team_name, member_id)
+            for manager_id in team.managers:
+                self.remove_manager_from_team(team_name, manager_id)
+            try:
+                for owner_id in team.owners:
+                    self.remove_owner_from_team(team_name, owner_id)
+            except:
+                owner = self.__users_db.get_signed_user(team.owners[0])
+                owner.team = None
+                self.__users_db.update_signed_user(owner)
+
             self.__dictionary_team.delete(team_name)
             Logger.info_log("{0}: Team {1} was deleted".format(user_id, team_name))
         except Exception as err:

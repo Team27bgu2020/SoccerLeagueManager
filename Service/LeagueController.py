@@ -8,12 +8,16 @@ from Log.Logger import *
 
 class LeagueController:
 
-    def __init__(self, league_db, season_db, user_db):
+    def __init__(self, league_db, season_db, user_db, policy_db):
 
         self.__league_DB = league_db
         self.__season_DB = season_db
         self.__user_db = user_db
+        self.__policy_db = policy_db
         self.__league_id_counter = self.__league_DB.get_id_counter()
+        self.__points_policy_id_counter = self.__policy_db.get_points_id_counter()
+        self.__schedule_policy_id_counter = self.__policy_db.get_schedule_id_counter()
+        self.__budget_policy_id_counter = self.__policy_db.get_budget_id_counter()
         Logger.start_logger()
 
     """ This method creates new season """
@@ -30,15 +34,17 @@ class LeagueController:
 
     """ This method creates a new league and adds it to the league data base """
 
-    def create_new_league(self, name: str, season_year, points_calculation_policy_dict, games_schedule_policy_dict,
-                          team_budget_policy_dict, user_id=""):
+    def create_new_league(self, name: str, season_year, points_calculation_policy_id, games_schedule_policy_id,
+                          team_budget_policy_id, user_id=""):
         try:
             season = self.__season_DB.get(season_year)
 
-            policy = self.create_policy_objects(points_calculation_policy_dict, games_schedule_policy_dict, team_budget_policy_dict)
+            self.__policy_db.get_points_policy(points_calculation_policy_id)
+            self.__policy_db.get_schedule_policy(games_schedule_policy_id)
+            self.__policy_db.get_budget_policy(team_budget_policy_id)
 
-            league = League(name, season.year, policy[0], policy[1], policy[2], self.__league_id_counter)
-            self.update_counter()
+            league = League(name, season.year, points_calculation_policy_id, games_schedule_policy_id, team_budget_policy_id, self.__league_id_counter)
+            self.update_league_counter()
 
             season.add_league(league.league_id)
             self.__league_DB.add(league)
@@ -50,39 +56,112 @@ class LeagueController:
             Logger.error_log("{0}:".format(user_id) + err.__str__())
             raise err
 
-    def create_policy_objects(
-            self, points_calculation_policy_dict, games_schedule_policy_dict, team_budget_policy_dict
-    ):
+    def create_points_policy(self, win_points, tie_points, lose_points, user_id=""):
 
-        points_calculation_policy = self.create_points_policy(points_calculation_policy_dict)
-        games_schedule_policy = self.create_game_schedule_policy(games_schedule_policy_dict)
-        team_budget_policy = self.create_team_budget_policy(team_budget_policy_dict)
+        try:
+            self.__policy_db.add_point_policy(PointsCalculationPolicy(win_points, tie_points, lose_points, self.__points_policy_id_counter))
+            self.update_points_policy_counter()
+            Logger.info_log("{}: Created new points calculation policy".format(user_id))
+        except Exception as err:
+            Logger.error_log("{}:".format(user_id) + str(err))
+            raise err
 
-        return points_calculation_policy, games_schedule_policy, team_budget_policy
+    def create_game_schedule_policy(self, team_games_num, games_per_week, games_stadium_assigning, user_id=""):
 
-    def create_points_policy(self, points_calculation_policy_dict):
+        try:
+            self.__policy_db.add_schedule_policy(GameSchedulePolicy(team_games_num, games_per_week, games_stadium_assigning, self.__schedule_policy_id_counter))
+            self.update_schedule_policy_counter()
+            Logger.info_log("{}: Created new game schedule policy".format(user_id))
+        except Exception as err:
+            Logger.error_log("{}:".format(user_id) + str(err))
+            raise err
 
-        return PointsCalculationPolicy(points_calculation_policy_dict['win_points'],
-                                       points_calculation_policy_dict['tie_points'],
-                                       points_calculation_policy_dict['lose_points'])
+    def create_team_budget_policy(self, min_amount, user_id=""):
 
-    def create_game_schedule_policy(self, games_schedule_policy_dict):
+        try:
+            self.__policy_db.add_budget_policy(TeamBudgetPolicy(min_amount, self.__budget_policy_id_counter))
+            self.update_budget_policy_counter()
+            Logger.info_log("{}: Created new team budget policy".format(user_id))
+        except Exception as err:
+            Logger.error_log("{}:".format(user_id) + str(err))
+            raise err
 
-        return GameSchedulePolicy(games_schedule_policy_dict['team_games_num'],
-                                  games_schedule_policy_dict['games_per_week'],
-                                  games_schedule_policy_dict['chosen_days'],
-                                  games_schedule_policy_dict['games_stadium_assigning'])
+    def delete_points_calculation_policy(self, policy_id, user_id=""):
 
-    def create_team_budget_policy(self, team_budget_policy_dict):
+        try:
+            self.__policy_db.delete_points_policy(policy_id)
+            Logger.info_log("{}: Deleted points calculation policy {}".format(user_id, policy_id))
+        except Exception as err:
+            Logger.error_log("{}:".format(user_id) + str(err))
+            raise err
 
-        return TeamBudgetPolicy(team_budget_policy_dict['min_amount'])
+    def delete_schedule_calculation_policy(self, policy_id, user_id=""):
+
+        try:
+            self.__policy_db.delete_schedule_policy(policy_id)
+            Logger.info_log("{}: Deleted game schedule policy {}".format(user_id, policy_id))
+        except Exception as err:
+            Logger.error_log("{}:".format(user_id) + str(err))
+            raise err
+
+    def delete_budget_calculation_policy(self, policy_id, user_id=""):
+
+        try:
+            self.__policy_db.delete_budget_policy(policy_id)
+            Logger.info_log("{}: Deleted team budget policy {}".format(user_id, policy_id))
+        except Exception as err:
+            Logger.error_log("{}:".format(user_id) + str(err))
+            raise err
+
+    def get_points_calculation_policy(self, policy_id, user_id=""):
+
+        try:
+            policy = self.__policy_db.get_points_policy(policy_id)
+            Logger.info_log("{}: Retrived point calculation policy {}".format(user_id, policy_id))
+            return policy
+        except Exception as err:
+            Logger.error_log("{}:".format(user_id) + str(err))
+            raise err
+
+    def get_schedule_calculation_policy(self, policy_id, user_id=""):
+
+        try:
+            policy = self.__policy_db.get_schedule_policy(policy_id)
+            Logger.info_log("{}: Retrived game schedule policy {}".format(user_id, policy_id))
+            return policy
+        except Exception as err:
+            Logger.error_log("{}:".format(user_id) + str(err))
+            raise err
+
+    def get_budget_calculation_policy(self, policy_id, user_id=""):
+
+        try:
+            policy = self.__policy_db.get_budget_policy(policy_id)
+            Logger.info_log("{}: Retrived team budget policy {}".format(user_id, policy_id))
+            return policy
+        except Exception as err:
+            Logger.error_log("{}:".format(user_id) + str(err))
+            raise err
+
+    def get_all_points_policies(self):
+
+        return self.__policy_db.get_all_points_policy()
+
+    def get_all_schedule_policies(self):
+
+        return self.__policy_db.get_all_schedule_policy()
+
+    def get_all_budget_policies(self):
+
+        return self.__policy_db.get_all_budget_policy()
 
     """ This method updates the points calculation policy """
 
-    def update_points_calculation_policy(self, league_id, points_calculation_policy_dict, user_id=""):
+    def update_points_calculation_policy_in_league(self, league_id, policy_id, user_id=""):
         try:
             league = self.__league_DB.get(league_id)
-            league.points_calculation_policy = self.create_points_policy(points_calculation_policy_dict)
+            policy = self.__policy_db.get_points_policy(policy_id)
+            league.points_calculation_policy = policy
             self.__league_DB.update(league)
             Logger.info_log("{0}: ".format(user_id) + "update calculation policy ")
         except Exception as err:
@@ -91,11 +170,12 @@ class LeagueController:
 
     """ This method updates the game schedule policy """
 
-    def update_game_schedule_policy(self, league_id, game_schedule_policy_dict, user_id=""):
+    def update_game_schedule_policy_in_league(self, league_id, policy_id, user_id=""):
 
         try:
             league = self.__league_DB.get(league_id)
-            league.game_schedule_policy = self.create_game_schedule_policy(game_schedule_policy_dict)
+            policy = self.__policy_db.get_schedule_policy(policy_id)
+            league.game_schedule_policy = policy
             self.__league_DB.update(league)
             Logger.info_log("{0}: ".format(user_id) + "update game schedule policy ")
         except Exception as err:
@@ -104,11 +184,12 @@ class LeagueController:
 
     """ This method updates the team budget policy """
 
-    def update_team_budget_policy(self, league_id, team_budget_policy_dict, user_id=""):
+    def update_team_budget_policy(self, league_id, policy_id, user_id=""):
 
         try:
             league = self.__league_DB.get(league_id)
-            league.team_budget_policy = self.create_team_budget_policy(team_budget_policy_dict)
+            policy = self.__policy_db.get_budget_policy(policy_id)
+            league.team_budget_policy = policy
             self.__league_DB.update(league)
             Logger.info_log(
                 "{0}: ".format(user_id) + "Update budget policy in league {0}".format(league.name))
@@ -196,8 +277,20 @@ class LeagueController:
     def get_all_seasons(self):
         return self.__season_DB.get_all_seasons()
 
-    def update_counter(self):
+    def update_league_counter(self):
         self.__league_id_counter += 1
         self.__league_DB.update_id_counter(self.__league_id_counter)
+
+    def update_points_policy_counter(self):
+        self.__points_policy_id_counter += 1
+        self.__policy_db.update_points_id_counter(self.__points_policy_id_counter)
+
+    def update_schedule_policy_counter(self):
+        self.__schedule_policy_id_counter += 1
+        self.__policy_db.update_schedule_id_counter(self.__schedule_policy_id_counter)
+
+    def update_budget_policy_counter(self):
+        self.__budget_policy_id_counter += 1
+        self.__policy_db.update_budget_id_counter(self.__budget_policy_id_counter)
 
     """ This method create a new points calculation policy """

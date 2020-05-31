@@ -7,6 +7,7 @@ from DataBases.MongoDB.MongoSeasonDB import MongoSeasonDB
 from DataBases.MongoDB.MongoPageDB import MongoPageDB
 from DataBases.MongoDB.MongoLeagueDB import MongoLeagueDB
 from DataBases.MongoDB.MongoComplaintDB import MongoComplaintDB
+from DataBases.MongoDB.MongoPolicyDB import MongoPolicyDB
 
 game_event_db = MongoGameEventDB()
 team_db = MongoTeamDB()
@@ -17,6 +18,7 @@ season_db = MongoSeasonDB()
 page_db = MongoPageDB()
 league_db = MongoLeagueDB()
 complaint_db = MongoComplaintDB()
+policy_db = MongoPolicyDB()
 
 game_event_db.reset_db()
 team_db.reset_db()
@@ -27,3 +29,4 @@ season_db.reset_db()
 page_db.reset_db()
 league_db.reset_db()
 complaint_db.reset_db()
+policy_db.reset_db()

@@ -3,8 +3,9 @@
 
 class PointsCalculationPolicy:
 
-    def __init__(self, win_points: int, tie_points: int, lose_points: int):
+    def __init__(self, win_points: int, tie_points: int, lose_points: int, policy_id):
 
+        self.__policy_id = policy_id
         self.__win_points = win_points
         self.__tie_points = tie_points
         self.__lose_points = lose_points

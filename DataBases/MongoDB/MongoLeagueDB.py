@@ -30,17 +30,7 @@ class MongoLeagueDB:
         if self.is_league_in_db(league.name):
             raise ValueError('League with the same name already exists')
 
-        points_policy_dict = league.points_calculation_policy.__dict__
-        games_schedule_policy_dict = league.game_schedule_policy.__dict__
-        team_budget_policy_dict = league.team_budget_policy.__dict__
-        policies = {'Points': points_policy_dict,
-                    'Schedule': games_schedule_policy_dict,
-                    'Budget': team_budget_policy_dict
-                    }
-
         league_dict = league.__dict__
-        league_dict.pop('_League__policies')
-        league_dict['_League__policies'] = policies
 
         self.__leagues_collection.insert_one(league_dict)
 
@@ -92,16 +82,13 @@ class MongoLeagueDB:
     def league_dict_to_object(self, league_dict):
 
         policies = league_dict['_League__policies']
-        points = PointsCalculationPolicy(policies['Points']['_PointsCalculationPolicy__win_points'],
-                                         policies['Points']['_PointsCalculationPolicy__tie_points'],
-                                         policies['Points']['_PointsCalculationPolicy__lose_points'])
-        schedule = GameSchedulePolicy(policies['Schedule']['_GameSchedulePolicy__team_games_num'],
-                                      policies['Schedule']['_GameSchedulePolicy__games_per_week'],
-                                      policies['Schedule']['_GameSchedulePolicy__chosen_days'],
-                                      policies['Schedule']['_GameSchedulePolicy__games_stadium_assigning_policy'])
-        budget = TeamBudgetPolicy(policies['Budget']['_TeamBudgetPolicy__min_amount'])
 
-        league = League(league_dict['_League__name'], league_dict['_League__season'], points, schedule, budget, league_dict['_League__league_id'])
+        league = League(league_dict['_League__name'], league_dict['_League__season'],
+                        league_dict['_League__policies']['Points'],
+                        league_dict['_League__policies']['Schedule'],
+                        league_dict['_League__policies']['Budget'],
+                        league_dict['_League__league_id'])
+
         league.referees = league_dict['_League__referees']
         league.teams = league_dict['_League__teams']
 

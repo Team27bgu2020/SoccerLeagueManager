@@ -1,8 +1,9 @@
 
 class TeamBudgetPolicy:
 
-    def __init__(self, min_amount: int):
+    def __init__(self, min_amount: int, policy_id):
 
+        self.__policy_id = policy_id
         self.__min_amount = min_amount
 
     """ This method returns the min amount of budget a team should have to participate in the league """
