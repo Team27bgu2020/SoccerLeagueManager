@@ -1,0 +1,329 @@
+2020-05-25 17:36:35,145 ERROR Error: 
+2020-05-25 17:36:35,145 ERROR Error: 
+2020-05-25 17:36:35,151 ERROR Error: 
+2020-05-25 17:36:35,151 ERROR Error: 
+2020-05-25 17:36:35,151 ERROR Error: 
+2020-05-25 17:36:35,151 ERROR Error: 
+2020-05-25 17:36:35,158 ERROR Error: 
+2020-05-25 17:36:35,158 ERROR Error: 
+2020-05-25 17:36:35,158 ERROR Error: 
+2020-05-25 17:36:35,158 ERROR Error: 
+2020-05-25 17:36:35,158 ERROR Error: 
+2020-05-25 17:36:35,158 ERROR Error: 
+2020-05-25 17:36:35,159 ERROR Error: Team member already has team
+2020-05-25 17:36:35,159 ERROR Error: Team member already has team
+2020-05-25 17:36:35,159 ERROR Error: Team member already has team
+2020-05-25 17:36:35,159 ERROR Error: Team member already has team
+2020-05-25 17:36:35,159 ERROR Error: Team member already has team
+2020-05-25 17:36:35,159 ERROR Error: Team member already has team
+2020-05-25 17:36:35,159 ERROR Error: Team member already has team
+2020-05-25 17:36:35,159 ERROR Error: 
+2020-05-25 17:36:35,159 ERROR Error: 
+2020-05-25 17:36:35,159 ERROR Error: 
+2020-05-25 17:36:35,159 ERROR Error: 
+2020-05-25 17:36:35,159 ERROR Error: 
+2020-05-25 17:36:35,159 ERROR Error: 
+2020-05-25 17:36:35,159 ERROR Error: 
+2020-05-25 17:36:35,159 ERROR Error: 
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,173 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 17:36:35,181 ERROR Error: doesnt have manager
+2020-05-25 19:25:52,991 ERROR Error: :
+2020-05-25 19:25:52,991 ERROR Error: :
+2020-05-25 19:25:52,994 ERROR Error: :
+2020-05-25 19:25:52,994 ERROR Error: :
+2020-05-25 19:25:52,994 ERROR Error: :
+2020-05-25 19:25:52,994 ERROR Error: :
+2020-05-25 19:25:52,997 ERROR Error: :
+2020-05-25 19:25:52,997 ERROR Error: :
+2020-05-25 19:25:52,997 ERROR Error: :
+2020-05-25 19:25:52,997 ERROR Error: :
+2020-05-25 19:25:52,997 ERROR Error: :
+2020-05-25 19:25:52,997 ERROR Error: :
+2020-05-25 19:25:52,999 ERROR Error: :Team member already has team
+2020-05-25 19:25:52,999 ERROR Error: :Team member already has team
+2020-05-25 19:25:52,999 ERROR Error: :Team member already has team
+2020-05-25 19:25:52,999 ERROR Error: :Team member already has team
+2020-05-25 19:25:52,999 ERROR Error: :Team member already has team
+2020-05-25 19:25:52,999 ERROR Error: :Team member already has team
+2020-05-25 19:25:52,999 ERROR Error: :Team member already has team
+2020-05-25 19:25:53,001 ERROR Error: :
+2020-05-25 19:25:53,001 ERROR Error: :
+2020-05-25 19:25:53,001 ERROR Error: :
+2020-05-25 19:25:53,001 ERROR Error: :
+2020-05-25 19:25:53,001 ERROR Error: :
+2020-05-25 19:25:53,001 ERROR Error: :
+2020-05-25 19:25:53,001 ERROR Error: :
+2020-05-25 19:25:53,001 ERROR Error: :
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,015 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:25:53,022 ERROR Error: :doesnt have manager
+2020-05-25 19:53:43,627 ERROR Error: :
+2020-05-25 19:53:43,628 ERROR Error: :Value less the 0
+2020-05-25 19:54:27,173 ERROR Error: :
+2020-05-25 19:54:27,174 ERROR Error: :Value less the 0
+2020-05-25 19:54:51,928 ERROR Error: :
+2020-05-25 19:56:11,527 ERROR Error: :Value less the 0
+2020-05-25 19:59:31,868 ERROR Error: :
+2020-05-25 19:59:31,868 ERROR Error: :Value less the 0
+2020-05-25 20:00:30,186 ERROR Error: :
+2020-05-25 20:00:30,186 ERROR Error: :Value less the 0
+2020-05-25 20:51:20,051 ERROR Error: :League with that name already exists in the given season
+2020-05-25 20:51:20,052 ERROR Error: :Season with the same year exists inn the System already
+2020-05-25 20:51:20,053 ERROR Error: :
+2020-05-25 20:51:20,053 ERROR Error: :
+2020-05-25 20:51:20,053 ERROR Error: :Value less the 0
+2020-05-25 20:51:20,053 ERROR Error: :Value less the 0
+2020-05-25 21:01:11,298 ERROR Error: :
+2020-05-25 21:01:11,299 ERROR Error: :
+2020-05-25 21:01:11,299 ERROR Error: :
+2020-05-25 21:01:11,300 ERROR Error: :League with that name already exists in the given season
+2020-05-25 21:01:11,300 ERROR Error: :Season with the same year exists inn the System already
+2020-05-25 21:01:11,304 ERROR Error: :
+2020-05-25 21:01:11,304 ERROR Error: :
+2020-05-25 21:01:11,304 ERROR Error: :Value less the 0
+2020-05-25 21:01:11,304 ERROR Error: :Value less the 0
+2020-05-25 21:26:09,027 ERROR Error: :
+2020-05-25 21:26:09,027 ERROR Error: :
+2020-05-25 21:26:09,027 ERROR Error: :
+2020-05-25 21:26:09,027 ERROR Error: :
+2020-05-25 21:26:09,027 ERROR Error: :
+2020-05-25 21:26:09,027 ERROR Error: :
+2020-05-25 21:26:09,027 ERROR Error: :
+2020-05-25 21:26:09,027 ERROR Error: :
+2020-05-25 21:26:12,178 ERROR Error: :
+2020-05-25 21:26:12,178 ERROR Error: :
+2020-05-25 21:26:30,681 ERROR Error: :
+2020-05-25 21:26:30,681 ERROR Error: :
+2020-05-25 21:26:30,682 ERROR Error: :
+2020-05-25 21:26:30,683 ERROR Error: :League with that name already exists in the given season
+2020-05-25 21:26:30,683 ERROR Error: :Season with the same year exists inn the System already
+2020-05-25 21:26:30,686 ERROR Error: :
+2020-05-25 21:26:30,686 ERROR Error: :
+2020-05-25 21:26:30,686 ERROR Error: :Value less the 0
+2020-05-25 21:26:30,686 ERROR Error: :Value less the 0
+2020-05-26 16:37:12,564 ERROR Error: :
+2020-05-26 16:37:12,565 ERROR Error: :
+2020-05-26 16:37:12,565 ERROR Error: :
+2020-05-26 16:37:12,566 ERROR Error: :League with that name already exists in the given season
+2020-05-26 16:37:12,567 ERROR Error: :Season with the same year exists inn the System already
+2020-05-26 16:37:12,568 ERROR Error: :
+2020-05-26 16:37:12,568 ERROR Error: :
+2020-05-26 16:37:12,568 ERROR Error: :Value less the 0
+2020-05-26 16:37:12,568 ERROR Error: :Value less the 0
+2020-05-26 17:53:14,986 ERROR Error: :
+2020-05-26 17:53:14,986 ERROR Error: :
+2020-05-26 17:53:14,986 ERROR Error: :
+2020-05-26 17:53:14,986 ERROR Error: :
+2020-05-26 17:53:14,986 ERROR Error: :
+2020-05-26 17:53:14,986 ERROR Error: :
+2020-05-26 17:53:14,986 ERROR Error: :
+2020-05-26 17:53:14,986 ERROR Error: :
+2020-05-26 17:53:19,286 ERROR Error: :
+2020-05-26 17:53:19,286 ERROR Error: :
+2020-05-26 17:53:34,569 ERROR Error: :'<=' not supported between instances of 'str' and 'int'
+2020-05-26 17:53:34,569 ERROR Error: :'<=' not supported between instances of 'str' and 'int'
+2020-05-26 17:53:34,571 ERROR Error: :'<=' not supported between instances of 'str' and 'int'
+2020-05-26 17:53:34,571 ERROR Error: :'<=' not supported between instances of 'str' and 'int'
+2020-05-26 17:53:34,571 ERROR Error: :'<=' not supported between instances of 'str' and 'int'
+2020-05-26 17:53:34,571 ERROR Error: :'<=' not supported between instances of 'str' and 'int'
+2020-05-26 17:53:34,574 ERROR Error: :User user_nam1 is already in another team
+2020-05-26 17:53:34,574 ERROR Error: :User user_nam1 is already in another team
+2020-05-26 17:53:34,574 ERROR Error: :User user_nam1 is already in another team
+2020-05-26 17:53:34,574 ERROR Error: :User user_nam1 is already in another team
+2020-05-26 17:53:34,574 ERROR Error: :User user_nam1 is already in another team
+2020-05-26 17:53:34,574 ERROR Error: :User user_nam1 is already in another team
+2020-05-26 17:53:34,576 ERROR Error: :User user_nam4 already have a team
+2020-05-26 17:53:34,576 ERROR Error: :User user_nam4 already have a team
+2020-05-26 17:53:34,576 ERROR Error: :User user_nam4 already have a team
+2020-05-26 17:53:34,576 ERROR Error: :User user_nam4 already have a team
+2020-05-26 17:53:34,576 ERROR Error: :User user_nam4 already have a team
+2020-05-26 17:53:34,576 ERROR Error: :User user_nam4 already have a team
+2020-05-26 17:53:34,576 ERROR Error: :User user_nam4 already have a team
+2020-05-26 17:53:34,579 ERROR Error: :User user_nam2 already in a team
+2020-05-26 17:53:34,579 ERROR Error: :User user_nam2 already in a team
+2020-05-26 17:53:34,579 ERROR Error: :User user_nam2 already in a team
+2020-05-26 17:53:34,579 ERROR Error: :User user_nam2 already in a team
+2020-05-26 17:53:34,579 ERROR Error: :User user_nam2 already in a team
+2020-05-26 17:53:34,579 ERROR Error: :User user_nam2 already in a team
+2020-05-26 17:53:34,579 ERROR Error: :User user_nam2 already in a team
+2020-05-26 17:53:34,579 ERROR Error: :User user_nam2 already in a team
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,589 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:34,599 ERROR Error: :doesnt have manager
+2020-05-26 17:53:45,985 ERROR Error: :
+2020-05-26 17:53:45,986 ERROR Error: :
+2020-05-26 17:53:45,986 ERROR Error: :
+2020-05-26 17:53:45,987 ERROR Error: :League with that name already exists in the given season
+2020-05-26 17:53:45,987 ERROR Error: :Season with the same year exists inn the System already
+2020-05-26 17:53:45,990 ERROR Error: :
+2020-05-26 17:53:45,990 ERROR Error: :
+2020-05-26 17:53:45,990 ERROR Error: :Value less the 0
+2020-05-26 17:53:45,990 ERROR Error: :Value less the 0
+2020-05-26 18:15:59,263 ERROR Error: :name 'user_name' is not defined
+2020-05-26 18:15:59,264 ERROR Error: :name 'user_name' is not defined
+2020-05-26 18:25:07,999 ERROR Error: :Name cant contain numbers and has to be longer than 2 letters
+2020-05-26 18:25:37,422 ERROR Error: :Name cant contain numbers and has to be longer than 2 letters
+2020-05-26 18:41:10,546 ERROR Error: :'<=' not supported between instances of 'str' and 'int'
+2020-05-26 18:41:10,546 ERROR Error: :'<=' not supported between instances of 'str' and 'int'
+2020-05-26 18:41:10,549 ERROR Error: :'<=' not supported between instances of 'str' and 'int'
+2020-05-26 18:41:10,549 ERROR Error: :'<=' not supported between instances of 'str' and 'int'
+2020-05-26 18:41:10,549 ERROR Error: :'<=' not supported between instances of 'str' and 'int'
+2020-05-26 18:41:10,549 ERROR Error: :'<=' not supported between instances of 'str' and 'int'
+2020-05-26 18:41:10,551 ERROR Error: :User user_nam1 is already in another team
+2020-05-26 18:41:10,551 ERROR Error: :User user_nam1 is already in another team
+2020-05-26 18:41:10,551 ERROR Error: :User user_nam1 is already in another team
+2020-05-26 18:41:10,551 ERROR Error: :User user_nam1 is already in another team
+2020-05-26 18:41:10,551 ERROR Error: :User user_nam1 is already in another team
+2020-05-26 18:41:10,551 ERROR Error: :User user_nam1 is already in another team
+2020-05-26 18:41:10,553 ERROR Error: :User user_nam4 already have a team
+2020-05-26 18:41:10,553 ERROR Error: :User user_nam4 already have a team
+2020-05-26 18:41:10,553 ERROR Error: :User user_nam4 already have a team
+2020-05-26 18:41:10,553 ERROR Error: :User user_nam4 already have a team
+2020-05-26 18:41:10,553 ERROR Error: :User user_nam4 already have a team
+2020-05-26 18:41:10,553 ERROR Error: :User user_nam4 already have a team
+2020-05-26 18:41:10,553 ERROR Error: :User user_nam4 already have a team
+2020-05-26 18:41:10,555 ERROR Error: :User user_nam2 already in a team
+2020-05-26 18:41:10,555 ERROR Error: :User user_nam2 already in a team
+2020-05-26 18:41:10,555 ERROR Error: :User user_nam2 already in a team
+2020-05-26 18:41:10,555 ERROR Error: :User user_nam2 already in a team
+2020-05-26 18:41:10,555 ERROR Error: :User user_nam2 already in a team
+2020-05-26 18:41:10,555 ERROR Error: :User user_nam2 already in a team
+2020-05-26 18:41:10,555 ERROR Error: :User user_nam2 already in a team
+2020-05-26 18:41:10,555 ERROR Error: :User user_nam2 already in a team
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,567 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:10,572 ERROR Error: :doesnt have manager
+2020-05-26 18:41:16,787 ERROR Error: :Name cant contain numbers and has to be longer than 2 letters
+2020-05-26 18:46:21,606 ERROR Error: :Should be string
+2020-05-26 18:46:21,606 ERROR Error: :Should be string
+2020-05-26 18:46:21,606 ERROR Error: :Should be string
+2020-05-26 18:46:21,606 ERROR Error: :Should be string
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-26 18:46:21,624 ERROR Error: :

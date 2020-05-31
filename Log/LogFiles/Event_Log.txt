@@ -1,0 +1,1317 @@
+2020-05-25 17:36:35,145 INFO Info: Add income to team Barca : Sponsorship, 500
+2020-05-25 17:36:35,145 INFO Info: Add expanse to team Barca : Sponsorship, 499
+2020-05-25 17:36:35,149 INFO Info: Add income to team Barca : Sponsorship, 500
+2020-05-25 17:36:35,149 INFO Info: Add income to team Barca : Sponsorship, 500
+2020-05-25 17:36:35,149 INFO Info: Add income to team Barca : Sponsorship, 500
+2020-05-25 17:36:35,152 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,152 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,152 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,152 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,152 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,159 INFO Info: User NameC was added to Barca
+2020-05-25 17:36:35,159 INFO Info: User NameC was added to Barca
+2020-05-25 17:36:35,159 INFO Info: User NameC was added to Barca
+2020-05-25 17:36:35,159 INFO Info: User NameC was added to Barca
+2020-05-25 17:36:35,159 INFO Info: User NameC was added to Barca
+2020-05-25 17:36:35,159 INFO Info: User NameC was added to Barca
+2020-05-25 17:36:35,159 INFO Info: User NameC was added to Barca
+2020-05-25 17:36:35,159 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,159 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,159 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,159 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,159 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,159 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,159 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,159 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,163 INFO Info: Team Barca closed
+2020-05-25 17:36:35,163 INFO Info: Team Barca closed
+2020-05-25 17:36:35,163 INFO Info: Team Barca closed
+2020-05-25 17:36:35,163 INFO Info: Team Barca closed
+2020-05-25 17:36:35,163 INFO Info: Team Barca closed
+2020-05-25 17:36:35,163 INFO Info: Team Barca closed
+2020-05-25 17:36:35,163 INFO Info: Team Barca closed
+2020-05-25 17:36:35,163 INFO Info: Team Barca closed
+2020-05-25 17:36:35,163 INFO Info: Team Barca closed
+2020-05-25 17:36:35,166 INFO Info: Team Barca closed
+2020-05-25 17:36:35,166 INFO Info: Team Barca closed
+2020-05-25 17:36:35,166 INFO Info: Team Barca closed
+2020-05-25 17:36:35,166 INFO Info: Team Barca closed
+2020-05-25 17:36:35,166 INFO Info: Team Barca closed
+2020-05-25 17:36:35,166 INFO Info: Team Barca closed
+2020-05-25 17:36:35,166 INFO Info: Team Barca closed
+2020-05-25 17:36:35,166 INFO Info: Team Barca closed
+2020-05-25 17:36:35,166 INFO Info: Team Barca closed
+2020-05-25 17:36:35,166 INFO Info: Team Barca closed
+2020-05-25 17:36:35,166 INFO Info: Team Barca closed
+2020-05-25 17:36:35,166 INFO Info: Team Barca reopened
+2020-05-25 17:36:35,166 INFO Info: Team Barca reopened
+2020-05-25 17:36:35,166 INFO Info: Team Barca reopened
+2020-05-25 17:36:35,166 INFO Info: Team Barca reopened
+2020-05-25 17:36:35,166 INFO Info: Team Barca reopened
+2020-05-25 17:36:35,166 INFO Info: Team Barca reopened
+2020-05-25 17:36:35,166 INFO Info: Team Barca reopened
+2020-05-25 17:36:35,166 INFO Info: Team Barca reopened
+2020-05-25 17:36:35,166 INFO Info: Team Barca reopened
+2020-05-25 17:36:35,166 INFO Info: Team Barca reopened
+2020-05-25 17:36:35,166 INFO Info: Team Barca reopened
+2020-05-25 17:36:35,169 INFO Info: Team Barca closed
+2020-05-25 17:36:35,169 INFO Info: Team Barca closed
+2020-05-25 17:36:35,169 INFO Info: Team Barca closed
+2020-05-25 17:36:35,169 INFO Info: Team Barca closed
+2020-05-25 17:36:35,169 INFO Info: Team Barca closed
+2020-05-25 17:36:35,169 INFO Info: Team Barca closed
+2020-05-25 17:36:35,169 INFO Info: Team Barca closed
+2020-05-25 17:36:35,169 INFO Info: Team Barca closed
+2020-05-25 17:36:35,169 INFO Info: Team Barca closed
+2020-05-25 17:36:35,169 INFO Info: Team Barca closed
+2020-05-25 17:36:35,169 INFO Info: Team Barca closed
+2020-05-25 17:36:35,169 INFO Info: Team Barca closed
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,170 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,171 INFO Info: Owner NameB was removed from Barca
+2020-05-25 17:36:35,171 INFO Info: Owner NameB was removed from Barca
+2020-05-25 17:36:35,171 INFO Info: Owner NameB was removed from Barca
+2020-05-25 17:36:35,171 INFO Info: Owner NameB was removed from Barca
+2020-05-25 17:36:35,171 INFO Info: Owner NameB was removed from Barca
+2020-05-25 17:36:35,171 INFO Info: Owner NameB was removed from Barca
+2020-05-25 17:36:35,171 INFO Info: Owner NameB was removed from Barca
+2020-05-25 17:36:35,171 INFO Info: Owner NameB was removed from Barca
+2020-05-25 17:36:35,171 INFO Info: Owner NameB was removed from Barca
+2020-05-25 17:36:35,171 INFO Info: Owner NameB was removed from Barca
+2020-05-25 17:36:35,171 INFO Info: Owner NameB was removed from Barca
+2020-05-25 17:36:35,171 INFO Info: Owner NameB was removed from Barca
+2020-05-25 17:36:35,171 INFO Info: Owner NameB was removed from Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,173 INFO Info: Owner NameB was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was deleted from Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,176 INFO Info: User NameD was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: Manager NameA was added to Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,179 INFO Info: User NameA was deleted from Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:36:35,181 INFO Info: Stadium Camp was set to Barca
+2020-05-25 17:38:26,343 INFO Info: Team Tiberias was created
+2020-05-25 17:38:26,343 INFO Info: Team Tiberias closed
+2020-05-25 19:25:52,989 INFO Info: : Add income to team Barca : Sponsorship, 500
+2020-05-25 19:25:52,989 INFO Info: : Add expanse to team Barca : Sponsorship, 499
+2020-05-25 19:25:52,992 INFO Info: : Add income to team Barca : Sponsorship, 500
+2020-05-25 19:25:52,992 INFO Info: : Add income to team Barca : Sponsorship, 500
+2020-05-25 19:25:52,992 INFO Info: : Add income to team Barca : Sponsorship, 500
+2020-05-25 19:25:52,995 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:52,995 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:52,995 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:52,995 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:52,995 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:52,998 INFO Info: : User NameC was added to Barca
+2020-05-25 19:25:52,998 INFO Info: : User NameC was added to Barca
+2020-05-25 19:25:52,998 INFO Info: : User NameC was added to Barca
+2020-05-25 19:25:52,998 INFO Info: : User NameC was added to Barca
+2020-05-25 19:25:52,998 INFO Info: : User NameC was added to Barca
+2020-05-25 19:25:52,998 INFO Info: : User NameC was added to Barca
+2020-05-25 19:25:52,998 INFO Info: : User NameC was added to Barca
+2020-05-25 19:25:53,001 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,001 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,001 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,001 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,001 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,001 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,001 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,001 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,002 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,002 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,002 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,002 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,002 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,002 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,002 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,002 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,002 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,006 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,006 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,006 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,006 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,006 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,006 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,006 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,006 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,006 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,006 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,006 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,007 INFO Info: :Team Barca reopened
+2020-05-25 19:25:53,007 INFO Info: :Team Barca reopened
+2020-05-25 19:25:53,007 INFO Info: :Team Barca reopened
+2020-05-25 19:25:53,007 INFO Info: :Team Barca reopened
+2020-05-25 19:25:53,007 INFO Info: :Team Barca reopened
+2020-05-25 19:25:53,007 INFO Info: :Team Barca reopened
+2020-05-25 19:25:53,007 INFO Info: :Team Barca reopened
+2020-05-25 19:25:53,007 INFO Info: :Team Barca reopened
+2020-05-25 19:25:53,007 INFO Info: :Team Barca reopened
+2020-05-25 19:25:53,007 INFO Info: :Team Barca reopened
+2020-05-25 19:25:53,007 INFO Info: :Team Barca reopened
+2020-05-25 19:25:53,009 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,009 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,009 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,009 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,009 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,009 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,009 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,009 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,009 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,009 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,009 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,009 INFO Info: : Team Barca closed
+2020-05-25 19:25:53,010 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,010 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,010 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,010 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,010 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,010 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,010 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,010 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,010 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,010 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,010 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,010 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,010 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was removed from Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was removed from Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was removed from Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was removed from Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was removed from Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was removed from Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was removed from Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was removed from Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was removed from Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was removed from Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was removed from Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was removed from Barca
+2020-05-25 19:25:53,011 INFO Info: : Owner NameB was removed from Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,014 INFO Info: : Owner NameB was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,016 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,017 INFO Info: : User NameD was deleted from Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,018 INFO Info: : User NameD was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,020 INFO Info: : Manager NameA was added to Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,021 INFO Info: : User NameA was deleted from Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:25:53,025 INFO Info: : Stadium Camp was set to Barca
+2020-05-25 19:53:43,627 INFO Info: :Add income: 10000,
+2020-05-25 19:53:43,628 INFO Info: :Add expanse: 10000,
+2020-05-25 19:53:43,628 INFO Info: :Add expanse: 10000,
+2020-05-25 19:54:27,173 INFO Info: :Add income: 10000,
+2020-05-25 19:54:27,174 INFO Info: :Add expanse: 10000,
+2020-05-25 19:54:51,927 INFO Info: :Add income: 10000,
+2020-05-25 19:55:15,830 INFO Info: :Add expanse: 10000,
+2020-05-25 19:59:31,868 INFO Info: :Add income: 10000,
+2020-05-25 19:59:31,868 INFO Info: :Add expanse: 10000,
+2020-05-25 19:59:31,868 INFO Info: :Add expanse: 10000,
+2020-05-25 20:00:30,186 INFO Info: :Add income: 10000,
+2020-05-25 20:00:30,186 INFO Info: :Add expanse: 10000,
+2020-05-25 20:00:30,186 INFO Info: :Team  paid registration fee
+2020-05-25 20:00:30,186 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-25 20:00:30,186 INFO Info: :Dor have been payed
+2020-05-25 20:00:30,186 INFO Info: :Employees were paid
+2020-05-25 20:51:20,050 INFO Info: : Update budget policy in league Euro
+2020-05-25 20:51:20,051 INFO Info: : created Euro league 
+2020-05-25 20:51:20,051 INFO Info: : created 2020 season 
+2020-05-25 20:51:20,053 INFO Info: :Add income: 10000,
+2020-05-25 20:51:20,053 INFO Info: :Add income: 10000,
+2020-05-25 20:51:20,053 INFO Info: :Add expanse: 10000,
+2020-05-25 20:51:20,053 INFO Info: :Add expanse: 10000,
+2020-05-25 20:51:20,053 INFO Info: :Team  paid registration fee
+2020-05-25 20:51:20,053 INFO Info: :Team  paid registration fee
+2020-05-25 20:51:20,053 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-25 20:51:20,053 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-25 20:51:20,053 INFO Info: :Dor have been payed
+2020-05-25 20:51:20,053 INFO Info: :Dor have been payed
+2020-05-25 20:51:20,053 INFO Info: :Employees were paid
+2020-05-25 20:51:20,053 INFO Info: :Employees were paid
+2020-05-25 21:01:11,297 INFO Info: : created new game schedule policy
+2020-05-25 21:01:11,298 INFO Info: : update game schedule policy 
+2020-05-25 21:01:11,298 INFO Info: : created new calculation policy
+2020-05-25 21:01:11,298 INFO Info: : update calculation policy 
+2020-05-25 21:01:11,299 INFO Info: : created new budget policy
+2020-05-25 21:01:11,299 INFO Info: : Update budget policy in league Euro
+2020-05-25 21:01:11,299 INFO Info: : created Euro league 
+2020-05-25 21:01:11,300 INFO Info: : created 2020 season 
+2020-05-25 21:01:11,300 INFO Info: : Added Euro league to season
+2020-05-25 21:01:11,300 INFO Info: : Added list of leagues to season
+2020-05-25 21:01:11,303 INFO Info: :Add income: 10000,
+2020-05-25 21:01:11,303 INFO Info: :Add income: 10000,
+2020-05-25 21:01:11,304 INFO Info: :Add expanse: 10000,
+2020-05-25 21:01:11,304 INFO Info: :Add expanse: 10000,
+2020-05-25 21:01:11,304 INFO Info: :Team  paid registration fee
+2020-05-25 21:01:11,304 INFO Info: :Team  paid registration fee
+2020-05-25 21:01:11,304 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-25 21:01:11,304 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-25 21:01:11,304 INFO Info: :Dor have been payed
+2020-05-25 21:01:11,304 INFO Info: :Dor have been payed
+2020-05-25 21:01:11,304 INFO Info: :Employees were paid
+2020-05-25 21:01:11,304 INFO Info: :Employees were paid
+2020-05-25 21:26:09,019 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,021 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,021 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,021 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,023 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,023 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,023 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,023 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,023 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,025 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,025 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,025 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,025 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,025 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,025 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,025 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,026 INFO Info: : Present Page 
+2020-05-25 21:26:09,026 INFO Info: : Present Page 
+2020-05-25 21:26:09,026 INFO Info: : Present Page 
+2020-05-25 21:26:09,026 INFO Info: : Present Page 
+2020-05-25 21:26:09,026 INFO Info: : Present Page 
+2020-05-25 21:26:09,026 INFO Info: : Present Page 
+2020-05-25 21:26:09,026 INFO Info: : Present Page 
+2020-05-25 21:26:09,026 INFO Info: : Present Page 
+2020-05-25 21:26:09,028 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,028 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,028 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,028 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,028 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,028 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,028 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,028 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:09,028 INFO Info: : Page MaorMelikson add
+2020-05-25 21:26:12,176 INFO Info: : Page ReuvenOved add
+2020-05-25 21:26:12,177 INFO Info: : Page ReuvenOved add
+2020-05-25 21:26:12,177 INFO Info: : Page ReuvenOved add
+2020-05-25 21:26:12,177 INFO Info: : Present Page 
+2020-05-25 21:26:12,177 INFO Info: : Present Page 
+2020-05-25 21:26:12,178 INFO Info: : Page ReuvenOved add
+2020-05-25 21:26:12,178 INFO Info: : Page ReuvenOved add
+2020-05-25 21:26:12,178 INFO Info: : Page ReuvenOved add
+2020-05-25 21:26:15,438 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-25 21:26:15,438 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-25 21:26:15,438 INFO Info: :started game between team1 and team2 at the 2020-05-25 21:26:15.435969 
+2020-05-25 21:26:15,438 INFO Info: :add event Goal to home team in min 90 
+2020-05-25 21:26:15,438 INFO Info: :ended game between team1 and team2 at the 2020-05-25 21:26:15.435969 
+2020-05-25 21:26:15,439 INFO Info: :removed event Goal to home team 
+2020-05-25 21:26:15,439 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-25 21:26:15,439 INFO Info: :edit event to Goal to home team 
+2020-05-25 21:26:15,440 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-25 21:26:15,440 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-25 21:26:15,440 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-25 21:26:15,440 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-25 21:26:15,440 INFO Info: :started game between team1 and team2 at the 2020-05-25 21:26:15.435969 
+2020-05-25 21:26:15,440 INFO Info: :started game between team1 and team2 at the 2020-05-25 21:26:15.435969 
+2020-05-25 21:26:15,440 INFO Info: :add event Goal to home team in min 90 
+2020-05-25 21:26:15,440 INFO Info: :add event Goal to home team in min 90 
+2020-05-25 21:26:15,440 INFO Info: :removed event Goal to home team 
+2020-05-25 21:26:15,440 INFO Info: :removed event Goal to home team 
+2020-05-25 21:26:15,440 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-25 21:26:15,440 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-25 21:26:15,441 INFO Info: :edit event to Goal to home team 
+2020-05-25 21:26:15,441 INFO Info: :edit event to Goal to home team 
+2020-05-25 21:26:15,442 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-25 21:26:15,442 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-25 21:26:15,442 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-25 21:26:15,442 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-25 21:26:15,442 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-25 21:26:15,442 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-25 21:26:15,442 INFO Info: :started game between team1 and team2 at the 2020-05-25 21:26:15.435969 
+2020-05-25 21:26:15,442 INFO Info: :started game between team1 and team2 at the 2020-05-25 21:26:15.435969 
+2020-05-25 21:26:15,442 INFO Info: :started game between team1 and team2 at the 2020-05-25 21:26:15.435969 
+2020-05-25 21:26:15,442 INFO Info: :add event Goal to home team in min 90 
+2020-05-25 21:26:15,442 INFO Info: :add event Goal to home team in min 90 
+2020-05-25 21:26:15,442 INFO Info: :add event Goal to home team in min 90 
+2020-05-25 21:26:26,334 INFO Info: : Team Tiberias was created
+2020-05-25 21:26:26,334 INFO Info: : Team Tiberias closed
+2020-05-25 21:26:30,681 INFO Info: : created new game schedule policy
+2020-05-25 21:26:30,681 INFO Info: : update game schedule policy 
+2020-05-25 21:26:30,681 INFO Info: : created new calculation policy
+2020-05-25 21:26:30,681 INFO Info: : update calculation policy 
+2020-05-25 21:26:30,682 INFO Info: : created new budget policy
+2020-05-25 21:26:30,682 INFO Info: : Update budget policy in league Euro
+2020-05-25 21:26:30,682 INFO Info: : created Euro league 
+2020-05-25 21:26:30,683 INFO Info: : created 2020 season 
+2020-05-25 21:26:30,683 INFO Info: : Added Euro league to season
+2020-05-25 21:26:30,683 INFO Info: : Added list of leagues to season
+2020-05-25 21:26:30,685 INFO Info: :Add income: 10000,
+2020-05-25 21:26:30,685 INFO Info: :Add income: 10000,
+2020-05-25 21:26:30,686 INFO Info: :Add expanse: 10000,
+2020-05-25 21:26:30,686 INFO Info: :Add expanse: 10000,
+2020-05-25 21:26:30,686 INFO Info: :Team  paid registration fee
+2020-05-25 21:26:30,686 INFO Info: :Team  paid registration fee
+2020-05-25 21:26:30,686 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-25 21:26:30,686 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-25 21:26:30,686 INFO Info: :Dor have been payed
+2020-05-25 21:26:30,686 INFO Info: :Dor have been payed
+2020-05-25 21:26:30,686 INFO Info: :Employees were paid
+2020-05-25 21:26:30,686 INFO Info: :Employees were paid
+2020-05-26 16:37:12,563 INFO Info: : created new game schedule policy
+2020-05-26 16:37:12,564 INFO Info: : update game schedule policy 
+2020-05-26 16:37:12,564 INFO Info: : created new calculation policy
+2020-05-26 16:37:12,564 INFO Info: : update calculation policy 
+2020-05-26 16:37:12,565 INFO Info: : created new budget policy
+2020-05-26 16:37:12,565 INFO Info: : Update budget policy in league Euro
+2020-05-26 16:37:12,566 INFO Info: : created Euro league 
+2020-05-26 16:37:12,566 INFO Info: : created 2020 season 
+2020-05-26 16:37:12,566 INFO Info: : Added Euro league to season
+2020-05-26 16:37:12,567 INFO Info: : Added list of leagues to season
+2020-05-26 16:37:12,568 INFO Info: :Add income: 10000,
+2020-05-26 16:37:12,568 INFO Info: :Add income: 10000,
+2020-05-26 16:37:12,568 INFO Info: :Add expanse: 10000,
+2020-05-26 16:37:12,568 INFO Info: :Add expanse: 10000,
+2020-05-26 16:37:12,568 INFO Info: :Team  paid registration fee
+2020-05-26 16:37:12,568 INFO Info: :Team  paid registration fee
+2020-05-26 16:37:12,568 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-26 16:37:12,568 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-26 16:37:12,568 INFO Info: :Dor have been payed
+2020-05-26 16:37:12,568 INFO Info: :Dor have been payed
+2020-05-26 16:37:12,568 INFO Info: :Employees were paid
+2020-05-26 16:37:12,568 INFO Info: :Employees were paid
+2020-05-26 17:53:14,976 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,978 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,978 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,978 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,981 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,981 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,981 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,981 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,981 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,983 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,983 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,983 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,983 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,983 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,983 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,983 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,985 INFO Info: : Present Page 
+2020-05-26 17:53:14,985 INFO Info: : Present Page 
+2020-05-26 17:53:14,985 INFO Info: : Present Page 
+2020-05-26 17:53:14,985 INFO Info: : Present Page 
+2020-05-26 17:53:14,985 INFO Info: : Present Page 
+2020-05-26 17:53:14,985 INFO Info: : Present Page 
+2020-05-26 17:53:14,985 INFO Info: : Present Page 
+2020-05-26 17:53:14,985 INFO Info: : Present Page 
+2020-05-26 17:53:14,989 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,989 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,989 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,989 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,989 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,989 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,989 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,989 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:14,989 INFO Info: : Page MaorMelikson add
+2020-05-26 17:53:19,285 INFO Info: : Page ReuvenOved add
+2020-05-26 17:53:19,286 INFO Info: : Page ReuvenOved add
+2020-05-26 17:53:19,286 INFO Info: : Page ReuvenOved add
+2020-05-26 17:53:19,286 INFO Info: : Present Page 
+2020-05-26 17:53:19,286 INFO Info: : Present Page 
+2020-05-26 17:53:19,287 INFO Info: : Page ReuvenOved add
+2020-05-26 17:53:19,287 INFO Info: : Page ReuvenOved add
+2020-05-26 17:53:19,287 INFO Info: : Page ReuvenOved add
+2020-05-26 17:53:23,104 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-26 17:53:23,104 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-26 17:53:23,104 INFO Info: :started game between team1 and team2 at the 2020-05-26 17:53:23.100356 
+2020-05-26 17:53:23,104 INFO Info: :add event Goal to home team in min 90 
+2020-05-26 17:53:23,104 INFO Info: :ended game between team1 and team2 at the 2020-05-26 17:53:23.100356 
+2020-05-26 17:53:23,104 INFO Info: :removed event Goal to home team 
+2020-05-26 17:53:23,104 INFO Info: :add event Yellow card for Shahar in min 50 
+2020-05-26 17:53:23,105 INFO Info: :edit event to Goal to home team 
+2020-05-26 17:53:23,106 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-26 17:53:23,106 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-26 17:53:23,106 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-26 17:53:23,106 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-26 17:53:23,106 INFO Info: :started game between team1 and team2 at the 2020-05-26 17:53:23.100356 
+2020-05-26 17:53:23,106 INFO Info: :started game between team1 and team2 at the 2020-05-26 17:53:23.100356 
+2020-05-26 17:53:23,106 INFO Info: :add event Goal to home team in min 90 
+2020-05-26 17:53:23,106 INFO Info: :add event Goal to home team in min 90 
+2020-05-26 17:53:23,106 INFO Info: :removed event Goal to home team 
+2020-05-26 17:53:23,106 INFO Info: :removed event Goal to home team 
+2020-05-26 17:53:23,107 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-26 17:53:23,107 INFO Info: :add event Red card for Oscar in min 20 
+2020-05-26 17:53:23,107 INFO Info: :edit event to Goal to home team 
+2020-05-26 17:53:23,107 INFO Info: :edit event to Goal to home team 
+2020-05-26 17:53:23,107 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-26 17:53:23,107 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-26 17:53:23,107 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-26 17:53:23,108 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-26 17:53:23,108 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-26 17:53:23,108 INFO Info: :Created new game between home:team1 and away:team2 
+2020-05-26 17:53:23,108 INFO Info: :started game between team1 and team2 at the 2020-05-26 17:53:23.100356 
+2020-05-26 17:53:23,108 INFO Info: :started game between team1 and team2 at the 2020-05-26 17:53:23.100356 
+2020-05-26 17:53:23,108 INFO Info: :started game between team1 and team2 at the 2020-05-26 17:53:23.100356 
+2020-05-26 17:53:23,108 INFO Info: :add event Goal to home team in min 90 
+2020-05-26 17:53:23,108 INFO Info: :add event Goal to home team in min 90 
+2020-05-26 17:53:23,108 INFO Info: :add event Goal to home team in min 90 
+2020-05-26 17:53:34,568 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-26 17:53:34,568 INFO Info: : Add expanse to team Barca : 499, Sponsorship
+2020-05-26 17:53:34,570 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-26 17:53:34,570 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-26 17:53:34,570 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-26 17:53:34,572 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,572 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,572 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,572 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,572 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,575 INFO Info: : User NameC was added to Barca
+2020-05-26 17:53:34,575 INFO Info: : User NameC was added to Barca
+2020-05-26 17:53:34,575 INFO Info: : User NameC was added to Barca
+2020-05-26 17:53:34,575 INFO Info: : User NameC was added to Barca
+2020-05-26 17:53:34,575 INFO Info: : User NameC was added to Barca
+2020-05-26 17:53:34,575 INFO Info: : User NameC was added to Barca
+2020-05-26 17:53:34,575 INFO Info: : User NameC was added to Barca
+2020-05-26 17:53:34,578 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,578 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,578 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,578 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,578 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,578 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,578 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,578 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,580 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,580 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,580 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,580 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,580 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,580 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,580 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,580 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,580 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,582 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,582 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,582 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,582 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,582 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,582 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,582 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,582 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,582 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,582 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,582 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,583 INFO Info: :Team Barca reopened
+2020-05-26 17:53:34,583 INFO Info: :Team Barca reopened
+2020-05-26 17:53:34,583 INFO Info: :Team Barca reopened
+2020-05-26 17:53:34,583 INFO Info: :Team Barca reopened
+2020-05-26 17:53:34,583 INFO Info: :Team Barca reopened
+2020-05-26 17:53:34,583 INFO Info: :Team Barca reopened
+2020-05-26 17:53:34,583 INFO Info: :Team Barca reopened
+2020-05-26 17:53:34,583 INFO Info: :Team Barca reopened
+2020-05-26 17:53:34,583 INFO Info: :Team Barca reopened
+2020-05-26 17:53:34,583 INFO Info: :Team Barca reopened
+2020-05-26 17:53:34,583 INFO Info: :Team Barca reopened
+2020-05-26 17:53:34,585 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,585 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,585 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,585 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,585 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,585 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,585 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,585 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,585 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,585 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,585 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,585 INFO Info: : Team Barca closed
+2020-05-26 17:53:34,586 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,586 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,586 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,586 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,586 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,586 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,586 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,586 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,586 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,586 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,586 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,586 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,586 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 17:53:34,587 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,588 INFO Info: : Owner NameB was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,591 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was deleted from Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,592 INFO Info: : User NameD was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : Manager NameA was added to Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,597 INFO Info: : User NameA was deleted from Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:34,601 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 17:53:38,071 INFO Info: : Team Tiberias was created
+2020-05-26 17:53:38,071 INFO Info: : Team Tiberias closed
+2020-05-26 17:53:45,985 INFO Info: : created new game schedule policy
+2020-05-26 17:53:45,985 INFO Info: : update game schedule policy 
+2020-05-26 17:53:45,985 INFO Info: : created new calculation policy
+2020-05-26 17:53:45,986 INFO Info: : update calculation policy 
+2020-05-26 17:53:45,986 INFO Info: : created new budget policy
+2020-05-26 17:53:45,986 INFO Info: : Update budget policy in league Euro
+2020-05-26 17:53:45,987 INFO Info: : created Euro league 
+2020-05-26 17:53:45,987 INFO Info: : created 2020 season 
+2020-05-26 17:53:45,987 INFO Info: : Added Euro league to season
+2020-05-26 17:53:45,987 INFO Info: : Added list of leagues to season
+2020-05-26 17:53:45,989 INFO Info: :Add income: 10000,
+2020-05-26 17:53:45,989 INFO Info: :Add income: 10000,
+2020-05-26 17:53:45,990 INFO Info: :Add expanse: 10000,
+2020-05-26 17:53:45,990 INFO Info: :Add expanse: 10000,
+2020-05-26 17:53:45,990 INFO Info: :Team  paid registration fee
+2020-05-26 17:53:45,990 INFO Info: :Team  paid registration fee
+2020-05-26 17:53:45,991 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-26 17:53:45,991 INFO Info: :Team  have not paid registration fee was removed from union
+2020-05-26 17:53:45,991 INFO Info: :Dor have been payed
+2020-05-26 17:53:45,991 INFO Info: :Dor have been payed
+2020-05-26 17:53:45,991 INFO Info: :Employees were paid
+2020-05-26 17:53:45,991 INFO Info: :Employees were paid
+2020-05-26 18:16:28,849 INFO Info: :added user userName
+2020-05-26 18:16:28,849 INFO Info: :added user userName
+2020-05-26 18:25:07,998 INFO Info: :added user userName
+2020-05-26 18:25:07,999 INFO Info: :added user userName
+2020-05-26 18:25:07,999 INFO Info: : user Shahar data edited
+2020-05-26 18:25:37,422 INFO Info: :added user userName
+2020-05-26 18:25:37,422 INFO Info: :added user userName
+2020-05-26 18:25:37,422 INFO Info: : user Shahar data edited
+2020-05-26 18:41:10,545 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-26 18:41:10,546 INFO Info: : Add expanse to team Barca : 499, Sponsorship
+2020-05-26 18:41:10,548 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-26 18:41:10,548 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-26 18:41:10,548 INFO Info: : Add income to team Barca : 500, Sponsorship
+2020-05-26 18:41:10,550 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,550 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,550 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,550 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,550 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,553 INFO Info: : User NameC was added to Barca
+2020-05-26 18:41:10,553 INFO Info: : User NameC was added to Barca
+2020-05-26 18:41:10,553 INFO Info: : User NameC was added to Barca
+2020-05-26 18:41:10,553 INFO Info: : User NameC was added to Barca
+2020-05-26 18:41:10,553 INFO Info: : User NameC was added to Barca
+2020-05-26 18:41:10,553 INFO Info: : User NameC was added to Barca
+2020-05-26 18:41:10,553 INFO Info: : User NameC was added to Barca
+2020-05-26 18:41:10,554 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,554 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,554 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,554 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,554 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,554 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,554 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,554 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,556 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,556 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,556 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,556 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,556 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,556 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,556 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,556 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,556 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,558 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,558 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,558 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,558 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,558 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,558 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,558 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,558 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,558 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,558 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,558 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,558 INFO Info: :Team Barca reopened
+2020-05-26 18:41:10,558 INFO Info: :Team Barca reopened
+2020-05-26 18:41:10,558 INFO Info: :Team Barca reopened
+2020-05-26 18:41:10,558 INFO Info: :Team Barca reopened
+2020-05-26 18:41:10,558 INFO Info: :Team Barca reopened
+2020-05-26 18:41:10,558 INFO Info: :Team Barca reopened
+2020-05-26 18:41:10,558 INFO Info: :Team Barca reopened
+2020-05-26 18:41:10,558 INFO Info: :Team Barca reopened
+2020-05-26 18:41:10,558 INFO Info: :Team Barca reopened
+2020-05-26 18:41:10,558 INFO Info: :Team Barca reopened
+2020-05-26 18:41:10,558 INFO Info: :Team Barca reopened
+2020-05-26 18:41:10,562 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,562 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,562 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,562 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,562 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,562 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,562 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,562 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,562 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,562 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,562 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,562 INFO Info: : Team Barca closed
+2020-05-26 18:41:10,564 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,564 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,564 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,564 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,564 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,564 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,564 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,564 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,564 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,564 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,564 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,564 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,564 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 18:41:10,565 INFO Info: : Owner NameB was removed from Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,567 INFO Info: : Owner NameB was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,568 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was deleted from Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,569 INFO Info: : User NameD was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,570 INFO Info: : Manager NameA was added to Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,571 INFO Info: : User NameA was deleted from Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:10,574 INFO Info: : Stadium Camp was set to Barca
+2020-05-26 18:41:16,787 INFO Info: :added user userName
+2020-05-26 18:41:16,787 INFO Info: :added user userName
+2020-05-26 18:41:16,787 INFO Info: :got user: userName
+2020-05-26 18:41:16,787 INFO Info: : user Shahar data edited
+2020-05-26 18:41:16,787 INFO Info: :got user: userName
+2020-05-26 18:41:16,787 INFO Info: :got user: userName
+2020-05-26 18:46:21,600 INFO Info: :added user idan
+2020-05-26 18:46:21,600 INFO Info: :added user idan
+2020-05-26 18:46:21,601 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,601 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,602 INFO Info: : Added new complain 1
+2020-05-26 18:46:21,602 INFO Info: : Added new complain 1
+2020-05-26 18:46:21,602 INFO Info: : Added new complain 1
+2020-05-26 18:46:21,602 INFO Info: : Added new complain 1
+2020-05-26 18:46:21,602 INFO Info: : Got complaint 1
+2020-05-26 18:46:21,602 INFO Info: : Got complaint 1
+2020-05-26 18:46:21,602 INFO Info: : Got complaint 1
+2020-05-26 18:46:21,602 INFO Info: : Got complaint 1
+2020-05-26 18:46:21,608 INFO Info: :added user idan
+2020-05-26 18:46:21,608 INFO Info: :added user idan
+2020-05-26 18:46:21,608 INFO Info: :added user idan
+2020-05-26 18:46:21,608 INFO Info: :added user idan
+2020-05-26 18:46:21,608 INFO Info: :added user idan
+2020-05-26 18:46:21,608 INFO Info: :added user idan
+2020-05-26 18:46:21,608 INFO Info: :added user idan
+2020-05-26 18:46:21,608 INFO Info: :added user idan
+2020-05-26 18:46:21,608 INFO Info: :added user idan
+2020-05-26 18:46:21,608 INFO Info: :added user idan
+2020-05-26 18:46:21,609 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,609 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,609 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,609 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,609 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,609 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,612 INFO Info: :added user idan
+2020-05-26 18:46:21,612 INFO Info: :added user idan
+2020-05-26 18:46:21,612 INFO Info: :added user idan
+2020-05-26 18:46:21,612 INFO Info: :added user idan
+2020-05-26 18:46:21,612 INFO Info: :added user idan
+2020-05-26 18:46:21,612 INFO Info: :added user idan
+2020-05-26 18:46:21,612 INFO Info: :added user idan
+2020-05-26 18:46:21,612 INFO Info: :added user idan
+2020-05-26 18:46:21,612 INFO Info: :added user idan
+2020-05-26 18:46:21,613 INFO Info: :added user idan
+2020-05-26 18:46:21,613 INFO Info: :added user idan
+2020-05-26 18:46:21,613 INFO Info: :added user idan
+2020-05-26 18:46:21,613 INFO Info: :added user idan
+2020-05-26 18:46:21,613 INFO Info: :added user idan
+2020-05-26 18:46:21,613 INFO Info: :added user idan
+2020-05-26 18:46:21,613 INFO Info: :added user idan
+2020-05-26 18:46:21,613 INFO Info: :added user idan
+2020-05-26 18:46:21,613 INFO Info: :added user idan
+2020-05-26 18:46:21,613 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,613 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,613 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,613 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,613 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,613 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,613 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,613 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,613 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,613 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,616 INFO Info: :added user idan
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,618 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,623 INFO Info: : Present Page 
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,626 INFO Info: :added user idan
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
+2020-05-26 18:46:21,627 INFO Info: : Page MaorMelikson add
