@@ -32,6 +32,7 @@ import csv
 
 users_db = MongoUserDB()
 team_db = MongoTeamDB()
+policy_db = PolicyDB()
 signed_user_controller = SignedUserController(users_db)
 notification_controller = NotificationController(users_db, MongoGameDB())
 team_management_controller = TeamManagementController(team_db, users_db)
