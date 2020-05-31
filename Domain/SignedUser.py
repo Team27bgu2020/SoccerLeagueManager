@@ -30,8 +30,8 @@ class SignedUser(User):
 
     """ Setter for birth_date field """
     @birth_date.setter
-    def birth_date(self, birth_date: date.date):
-        if type(birth_date) is not date.date:
+    def birth_date(self, birth_date: date.datetime):
+        if type(birth_date) is not date.datetime:
             raise TypeError('Expected datetime object, received {}'.format(birth_date))
         self.__birth_date = birth_date
 

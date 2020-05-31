@@ -207,17 +207,30 @@ def add_team(mess_info):
 
 def get_all_users(mess_info):
     all_users = signed_user_controller.get_all_signed_users()
-    final_send = []
+    all_users_final = []
     for user in all_users:
-        to_send = {
+        mr_user = {
             'user_id': str(user.user_id),
             'user_name': user.user_name,
             'name': user.name,
             'birth_date': user.birth_date.strftime("%Y-%m-%d"),
             'role': str(type(user)).split('.')[1],
         }
-        final_send.append(to_send)
-    return final_send
+        all_users_final.append(mr_user)
+    return all_users_final
+
+
+def get_all_teams(mess_info):
+    all_teams = team_management_controller.get_all_teams()
+    all_teams_final = []
+    for team in all_teams:
+        the_team = {
+            'Team name': team.name,
+            'Stadium': team.stadium,
+            'Is open?': str(team.is_open),
+        }
+        all_teams_final.append(the_team)
+    return all_teams_final
 
 
 """ dictionary of all the handle functions - add your function to the dictionary """
@@ -232,7 +245,8 @@ handle_functions = {
     'get_logs': get_logs,
     'add_policy': add_policy,
     'add_team': add_team,
-    'get_users': get_all_users
+    'get_users': get_all_users,
+    'get_teams': get_all_teams,
 }
 
 
