@@ -220,6 +220,21 @@ def get_all_users(mess_info):
     return all_users_final
 
 
+def get_all_refs(mess_info):
+    all_refs = signed_user_controller.get_all_signed_users()
+    all_refs_final = []
+    for user in all_refs:
+        if str(type(user)).split('.')[1] == 'Referee':
+            mr_ref = {
+                'User ID': str(user.user_id),
+                'Username': user.user_name,
+                'Qualification': str(user.qualification).split('.')[1],
+                'Name': user.name,
+                'Birth date': user.birth_date.strftime("%Y-%m-%d"),
+            }
+            all_refs_final.append(mr_ref)
+    return all_refs_final
+
 def get_all_teams(mess_info):
     all_teams = team_management_controller.get_all_teams()
     all_teams_final = []
@@ -247,6 +262,7 @@ handle_functions = {
     'add_team': add_team,
     'get_users': get_all_users,
     'get_teams': get_all_teams,
+    'get_refs': get_all_refs,
 }
 
 
