@@ -9,7 +9,7 @@ from Enums.RefereeQualificationEnum import RefereeQualificationEnum
 from Domain.Fan import Fan
 from Domain.SystemAdmin import SystemAdmin
 
-from datetime import datetime
+from datetime import date
 
 
 def create_player(user_dict):
@@ -119,7 +119,7 @@ def get_birth_date_object(birth_date_str: str):
 
     date_arr = birth_date_str.split('.')
 
-    return datetime(int(date_arr[2]), int(date_arr[1]), int(date_arr[0]))
+    return date(int(date_arr[2]), int(date_arr[1]), int(date_arr[0]))
 
 
 def doc_to_user(user_dict):
