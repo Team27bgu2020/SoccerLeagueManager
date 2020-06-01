@@ -131,7 +131,7 @@ class MongoPolicyDB:
 
     def get_all_schedule_policy(self):
 
-        schedule_policies = self.__point_schedule_collection.find()
+        schedule_policies = self.__schedule_policy_collection.find()
 
         res = []
 
@@ -142,7 +142,7 @@ class MongoPolicyDB:
 
     def get_all_budget_policy(self):
 
-        budget_policies = self.__point_budget_collection.find()
+        budget_policies = self.__budget_policy_collection.find()
 
         res = []
 
@@ -161,7 +161,7 @@ class MongoPolicyDB:
     def schedule_dict_to_object(self, dict):
 
         policy_enum_dict = {
-            'EQUAL': GameAssigningPoliciesEnum.EQUAL_HOME_AWAY,
+            'EQUAL_HOME_AWAY': GameAssigningPoliciesEnum.EQUAL_HOME_AWAY,
             'RANDOM': GameAssigningPoliciesEnum.RANDOM
         }
 

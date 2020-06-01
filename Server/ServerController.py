@@ -196,6 +196,44 @@ def add_policy(mess_info):
             return 'Error policy exists'
 
 
+def get_policy(mess_info):
+    policy_type = mess_info['data']
+    if policy_type == 'Budget':
+        policies = league_controller.get_all_budget_policies()
+        policies_final = []
+        for policy in policies:
+            poli = {
+                'Policy ID': str(policy._TeamBudgetPolicy__policy_id),
+                'Min Amount': policy.min_amount,
+            }
+            policies_final.append(poli)
+        return policies_final
+    if policy_type == 'Points':
+        policies = league_controller.get_all_points_policies()
+        policies_final = []
+        for policy in policies:
+            poli = {
+                'Policy ID': str(policy._PointsCalculationPolicy__policy_id),
+                'Win Points': policy.win_points,
+                'Draw Points': policy.tie_points,
+                'Lose Points': policy.lose_points,
+            }
+            policies_final.append(poli)
+        return policies_final
+    if policy_type == 'Games':
+        policies = league_controller.get_all_schedule_policies()
+        policies_final = []
+        for policy in policies:
+            poli = {
+                'Policy ID': str(policy._GameSchedulePolicy__policy_id),
+                'Games against each team': str(policy.team_games_num),
+                'Games per week': str(policy.games_per_week),
+                'Stadium': str(policy.games_stadium_assigning_policy).split('.')[1]
+            }
+            policies_final.append(poli)
+        return policies_final
+
+
 def add_team(mess_info):
     team_name = mess_info['data']['team_name']
     user = mess_info['user_id']
@@ -263,6 +301,7 @@ handle_functions = {
     'get_users': get_all_users,
     'get_teams': get_all_teams,
     'get_refs': get_all_refs,
+    'get_policy': get_policy,
 }
 
 
