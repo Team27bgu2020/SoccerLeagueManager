@@ -36,19 +36,15 @@ class AcceptanceTestsSystemAdmin(TestCase):
         self.team_owner = self.user_controller.get_user_by_name('user_name')
         self.user_controller.add_fan('fan', '1234', 'name', date.datetime(1993, 1, 9))
         self.fan = self.user_controller.get_user_by_name('fan')
-
         self.team_controller.open_new_team('Tiberias', self.team_owner.user_id)
-
         self.complaint_controller.new_complaint('first comp', self.fan.user_id)
         self.complaint = self.complaint_controller.get_complaint(self.complaint_db.get_id_counter()-1)
 
     def tearDown(self):
 
+        self.team_controller.delete_team('Tiberias')
         self.user_controller.delete_signed_user(self.team_owner.user_id)
         self.user_controller.delete_signed_user(self.fan.user_id)
-
-        self.team_controller.delete_team('Tiberias')
-
         self.complaint_controller.delete_complaint(self.complaint.complaint_id)
 
     # UC 1.1
@@ -59,7 +55,7 @@ class AcceptanceTestsSystemAdmin(TestCase):
         admin = self.user_controller.get_user_by_name('admin')
         self.assertTrue(self.user_controller.confirm_user('admin', '1234'))
         self.assertRaises(AssertionError, self.user_controller.delete_signed_user, admin.user_id)
-        self.user_db.reset_db()
+        self.user_db.delete_user(admin.user_id)
 
     def test_init_system_no_acceptance(self):
         """we init the DataBase in set up function ^ """

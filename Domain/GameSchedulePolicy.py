@@ -36,6 +36,10 @@ class GameSchedulePolicy:
 
         return self.__games_per_week
 
+    @property
+    def policy_id(self):
+        return self.__policy_id
+
     """ Getter for the desired week days (sunday, monday, ...) for the games """
 
     # @property
