@@ -313,3 +313,13 @@ class MatchController:
         self.__game_event_id_counter += 1
         self.__game_event_DB.update_id_counter(self.__game_event_id_counter)
 
+    def get_event_ids_from_game(self, game_id, referee_id):
+        game = self.get_game(int(game_id), int(referee_id))
+        game_ids = []
+        events = game.events
+        for event_id in events:
+            event = self.get_event(int(event_id), referee_id)
+            game_ids.append(str(event.event_id) + '-' + str(event.event_type).split('.')[1])
+        return game_ids
+
+

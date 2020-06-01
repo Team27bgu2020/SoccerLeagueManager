@@ -126,7 +126,8 @@ class MongoUserDB:
         self.__signed_user_collection.delete_one(query)
 
         try:
-            self.add_signed_user(new_user, old_user['role'])
+            to_add = UserDocFactory.user_to_doc(new_user, old_user['role'])
+            self.__signed_user_collection.insert_one(to_add)
         except Exception as err:
             self.__signed_user_collection.insert_one(old_user)
             raise err

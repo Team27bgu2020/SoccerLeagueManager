@@ -1320,6 +1320,1334 @@
 2020-05-31 14:11:48,689 INFO Info: : Created new team budget policy
 2020-05-31 14:11:48,716 INFO Info: : created 2020 season 
 2020-05-31 14:12:17,763 INFO Info: : created league league 
+2020-05-31 23:13:46,868 INFO Info: : Team Roman was created
+2020-05-31 23:13:46,868 INFO Info: : Team Roman was created
+2020-05-31 23:13:47,157 INFO Info: : Team Roman2 was created
+2020-05-31 23:13:47,157 INFO Info: : Team Roman2 was created
+2020-05-31 23:13:47,960 INFO Info: :Created new game between home:Roman and away:Roman2 
+2020-05-31 23:13:47,960 INFO Info: :Created new game between home:Roman and away:Roman2 
+2020-05-31 23:13:48,977 INFO Info: :started game between Roman and Roman2 at the 31.5.2020 
+2020-05-31 23:13:48,977 INFO Info: :started game between Roman and Roman2 at the 31.5.2020 
+2020-05-31 23:23:44,709 INFO Info: :started game between Roman and Roman2 at the 31.5.2020 
+2020-05-31 23:23:44,709 INFO Info: :started game between Roman and Roman2 at the 31.5.2020 
+2020-05-31 23:25:19,645 INFO Info: :started game between Roman and Roman2 at the 31.5.2020 
+2020-05-31 23:25:19,645 INFO Info: :started game between Roman and Roman2 at the 31.5.2020 
+2020-05-31 23:31:31,703 INFO Info: :started game between Roman and Roman2 at the 31.5.2020 
+2020-05-31 23:31:31,703 INFO Info: :started game between Roman and Roman2 at the 31.5.2020 
+2020-06-01 01:38:40,972 INFO Info: 92221:add event asdasd in min 22 
+2020-06-01 01:38:40,972 INFO Info: 92221:add event asdasd in min 22 
+2020-06-01 01:40:22,758 INFO Info: 105:add event Goal!!! in min 22 
+2020-06-01 01:40:22,758 INFO Info: 105:add event Goal!!! in min 22 
+2020-06-01 01:50:05,516 INFO Info: 107:add event Goal!!! in min 22 
+2020-06-01 01:50:05,516 INFO Info: 107:add event Goal!!! in min 22 
+2020-06-01 01:51:03,386 INFO Info: 108:add event Goal!!! in min 22 
+2020-06-01 01:51:03,386 INFO Info: 108:add event Goal!!! in min 22 
+2020-06-01 02:20:25,208 INFO Info: 109:add event Goal!!! in min 22 
+2020-06-01 02:20:25,208 INFO Info: 109:add event Goal!!! in min 22 
+2020-06-01 02:32:57,405 INFO Info: 110:add event Goal!!! in min 22 
+2020-06-01 02:32:57,405 INFO Info: 110:add event Goal!!! in min 22 
+2020-06-01 02:51:22,548 INFO Info: 110: Asked for game event 19
+2020-06-01 02:51:22,548 INFO Info: 110: Asked for game event 19
+2020-06-01 02:51:22,548 INFO Info: 110: Asked for game event 19
+2020-06-01 02:51:22,548 INFO Info: 110: Asked for game event 19
+2020-06-01 02:52:35,514 INFO Info: 110: Asked for game event 19
+2020-06-01 02:52:35,514 INFO Info: 110: Asked for game event 19
+2020-06-01 02:52:35,514 INFO Info: 110: Asked for game event 19
+2020-06-01 02:52:35,514 INFO Info: 110: Asked for game event 19
+2020-06-01 02:53:35,278 INFO Info: 110: Asked for game event 19
+2020-06-01 02:53:35,278 INFO Info: 110: Asked for game event 19
+2020-06-01 02:53:35,278 INFO Info: 110: Asked for game event 19
+2020-06-01 02:53:35,278 INFO Info: 110: Asked for game event 19
+2020-06-01 02:53:58,143 INFO Info: 110: Asked for game event 19
+2020-06-01 02:53:58,143 INFO Info: 110: Asked for game event 19
+2020-06-01 02:53:58,143 INFO Info: 110: Asked for game event 19
+2020-06-01 02:53:58,143 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:03,597 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:03,597 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:03,597 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:03,597 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:05,434 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:05,434 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:05,434 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:05,434 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:06,009 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:06,009 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:06,009 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:06,009 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:45,037 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:45,037 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:45,037 INFO Info: 110: Asked for game event 19
+2020-06-01 02:54:45,037 INFO Info: 110: Asked for game event 19
+2020-06-01 02:55:59,573 INFO Info: 110:add event sdf in min 1 
+2020-06-01 02:55:59,573 INFO Info: 110:add event sdf in min 1 
+2020-06-01 02:55:59,573 INFO Info: 110:add event sdf in min 1 
+2020-06-01 02:55:59,573 INFO Info: 110:add event sdf in min 1 
+2020-06-01 02:56:07,204 INFO Info: 110: Asked for game event 19
+2020-06-01 02:56:07,204 INFO Info: 110: Asked for game event 19
+2020-06-01 02:56:07,204 INFO Info: 110: Asked for game event 19
+2020-06-01 02:56:07,204 INFO Info: 110: Asked for game event 19
+2020-06-01 02:56:07,205 INFO Info: 110: Asked for game event 20
+2020-06-01 02:56:07,205 INFO Info: 110: Asked for game event 20
+2020-06-01 02:56:07,205 INFO Info: 110: Asked for game event 20
+2020-06-01 02:56:07,205 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:02,049 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:02,049 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:02,049 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:02,049 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,843 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,843 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,843 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,843 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,846 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,846 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,846 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,846 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,848 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,848 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,848 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,848 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,852 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,852 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,852 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,852 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,853 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,853 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,853 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,853 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,857 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,857 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,857 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,857 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,858 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,858 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,858 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,858 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,862 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,862 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,862 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,862 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:04,863 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,863 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,863 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:04,863 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:12,544 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:12,544 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:12,544 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:12,544 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:12,545 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:12,545 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:12,545 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:12,545 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:38,585 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:38,585 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:38,585 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:38,585 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:38,587 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:38,587 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:38,587 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:38,587 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:52,186 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:52,186 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:52,186 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:52,186 INFO Info: 110: Asked for game event 19
+2020-06-01 03:39:52,188 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:52,188 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:52,188 INFO Info: 110: Asked for game event 20
+2020-06-01 03:39:52,188 INFO Info: 110: Asked for game event 20
+2020-06-01 03:41:55,539 INFO Info: 110: Asked for game event 19
+2020-06-01 03:41:55,539 INFO Info: 110: Asked for game event 19
+2020-06-01 03:41:55,539 INFO Info: 110: Asked for game event 19
+2020-06-01 03:41:55,539 INFO Info: 110: Asked for game event 19
+2020-06-01 03:41:55,541 INFO Info: 110: Asked for game event 20
+2020-06-01 03:41:55,541 INFO Info: 110: Asked for game event 20
+2020-06-01 03:41:55,541 INFO Info: 110: Asked for game event 20
+2020-06-01 03:41:55,541 INFO Info: 110: Asked for game event 20
+2020-06-01 03:42:08,487 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:08,487 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:08,487 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:08,487 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:09,392 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:09,392 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:09,392 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:09,392 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:10,019 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:10,019 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:10,019 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:10,019 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:10,405 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:10,405 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:10,405 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:10,405 INFO Info: 110:add event fgfd in min 1 
+2020-06-01 03:42:18,381 INFO Info: 110: Asked for game event 19
+2020-06-01 03:42:18,381 INFO Info: 110: Asked for game event 19
+2020-06-01 03:42:18,381 INFO Info: 110: Asked for game event 19
+2020-06-01 03:42:18,381 INFO Info: 110: Asked for game event 19
+2020-06-01 03:42:18,382 INFO Info: 110: Asked for game event 20
+2020-06-01 03:42:18,382 INFO Info: 110: Asked for game event 20
+2020-06-01 03:42:18,382 INFO Info: 110: Asked for game event 20
+2020-06-01 03:42:18,382 INFO Info: 110: Asked for game event 20
+2020-06-01 03:42:18,384 INFO Info: 110: Asked for game event 21
+2020-06-01 03:42:18,384 INFO Info: 110: Asked for game event 21
+2020-06-01 03:42:18,384 INFO Info: 110: Asked for game event 21
+2020-06-01 03:42:18,384 INFO Info: 110: Asked for game event 21
+2020-06-01 03:42:18,385 INFO Info: 110: Asked for game event 22
+2020-06-01 03:42:18,385 INFO Info: 110: Asked for game event 22
+2020-06-01 03:42:18,385 INFO Info: 110: Asked for game event 22
+2020-06-01 03:42:18,385 INFO Info: 110: Asked for game event 22
+2020-06-01 03:42:18,387 INFO Info: 110: Asked for game event 23
+2020-06-01 03:42:18,387 INFO Info: 110: Asked for game event 23
+2020-06-01 03:42:18,387 INFO Info: 110: Asked for game event 23
+2020-06-01 03:42:18,387 INFO Info: 110: Asked for game event 23
+2020-06-01 03:42:18,389 INFO Info: 110: Asked for game event 24
+2020-06-01 03:42:18,389 INFO Info: 110: Asked for game event 24
+2020-06-01 03:42:18,389 INFO Info: 110: Asked for game event 24
+2020-06-01 03:42:18,389 INFO Info: 110: Asked for game event 24
+2020-06-01 03:42:51,973 INFO Info: 110: Asked for game event 19
+2020-06-01 03:42:51,973 INFO Info: 110: Asked for game event 19
+2020-06-01 03:42:51,973 INFO Info: 110: Asked for game event 19
+2020-06-01 03:42:51,973 INFO Info: 110: Asked for game event 19
+2020-06-01 03:42:51,974 INFO Info: 110: Asked for game event 20
+2020-06-01 03:42:51,974 INFO Info: 110: Asked for game event 20
+2020-06-01 03:42:51,974 INFO Info: 110: Asked for game event 20
+2020-06-01 03:42:51,974 INFO Info: 110: Asked for game event 20
+2020-06-01 03:42:51,976 INFO Info: 110: Asked for game event 21
+2020-06-01 03:42:51,976 INFO Info: 110: Asked for game event 21
+2020-06-01 03:42:51,976 INFO Info: 110: Asked for game event 21
+2020-06-01 03:42:51,976 INFO Info: 110: Asked for game event 21
+2020-06-01 03:42:51,977 INFO Info: 110: Asked for game event 22
+2020-06-01 03:42:51,977 INFO Info: 110: Asked for game event 22
+2020-06-01 03:42:51,977 INFO Info: 110: Asked for game event 22
+2020-06-01 03:42:51,977 INFO Info: 110: Asked for game event 22
+2020-06-01 03:42:51,979 INFO Info: 110: Asked for game event 23
+2020-06-01 03:42:51,979 INFO Info: 110: Asked for game event 23
+2020-06-01 03:42:51,979 INFO Info: 110: Asked for game event 23
+2020-06-01 03:42:51,979 INFO Info: 110: Asked for game event 23
+2020-06-01 03:42:51,980 INFO Info: 110: Asked for game event 24
+2020-06-01 03:42:51,980 INFO Info: 110: Asked for game event 24
+2020-06-01 03:42:51,980 INFO Info: 110: Asked for game event 24
+2020-06-01 03:42:51,980 INFO Info: 110: Asked for game event 24
+2020-06-01 03:43:18,877 INFO Info: 110:add event dfgh in min 1 
+2020-06-01 03:43:18,877 INFO Info: 110:add event dfgh in min 1 
+2020-06-01 03:43:18,877 INFO Info: 110:add event dfgh in min 1 
+2020-06-01 03:43:18,877 INFO Info: 110:add event dfgh in min 1 
+2020-06-01 03:43:20,761 INFO Info: 110:add event dfgh in min 1 
+2020-06-01 03:43:20,761 INFO Info: 110:add event dfgh in min 1 
+2020-06-01 03:43:20,761 INFO Info: 110:add event dfgh in min 1 
+2020-06-01 03:43:20,761 INFO Info: 110:add event dfgh in min 1 
+2020-06-01 03:43:21,672 INFO Info: 110:add event dfgh in min 1 
+2020-06-01 03:43:21,672 INFO Info: 110:add event dfgh in min 1 
+2020-06-01 03:43:21,672 INFO Info: 110:add event dfgh in min 1 
+2020-06-01 03:43:21,672 INFO Info: 110:add event dfgh in min 1 
+2020-06-01 03:43:29,791 INFO Info: 110: Asked for game event 19
+2020-06-01 03:43:29,791 INFO Info: 110: Asked for game event 19
+2020-06-01 03:43:29,791 INFO Info: 110: Asked for game event 19
+2020-06-01 03:43:29,791 INFO Info: 110: Asked for game event 19
+2020-06-01 03:43:29,793 INFO Info: 110: Asked for game event 20
+2020-06-01 03:43:29,793 INFO Info: 110: Asked for game event 20
+2020-06-01 03:43:29,793 INFO Info: 110: Asked for game event 20
+2020-06-01 03:43:29,793 INFO Info: 110: Asked for game event 20
+2020-06-01 03:43:29,794 INFO Info: 110: Asked for game event 21
+2020-06-01 03:43:29,794 INFO Info: 110: Asked for game event 21
+2020-06-01 03:43:29,794 INFO Info: 110: Asked for game event 21
+2020-06-01 03:43:29,794 INFO Info: 110: Asked for game event 21
+2020-06-01 03:43:29,796 INFO Info: 110: Asked for game event 22
+2020-06-01 03:43:29,796 INFO Info: 110: Asked for game event 22
+2020-06-01 03:43:29,796 INFO Info: 110: Asked for game event 22
+2020-06-01 03:43:29,796 INFO Info: 110: Asked for game event 22
+2020-06-01 03:43:29,798 INFO Info: 110: Asked for game event 23
+2020-06-01 03:43:29,798 INFO Info: 110: Asked for game event 23
+2020-06-01 03:43:29,798 INFO Info: 110: Asked for game event 23
+2020-06-01 03:43:29,798 INFO Info: 110: Asked for game event 23
+2020-06-01 03:43:29,800 INFO Info: 110: Asked for game event 24
+2020-06-01 03:43:29,800 INFO Info: 110: Asked for game event 24
+2020-06-01 03:43:29,800 INFO Info: 110: Asked for game event 24
+2020-06-01 03:43:29,800 INFO Info: 110: Asked for game event 24
+2020-06-01 03:43:29,803 INFO Info: 110: Asked for game event 25
+2020-06-01 03:43:29,803 INFO Info: 110: Asked for game event 25
+2020-06-01 03:43:29,803 INFO Info: 110: Asked for game event 25
+2020-06-01 03:43:29,803 INFO Info: 110: Asked for game event 25
+2020-06-01 03:43:29,805 INFO Info: 110: Asked for game event 26
+2020-06-01 03:43:29,805 INFO Info: 110: Asked for game event 26
+2020-06-01 03:43:29,805 INFO Info: 110: Asked for game event 26
+2020-06-01 03:43:29,805 INFO Info: 110: Asked for game event 26
+2020-06-01 03:43:29,807 INFO Info: 110: Asked for game event 27
+2020-06-01 03:43:29,807 INFO Info: 110: Asked for game event 27
+2020-06-01 03:43:29,807 INFO Info: 110: Asked for game event 27
+2020-06-01 03:43:29,807 INFO Info: 110: Asked for game event 27
+2020-06-01 03:45:38,414 INFO Info: 110: Asked for game event 19
+2020-06-01 03:45:38,414 INFO Info: 110: Asked for game event 19
+2020-06-01 03:45:38,414 INFO Info: 110: Asked for game event 19
+2020-06-01 03:45:38,414 INFO Info: 110: Asked for game event 19
+2020-06-01 03:45:38,415 INFO Info: 110: Asked for game event 20
+2020-06-01 03:45:38,415 INFO Info: 110: Asked for game event 20
+2020-06-01 03:45:38,415 INFO Info: 110: Asked for game event 20
+2020-06-01 03:45:38,415 INFO Info: 110: Asked for game event 20
+2020-06-01 03:45:38,417 INFO Info: 110: Asked for game event 21
+2020-06-01 03:45:38,417 INFO Info: 110: Asked for game event 21
+2020-06-01 03:45:38,417 INFO Info: 110: Asked for game event 21
+2020-06-01 03:45:38,417 INFO Info: 110: Asked for game event 21
+2020-06-01 03:45:38,418 INFO Info: 110: Asked for game event 22
+2020-06-01 03:45:38,418 INFO Info: 110: Asked for game event 22
+2020-06-01 03:45:38,418 INFO Info: 110: Asked for game event 22
+2020-06-01 03:45:38,418 INFO Info: 110: Asked for game event 22
+2020-06-01 03:45:38,420 INFO Info: 110: Asked for game event 23
+2020-06-01 03:45:38,420 INFO Info: 110: Asked for game event 23
+2020-06-01 03:45:38,420 INFO Info: 110: Asked for game event 23
+2020-06-01 03:45:38,420 INFO Info: 110: Asked for game event 23
+2020-06-01 03:45:38,421 INFO Info: 110: Asked for game event 24
+2020-06-01 03:45:38,421 INFO Info: 110: Asked for game event 24
+2020-06-01 03:45:38,421 INFO Info: 110: Asked for game event 24
+2020-06-01 03:45:38,421 INFO Info: 110: Asked for game event 24
+2020-06-01 03:45:38,423 INFO Info: 110: Asked for game event 25
+2020-06-01 03:45:38,423 INFO Info: 110: Asked for game event 25
+2020-06-01 03:45:38,423 INFO Info: 110: Asked for game event 25
+2020-06-01 03:45:38,423 INFO Info: 110: Asked for game event 25
+2020-06-01 03:45:38,424 INFO Info: 110: Asked for game event 26
+2020-06-01 03:45:38,424 INFO Info: 110: Asked for game event 26
+2020-06-01 03:45:38,424 INFO Info: 110: Asked for game event 26
+2020-06-01 03:45:38,424 INFO Info: 110: Asked for game event 26
+2020-06-01 03:45:38,426 INFO Info: 110: Asked for game event 27
+2020-06-01 03:45:38,426 INFO Info: 110: Asked for game event 27
+2020-06-01 03:45:38,426 INFO Info: 110: Asked for game event 27
+2020-06-01 03:45:38,426 INFO Info: 110: Asked for game event 27
+2020-06-01 03:45:58,770 INFO Info: 110: Asked for game event 19
+2020-06-01 03:45:58,770 INFO Info: 110: Asked for game event 19
+2020-06-01 03:45:58,770 INFO Info: 110: Asked for game event 19
+2020-06-01 03:45:58,770 INFO Info: 110: Asked for game event 19
+2020-06-01 03:45:58,772 INFO Info: 110: Asked for game event 20
+2020-06-01 03:45:58,772 INFO Info: 110: Asked for game event 20
+2020-06-01 03:45:58,772 INFO Info: 110: Asked for game event 20
+2020-06-01 03:45:58,772 INFO Info: 110: Asked for game event 20
+2020-06-01 03:45:58,774 INFO Info: 110: Asked for game event 21
+2020-06-01 03:45:58,774 INFO Info: 110: Asked for game event 21
+2020-06-01 03:45:58,774 INFO Info: 110: Asked for game event 21
+2020-06-01 03:45:58,774 INFO Info: 110: Asked for game event 21
+2020-06-01 03:45:58,776 INFO Info: 110: Asked for game event 22
+2020-06-01 03:45:58,776 INFO Info: 110: Asked for game event 22
+2020-06-01 03:45:58,776 INFO Info: 110: Asked for game event 22
+2020-06-01 03:45:58,776 INFO Info: 110: Asked for game event 22
+2020-06-01 03:45:58,779 INFO Info: 110: Asked for game event 23
+2020-06-01 03:45:58,779 INFO Info: 110: Asked for game event 23
+2020-06-01 03:45:58,779 INFO Info: 110: Asked for game event 23
+2020-06-01 03:45:58,779 INFO Info: 110: Asked for game event 23
+2020-06-01 03:45:58,781 INFO Info: 110: Asked for game event 24
+2020-06-01 03:45:58,781 INFO Info: 110: Asked for game event 24
+2020-06-01 03:45:58,781 INFO Info: 110: Asked for game event 24
+2020-06-01 03:45:58,781 INFO Info: 110: Asked for game event 24
+2020-06-01 03:45:58,784 INFO Info: 110: Asked for game event 25
+2020-06-01 03:45:58,784 INFO Info: 110: Asked for game event 25
+2020-06-01 03:45:58,784 INFO Info: 110: Asked for game event 25
+2020-06-01 03:45:58,784 INFO Info: 110: Asked for game event 25
+2020-06-01 03:45:58,786 INFO Info: 110: Asked for game event 26
+2020-06-01 03:45:58,786 INFO Info: 110: Asked for game event 26
+2020-06-01 03:45:58,786 INFO Info: 110: Asked for game event 26
+2020-06-01 03:45:58,786 INFO Info: 110: Asked for game event 26
+2020-06-01 03:45:58,788 INFO Info: 110: Asked for game event 27
+2020-06-01 03:45:58,788 INFO Info: 110: Asked for game event 27
+2020-06-01 03:45:58,788 INFO Info: 110: Asked for game event 27
+2020-06-01 03:45:58,788 INFO Info: 110: Asked for game event 27
+2020-06-01 03:48:20,244 INFO Info: 110: Asked for game event 19
+2020-06-01 03:48:20,244 INFO Info: 110: Asked for game event 19
+2020-06-01 03:48:20,244 INFO Info: 110: Asked for game event 19
+2020-06-01 03:48:20,244 INFO Info: 110: Asked for game event 19
+2020-06-01 03:48:20,246 INFO Info: 110: Asked for game event 20
+2020-06-01 03:48:20,246 INFO Info: 110: Asked for game event 20
+2020-06-01 03:48:20,246 INFO Info: 110: Asked for game event 20
+2020-06-01 03:48:20,246 INFO Info: 110: Asked for game event 20
+2020-06-01 03:48:20,248 INFO Info: 110: Asked for game event 21
+2020-06-01 03:48:20,248 INFO Info: 110: Asked for game event 21
+2020-06-01 03:48:20,248 INFO Info: 110: Asked for game event 21
+2020-06-01 03:48:20,248 INFO Info: 110: Asked for game event 21
+2020-06-01 03:48:20,249 INFO Info: 110: Asked for game event 22
+2020-06-01 03:48:20,249 INFO Info: 110: Asked for game event 22
+2020-06-01 03:48:20,249 INFO Info: 110: Asked for game event 22
+2020-06-01 03:48:20,249 INFO Info: 110: Asked for game event 22
+2020-06-01 03:48:20,251 INFO Info: 110: Asked for game event 23
+2020-06-01 03:48:20,251 INFO Info: 110: Asked for game event 23
+2020-06-01 03:48:20,251 INFO Info: 110: Asked for game event 23
+2020-06-01 03:48:20,251 INFO Info: 110: Asked for game event 23
+2020-06-01 03:48:20,252 INFO Info: 110: Asked for game event 24
+2020-06-01 03:48:20,252 INFO Info: 110: Asked for game event 24
+2020-06-01 03:48:20,252 INFO Info: 110: Asked for game event 24
+2020-06-01 03:48:20,252 INFO Info: 110: Asked for game event 24
+2020-06-01 03:48:20,254 INFO Info: 110: Asked for game event 25
+2020-06-01 03:48:20,254 INFO Info: 110: Asked for game event 25
+2020-06-01 03:48:20,254 INFO Info: 110: Asked for game event 25
+2020-06-01 03:48:20,254 INFO Info: 110: Asked for game event 25
+2020-06-01 03:48:20,256 INFO Info: 110: Asked for game event 26
+2020-06-01 03:48:20,256 INFO Info: 110: Asked for game event 26
+2020-06-01 03:48:20,256 INFO Info: 110: Asked for game event 26
+2020-06-01 03:48:20,256 INFO Info: 110: Asked for game event 26
+2020-06-01 03:48:20,257 INFO Info: 110: Asked for game event 27
+2020-06-01 03:48:20,257 INFO Info: 110: Asked for game event 27
+2020-06-01 03:48:20,257 INFO Info: 110: Asked for game event 27
+2020-06-01 03:48:20,257 INFO Info: 110: Asked for game event 27
+2020-06-01 03:50:11,748 INFO Info: 110: Asked for game event 19
+2020-06-01 03:50:11,748 INFO Info: 110: Asked for game event 19
+2020-06-01 03:50:11,748 INFO Info: 110: Asked for game event 19
+2020-06-01 03:50:11,748 INFO Info: 110: Asked for game event 19
+2020-06-01 03:50:11,750 INFO Info: 110: Asked for game event 20
+2020-06-01 03:50:11,750 INFO Info: 110: Asked for game event 20
+2020-06-01 03:50:11,750 INFO Info: 110: Asked for game event 20
+2020-06-01 03:50:11,750 INFO Info: 110: Asked for game event 20
+2020-06-01 03:50:11,752 INFO Info: 110: Asked for game event 21
+2020-06-01 03:50:11,752 INFO Info: 110: Asked for game event 21
+2020-06-01 03:50:11,752 INFO Info: 110: Asked for game event 21
+2020-06-01 03:50:11,752 INFO Info: 110: Asked for game event 21
+2020-06-01 03:50:11,754 INFO Info: 110: Asked for game event 22
+2020-06-01 03:50:11,754 INFO Info: 110: Asked for game event 22
+2020-06-01 03:50:11,754 INFO Info: 110: Asked for game event 22
+2020-06-01 03:50:11,754 INFO Info: 110: Asked for game event 22
+2020-06-01 03:50:11,755 INFO Info: 110: Asked for game event 23
+2020-06-01 03:50:11,755 INFO Info: 110: Asked for game event 23
+2020-06-01 03:50:11,755 INFO Info: 110: Asked for game event 23
+2020-06-01 03:50:11,755 INFO Info: 110: Asked for game event 23
+2020-06-01 03:50:11,757 INFO Info: 110: Asked for game event 24
+2020-06-01 03:50:11,757 INFO Info: 110: Asked for game event 24
+2020-06-01 03:50:11,757 INFO Info: 110: Asked for game event 24
+2020-06-01 03:50:11,757 INFO Info: 110: Asked for game event 24
+2020-06-01 03:50:11,758 INFO Info: 110: Asked for game event 25
+2020-06-01 03:50:11,758 INFO Info: 110: Asked for game event 25
+2020-06-01 03:50:11,758 INFO Info: 110: Asked for game event 25
+2020-06-01 03:50:11,758 INFO Info: 110: Asked for game event 25
+2020-06-01 03:50:11,760 INFO Info: 110: Asked for game event 26
+2020-06-01 03:50:11,760 INFO Info: 110: Asked for game event 26
+2020-06-01 03:50:11,760 INFO Info: 110: Asked for game event 26
+2020-06-01 03:50:11,760 INFO Info: 110: Asked for game event 26
+2020-06-01 03:50:11,761 INFO Info: 110: Asked for game event 27
+2020-06-01 03:50:11,761 INFO Info: 110: Asked for game event 27
+2020-06-01 03:50:11,761 INFO Info: 110: Asked for game event 27
+2020-06-01 03:50:11,761 INFO Info: 110: Asked for game event 27
+2020-06-01 03:52:13,666 INFO Info: 110: Asked for game event 19
+2020-06-01 03:52:13,666 INFO Info: 110: Asked for game event 19
+2020-06-01 03:52:13,666 INFO Info: 110: Asked for game event 19
+2020-06-01 03:52:13,666 INFO Info: 110: Asked for game event 19
+2020-06-01 03:52:13,668 INFO Info: 110: Asked for game event 20
+2020-06-01 03:52:13,668 INFO Info: 110: Asked for game event 20
+2020-06-01 03:52:13,668 INFO Info: 110: Asked for game event 20
+2020-06-01 03:52:13,668 INFO Info: 110: Asked for game event 20
+2020-06-01 03:52:13,669 INFO Info: 110: Asked for game event 21
+2020-06-01 03:52:13,669 INFO Info: 110: Asked for game event 21
+2020-06-01 03:52:13,669 INFO Info: 110: Asked for game event 21
+2020-06-01 03:52:13,669 INFO Info: 110: Asked for game event 21
+2020-06-01 03:52:13,671 INFO Info: 110: Asked for game event 22
+2020-06-01 03:52:13,671 INFO Info: 110: Asked for game event 22
+2020-06-01 03:52:13,671 INFO Info: 110: Asked for game event 22
+2020-06-01 03:52:13,671 INFO Info: 110: Asked for game event 22
+2020-06-01 03:52:13,672 INFO Info: 110: Asked for game event 23
+2020-06-01 03:52:13,672 INFO Info: 110: Asked for game event 23
+2020-06-01 03:52:13,672 INFO Info: 110: Asked for game event 23
+2020-06-01 03:52:13,672 INFO Info: 110: Asked for game event 23
+2020-06-01 03:52:13,674 INFO Info: 110: Asked for game event 24
+2020-06-01 03:52:13,674 INFO Info: 110: Asked for game event 24
+2020-06-01 03:52:13,674 INFO Info: 110: Asked for game event 24
+2020-06-01 03:52:13,674 INFO Info: 110: Asked for game event 24
+2020-06-01 03:52:13,675 INFO Info: 110: Asked for game event 25
+2020-06-01 03:52:13,675 INFO Info: 110: Asked for game event 25
+2020-06-01 03:52:13,675 INFO Info: 110: Asked for game event 25
+2020-06-01 03:52:13,675 INFO Info: 110: Asked for game event 25
+2020-06-01 03:52:13,677 INFO Info: 110: Asked for game event 26
+2020-06-01 03:52:13,677 INFO Info: 110: Asked for game event 26
+2020-06-01 03:52:13,677 INFO Info: 110: Asked for game event 26
+2020-06-01 03:52:13,677 INFO Info: 110: Asked for game event 26
+2020-06-01 03:52:13,678 INFO Info: 110: Asked for game event 27
+2020-06-01 03:52:13,678 INFO Info: 110: Asked for game event 27
+2020-06-01 03:52:13,678 INFO Info: 110: Asked for game event 27
+2020-06-01 03:52:13,678 INFO Info: 110: Asked for game event 27
+2020-06-01 03:52:27,233 INFO Info: 110:edited event 21 
+2020-06-01 03:52:27,233 INFO Info: 110:edited event 21 
+2020-06-01 03:52:27,233 INFO Info: 110:edited event 21 
+2020-06-01 03:52:27,233 INFO Info: 110:edited event 21 
+2020-06-01 03:52:36,486 INFO Info: 110:edited event 21 
+2020-06-01 03:52:36,486 INFO Info: 110:edited event 21 
+2020-06-01 03:52:36,486 INFO Info: 110:edited event 21 
+2020-06-01 03:52:36,486 INFO Info: 110:edited event 21 
+2020-06-01 03:52:45,236 INFO Info: 110:edited event 21 
+2020-06-01 03:52:45,236 INFO Info: 110:edited event 21 
+2020-06-01 03:52:45,236 INFO Info: 110:edited event 21 
+2020-06-01 03:52:45,236 INFO Info: 110:edited event 21 
+2020-06-01 03:52:46,071 INFO Info: 110:edited event 21 
+2020-06-01 03:52:46,071 INFO Info: 110:edited event 21 
+2020-06-01 03:52:46,071 INFO Info: 110:edited event 21 
+2020-06-01 03:52:46,071 INFO Info: 110:edited event 21 
+2020-06-01 03:52:46,888 INFO Info: 110:edited event 21 
+2020-06-01 03:52:46,888 INFO Info: 110:edited event 21 
+2020-06-01 03:52:46,888 INFO Info: 110:edited event 21 
+2020-06-01 03:52:46,888 INFO Info: 110:edited event 21 
+2020-06-01 03:53:45,072 INFO Info: 110: Asked for game event 19
+2020-06-01 03:53:45,072 INFO Info: 110: Asked for game event 19
+2020-06-01 03:53:45,072 INFO Info: 110: Asked for game event 19
+2020-06-01 03:53:45,072 INFO Info: 110: Asked for game event 19
+2020-06-01 03:53:45,073 INFO Info: 110: Asked for game event 20
+2020-06-01 03:53:45,073 INFO Info: 110: Asked for game event 20
+2020-06-01 03:53:45,073 INFO Info: 110: Asked for game event 20
+2020-06-01 03:53:45,073 INFO Info: 110: Asked for game event 20
+2020-06-01 03:53:45,074 INFO Info: 110: Asked for game event 21
+2020-06-01 03:53:45,074 INFO Info: 110: Asked for game event 21
+2020-06-01 03:53:45,074 INFO Info: 110: Asked for game event 21
+2020-06-01 03:53:45,074 INFO Info: 110: Asked for game event 21
+2020-06-01 03:53:45,075 INFO Info: 110: Asked for game event 22
+2020-06-01 03:53:45,075 INFO Info: 110: Asked for game event 22
+2020-06-01 03:53:45,075 INFO Info: 110: Asked for game event 22
+2020-06-01 03:53:45,075 INFO Info: 110: Asked for game event 22
+2020-06-01 03:53:45,076 INFO Info: 110: Asked for game event 23
+2020-06-01 03:53:45,076 INFO Info: 110: Asked for game event 23
+2020-06-01 03:53:45,076 INFO Info: 110: Asked for game event 23
+2020-06-01 03:53:45,076 INFO Info: 110: Asked for game event 23
+2020-06-01 03:53:45,077 INFO Info: 110: Asked for game event 24
+2020-06-01 03:53:45,077 INFO Info: 110: Asked for game event 24
+2020-06-01 03:53:45,077 INFO Info: 110: Asked for game event 24
+2020-06-01 03:53:45,077 INFO Info: 110: Asked for game event 24
+2020-06-01 03:53:45,078 INFO Info: 110: Asked for game event 25
+2020-06-01 03:53:45,078 INFO Info: 110: Asked for game event 25
+2020-06-01 03:53:45,078 INFO Info: 110: Asked for game event 25
+2020-06-01 03:53:45,078 INFO Info: 110: Asked for game event 25
+2020-06-01 03:53:45,079 INFO Info: 110: Asked for game event 26
+2020-06-01 03:53:45,079 INFO Info: 110: Asked for game event 26
+2020-06-01 03:53:45,079 INFO Info: 110: Asked for game event 26
+2020-06-01 03:53:45,079 INFO Info: 110: Asked for game event 26
+2020-06-01 03:53:45,080 INFO Info: 110: Asked for game event 27
+2020-06-01 03:53:45,080 INFO Info: 110: Asked for game event 27
+2020-06-01 03:53:45,080 INFO Info: 110: Asked for game event 27
+2020-06-01 03:53:45,080 INFO Info: 110: Asked for game event 27
+2020-06-01 03:54:04,665 INFO Info: 110:edited event 22 
+2020-06-01 03:54:04,665 INFO Info: 110:edited event 22 
+2020-06-01 03:54:04,665 INFO Info: 110:edited event 22 
+2020-06-01 03:54:04,665 INFO Info: 110:edited event 22 
+2020-06-01 03:54:31,895 INFO Info: 110: Asked for game event 19
+2020-06-01 03:54:31,895 INFO Info: 110: Asked for game event 19
+2020-06-01 03:54:31,895 INFO Info: 110: Asked for game event 19
+2020-06-01 03:54:31,895 INFO Info: 110: Asked for game event 19
+2020-06-01 03:54:31,896 INFO Info: 110: Asked for game event 20
+2020-06-01 03:54:31,896 INFO Info: 110: Asked for game event 20
+2020-06-01 03:54:31,896 INFO Info: 110: Asked for game event 20
+2020-06-01 03:54:31,896 INFO Info: 110: Asked for game event 20
+2020-06-01 03:54:31,897 INFO Info: 110: Asked for game event 21
+2020-06-01 03:54:31,897 INFO Info: 110: Asked for game event 21
+2020-06-01 03:54:31,897 INFO Info: 110: Asked for game event 21
+2020-06-01 03:54:31,897 INFO Info: 110: Asked for game event 21
+2020-06-01 03:54:31,898 INFO Info: 110: Asked for game event 22
+2020-06-01 03:54:31,898 INFO Info: 110: Asked for game event 22
+2020-06-01 03:54:31,898 INFO Info: 110: Asked for game event 22
+2020-06-01 03:54:31,898 INFO Info: 110: Asked for game event 22
+2020-06-01 03:54:31,899 INFO Info: 110: Asked for game event 23
+2020-06-01 03:54:31,899 INFO Info: 110: Asked for game event 23
+2020-06-01 03:54:31,899 INFO Info: 110: Asked for game event 23
+2020-06-01 03:54:31,899 INFO Info: 110: Asked for game event 23
+2020-06-01 03:54:31,900 INFO Info: 110: Asked for game event 24
+2020-06-01 03:54:31,900 INFO Info: 110: Asked for game event 24
+2020-06-01 03:54:31,900 INFO Info: 110: Asked for game event 24
+2020-06-01 03:54:31,900 INFO Info: 110: Asked for game event 24
+2020-06-01 03:54:31,901 INFO Info: 110: Asked for game event 25
+2020-06-01 03:54:31,901 INFO Info: 110: Asked for game event 25
+2020-06-01 03:54:31,901 INFO Info: 110: Asked for game event 25
+2020-06-01 03:54:31,901 INFO Info: 110: Asked for game event 25
+2020-06-01 03:54:31,902 INFO Info: 110: Asked for game event 26
+2020-06-01 03:54:31,902 INFO Info: 110: Asked for game event 26
+2020-06-01 03:54:31,902 INFO Info: 110: Asked for game event 26
+2020-06-01 03:54:31,902 INFO Info: 110: Asked for game event 26
+2020-06-01 03:54:31,903 INFO Info: 110: Asked for game event 27
+2020-06-01 03:54:31,903 INFO Info: 110: Asked for game event 27
+2020-06-01 03:54:31,903 INFO Info: 110: Asked for game event 27
+2020-06-01 03:54:31,903 INFO Info: 110: Asked for game event 27
+2020-06-01 03:59:18,812 INFO Info: 110: Asked for game event 19
+2020-06-01 03:59:18,812 INFO Info: 110: Asked for game event 19
+2020-06-01 03:59:18,812 INFO Info: 110: Asked for game event 19
+2020-06-01 03:59:18,812 INFO Info: 110: Asked for game event 19
+2020-06-01 03:59:18,813 INFO Info: 110: Asked for game event 20
+2020-06-01 03:59:18,813 INFO Info: 110: Asked for game event 20
+2020-06-01 03:59:18,813 INFO Info: 110: Asked for game event 20
+2020-06-01 03:59:18,813 INFO Info: 110: Asked for game event 20
+2020-06-01 03:59:18,814 INFO Info: 110: Asked for game event 21
+2020-06-01 03:59:18,814 INFO Info: 110: Asked for game event 21
+2020-06-01 03:59:18,814 INFO Info: 110: Asked for game event 21
+2020-06-01 03:59:18,814 INFO Info: 110: Asked for game event 21
+2020-06-01 03:59:18,815 INFO Info: 110: Asked for game event 22
+2020-06-01 03:59:18,815 INFO Info: 110: Asked for game event 22
+2020-06-01 03:59:18,815 INFO Info: 110: Asked for game event 22
+2020-06-01 03:59:18,815 INFO Info: 110: Asked for game event 22
+2020-06-01 03:59:18,816 INFO Info: 110: Asked for game event 23
+2020-06-01 03:59:18,816 INFO Info: 110: Asked for game event 23
+2020-06-01 03:59:18,816 INFO Info: 110: Asked for game event 23
+2020-06-01 03:59:18,816 INFO Info: 110: Asked for game event 23
+2020-06-01 03:59:18,817 INFO Info: 110: Asked for game event 24
+2020-06-01 03:59:18,817 INFO Info: 110: Asked for game event 24
+2020-06-01 03:59:18,817 INFO Info: 110: Asked for game event 24
+2020-06-01 03:59:18,817 INFO Info: 110: Asked for game event 24
+2020-06-01 03:59:18,818 INFO Info: 110: Asked for game event 25
+2020-06-01 03:59:18,818 INFO Info: 110: Asked for game event 25
+2020-06-01 03:59:18,818 INFO Info: 110: Asked for game event 25
+2020-06-01 03:59:18,818 INFO Info: 110: Asked for game event 25
+2020-06-01 03:59:18,819 INFO Info: 110: Asked for game event 26
+2020-06-01 03:59:18,819 INFO Info: 110: Asked for game event 26
+2020-06-01 03:59:18,819 INFO Info: 110: Asked for game event 26
+2020-06-01 03:59:18,819 INFO Info: 110: Asked for game event 26
+2020-06-01 03:59:18,820 INFO Info: 110: Asked for game event 27
+2020-06-01 03:59:18,820 INFO Info: 110: Asked for game event 27
+2020-06-01 03:59:18,820 INFO Info: 110: Asked for game event 27
+2020-06-01 03:59:18,820 INFO Info: 110: Asked for game event 27
+2020-06-01 04:03:16,483 INFO Info: 110: Asked for game event 19
+2020-06-01 04:03:16,483 INFO Info: 110: Asked for game event 19
+2020-06-01 04:03:16,483 INFO Info: 110: Asked for game event 19
+2020-06-01 04:03:16,483 INFO Info: 110: Asked for game event 19
+2020-06-01 04:03:16,485 INFO Info: 110: Asked for game event 20
+2020-06-01 04:03:16,485 INFO Info: 110: Asked for game event 20
+2020-06-01 04:03:16,485 INFO Info: 110: Asked for game event 20
+2020-06-01 04:03:16,485 INFO Info: 110: Asked for game event 20
+2020-06-01 04:03:16,487 INFO Info: 110: Asked for game event 21
+2020-06-01 04:03:16,487 INFO Info: 110: Asked for game event 21
+2020-06-01 04:03:16,487 INFO Info: 110: Asked for game event 21
+2020-06-01 04:03:16,487 INFO Info: 110: Asked for game event 21
+2020-06-01 04:03:16,489 INFO Info: 110: Asked for game event 22
+2020-06-01 04:03:16,489 INFO Info: 110: Asked for game event 22
+2020-06-01 04:03:16,489 INFO Info: 110: Asked for game event 22
+2020-06-01 04:03:16,489 INFO Info: 110: Asked for game event 22
+2020-06-01 04:03:16,491 INFO Info: 110: Asked for game event 23
+2020-06-01 04:03:16,491 INFO Info: 110: Asked for game event 23
+2020-06-01 04:03:16,491 INFO Info: 110: Asked for game event 23
+2020-06-01 04:03:16,491 INFO Info: 110: Asked for game event 23
+2020-06-01 04:03:16,493 INFO Info: 110: Asked for game event 24
+2020-06-01 04:03:16,493 INFO Info: 110: Asked for game event 24
+2020-06-01 04:03:16,493 INFO Info: 110: Asked for game event 24
+2020-06-01 04:03:16,493 INFO Info: 110: Asked for game event 24
+2020-06-01 04:03:16,495 INFO Info: 110: Asked for game event 25
+2020-06-01 04:03:16,495 INFO Info: 110: Asked for game event 25
+2020-06-01 04:03:16,495 INFO Info: 110: Asked for game event 25
+2020-06-01 04:03:16,495 INFO Info: 110: Asked for game event 25
+2020-06-01 04:03:16,497 INFO Info: 110: Asked for game event 26
+2020-06-01 04:03:16,497 INFO Info: 110: Asked for game event 26
+2020-06-01 04:03:16,497 INFO Info: 110: Asked for game event 26
+2020-06-01 04:03:16,497 INFO Info: 110: Asked for game event 26
+2020-06-01 04:03:16,498 INFO Info: 110: Asked for game event 27
+2020-06-01 04:03:16,498 INFO Info: 110: Asked for game event 27
+2020-06-01 04:03:16,498 INFO Info: 110: Asked for game event 27
+2020-06-01 04:03:16,498 INFO Info: 110: Asked for game event 27
+2020-06-01 04:03:29,133 INFO Info: 110:edited event 23 
+2020-06-01 04:03:29,133 INFO Info: 110:edited event 23 
+2020-06-01 04:03:29,133 INFO Info: 110:edited event 23 
+2020-06-01 04:03:29,133 INFO Info: 110:edited event 23 
+2020-06-01 04:03:31,591 INFO Info: 110: Asked for game event 19
+2020-06-01 04:03:31,591 INFO Info: 110: Asked for game event 19
+2020-06-01 04:03:31,591 INFO Info: 110: Asked for game event 19
+2020-06-01 04:03:31,591 INFO Info: 110: Asked for game event 19
+2020-06-01 04:03:31,593 INFO Info: 110: Asked for game event 20
+2020-06-01 04:03:31,593 INFO Info: 110: Asked for game event 20
+2020-06-01 04:03:31,593 INFO Info: 110: Asked for game event 20
+2020-06-01 04:03:31,593 INFO Info: 110: Asked for game event 20
+2020-06-01 04:03:31,595 INFO Info: 110: Asked for game event 21
+2020-06-01 04:03:31,595 INFO Info: 110: Asked for game event 21
+2020-06-01 04:03:31,595 INFO Info: 110: Asked for game event 21
+2020-06-01 04:03:31,595 INFO Info: 110: Asked for game event 21
+2020-06-01 04:03:31,596 INFO Info: 110: Asked for game event 22
+2020-06-01 04:03:31,596 INFO Info: 110: Asked for game event 22
+2020-06-01 04:03:31,596 INFO Info: 110: Asked for game event 22
+2020-06-01 04:03:31,596 INFO Info: 110: Asked for game event 22
+2020-06-01 04:03:31,598 INFO Info: 110: Asked for game event 23
+2020-06-01 04:03:31,598 INFO Info: 110: Asked for game event 23
+2020-06-01 04:03:31,598 INFO Info: 110: Asked for game event 23
+2020-06-01 04:03:31,598 INFO Info: 110: Asked for game event 23
+2020-06-01 04:03:31,601 INFO Info: 110: Asked for game event 24
+2020-06-01 04:03:31,601 INFO Info: 110: Asked for game event 24
+2020-06-01 04:03:31,601 INFO Info: 110: Asked for game event 24
+2020-06-01 04:03:31,601 INFO Info: 110: Asked for game event 24
+2020-06-01 04:03:31,603 INFO Info: 110: Asked for game event 25
+2020-06-01 04:03:31,603 INFO Info: 110: Asked for game event 25
+2020-06-01 04:03:31,603 INFO Info: 110: Asked for game event 25
+2020-06-01 04:03:31,603 INFO Info: 110: Asked for game event 25
+2020-06-01 04:03:31,605 INFO Info: 110: Asked for game event 26
+2020-06-01 04:03:31,605 INFO Info: 110: Asked for game event 26
+2020-06-01 04:03:31,605 INFO Info: 110: Asked for game event 26
+2020-06-01 04:03:31,605 INFO Info: 110: Asked for game event 26
+2020-06-01 04:03:31,607 INFO Info: 110: Asked for game event 27
+2020-06-01 04:03:31,607 INFO Info: 110: Asked for game event 27
+2020-06-01 04:03:31,607 INFO Info: 110: Asked for game event 27
+2020-06-01 04:03:31,607 INFO Info: 110: Asked for game event 27
+2020-06-01 10:33:22,753 INFO Info: 110: Asked for game event 19
+2020-06-01 10:33:22,753 INFO Info: 110: Asked for game event 19
+2020-06-01 10:33:22,753 INFO Info: 110: Asked for game event 19
+2020-06-01 10:33:22,753 INFO Info: 110: Asked for game event 19
+2020-06-01 10:33:22,759 INFO Info: 110: Asked for game event 20
+2020-06-01 10:33:22,759 INFO Info: 110: Asked for game event 20
+2020-06-01 10:33:22,759 INFO Info: 110: Asked for game event 20
+2020-06-01 10:33:22,759 INFO Info: 110: Asked for game event 20
+2020-06-01 10:33:22,761 INFO Info: 110: Asked for game event 21
+2020-06-01 10:33:22,761 INFO Info: 110: Asked for game event 21
+2020-06-01 10:33:22,761 INFO Info: 110: Asked for game event 21
+2020-06-01 10:33:22,761 INFO Info: 110: Asked for game event 21
+2020-06-01 10:33:22,762 INFO Info: 110: Asked for game event 22
+2020-06-01 10:33:22,762 INFO Info: 110: Asked for game event 22
+2020-06-01 10:33:22,762 INFO Info: 110: Asked for game event 22
+2020-06-01 10:33:22,762 INFO Info: 110: Asked for game event 22
+2020-06-01 10:33:22,764 INFO Info: 110: Asked for game event 23
+2020-06-01 10:33:22,764 INFO Info: 110: Asked for game event 23
+2020-06-01 10:33:22,764 INFO Info: 110: Asked for game event 23
+2020-06-01 10:33:22,764 INFO Info: 110: Asked for game event 23
+2020-06-01 10:33:22,765 INFO Info: 110: Asked for game event 24
+2020-06-01 10:33:22,765 INFO Info: 110: Asked for game event 24
+2020-06-01 10:33:22,765 INFO Info: 110: Asked for game event 24
+2020-06-01 10:33:22,765 INFO Info: 110: Asked for game event 24
+2020-06-01 10:33:22,767 INFO Info: 110: Asked for game event 25
+2020-06-01 10:33:22,767 INFO Info: 110: Asked for game event 25
+2020-06-01 10:33:22,767 INFO Info: 110: Asked for game event 25
+2020-06-01 10:33:22,767 INFO Info: 110: Asked for game event 25
+2020-06-01 10:33:22,768 INFO Info: 110: Asked for game event 26
+2020-06-01 10:33:22,768 INFO Info: 110: Asked for game event 26
+2020-06-01 10:33:22,768 INFO Info: 110: Asked for game event 26
+2020-06-01 10:33:22,768 INFO Info: 110: Asked for game event 26
+2020-06-01 10:33:22,770 INFO Info: 110: Asked for game event 27
+2020-06-01 10:33:22,770 INFO Info: 110: Asked for game event 27
+2020-06-01 10:33:22,770 INFO Info: 110: Asked for game event 27
+2020-06-01 10:33:22,770 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:10,292 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:10,292 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:10,292 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:10,292 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:10,293 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:10,293 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:10,293 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:10,293 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:10,294 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:10,294 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:10,294 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:10,294 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:10,296 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:10,296 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:10,296 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:10,296 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:10,297 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:10,297 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:10,297 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:10,297 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:10,299 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:10,299 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:10,299 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:10,299 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:10,300 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:10,300 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:10,300 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:10,300 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:10,302 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:10,302 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:10,302 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:10,302 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:10,303 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:10,303 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:10,303 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:10,303 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:26,225 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:26,225 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:26,225 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:26,225 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:26,226 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:26,226 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:26,226 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:26,226 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:26,228 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:26,228 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:26,228 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:26,228 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:26,229 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:26,229 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:26,229 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:26,229 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:26,231 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:26,231 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:26,231 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:26,231 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:26,232 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:26,232 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:26,232 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:26,232 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:26,233 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:26,233 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:26,233 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:26,233 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:26,235 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:26,235 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:26,235 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:26,235 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:26,237 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:26,237 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:26,237 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:26,237 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:33,945 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:33,945 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:33,945 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:33,945 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:33,946 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:33,946 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:33,946 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:33,946 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:33,948 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:33,948 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:33,948 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:33,948 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:33,949 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:33,949 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:33,949 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:33,949 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:33,951 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:33,951 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:33,951 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:33,951 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:33,952 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:33,952 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:33,952 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:33,952 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:33,954 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:33,954 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:33,954 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:33,954 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:33,956 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:33,956 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:33,956 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:33,956 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:33,957 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:33,957 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:33,957 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:33,957 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:37,619 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:37,619 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:37,619 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:37,619 INFO Info: 110: Asked for game event 19
+2020-06-01 10:43:37,621 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:37,621 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:37,621 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:37,621 INFO Info: 110: Asked for game event 20
+2020-06-01 10:43:37,622 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:37,622 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:37,622 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:37,622 INFO Info: 110: Asked for game event 21
+2020-06-01 10:43:37,624 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:37,624 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:37,624 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:37,624 INFO Info: 110: Asked for game event 22
+2020-06-01 10:43:37,625 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:37,625 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:37,625 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:37,625 INFO Info: 110: Asked for game event 23
+2020-06-01 10:43:37,627 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:37,627 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:37,627 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:37,627 INFO Info: 110: Asked for game event 24
+2020-06-01 10:43:37,628 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:37,628 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:37,628 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:37,628 INFO Info: 110: Asked for game event 25
+2020-06-01 10:43:37,630 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:37,630 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:37,630 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:37,630 INFO Info: 110: Asked for game event 26
+2020-06-01 10:43:37,631 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:37,631 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:37,631 INFO Info: 110: Asked for game event 27
+2020-06-01 10:43:37,631 INFO Info: 110: Asked for game event 27
+2020-06-01 10:44:20,117 INFO Info: 110: Asked for game event 19
+2020-06-01 10:44:20,117 INFO Info: 110: Asked for game event 19
+2020-06-01 10:44:20,117 INFO Info: 110: Asked for game event 19
+2020-06-01 10:44:20,117 INFO Info: 110: Asked for game event 19
+2020-06-01 10:44:20,119 INFO Info: 110: Asked for game event 20
+2020-06-01 10:44:20,119 INFO Info: 110: Asked for game event 20
+2020-06-01 10:44:20,119 INFO Info: 110: Asked for game event 20
+2020-06-01 10:44:20,119 INFO Info: 110: Asked for game event 20
+2020-06-01 10:44:20,121 INFO Info: 110: Asked for game event 21
+2020-06-01 10:44:20,121 INFO Info: 110: Asked for game event 21
+2020-06-01 10:44:20,121 INFO Info: 110: Asked for game event 21
+2020-06-01 10:44:20,121 INFO Info: 110: Asked for game event 21
+2020-06-01 10:44:20,122 INFO Info: 110: Asked for game event 22
+2020-06-01 10:44:20,122 INFO Info: 110: Asked for game event 22
+2020-06-01 10:44:20,122 INFO Info: 110: Asked for game event 22
+2020-06-01 10:44:20,122 INFO Info: 110: Asked for game event 22
+2020-06-01 10:44:20,124 INFO Info: 110: Asked for game event 23
+2020-06-01 10:44:20,124 INFO Info: 110: Asked for game event 23
+2020-06-01 10:44:20,124 INFO Info: 110: Asked for game event 23
+2020-06-01 10:44:20,124 INFO Info: 110: Asked for game event 23
+2020-06-01 10:44:20,125 INFO Info: 110: Asked for game event 24
+2020-06-01 10:44:20,125 INFO Info: 110: Asked for game event 24
+2020-06-01 10:44:20,125 INFO Info: 110: Asked for game event 24
+2020-06-01 10:44:20,125 INFO Info: 110: Asked for game event 24
+2020-06-01 10:44:20,127 INFO Info: 110: Asked for game event 25
+2020-06-01 10:44:20,127 INFO Info: 110: Asked for game event 25
+2020-06-01 10:44:20,127 INFO Info: 110: Asked for game event 25
+2020-06-01 10:44:20,127 INFO Info: 110: Asked for game event 25
+2020-06-01 10:44:20,128 INFO Info: 110: Asked for game event 26
+2020-06-01 10:44:20,128 INFO Info: 110: Asked for game event 26
+2020-06-01 10:44:20,128 INFO Info: 110: Asked for game event 26
+2020-06-01 10:44:20,128 INFO Info: 110: Asked for game event 26
+2020-06-01 10:44:20,130 INFO Info: 110: Asked for game event 27
+2020-06-01 10:44:20,130 INFO Info: 110: Asked for game event 27
+2020-06-01 10:44:20,130 INFO Info: 110: Asked for game event 27
+2020-06-01 10:44:20,130 INFO Info: 110: Asked for game event 27
+2020-06-01 10:46:46,360 INFO Info: 110: Asked for game event 19
+2020-06-01 10:46:46,360 INFO Info: 110: Asked for game event 19
+2020-06-01 10:46:46,360 INFO Info: 110: Asked for game event 19
+2020-06-01 10:46:46,360 INFO Info: 110: Asked for game event 19
+2020-06-01 10:46:46,362 INFO Info: 110: Asked for game event 20
+2020-06-01 10:46:46,362 INFO Info: 110: Asked for game event 20
+2020-06-01 10:46:46,362 INFO Info: 110: Asked for game event 20
+2020-06-01 10:46:46,362 INFO Info: 110: Asked for game event 20
+2020-06-01 10:46:46,362 INFO Info: 110: Asked for game event 21
+2020-06-01 10:46:46,362 INFO Info: 110: Asked for game event 21
+2020-06-01 10:46:46,362 INFO Info: 110: Asked for game event 21
+2020-06-01 10:46:46,362 INFO Info: 110: Asked for game event 21
+2020-06-01 10:46:46,363 INFO Info: 110: Asked for game event 22
+2020-06-01 10:46:46,363 INFO Info: 110: Asked for game event 22
+2020-06-01 10:46:46,363 INFO Info: 110: Asked for game event 22
+2020-06-01 10:46:46,363 INFO Info: 110: Asked for game event 22
+2020-06-01 10:46:46,364 INFO Info: 110: Asked for game event 23
+2020-06-01 10:46:46,364 INFO Info: 110: Asked for game event 23
+2020-06-01 10:46:46,364 INFO Info: 110: Asked for game event 23
+2020-06-01 10:46:46,364 INFO Info: 110: Asked for game event 23
+2020-06-01 10:46:46,365 INFO Info: 110: Asked for game event 24
+2020-06-01 10:46:46,365 INFO Info: 110: Asked for game event 24
+2020-06-01 10:46:46,365 INFO Info: 110: Asked for game event 24
+2020-06-01 10:46:46,365 INFO Info: 110: Asked for game event 24
+2020-06-01 10:46:46,366 INFO Info: 110: Asked for game event 25
+2020-06-01 10:46:46,366 INFO Info: 110: Asked for game event 25
+2020-06-01 10:46:46,366 INFO Info: 110: Asked for game event 25
+2020-06-01 10:46:46,366 INFO Info: 110: Asked for game event 25
+2020-06-01 10:46:46,366 INFO Info: 110: Asked for game event 26
+2020-06-01 10:46:46,366 INFO Info: 110: Asked for game event 26
+2020-06-01 10:46:46,366 INFO Info: 110: Asked for game event 26
+2020-06-01 10:46:46,366 INFO Info: 110: Asked for game event 26
+2020-06-01 10:46:46,367 INFO Info: 110: Asked for game event 27
+2020-06-01 10:46:46,367 INFO Info: 110: Asked for game event 27
+2020-06-01 10:46:46,367 INFO Info: 110: Asked for game event 27
+2020-06-01 10:46:46,367 INFO Info: 110: Asked for game event 27
+2020-06-01 10:46:51,193 INFO Info: 110: Asked for game event 19
+2020-06-01 10:46:51,193 INFO Info: 110: Asked for game event 19
+2020-06-01 10:46:51,193 INFO Info: 110: Asked for game event 19
+2020-06-01 10:46:51,193 INFO Info: 110: Asked for game event 19
+2020-06-01 10:46:51,194 INFO Info: 110: Asked for game event 20
+2020-06-01 10:46:51,194 INFO Info: 110: Asked for game event 20
+2020-06-01 10:46:51,194 INFO Info: 110: Asked for game event 20
+2020-06-01 10:46:51,194 INFO Info: 110: Asked for game event 20
+2020-06-01 10:46:51,195 INFO Info: 110: Asked for game event 21
+2020-06-01 10:46:51,195 INFO Info: 110: Asked for game event 21
+2020-06-01 10:46:51,195 INFO Info: 110: Asked for game event 21
+2020-06-01 10:46:51,195 INFO Info: 110: Asked for game event 21
+2020-06-01 10:46:51,196 INFO Info: 110: Asked for game event 22
+2020-06-01 10:46:51,196 INFO Info: 110: Asked for game event 22
+2020-06-01 10:46:51,196 INFO Info: 110: Asked for game event 22
+2020-06-01 10:46:51,196 INFO Info: 110: Asked for game event 22
+2020-06-01 10:46:51,197 INFO Info: 110: Asked for game event 23
+2020-06-01 10:46:51,197 INFO Info: 110: Asked for game event 23
+2020-06-01 10:46:51,197 INFO Info: 110: Asked for game event 23
+2020-06-01 10:46:51,197 INFO Info: 110: Asked for game event 23
+2020-06-01 10:46:51,198 INFO Info: 110: Asked for game event 24
+2020-06-01 10:46:51,198 INFO Info: 110: Asked for game event 24
+2020-06-01 10:46:51,198 INFO Info: 110: Asked for game event 24
+2020-06-01 10:46:51,198 INFO Info: 110: Asked for game event 24
+2020-06-01 10:46:51,199 INFO Info: 110: Asked for game event 25
+2020-06-01 10:46:51,199 INFO Info: 110: Asked for game event 25
+2020-06-01 10:46:51,199 INFO Info: 110: Asked for game event 25
+2020-06-01 10:46:51,199 INFO Info: 110: Asked for game event 25
+2020-06-01 10:46:51,200 INFO Info: 110: Asked for game event 26
+2020-06-01 10:46:51,200 INFO Info: 110: Asked for game event 26
+2020-06-01 10:46:51,200 INFO Info: 110: Asked for game event 26
+2020-06-01 10:46:51,200 INFO Info: 110: Asked for game event 26
+2020-06-01 10:46:51,201 INFO Info: 110: Asked for game event 27
+2020-06-01 10:46:51,201 INFO Info: 110: Asked for game event 27
+2020-06-01 10:46:51,201 INFO Info: 110: Asked for game event 27
+2020-06-01 10:46:51,201 INFO Info: 110: Asked for game event 27
+2020-06-01 10:46:57,599 INFO Info: 110: Asked for game event 19
+2020-06-01 10:46:57,599 INFO Info: 110: Asked for game event 19
+2020-06-01 10:46:57,599 INFO Info: 110: Asked for game event 19
+2020-06-01 10:46:57,599 INFO Info: 110: Asked for game event 19
+2020-06-01 10:46:57,600 INFO Info: 110: Asked for game event 20
+2020-06-01 10:46:57,600 INFO Info: 110: Asked for game event 20
+2020-06-01 10:46:57,600 INFO Info: 110: Asked for game event 20
+2020-06-01 10:46:57,600 INFO Info: 110: Asked for game event 20
+2020-06-01 10:46:57,601 INFO Info: 110: Asked for game event 21
+2020-06-01 10:46:57,601 INFO Info: 110: Asked for game event 21
+2020-06-01 10:46:57,601 INFO Info: 110: Asked for game event 21
+2020-06-01 10:46:57,601 INFO Info: 110: Asked for game event 21
+2020-06-01 10:46:57,602 INFO Info: 110: Asked for game event 22
+2020-06-01 10:46:57,602 INFO Info: 110: Asked for game event 22
+2020-06-01 10:46:57,602 INFO Info: 110: Asked for game event 22
+2020-06-01 10:46:57,602 INFO Info: 110: Asked for game event 22
+2020-06-01 10:46:57,603 INFO Info: 110: Asked for game event 23
+2020-06-01 10:46:57,603 INFO Info: 110: Asked for game event 23
+2020-06-01 10:46:57,603 INFO Info: 110: Asked for game event 23
+2020-06-01 10:46:57,603 INFO Info: 110: Asked for game event 23
+2020-06-01 10:46:57,604 INFO Info: 110: Asked for game event 24
+2020-06-01 10:46:57,604 INFO Info: 110: Asked for game event 24
+2020-06-01 10:46:57,604 INFO Info: 110: Asked for game event 24
+2020-06-01 10:46:57,604 INFO Info: 110: Asked for game event 24
+2020-06-01 10:46:57,605 INFO Info: 110: Asked for game event 25
+2020-06-01 10:46:57,605 INFO Info: 110: Asked for game event 25
+2020-06-01 10:46:57,605 INFO Info: 110: Asked for game event 25
+2020-06-01 10:46:57,605 INFO Info: 110: Asked for game event 25
+2020-06-01 10:46:57,606 INFO Info: 110: Asked for game event 26
+2020-06-01 10:46:57,606 INFO Info: 110: Asked for game event 26
+2020-06-01 10:46:57,606 INFO Info: 110: Asked for game event 26
+2020-06-01 10:46:57,606 INFO Info: 110: Asked for game event 26
+2020-06-01 10:46:57,606 INFO Info: 110: Asked for game event 27
+2020-06-01 10:46:57,606 INFO Info: 110: Asked for game event 27
+2020-06-01 10:46:57,606 INFO Info: 110: Asked for game event 27
+2020-06-01 10:46:57,606 INFO Info: 110: Asked for game event 27
+2020-06-01 10:47:24,908 INFO Info: 110: Asked for game event 19
+2020-06-01 10:47:24,908 INFO Info: 110: Asked for game event 19
+2020-06-01 10:47:24,908 INFO Info: 110: Asked for game event 19
+2020-06-01 10:47:24,908 INFO Info: 110: Asked for game event 19
+2020-06-01 10:47:24,910 INFO Info: 110: Asked for game event 20
+2020-06-01 10:47:24,910 INFO Info: 110: Asked for game event 20
+2020-06-01 10:47:24,910 INFO Info: 110: Asked for game event 20
+2020-06-01 10:47:24,910 INFO Info: 110: Asked for game event 20
+2020-06-01 10:47:24,911 INFO Info: 110: Asked for game event 21
+2020-06-01 10:47:24,911 INFO Info: 110: Asked for game event 21
+2020-06-01 10:47:24,911 INFO Info: 110: Asked for game event 21
+2020-06-01 10:47:24,911 INFO Info: 110: Asked for game event 21
+2020-06-01 10:47:24,913 INFO Info: 110: Asked for game event 22
+2020-06-01 10:47:24,913 INFO Info: 110: Asked for game event 22
+2020-06-01 10:47:24,913 INFO Info: 110: Asked for game event 22
+2020-06-01 10:47:24,913 INFO Info: 110: Asked for game event 22
+2020-06-01 10:47:24,914 INFO Info: 110: Asked for game event 23
+2020-06-01 10:47:24,914 INFO Info: 110: Asked for game event 23
+2020-06-01 10:47:24,914 INFO Info: 110: Asked for game event 23
+2020-06-01 10:47:24,914 INFO Info: 110: Asked for game event 23
+2020-06-01 10:47:24,916 INFO Info: 110: Asked for game event 24
+2020-06-01 10:47:24,916 INFO Info: 110: Asked for game event 24
+2020-06-01 10:47:24,916 INFO Info: 110: Asked for game event 24
+2020-06-01 10:47:24,916 INFO Info: 110: Asked for game event 24
+2020-06-01 10:47:24,918 INFO Info: 110: Asked for game event 25
+2020-06-01 10:47:24,918 INFO Info: 110: Asked for game event 25
+2020-06-01 10:47:24,918 INFO Info: 110: Asked for game event 25
+2020-06-01 10:47:24,918 INFO Info: 110: Asked for game event 25
+2020-06-01 10:47:24,919 INFO Info: 110: Asked for game event 26
+2020-06-01 10:47:24,919 INFO Info: 110: Asked for game event 26
+2020-06-01 10:47:24,919 INFO Info: 110: Asked for game event 26
+2020-06-01 10:47:24,919 INFO Info: 110: Asked for game event 26
+2020-06-01 10:47:24,921 INFO Info: 110: Asked for game event 27
+2020-06-01 10:47:24,921 INFO Info: 110: Asked for game event 27
+2020-06-01 10:47:24,921 INFO Info: 110: Asked for game event 27
+2020-06-01 10:47:24,921 INFO Info: 110: Asked for game event 27
+2020-06-01 10:50:54,436 INFO Info: 110: Asked for game event 19
+2020-06-01 10:50:54,436 INFO Info: 110: Asked for game event 19
+2020-06-01 10:50:54,436 INFO Info: 110: Asked for game event 19
+2020-06-01 10:50:54,436 INFO Info: 110: Asked for game event 19
+2020-06-01 10:50:54,437 INFO Info: 110: Asked for game event 20
+2020-06-01 10:50:54,437 INFO Info: 110: Asked for game event 20
+2020-06-01 10:50:54,437 INFO Info: 110: Asked for game event 20
+2020-06-01 10:50:54,437 INFO Info: 110: Asked for game event 20
+2020-06-01 10:50:54,439 INFO Info: 110: Asked for game event 21
+2020-06-01 10:50:54,439 INFO Info: 110: Asked for game event 21
+2020-06-01 10:50:54,439 INFO Info: 110: Asked for game event 21
+2020-06-01 10:50:54,439 INFO Info: 110: Asked for game event 21
+2020-06-01 10:50:54,440 INFO Info: 110: Asked for game event 22
+2020-06-01 10:50:54,440 INFO Info: 110: Asked for game event 22
+2020-06-01 10:50:54,440 INFO Info: 110: Asked for game event 22
+2020-06-01 10:50:54,440 INFO Info: 110: Asked for game event 22
+2020-06-01 10:50:54,442 INFO Info: 110: Asked for game event 23
+2020-06-01 10:50:54,442 INFO Info: 110: Asked for game event 23
+2020-06-01 10:50:54,442 INFO Info: 110: Asked for game event 23
+2020-06-01 10:50:54,442 INFO Info: 110: Asked for game event 23
+2020-06-01 10:50:54,443 INFO Info: 110: Asked for game event 24
+2020-06-01 10:50:54,443 INFO Info: 110: Asked for game event 24
+2020-06-01 10:50:54,443 INFO Info: 110: Asked for game event 24
+2020-06-01 10:50:54,443 INFO Info: 110: Asked for game event 24
+2020-06-01 10:50:54,445 INFO Info: 110: Asked for game event 25
+2020-06-01 10:50:54,445 INFO Info: 110: Asked for game event 25
+2020-06-01 10:50:54,445 INFO Info: 110: Asked for game event 25
+2020-06-01 10:50:54,445 INFO Info: 110: Asked for game event 25
+2020-06-01 10:50:54,447 INFO Info: 110: Asked for game event 26
+2020-06-01 10:50:54,447 INFO Info: 110: Asked for game event 26
+2020-06-01 10:50:54,447 INFO Info: 110: Asked for game event 26
+2020-06-01 10:50:54,447 INFO Info: 110: Asked for game event 26
+2020-06-01 10:50:54,448 INFO Info: 110: Asked for game event 27
+2020-06-01 10:50:54,448 INFO Info: 110: Asked for game event 27
+2020-06-01 10:50:54,448 INFO Info: 110: Asked for game event 27
+2020-06-01 10:50:54,448 INFO Info: 110: Asked for game event 27
+2020-06-01 10:51:09,661 INFO Info: 110:removed event sdf 
+2020-06-01 10:51:09,661 INFO Info: 110:removed event sdf 
+2020-06-01 10:51:09,661 INFO Info: 110:removed event sdf 
+2020-06-01 10:51:09,661 INFO Info: 110:removed event sdf 
+2020-06-01 10:51:43,881 INFO Info: 110: Asked for game event 19
+2020-06-01 10:51:43,881 INFO Info: 110: Asked for game event 19
+2020-06-01 10:51:43,881 INFO Info: 110: Asked for game event 19
+2020-06-01 10:51:43,881 INFO Info: 110: Asked for game event 19
+2020-06-01 10:51:43,882 INFO Info: 110: Asked for game event 21
+2020-06-01 10:51:43,882 INFO Info: 110: Asked for game event 21
+2020-06-01 10:51:43,882 INFO Info: 110: Asked for game event 21
+2020-06-01 10:51:43,882 INFO Info: 110: Asked for game event 21
+2020-06-01 10:51:43,883 INFO Info: 110: Asked for game event 22
+2020-06-01 10:51:43,883 INFO Info: 110: Asked for game event 22
+2020-06-01 10:51:43,883 INFO Info: 110: Asked for game event 22
+2020-06-01 10:51:43,883 INFO Info: 110: Asked for game event 22
+2020-06-01 10:51:43,884 INFO Info: 110: Asked for game event 23
+2020-06-01 10:51:43,884 INFO Info: 110: Asked for game event 23
+2020-06-01 10:51:43,884 INFO Info: 110: Asked for game event 23
+2020-06-01 10:51:43,884 INFO Info: 110: Asked for game event 23
+2020-06-01 10:51:43,885 INFO Info: 110: Asked for game event 24
+2020-06-01 10:51:43,885 INFO Info: 110: Asked for game event 24
+2020-06-01 10:51:43,885 INFO Info: 110: Asked for game event 24
+2020-06-01 10:51:43,885 INFO Info: 110: Asked for game event 24
+2020-06-01 10:51:43,886 INFO Info: 110: Asked for game event 25
+2020-06-01 10:51:43,886 INFO Info: 110: Asked for game event 25
+2020-06-01 10:51:43,886 INFO Info: 110: Asked for game event 25
+2020-06-01 10:51:43,886 INFO Info: 110: Asked for game event 25
+2020-06-01 10:51:43,887 INFO Info: 110: Asked for game event 26
+2020-06-01 10:51:43,887 INFO Info: 110: Asked for game event 26
+2020-06-01 10:51:43,887 INFO Info: 110: Asked for game event 26
+2020-06-01 10:51:43,887 INFO Info: 110: Asked for game event 26
+2020-06-01 10:51:43,888 INFO Info: 110: Asked for game event 27
+2020-06-01 10:51:43,888 INFO Info: 110: Asked for game event 27
+2020-06-01 10:51:43,888 INFO Info: 110: Asked for game event 27
+2020-06-01 10:51:43,888 INFO Info: 110: Asked for game event 27
+2020-06-01 10:51:48,013 INFO Info: 110:removed event dfg 
+2020-06-01 10:51:48,013 INFO Info: 110:removed event dfg 
+2020-06-01 10:51:48,013 INFO Info: 110:removed event dfg 
+2020-06-01 10:51:48,013 INFO Info: 110:removed event dfg 
+2020-06-01 10:51:50,340 INFO Info: 110: Asked for game event 19
+2020-06-01 10:51:50,340 INFO Info: 110: Asked for game event 19
+2020-06-01 10:51:50,340 INFO Info: 110: Asked for game event 19
+2020-06-01 10:51:50,340 INFO Info: 110: Asked for game event 19
+2020-06-01 10:51:50,341 INFO Info: 110: Asked for game event 21
+2020-06-01 10:51:50,341 INFO Info: 110: Asked for game event 21
+2020-06-01 10:51:50,341 INFO Info: 110: Asked for game event 21
+2020-06-01 10:51:50,341 INFO Info: 110: Asked for game event 21
+2020-06-01 10:51:50,342 INFO Info: 110: Asked for game event 22
+2020-06-01 10:51:50,342 INFO Info: 110: Asked for game event 22
+2020-06-01 10:51:50,342 INFO Info: 110: Asked for game event 22
+2020-06-01 10:51:50,342 INFO Info: 110: Asked for game event 22
+2020-06-01 10:51:50,342 INFO Info: 110: Asked for game event 24
+2020-06-01 10:51:50,342 INFO Info: 110: Asked for game event 24
+2020-06-01 10:51:50,342 INFO Info: 110: Asked for game event 24
+2020-06-01 10:51:50,342 INFO Info: 110: Asked for game event 24
+2020-06-01 10:51:50,343 INFO Info: 110: Asked for game event 25
+2020-06-01 10:51:50,343 INFO Info: 110: Asked for game event 25
+2020-06-01 10:51:50,343 INFO Info: 110: Asked for game event 25
+2020-06-01 10:51:50,343 INFO Info: 110: Asked for game event 25
+2020-06-01 10:51:50,344 INFO Info: 110: Asked for game event 26
+2020-06-01 10:51:50,344 INFO Info: 110: Asked for game event 26
+2020-06-01 10:51:50,344 INFO Info: 110: Asked for game event 26
+2020-06-01 10:51:50,344 INFO Info: 110: Asked for game event 26
+2020-06-01 10:51:50,345 INFO Info: 110: Asked for game event 27
+2020-06-01 10:51:50,345 INFO Info: 110: Asked for game event 27
+2020-06-01 10:51:50,345 INFO Info: 110: Asked for game event 27
+2020-06-01 10:51:50,345 INFO Info: 110: Asked for game event 27
+2020-06-01 12:01:23,813 INFO Info: 112:add event Goal!!! in min 22 
+2020-06-01 12:01:23,813 INFO Info: 112:add event Goal!!! in min 22 
+2020-06-01 12:16:51,684 INFO Info: 157:add event fa in min 1 
+2020-06-01 12:16:51,684 INFO Info: 157:add event fa in min 1 
+2020-06-01 12:16:51,684 INFO Info: 157:add event fa in min 1 
+2020-06-01 12:16:51,684 INFO Info: 157:add event fa in min 1 
+2020-06-01 12:17:39,863 INFO Info: 157: Asked for game event 19
+2020-06-01 12:17:39,863 INFO Info: 157: Asked for game event 19
+2020-06-01 12:17:39,863 INFO Info: 157: Asked for game event 19
+2020-06-01 12:17:39,863 INFO Info: 157: Asked for game event 19
+2020-06-01 12:17:39,864 INFO Info: 157: Asked for game event 21
+2020-06-01 12:17:39,864 INFO Info: 157: Asked for game event 21
+2020-06-01 12:17:39,864 INFO Info: 157: Asked for game event 21
+2020-06-01 12:17:39,864 INFO Info: 157: Asked for game event 21
+2020-06-01 12:17:39,865 INFO Info: 157: Asked for game event 22
+2020-06-01 12:17:39,865 INFO Info: 157: Asked for game event 22
+2020-06-01 12:17:39,865 INFO Info: 157: Asked for game event 22
+2020-06-01 12:17:39,865 INFO Info: 157: Asked for game event 22
+2020-06-01 12:17:39,866 INFO Info: 157: Asked for game event 24
+2020-06-01 12:17:39,866 INFO Info: 157: Asked for game event 24
+2020-06-01 12:17:39,866 INFO Info: 157: Asked for game event 24
+2020-06-01 12:17:39,866 INFO Info: 157: Asked for game event 24
+2020-06-01 12:17:39,867 INFO Info: 157: Asked for game event 25
+2020-06-01 12:17:39,867 INFO Info: 157: Asked for game event 25
+2020-06-01 12:17:39,867 INFO Info: 157: Asked for game event 25
+2020-06-01 12:17:39,867 INFO Info: 157: Asked for game event 25
+2020-06-01 12:17:39,868 INFO Info: 157: Asked for game event 26
+2020-06-01 12:17:39,868 INFO Info: 157: Asked for game event 26
+2020-06-01 12:17:39,868 INFO Info: 157: Asked for game event 26
+2020-06-01 12:17:39,868 INFO Info: 157: Asked for game event 26
+2020-06-01 12:17:39,868 INFO Info: 157: Asked for game event 27
+2020-06-01 12:17:39,868 INFO Info: 157: Asked for game event 27
+2020-06-01 12:17:39,868 INFO Info: 157: Asked for game event 27
+2020-06-01 12:17:39,868 INFO Info: 157: Asked for game event 27
+2020-06-01 12:17:39,869 INFO Info: 157: Asked for game event 15
+2020-06-01 12:17:39,869 INFO Info: 157: Asked for game event 15
+2020-06-01 12:17:39,869 INFO Info: 157: Asked for game event 15
+2020-06-01 12:17:39,869 INFO Info: 157: Asked for game event 15
+2020-06-01 12:17:39,870 INFO Info: 157: Asked for game event 16
+2020-06-01 12:17:39,870 INFO Info: 157: Asked for game event 16
+2020-06-01 12:17:39,870 INFO Info: 157: Asked for game event 16
+2020-06-01 12:17:39,870 INFO Info: 157: Asked for game event 16
+2020-06-01 12:17:39,871 INFO Info: 157: Asked for game event 1
+2020-06-01 12:17:39,871 INFO Info: 157: Asked for game event 1
+2020-06-01 12:17:39,871 INFO Info: 157: Asked for game event 1
+2020-06-01 12:17:39,871 INFO Info: 157: Asked for game event 1
+2020-06-01 12:17:53,355 INFO Info: 157:add event assadasasd in min 1 
+2020-06-01 12:17:53,355 INFO Info: 157:add event assadasasd in min 1 
+2020-06-01 12:17:53,355 INFO Info: 157:add event assadasasd in min 1 
+2020-06-01 12:17:53,355 INFO Info: 157:add event assadasasd in min 1 
+2020-06-01 12:17:58,583 INFO Info: 157: Asked for game event 19
+2020-06-01 12:17:58,583 INFO Info: 157: Asked for game event 19
+2020-06-01 12:17:58,583 INFO Info: 157: Asked for game event 19
+2020-06-01 12:17:58,583 INFO Info: 157: Asked for game event 19
+2020-06-01 12:17:58,583 INFO Info: 157: Asked for game event 21
+2020-06-01 12:17:58,583 INFO Info: 157: Asked for game event 21
+2020-06-01 12:17:58,583 INFO Info: 157: Asked for game event 21
+2020-06-01 12:17:58,583 INFO Info: 157: Asked for game event 21
+2020-06-01 12:17:58,584 INFO Info: 157: Asked for game event 22
+2020-06-01 12:17:58,584 INFO Info: 157: Asked for game event 22
+2020-06-01 12:17:58,584 INFO Info: 157: Asked for game event 22
+2020-06-01 12:17:58,584 INFO Info: 157: Asked for game event 22
+2020-06-01 12:17:58,585 INFO Info: 157: Asked for game event 24
+2020-06-01 12:17:58,585 INFO Info: 157: Asked for game event 24
+2020-06-01 12:17:58,585 INFO Info: 157: Asked for game event 24
+2020-06-01 12:17:58,585 INFO Info: 157: Asked for game event 24
+2020-06-01 12:17:58,586 INFO Info: 157: Asked for game event 25
+2020-06-01 12:17:58,586 INFO Info: 157: Asked for game event 25
+2020-06-01 12:17:58,586 INFO Info: 157: Asked for game event 25
+2020-06-01 12:17:58,586 INFO Info: 157: Asked for game event 25
+2020-06-01 12:17:58,587 INFO Info: 157: Asked for game event 26
+2020-06-01 12:17:58,587 INFO Info: 157: Asked for game event 26
+2020-06-01 12:17:58,587 INFO Info: 157: Asked for game event 26
+2020-06-01 12:17:58,587 INFO Info: 157: Asked for game event 26
+2020-06-01 12:17:58,588 INFO Info: 157: Asked for game event 27
+2020-06-01 12:17:58,588 INFO Info: 157: Asked for game event 27
+2020-06-01 12:17:58,588 INFO Info: 157: Asked for game event 27
+2020-06-01 12:17:58,588 INFO Info: 157: Asked for game event 27
+2020-06-01 12:17:58,589 INFO Info: 157: Asked for game event 15
+2020-06-01 12:17:58,589 INFO Info: 157: Asked for game event 15
+2020-06-01 12:17:58,589 INFO Info: 157: Asked for game event 15
+2020-06-01 12:17:58,589 INFO Info: 157: Asked for game event 15
+2020-06-01 12:17:58,590 INFO Info: 157: Asked for game event 16
+2020-06-01 12:17:58,590 INFO Info: 157: Asked for game event 16
+2020-06-01 12:17:58,590 INFO Info: 157: Asked for game event 16
+2020-06-01 12:17:58,590 INFO Info: 157: Asked for game event 16
+2020-06-01 12:17:58,591 INFO Info: 157: Asked for game event 1
+2020-06-01 12:17:58,591 INFO Info: 157: Asked for game event 1
+2020-06-01 12:17:58,591 INFO Info: 157: Asked for game event 1
+2020-06-01 12:17:58,591 INFO Info: 157: Asked for game event 1
+2020-06-01 12:17:58,592 INFO Info: 157: Asked for game event 2
+2020-06-01 12:17:58,592 INFO Info: 157: Asked for game event 2
+2020-06-01 12:17:58,592 INFO Info: 157: Asked for game event 2
+2020-06-01 12:17:58,592 INFO Info: 157: Asked for game event 2
+2020-06-01 12:19:05,103 INFO Info: 157:removed event assadasasd 
+2020-06-01 12:19:05,103 INFO Info: 157:removed event assadasasd 
+2020-06-01 12:19:05,103 INFO Info: 157:removed event assadasasd 
+2020-06-01 12:19:05,103 INFO Info: 157:removed event assadasasd 
+2020-06-01 12:19:07,891 INFO Info: 157: Asked for game event 19
+2020-06-01 12:19:07,891 INFO Info: 157: Asked for game event 19
+2020-06-01 12:19:07,891 INFO Info: 157: Asked for game event 19
+2020-06-01 12:19:07,891 INFO Info: 157: Asked for game event 19
+2020-06-01 12:19:07,892 INFO Info: 157: Asked for game event 21
+2020-06-01 12:19:07,892 INFO Info: 157: Asked for game event 21
+2020-06-01 12:19:07,892 INFO Info: 157: Asked for game event 21
+2020-06-01 12:19:07,892 INFO Info: 157: Asked for game event 21
+2020-06-01 12:19:07,893 INFO Info: 157: Asked for game event 22
+2020-06-01 12:19:07,893 INFO Info: 157: Asked for game event 22
+2020-06-01 12:19:07,893 INFO Info: 157: Asked for game event 22
+2020-06-01 12:19:07,893 INFO Info: 157: Asked for game event 22
+2020-06-01 12:19:07,894 INFO Info: 157: Asked for game event 24
+2020-06-01 12:19:07,894 INFO Info: 157: Asked for game event 24
+2020-06-01 12:19:07,894 INFO Info: 157: Asked for game event 24
+2020-06-01 12:19:07,894 INFO Info: 157: Asked for game event 24
+2020-06-01 12:19:07,895 INFO Info: 157: Asked for game event 25
+2020-06-01 12:19:07,895 INFO Info: 157: Asked for game event 25
+2020-06-01 12:19:07,895 INFO Info: 157: Asked for game event 25
+2020-06-01 12:19:07,895 INFO Info: 157: Asked for game event 25
+2020-06-01 12:19:07,896 INFO Info: 157: Asked for game event 26
+2020-06-01 12:19:07,896 INFO Info: 157: Asked for game event 26
+2020-06-01 12:19:07,896 INFO Info: 157: Asked for game event 26
+2020-06-01 12:19:07,896 INFO Info: 157: Asked for game event 26
+2020-06-01 12:19:07,897 INFO Info: 157: Asked for game event 27
+2020-06-01 12:19:07,897 INFO Info: 157: Asked for game event 27
+2020-06-01 12:19:07,897 INFO Info: 157: Asked for game event 27
+2020-06-01 12:19:07,897 INFO Info: 157: Asked for game event 27
+2020-06-01 12:19:07,898 INFO Info: 157: Asked for game event 15
+2020-06-01 12:19:07,898 INFO Info: 157: Asked for game event 15
+2020-06-01 12:19:07,898 INFO Info: 157: Asked for game event 15
+2020-06-01 12:19:07,898 INFO Info: 157: Asked for game event 15
+2020-06-01 12:19:07,899 INFO Info: 157: Asked for game event 16
+2020-06-01 12:19:07,899 INFO Info: 157: Asked for game event 16
+2020-06-01 12:19:07,899 INFO Info: 157: Asked for game event 16
+2020-06-01 12:19:07,899 INFO Info: 157: Asked for game event 16
+2020-06-01 12:19:07,899 INFO Info: 157: Asked for game event 1
+2020-06-01 12:19:07,899 INFO Info: 157: Asked for game event 1
+2020-06-01 12:19:07,899 INFO Info: 157: Asked for game event 1
+2020-06-01 12:19:07,899 INFO Info: 157: Asked for game event 1
+2020-06-01 12:19:29,877 INFO Info: 157:edited event 1 
+2020-06-01 12:19:29,877 INFO Info: 157:edited event 1 
+2020-06-01 12:19:29,877 INFO Info: 157:edited event 1 
+2020-06-01 12:19:29,877 INFO Info: 157:edited event 1 
+2020-06-01 12:19:44,032 INFO Info: 157: Asked for game event 19
+2020-06-01 12:19:44,032 INFO Info: 157: Asked for game event 19
+2020-06-01 12:19:44,032 INFO Info: 157: Asked for game event 19
+2020-06-01 12:19:44,032 INFO Info: 157: Asked for game event 19
+2020-06-01 12:19:44,033 INFO Info: 157: Asked for game event 21
+2020-06-01 12:19:44,033 INFO Info: 157: Asked for game event 21
+2020-06-01 12:19:44,033 INFO Info: 157: Asked for game event 21
+2020-06-01 12:19:44,033 INFO Info: 157: Asked for game event 21
+2020-06-01 12:19:44,034 INFO Info: 157: Asked for game event 22
+2020-06-01 12:19:44,034 INFO Info: 157: Asked for game event 22
+2020-06-01 12:19:44,034 INFO Info: 157: Asked for game event 22
+2020-06-01 12:19:44,034 INFO Info: 157: Asked for game event 22
+2020-06-01 12:19:44,035 INFO Info: 157: Asked for game event 24
+2020-06-01 12:19:44,035 INFO Info: 157: Asked for game event 24
+2020-06-01 12:19:44,035 INFO Info: 157: Asked for game event 24
+2020-06-01 12:19:44,035 INFO Info: 157: Asked for game event 24
+2020-06-01 12:19:44,036 INFO Info: 157: Asked for game event 25
+2020-06-01 12:19:44,036 INFO Info: 157: Asked for game event 25
+2020-06-01 12:19:44,036 INFO Info: 157: Asked for game event 25
+2020-06-01 12:19:44,036 INFO Info: 157: Asked for game event 25
+2020-06-01 12:19:44,037 INFO Info: 157: Asked for game event 26
+2020-06-01 12:19:44,037 INFO Info: 157: Asked for game event 26
+2020-06-01 12:19:44,037 INFO Info: 157: Asked for game event 26
+2020-06-01 12:19:44,037 INFO Info: 157: Asked for game event 26
+2020-06-01 12:19:44,039 INFO Info: 157: Asked for game event 27
+2020-06-01 12:19:44,039 INFO Info: 157: Asked for game event 27
+2020-06-01 12:19:44,039 INFO Info: 157: Asked for game event 27
+2020-06-01 12:19:44,039 INFO Info: 157: Asked for game event 27
+2020-06-01 12:19:44,040 INFO Info: 157: Asked for game event 15
+2020-06-01 12:19:44,040 INFO Info: 157: Asked for game event 15
+2020-06-01 12:19:44,040 INFO Info: 157: Asked for game event 15
+2020-06-01 12:19:44,040 INFO Info: 157: Asked for game event 15
+2020-06-01 12:19:44,041 INFO Info: 157: Asked for game event 16
+2020-06-01 12:19:44,041 INFO Info: 157: Asked for game event 16
+2020-06-01 12:19:44,041 INFO Info: 157: Asked for game event 16
+2020-06-01 12:19:44,041 INFO Info: 157: Asked for game event 16
+2020-06-01 12:19:44,042 INFO Info: 157: Asked for game event 1
+2020-06-01 12:19:44,042 INFO Info: 157: Asked for game event 1
+2020-06-01 12:19:44,042 INFO Info: 157: Asked for game event 1
+2020-06-01 12:19:44,042 INFO Info: 157: Asked for game event 1
+2020-06-01 12:20:29,774 INFO Info: 157:removed event Romannnnn 
+2020-06-01 12:20:29,774 INFO Info: 157:removed event Romannnnn 
+2020-06-01 12:20:29,774 INFO Info: 157:removed event Romannnnn 
+2020-06-01 12:20:29,774 INFO Info: 157:removed event Romannnnn 
+2020-06-01 12:20:34,576 INFO Info: 157: Asked for game event 19
+2020-06-01 12:20:34,576 INFO Info: 157: Asked for game event 19
+2020-06-01 12:20:34,576 INFO Info: 157: Asked for game event 19
+2020-06-01 12:20:34,576 INFO Info: 157: Asked for game event 19
+2020-06-01 12:20:34,576 INFO Info: 157: Asked for game event 21
+2020-06-01 12:20:34,576 INFO Info: 157: Asked for game event 21
+2020-06-01 12:20:34,576 INFO Info: 157: Asked for game event 21
+2020-06-01 12:20:34,576 INFO Info: 157: Asked for game event 21
+2020-06-01 12:20:34,577 INFO Info: 157: Asked for game event 22
+2020-06-01 12:20:34,577 INFO Info: 157: Asked for game event 22
+2020-06-01 12:20:34,577 INFO Info: 157: Asked for game event 22
+2020-06-01 12:20:34,577 INFO Info: 157: Asked for game event 22
+2020-06-01 12:20:34,578 INFO Info: 157: Asked for game event 24
+2020-06-01 12:20:34,578 INFO Info: 157: Asked for game event 24
+2020-06-01 12:20:34,578 INFO Info: 157: Asked for game event 24
+2020-06-01 12:20:34,578 INFO Info: 157: Asked for game event 24
+2020-06-01 12:20:34,579 INFO Info: 157: Asked for game event 25
+2020-06-01 12:20:34,579 INFO Info: 157: Asked for game event 25
+2020-06-01 12:20:34,579 INFO Info: 157: Asked for game event 25
+2020-06-01 12:20:34,579 INFO Info: 157: Asked for game event 25
+2020-06-01 12:20:34,580 INFO Info: 157: Asked for game event 26
+2020-06-01 12:20:34,580 INFO Info: 157: Asked for game event 26
+2020-06-01 12:20:34,580 INFO Info: 157: Asked for game event 26
+2020-06-01 12:20:34,580 INFO Info: 157: Asked for game event 26
+2020-06-01 12:20:34,581 INFO Info: 157: Asked for game event 27
+2020-06-01 12:20:34,581 INFO Info: 157: Asked for game event 27
+2020-06-01 12:20:34,581 INFO Info: 157: Asked for game event 27
+2020-06-01 12:20:34,581 INFO Info: 157: Asked for game event 27
+2020-06-01 12:20:34,581 INFO Info: 157: Asked for game event 15
+2020-06-01 12:20:34,581 INFO Info: 157: Asked for game event 15
+2020-06-01 12:20:34,581 INFO Info: 157: Asked for game event 15
+2020-06-01 12:20:34,581 INFO Info: 157: Asked for game event 15
+2020-06-01 12:20:34,582 INFO Info: 157: Asked for game event 16
+2020-06-01 12:20:34,582 INFO Info: 157: Asked for game event 16
+2020-06-01 12:20:34,582 INFO Info: 157: Asked for game event 16
+2020-06-01 12:20:34,582 INFO Info: 157: Asked for game event 16
 2020-05-31 17:05:36,711 INFO Info: : Team team1 was created
 2020-05-31 17:05:36,711 INFO Info: : Team team1 was created
 2020-05-31 17:05:36,717 INFO Info: : Team team2 was created
@@ -8958,6 +10286,94 @@
 2020-06-01 11:47:31,446 INFO Info: : Deleted team budget policy 9
 2020-06-01 11:47:31,446 INFO Info: : Deleted team budget policy 9
 2020-06-01 11:47:31,446 INFO Info: : Deleted team budget policy 9
+2020-06-01 13:02:10,550 INFO Info: 15:add event vbvnb in min 1 
+2020-06-01 13:02:10,550 INFO Info: 15:add event vbvnb in min 1 
+2020-06-01 13:02:10,550 INFO Info: 15:add event vbvnb in min 1 
+2020-06-01 13:02:10,550 INFO Info: 15:add event vbvnb in min 1 
+2020-06-01 13:02:34,736 INFO Info: 15: Asked for game event 19
+2020-06-01 13:02:34,736 INFO Info: 15: Asked for game event 19
+2020-06-01 13:02:34,736 INFO Info: 15: Asked for game event 19
+2020-06-01 13:02:34,736 INFO Info: 15: Asked for game event 19
+2020-06-01 13:02:34,737 INFO Info: 15: Asked for game event 21
+2020-06-01 13:02:34,737 INFO Info: 15: Asked for game event 21
+2020-06-01 13:02:34,737 INFO Info: 15: Asked for game event 21
+2020-06-01 13:02:34,737 INFO Info: 15: Asked for game event 21
+2020-06-01 13:02:34,738 INFO Info: 15: Asked for game event 22
+2020-06-01 13:02:34,738 INFO Info: 15: Asked for game event 22
+2020-06-01 13:02:34,738 INFO Info: 15: Asked for game event 22
+2020-06-01 13:02:34,738 INFO Info: 15: Asked for game event 22
+2020-06-01 13:02:34,739 INFO Info: 15: Asked for game event 24
+2020-06-01 13:02:34,739 INFO Info: 15: Asked for game event 24
+2020-06-01 13:02:34,739 INFO Info: 15: Asked for game event 24
+2020-06-01 13:02:34,739 INFO Info: 15: Asked for game event 24
+2020-06-01 13:02:34,739 INFO Info: 15: Asked for game event 25
+2020-06-01 13:02:34,739 INFO Info: 15: Asked for game event 25
+2020-06-01 13:02:34,739 INFO Info: 15: Asked for game event 25
+2020-06-01 13:02:34,739 INFO Info: 15: Asked for game event 25
+2020-06-01 13:02:34,740 INFO Info: 15: Asked for game event 26
+2020-06-01 13:02:34,740 INFO Info: 15: Asked for game event 26
+2020-06-01 13:02:34,740 INFO Info: 15: Asked for game event 26
+2020-06-01 13:02:34,740 INFO Info: 15: Asked for game event 26
+2020-06-01 13:02:34,741 INFO Info: 15: Asked for game event 27
+2020-06-01 13:02:34,741 INFO Info: 15: Asked for game event 27
+2020-06-01 13:02:34,741 INFO Info: 15: Asked for game event 27
+2020-06-01 13:02:34,741 INFO Info: 15: Asked for game event 27
+2020-06-01 13:02:34,742 INFO Info: 15: Asked for game event 15
+2020-06-01 13:02:34,742 INFO Info: 15: Asked for game event 15
+2020-06-01 13:02:34,742 INFO Info: 15: Asked for game event 15
+2020-06-01 13:02:34,742 INFO Info: 15: Asked for game event 15
+2020-06-01 13:02:34,743 INFO Info: 15: Asked for game event 16
+2020-06-01 13:02:34,743 INFO Info: 15: Asked for game event 16
+2020-06-01 13:02:34,743 INFO Info: 15: Asked for game event 16
+2020-06-01 13:02:34,743 INFO Info: 15: Asked for game event 16
+2020-06-01 13:02:34,743 INFO Info: 15: Asked for game event 3
+2020-06-01 13:02:34,743 INFO Info: 15: Asked for game event 3
+2020-06-01 13:02:34,743 INFO Info: 15: Asked for game event 3
+2020-06-01 13:02:34,743 INFO Info: 15: Asked for game event 3
+2020-06-01 13:02:42,255 INFO Info: 15:edited event 3 
+2020-06-01 13:02:42,255 INFO Info: 15:edited event 3 
+2020-06-01 13:02:42,255 INFO Info: 15:edited event 3 
+2020-06-01 13:02:42,255 INFO Info: 15:edited event 3 
+2020-06-01 13:02:50,217 INFO Info: 15:removed event asdsda 
+2020-06-01 13:02:50,217 INFO Info: 15:removed event asdsda 
+2020-06-01 13:02:50,217 INFO Info: 15:removed event asdsda 
+2020-06-01 13:02:50,217 INFO Info: 15:removed event asdsda 
+2020-06-01 13:03:17,868 INFO Info: 15: Asked for game event 19
+2020-06-01 13:03:17,868 INFO Info: 15: Asked for game event 19
+2020-06-01 13:03:17,868 INFO Info: 15: Asked for game event 19
+2020-06-01 13:03:17,868 INFO Info: 15: Asked for game event 19
+2020-06-01 13:03:17,869 INFO Info: 15: Asked for game event 21
+2020-06-01 13:03:17,869 INFO Info: 15: Asked for game event 21
+2020-06-01 13:03:17,869 INFO Info: 15: Asked for game event 21
+2020-06-01 13:03:17,869 INFO Info: 15: Asked for game event 21
+2020-06-01 13:03:17,870 INFO Info: 15: Asked for game event 22
+2020-06-01 13:03:17,870 INFO Info: 15: Asked for game event 22
+2020-06-01 13:03:17,870 INFO Info: 15: Asked for game event 22
+2020-06-01 13:03:17,870 INFO Info: 15: Asked for game event 22
+2020-06-01 13:03:17,871 INFO Info: 15: Asked for game event 24
+2020-06-01 13:03:17,871 INFO Info: 15: Asked for game event 24
+2020-06-01 13:03:17,871 INFO Info: 15: Asked for game event 24
+2020-06-01 13:03:17,871 INFO Info: 15: Asked for game event 24
+2020-06-01 13:03:17,872 INFO Info: 15: Asked for game event 25
+2020-06-01 13:03:17,872 INFO Info: 15: Asked for game event 25
+2020-06-01 13:03:17,872 INFO Info: 15: Asked for game event 25
+2020-06-01 13:03:17,872 INFO Info: 15: Asked for game event 25
+2020-06-01 13:03:17,873 INFO Info: 15: Asked for game event 26
+2020-06-01 13:03:17,873 INFO Info: 15: Asked for game event 26
+2020-06-01 13:03:17,873 INFO Info: 15: Asked for game event 26
+2020-06-01 13:03:17,873 INFO Info: 15: Asked for game event 26
+2020-06-01 13:03:17,874 INFO Info: 15: Asked for game event 27
+2020-06-01 13:03:17,874 INFO Info: 15: Asked for game event 27
+2020-06-01 13:03:17,874 INFO Info: 15: Asked for game event 27
+2020-06-01 13:03:17,874 INFO Info: 15: Asked for game event 27
+2020-06-01 13:03:17,875 INFO Info: 15: Asked for game event 15
+2020-06-01 13:03:17,875 INFO Info: 15: Asked for game event 15
+2020-06-01 13:03:17,875 INFO Info: 15: Asked for game event 15
+2020-06-01 13:03:17,875 INFO Info: 15: Asked for game event 15
+2020-06-01 13:03:17,876 INFO Info: 15: Asked for game event 16
+2020-06-01 13:03:17,876 INFO Info: 15: Asked for game event 16
+2020-06-01 13:03:17,876 INFO Info: 15: Asked for game event 16
+2020-06-01 13:03:17,876 INFO Info: 15: Asked for game event 16
 2020-06-01 12:41:13,793 INFO Info: :add owner: rm_owner
 2020-06-01 12:41:13,793 INFO Info: :add owner: rm_owner
 2020-06-01 12:41:13,793 INFO Info: :add owner: rm_owner
@@ -40333,3 +41749,198 @@
 2020-06-01 12:42:36,089 INFO Info: : Deleted team budget policy 14
 2020-06-01 12:42:36,089 INFO Info: : Deleted team budget policy 14
 2020-06-01 12:42:36,089 INFO Info: : Deleted team budget policy 14
+2020-06-01 13:04:29,935 INFO Info: : user dor was confirmed
+2020-06-01 13:04:29,935 INFO Info: : user dor was confirmed
+2020-06-01 13:04:29,935 INFO Info: : user dor was confirmed
+2020-06-01 13:04:29,935 INFO Info: : user dor was confirmed
+2020-06-01 13:04:29,935 INFO Info: : user dor was confirmed
+2020-06-01 13:04:31,683 INFO Info: : user dor was confirmed
+2020-06-01 13:04:31,683 INFO Info: : user dor was confirmed
+2020-06-01 13:04:31,683 INFO Info: : user dor was confirmed
+2020-06-01 13:04:31,683 INFO Info: : user dor was confirmed
+2020-06-01 13:04:31,683 INFO Info: : user dor was confirmed
+2020-06-01 13:04:37,045 INFO Info: : user ssss was confirmed
+2020-06-01 13:04:37,045 INFO Info: : user ssss was confirmed
+2020-06-01 13:04:37,045 INFO Info: : user ssss was confirmed
+2020-06-01 13:04:37,045 INFO Info: : user ssss was confirmed
+2020-06-01 13:04:37,045 INFO Info: : user ssss was confirmed
+2020-06-01 13:04:37,045 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,045 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,045 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,045 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,045 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,046 INFO Info: :got user None by name
+2020-06-01 13:04:37,046 INFO Info: :got user None by name
+2020-06-01 13:04:37,046 INFO Info: :got user None by name
+2020-06-01 13:04:37,046 INFO Info: :got user None by name
+2020-06-01 13:04:37,046 INFO Info: :got user None by name
+2020-06-01 13:04:37,051 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,051 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,051 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,051 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,051 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,053 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,053 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,053 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,053 INFO Info: :got user ssss by name
+2020-06-01 13:04:37,053 INFO Info: :got user ssss by name
+2020-06-01 13:04:42,897 INFO Info: :got user ssss by name
+2020-06-01 13:04:42,897 INFO Info: :got user ssss by name
+2020-06-01 13:04:42,897 INFO Info: :got user ssss by name
+2020-06-01 13:04:42,897 INFO Info: :got user ssss by name
+2020-06-01 13:04:42,897 INFO Info: :got user ssss by name
+2020-06-01 13:04:42,905 INFO Info: 15:add event sdaasddsa in min 1 
+2020-06-01 13:04:42,905 INFO Info: 15:add event sdaasddsa in min 1 
+2020-06-01 13:04:42,905 INFO Info: 15:add event sdaasddsa in min 1 
+2020-06-01 13:04:42,905 INFO Info: 15:add event sdaasddsa in min 1 
+2020-06-01 13:04:42,905 INFO Info: 15:add event sdaasddsa in min 1 
+2020-06-01 13:04:42,905 INFO Info: :got user ssss by name
+2020-06-01 13:04:42,905 INFO Info: :got user ssss by name
+2020-06-01 13:04:42,905 INFO Info: :got user ssss by name
+2020-06-01 13:04:42,905 INFO Info: :got user ssss by name
+2020-06-01 13:04:42,905 INFO Info: :got user ssss by name
+2020-06-01 13:04:51,828 INFO Info: :got user ssss by name
+2020-06-01 13:04:51,828 INFO Info: :got user ssss by name
+2020-06-01 13:04:51,828 INFO Info: :got user ssss by name
+2020-06-01 13:04:51,828 INFO Info: :got user ssss by name
+2020-06-01 13:04:51,828 INFO Info: :got user ssss by name
+2020-06-01 13:04:51,830 INFO Info: 15: Asked for game event 19
+2020-06-01 13:04:51,830 INFO Info: 15: Asked for game event 19
+2020-06-01 13:04:51,830 INFO Info: 15: Asked for game event 19
+2020-06-01 13:04:51,830 INFO Info: 15: Asked for game event 19
+2020-06-01 13:04:51,830 INFO Info: 15: Asked for game event 19
+2020-06-01 13:04:51,831 INFO Info: 15: Asked for game event 21
+2020-06-01 13:04:51,831 INFO Info: 15: Asked for game event 21
+2020-06-01 13:04:51,831 INFO Info: 15: Asked for game event 21
+2020-06-01 13:04:51,831 INFO Info: 15: Asked for game event 21
+2020-06-01 13:04:51,831 INFO Info: 15: Asked for game event 21
+2020-06-01 13:04:51,833 INFO Info: 15: Asked for game event 22
+2020-06-01 13:04:51,833 INFO Info: 15: Asked for game event 22
+2020-06-01 13:04:51,833 INFO Info: 15: Asked for game event 22
+2020-06-01 13:04:51,833 INFO Info: 15: Asked for game event 22
+2020-06-01 13:04:51,833 INFO Info: 15: Asked for game event 22
+2020-06-01 13:04:51,834 INFO Info: 15: Asked for game event 24
+2020-06-01 13:04:51,834 INFO Info: 15: Asked for game event 24
+2020-06-01 13:04:51,834 INFO Info: 15: Asked for game event 24
+2020-06-01 13:04:51,834 INFO Info: 15: Asked for game event 24
+2020-06-01 13:04:51,834 INFO Info: 15: Asked for game event 24
+2020-06-01 13:04:51,835 INFO Info: 15: Asked for game event 25
+2020-06-01 13:04:51,835 INFO Info: 15: Asked for game event 25
+2020-06-01 13:04:51,835 INFO Info: 15: Asked for game event 25
+2020-06-01 13:04:51,835 INFO Info: 15: Asked for game event 25
+2020-06-01 13:04:51,835 INFO Info: 15: Asked for game event 25
+2020-06-01 13:04:51,836 INFO Info: 15: Asked for game event 26
+2020-06-01 13:04:51,836 INFO Info: 15: Asked for game event 26
+2020-06-01 13:04:51,836 INFO Info: 15: Asked for game event 26
+2020-06-01 13:04:51,836 INFO Info: 15: Asked for game event 26
+2020-06-01 13:04:51,836 INFO Info: 15: Asked for game event 26
+2020-06-01 13:04:51,837 INFO Info: 15: Asked for game event 27
+2020-06-01 13:04:51,837 INFO Info: 15: Asked for game event 27
+2020-06-01 13:04:51,837 INFO Info: 15: Asked for game event 27
+2020-06-01 13:04:51,837 INFO Info: 15: Asked for game event 27
+2020-06-01 13:04:51,837 INFO Info: 15: Asked for game event 27
+2020-06-01 13:04:51,838 INFO Info: 15: Asked for game event 15
+2020-06-01 13:04:51,838 INFO Info: 15: Asked for game event 15
+2020-06-01 13:04:51,838 INFO Info: 15: Asked for game event 15
+2020-06-01 13:04:51,838 INFO Info: 15: Asked for game event 15
+2020-06-01 13:04:51,838 INFO Info: 15: Asked for game event 15
+2020-06-01 13:04:51,839 INFO Info: 15: Asked for game event 16
+2020-06-01 13:04:51,839 INFO Info: 15: Asked for game event 16
+2020-06-01 13:04:51,839 INFO Info: 15: Asked for game event 16
+2020-06-01 13:04:51,839 INFO Info: 15: Asked for game event 16
+2020-06-01 13:04:51,839 INFO Info: 15: Asked for game event 16
+2020-06-01 13:04:51,840 INFO Info: 15: Asked for game event 4
+2020-06-01 13:04:51,840 INFO Info: 15: Asked for game event 4
+2020-06-01 13:04:51,840 INFO Info: 15: Asked for game event 4
+2020-06-01 13:04:51,840 INFO Info: 15: Asked for game event 4
+2020-06-01 13:04:51,840 INFO Info: 15: Asked for game event 4
+2020-06-01 13:04:51,840 INFO Info: :got user ssss by name
+2020-06-01 13:04:51,840 INFO Info: :got user ssss by name
+2020-06-01 13:04:51,840 INFO Info: :got user ssss by name
+2020-06-01 13:04:51,840 INFO Info: :got user ssss by name
+2020-06-01 13:04:51,840 INFO Info: :got user ssss by name
+2020-06-01 13:04:57,245 INFO Info: :got user ssss by name
+2020-06-01 13:04:57,245 INFO Info: :got user ssss by name
+2020-06-01 13:04:57,245 INFO Info: :got user ssss by name
+2020-06-01 13:04:57,245 INFO Info: :got user ssss by name
+2020-06-01 13:04:57,245 INFO Info: :got user ssss by name
+2020-06-01 13:04:57,249 INFO Info: 15:edited event 4 
+2020-06-01 13:04:57,249 INFO Info: 15:edited event 4 
+2020-06-01 13:04:57,249 INFO Info: 15:edited event 4 
+2020-06-01 13:04:57,249 INFO Info: 15:edited event 4 
+2020-06-01 13:04:57,249 INFO Info: 15:edited event 4 
+2020-06-01 13:04:57,249 INFO Info: :got user ssss by name
+2020-06-01 13:04:57,249 INFO Info: :got user ssss by name
+2020-06-01 13:04:57,249 INFO Info: :got user ssss by name
+2020-06-01 13:04:57,249 INFO Info: :got user ssss by name
+2020-06-01 13:04:57,249 INFO Info: :got user ssss by name
+2020-06-01 13:04:58,558 INFO Info: :got user ssss by name
+2020-06-01 13:04:58,558 INFO Info: :got user ssss by name
+2020-06-01 13:04:58,558 INFO Info: :got user ssss by name
+2020-06-01 13:04:58,558 INFO Info: :got user ssss by name
+2020-06-01 13:04:58,558 INFO Info: :got user ssss by name
+2020-06-01 13:04:58,566 INFO Info: 15:removed event adsdsaas 
+2020-06-01 13:04:58,566 INFO Info: 15:removed event adsdsaas 
+2020-06-01 13:04:58,566 INFO Info: 15:removed event adsdsaas 
+2020-06-01 13:04:58,566 INFO Info: 15:removed event adsdsaas 
+2020-06-01 13:04:58,566 INFO Info: 15:removed event adsdsaas 
+2020-06-01 13:04:58,566 INFO Info: :got user ssss by name
+2020-06-01 13:04:58,566 INFO Info: :got user ssss by name
+2020-06-01 13:04:58,566 INFO Info: :got user ssss by name
+2020-06-01 13:04:58,566 INFO Info: :got user ssss by name
+2020-06-01 13:04:58,566 INFO Info: :got user ssss by name
+2020-06-01 13:05:00,537 INFO Info: :got user ssss by name
+2020-06-01 13:05:00,537 INFO Info: :got user ssss by name
+2020-06-01 13:05:00,537 INFO Info: :got user ssss by name
+2020-06-01 13:05:00,537 INFO Info: :got user ssss by name
+2020-06-01 13:05:00,537 INFO Info: :got user ssss by name
+2020-06-01 13:05:00,539 INFO Info: 15: Asked for game event 19
+2020-06-01 13:05:00,539 INFO Info: 15: Asked for game event 19
+2020-06-01 13:05:00,539 INFO Info: 15: Asked for game event 19
+2020-06-01 13:05:00,539 INFO Info: 15: Asked for game event 19
+2020-06-01 13:05:00,539 INFO Info: 15: Asked for game event 19
+2020-06-01 13:05:00,540 INFO Info: 15: Asked for game event 21
+2020-06-01 13:05:00,540 INFO Info: 15: Asked for game event 21
+2020-06-01 13:05:00,540 INFO Info: 15: Asked for game event 21
+2020-06-01 13:05:00,540 INFO Info: 15: Asked for game event 21
+2020-06-01 13:05:00,540 INFO Info: 15: Asked for game event 21
+2020-06-01 13:05:00,541 INFO Info: 15: Asked for game event 22
+2020-06-01 13:05:00,541 INFO Info: 15: Asked for game event 22
+2020-06-01 13:05:00,541 INFO Info: 15: Asked for game event 22
+2020-06-01 13:05:00,541 INFO Info: 15: Asked for game event 22
+2020-06-01 13:05:00,541 INFO Info: 15: Asked for game event 22
+2020-06-01 13:05:00,542 INFO Info: 15: Asked for game event 24
+2020-06-01 13:05:00,542 INFO Info: 15: Asked for game event 24
+2020-06-01 13:05:00,542 INFO Info: 15: Asked for game event 24
+2020-06-01 13:05:00,542 INFO Info: 15: Asked for game event 24
+2020-06-01 13:05:00,542 INFO Info: 15: Asked for game event 24
+2020-06-01 13:05:00,543 INFO Info: 15: Asked for game event 25
+2020-06-01 13:05:00,543 INFO Info: 15: Asked for game event 25
+2020-06-01 13:05:00,543 INFO Info: 15: Asked for game event 25
+2020-06-01 13:05:00,543 INFO Info: 15: Asked for game event 25
+2020-06-01 13:05:00,543 INFO Info: 15: Asked for game event 25
+2020-06-01 13:05:00,544 INFO Info: 15: Asked for game event 26
+2020-06-01 13:05:00,544 INFO Info: 15: Asked for game event 26
+2020-06-01 13:05:00,544 INFO Info: 15: Asked for game event 26
+2020-06-01 13:05:00,544 INFO Info: 15: Asked for game event 26
+2020-06-01 13:05:00,544 INFO Info: 15: Asked for game event 26
+2020-06-01 13:05:00,545 INFO Info: 15: Asked for game event 27
+2020-06-01 13:05:00,545 INFO Info: 15: Asked for game event 27
+2020-06-01 13:05:00,545 INFO Info: 15: Asked for game event 27
+2020-06-01 13:05:00,545 INFO Info: 15: Asked for game event 27
+2020-06-01 13:05:00,545 INFO Info: 15: Asked for game event 27
+2020-06-01 13:05:00,546 INFO Info: 15: Asked for game event 15
+2020-06-01 13:05:00,546 INFO Info: 15: Asked for game event 15
+2020-06-01 13:05:00,546 INFO Info: 15: Asked for game event 15
+2020-06-01 13:05:00,546 INFO Info: 15: Asked for game event 15
+2020-06-01 13:05:00,546 INFO Info: 15: Asked for game event 15
+2020-06-01 13:05:00,547 INFO Info: 15: Asked for game event 16
+2020-06-01 13:05:00,547 INFO Info: 15: Asked for game event 16
+2020-06-01 13:05:00,547 INFO Info: 15: Asked for game event 16
+2020-06-01 13:05:00,547 INFO Info: 15: Asked for game event 16
+2020-06-01 13:05:00,547 INFO Info: 15: Asked for game event 16
+2020-06-01 13:05:00,547 INFO Info: :got user ssss by name
+2020-06-01 13:05:00,547 INFO Info: :got user ssss by name
+2020-06-01 13:05:00,547 INFO Info: :got user ssss by name
+2020-06-01 13:05:00,547 INFO Info: :got user ssss by name
+2020-06-01 13:05:00,547 INFO Info: :got user ssss by name
