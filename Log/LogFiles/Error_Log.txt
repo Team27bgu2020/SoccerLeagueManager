@@ -330,6 +330,82 @@
 2020-05-31 14:11:48,719 ERROR Error: :Policy doesn't exists
 2020-05-31 14:12:08,759 ERROR Error: :Season with the same season id already exists
 2020-05-31 14:12:33,448 ERROR Error: :'int' object is not subscriptable
+2020-05-31 22:52:59,399 ERROR Error: eeee:Game doesn't exists
+2020-05-31 22:52:59,399 ERROR Error: eeee:Game doesn't exists
+2020-05-31 22:52:59,399 ERROR Error: eeee:Game doesn't exists
+2020-05-31 22:52:59,399 ERROR Error: eeee:Game doesn't exists
+2020-05-31 22:55:44,735 ERROR Error: gggg:Game doesn't exists
+2020-05-31 22:55:44,735 ERROR Error: gggg:Game doesn't exists
+2020-05-31 22:55:44,735 ERROR Error: gggg:Game doesn't exists
+2020-05-31 22:55:44,735 ERROR Error: gggg:Game doesn't exists
+2020-05-31 22:58:49,639 ERROR Error: gggg:Game doesn't exists
+2020-05-31 22:58:49,639 ERROR Error: gggg:Game doesn't exists
+2020-05-31 22:58:49,639 ERROR Error: gggg:Game doesn't exists
+2020-05-31 22:58:49,639 ERROR Error: gggg:Game doesn't exists
+2020-05-31 23:35:49,570 ERROR Error: :cannot encode object: <Domain.Game.Game object at 0x0000019088B32D88>, of type: <class 'Domain.Game.Game'>
+2020-05-31 23:35:49,570 ERROR Error: :cannot encode object: <Domain.Game.Game object at 0x0000019088B32D88>, of type: <class 'Domain.Game.Game'>
+2020-05-31 23:35:49,570 ERROR Error: :cannot encode object: <Domain.Game.Game object at 0x0000019088B32D88>, of type: <class 'Domain.Game.Game'>
+2020-05-31 23:35:49,570 ERROR Error: :cannot encode object: <Domain.Game.Game object at 0x0000019088B32D88>, of type: <class 'Domain.Game.Game'>
+2020-05-31 23:36:19,026 ERROR Error: :cannot encode object: <Domain.Game.Game object at 0x00000167D133C508>, of type: <class 'Domain.Game.Game'>
+2020-05-31 23:36:19,026 ERROR Error: :cannot encode object: <Domain.Game.Game object at 0x00000167D133C508>, of type: <class 'Domain.Game.Game'>
+2020-05-31 23:36:19,026 ERROR Error: :cannot encode object: <Domain.Game.Game object at 0x00000167D133C508>, of type: <class 'Domain.Game.Game'>
+2020-05-31 23:36:19,026 ERROR Error: :cannot encode object: <Domain.Game.Game object at 0x00000167D133C508>, of type: <class 'Domain.Game.Game'>
+2020-05-31 23:46:10,256 ERROR Error: yyyy:Game doesn't exists
+2020-05-31 23:46:10,256 ERROR Error: yyyy:Game doesn't exists
+2020-05-31 23:46:10,256 ERROR Error: yyyy:Game doesn't exists
+2020-05-31 23:46:10,256 ERROR Error: yyyy:Game doesn't exists
+2020-05-31 23:46:14,074 ERROR Error: yyyy:Game doesn't exists
+2020-05-31 23:46:14,074 ERROR Error: yyyy:Game doesn't exists
+2020-05-31 23:46:14,074 ERROR Error: yyyy:Game doesn't exists
+2020-05-31 23:46:14,074 ERROR Error: yyyy:Game doesn't exists
+2020-06-01 00:02:26,948 ERROR Error: 50:Game doesn't exists
+2020-06-01 00:02:26,948 ERROR Error: 50:Game doesn't exists
+2020-06-01 00:02:26,948 ERROR Error: 50:Game doesn't exists
+2020-06-01 00:02:26,948 ERROR Error: 50:Game doesn't exists
+2020-06-01 00:03:37,086 ERROR Error: 50:Game doesn't exists
+2020-06-01 00:03:37,086 ERROR Error: 50:Game doesn't exists
+2020-06-01 00:03:37,086 ERROR Error: 50:Game doesn't exists
+2020-06-01 00:03:37,086 ERROR Error: 50:Game doesn't exists
+2020-06-01 02:37:48,317 ERROR Error: 110:Game doesn't exists
+2020-06-01 02:37:48,317 ERROR Error: 110:Game doesn't exists
+2020-06-01 02:37:48,317 ERROR Error: 110:Game doesn't exists
+2020-06-01 02:37:48,317 ERROR Error: 110:Game doesn't exists
+2020-06-01 03:45:49,429 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 03:45:49,429 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 03:45:49,429 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 03:45:49,429 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 03:45:50,981 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 03:45:50,981 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 03:45:50,981 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 03:45:50,981 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:46:48,282 ERROR Error: 110:event is not created by this referee
+2020-06-01 10:46:48,282 ERROR Error: 110:event is not created by this referee
+2020-06-01 10:46:48,282 ERROR Error: 110:event is not created by this referee
+2020-06-01 10:46:48,282 ERROR Error: 110:event is not created by this referee
+2020-06-01 10:46:54,858 ERROR Error: 110:event is not created by this referee
+2020-06-01 10:46:54,858 ERROR Error: 110:event is not created by this referee
+2020-06-01 10:46:54,858 ERROR Error: 110:event is not created by this referee
+2020-06-01 10:46:54,858 ERROR Error: 110:event is not created by this referee
+2020-06-01 10:51:14,313 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:14,313 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:14,313 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:14,313 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:15,372 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:15,372 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:15,372 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:15,372 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:15,723 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:15,723 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:15,723 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:15,723 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:16,065 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:16,065 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:16,065 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 10:51:16,065 ERROR Error: 110:Game Event doesn't exist
+2020-06-01 12:20:20,774 ERROR Error: 157:event is not created by this referee
+2020-06-01 12:20:20,774 ERROR Error: 157:event is not created by this referee
+2020-06-01 12:20:20,774 ERROR Error: 157:event is not created by this referee
+2020-06-01 12:20:20,774 ERROR Error: 157:event is not created by this referee
 2020-05-31 17:05:15,721 ERROR Error: :User doesn't exist
 2020-05-31 17:05:15,721 ERROR Error: :User doesn't exist
 2020-05-31 17:23:15,841 ERROR Error: :Could not add team, teamm already taken
@@ -4596,3 +4672,8 @@
 2020-06-01 12:42:36,034 ERROR Error: :Value less the 0
 2020-06-01 12:42:36,034 ERROR Error: :Value less the 0
 2020-06-01 12:42:36,034 ERROR Error: :Value less the 0
+2020-06-01 13:04:37,046 ERROR Error: :User doesn't exist
+2020-06-01 13:04:37,046 ERROR Error: :User doesn't exist
+2020-06-01 13:04:37,046 ERROR Error: :User doesn't exist
+2020-06-01 13:04:37,046 ERROR Error: :User doesn't exist
+2020-06-01 13:04:37,046 ERROR Error: :User doesn't exist

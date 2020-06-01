@@ -1,8 +1,10 @@
 import json
 
+from DataBases.MongoDB.MongoGameEventDB import MongoGameEventDB
 from DataBases.MongoDB.MongoLeagueDB import MongoLeagueDB
 from DataBases.MongoDB.MongoSeasonDB import MongoSeasonDB
 from Server import Server
+from Service.MatchController import MatchController
 from Service.SignedUserController import SignedUserController
 from Service.LeagueController import LeagueController
 from Service.TeamManagementController import TeamManagementController
@@ -15,6 +17,7 @@ from DataBases.MongoDB.MongoTeamDB import MongoTeamDB
 
 from Enums.GameAssigningPoliciesEnum import GameAssigningPoliciesEnum
 from Enums.RefereeQualificationEnum import RefereeQualificationEnum
+from Enums.EventTypeEnum import EventTypeEnum
 
 import datetime as date
 import csv
@@ -26,11 +29,15 @@ team_db = MongoTeamDB()
 policy_db = MongoPolicyDB()
 league_db = MongoLeagueDB()
 season_db = MongoSeasonDB()
+game_db = MongoGameDB()
+game_event_db = MongoGameEventDB()
 league_controller = LeagueController(league_db, season_db, users_db, policy_db)
 signed_user_controller = SignedUserController(users_db)
-notification_controller = NotificationController(users_db, MongoGameDB())
+notification_controller = NotificationController(users_db, game_db)
 team_management_controller = TeamManagementController(team_db, users_db)
-signed_user_controller.add_system_admin('dor', '1234', 'dor', date.datetime(1994, 1, 20))
+match_controller = MatchController(game_db, users_db, game_event_db, team_db)
+if not signed_user_controller.confirm_user('dor', '1234'):
+    signed_user_controller.add_system_admin('dor', '1234', 'dor', date.datetime(1994, 1, 20))
 # user = signed_user_controller.get_user('dor')
 # user.notify('hello 1')
 # user.notify('hello 2')
@@ -44,10 +51,16 @@ def user_login(mess_info):
         return 'Error'
     else:
         user = signed_user_controller.get_user_by_name(user_name)
-        return {
+        if str(type(user)).split('.')[1] == 'TeamUser':
+            return {
                 'user_name': user_name,
                 'user_type': str(type(user.role)).split('.')[1]
-                }
+            }
+        else:
+            return {
+                'user_name': user_name,
+                'user_type': str(type(user)).split('.')[1],
+            }
 
 
 def user_register(mess_info):
@@ -73,6 +86,11 @@ def user_register(mess_info):
             elif role == 'System Admin':
                 signed_user_controller.add_system_admin(user_name, password, name,
                                                         date.datetime.strptime(birth_date, '%Y-%m-%d'))
+            elif role == 'Referee':
+                signed_user_controller.add_referee(RefereeQualificationEnum.REGULAR, user_name, password, name, date.datetime.strptime(birth_date, '%Y-%m-%d'))
+
+            elif role == 'Main Referee':
+                signed_user_controller.add_referee(RefereeQualificationEnum.MAIN, user_name, password, name, date.datetime.strptime(birth_date, '%Y-%m-%d'))
             else:
                 return 'Error'
         except Exception:
@@ -240,6 +258,65 @@ def add_team(mess_info):
     except:
         return 'Error'
 
+def get_on_going_games(mess_info):
+    referee_name = mess_info['user_id']
+    try:
+        referee = signed_user_controller.get_user_by_name(referee_name)
+        all_on_going_game = match_controller.show_ongoing_games_by_referee(referee.user_id)
+        all_games_final = []
+        for game in all_on_going_game:
+            game_dict = {
+                'game_id': game.game_id,
+                'home_team': game.home_team,
+                'away_team': game.away_team
+            }
+            all_games_final.append(game_dict)
+        return all_games_final
+    except Exception as err:
+        return str(err)
+
+def add_event(mess_info):
+    try:
+        referee_name = mess_info['data']['referee_id']
+        referee = signed_user_controller.get_user_by_name(referee_name)
+        referee_id = int(referee.user_id)
+        game_id = int(mess_info['data']['game_id'])
+        event_type = mess_info['data']['event_type']
+        event_des = mess_info['data']['event_description']
+        min_in_game = mess_info['data']['min_in_game']
+        date2 = date.datetime.now()
+        date1 = date2.strftime('%Y-%m-%d')
+        type_dict = {
+            'Goal': EventTypeEnum.GOAL,
+            'Yellow Card': EventTypeEnum.YELLOW_CARD,
+            'Red Card': EventTypeEnum.RED_CARD
+        }
+        match_controller.add_event(game_id, referee_id, type_dict[event_type], event_des, date2, min_in_game, referee_id)
+        return 'Success'
+    except Exception as err:
+        return str(err)
+
+def edit_event(mess_info):
+    try:
+        referee_name = mess_info['data']['referee_id']
+        referee = signed_user_controller.get_user_by_name(referee_name)
+        referee_id = int(referee.user_id)
+        game_id = int(mess_info['data']['game_id'])
+        event_type = mess_info['data']['event_type']
+        event_des = mess_info['data']['event_description']
+        min_in_game = mess_info['data']['min_in_game']
+        event_id = int(mess_info['data']['event_id'])
+        date2 = date.datetime.now()
+        type_dict = {
+            'Goal': EventTypeEnum.GOAL,
+            'Yellow Card': EventTypeEnum.YELLOW_CARD,
+            'Red Card': EventTypeEnum.RED_CARD
+        }
+        match_controller.edit_event(event_id, type_dict[event_type], event_des, date2, min_in_game, referee_id, referee_id)
+        return 'Success'
+    except Exception as err:
+        return str(err)
+
 
 def get_all_users(mess_info):
     all_users = signed_user_controller.get_all_signed_users()
@@ -283,6 +360,28 @@ def get_all_teams(mess_info):
         all_teams_final.append(the_team)
     return all_teams_final
 
+def get_all_game_events(mess_info):
+    try:
+        referee_name = mess_info['user_id']
+        referee = signed_user_controller.get_user_by_name(referee_name)
+        referee_id = int(referee.user_id)
+        game_id = mess_info['data']['game_id']
+        game_events_ids = match_controller.get_event_ids_from_game(game_id, referee_id)
+        return game_events_ids
+    except Exception as err:
+        return str(err)
+
+def delete_event(mess_info):
+    try:
+        referee_name = mess_info['user_id']
+        referee = signed_user_controller.get_user_by_name(referee_name)
+        referee_id = int(referee.user_id)
+        event_id = int(mess_info['data']['event_id'])
+        match_controller.remove_event(int(event_id), referee_id)
+        return 'Success'
+    except Exception as err:
+        return str(err)
+
 
 """ dictionary of all the handle functions - add your function to the dictionary """
 handle_functions = {
@@ -300,6 +399,11 @@ handle_functions = {
     'get_teams': get_all_teams,
     'get_refs': get_all_refs,
     'get_policy': get_policy,
+    'get_on_going_games': get_on_going_games,
+    'add_event': add_event,
+    'edit_event': edit_event,
+    'get_all_game_events': get_all_game_events,
+    'delete_event': delete_event
 }
 
 
@@ -324,6 +428,7 @@ def handle_message(message):
         'notifications': notifications
     }
     return json.dumps(ans_message)
+
 
 
 server = create_server(10000)
