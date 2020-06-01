@@ -330,3 +330,1720 @@
 2020-05-31 14:11:48,719 ERROR Error: :Policy doesn't exists
 2020-05-31 14:12:08,759 ERROR Error: :Season with the same season id already exists
 2020-05-31 14:12:33,448 ERROR Error: :'int' object is not subscriptable
+2020-05-31 17:05:15,721 ERROR Error: :User doesn't exist
+2020-05-31 17:05:15,721 ERROR Error: :User doesn't exist
+2020-05-31 17:23:15,841 ERROR Error: :Could not add team, teamm already taken
+2020-05-31 17:23:15,841 ERROR Error: :Could not add team, teamm already taken
+2020-05-31 17:23:15,845 ERROR Error: :Could not add team, teamm already taken
+2020-05-31 17:23:15,845 ERROR Error: :Could not add team, teamm already taken
+2020-06-01 10:11:10,833 ERROR Error: :User doesn't exist
+2020-06-01 10:11:10,833 ERROR Error: :User doesn't exist
+2020-06-01 10:11:10,833 ERROR Error: :User doesn't exist
+2020-06-01 10:11:10,833 ERROR Error: :User doesn't exist
+2020-06-01 10:11:10,833 ERROR Error: :User doesn't exist
+2020-06-01 10:11:10,835 ERROR Error: :User doesn't exist
+2020-06-01 10:11:10,835 ERROR Error: :User doesn't exist
+2020-06-01 10:11:10,835 ERROR Error: :User doesn't exist
+2020-06-01 10:11:10,835 ERROR Error: :User doesn't exist
+2020-06-01 10:11:10,835 ERROR Error: :User doesn't exist
+2020-06-01 10:11:10,853 ERROR Error: :Could not add team, Hapoel beer sheva already taken
+2020-06-01 10:11:10,853 ERROR Error: :Could not add team, Hapoel beer sheva already taken
+2020-06-01 10:11:10,853 ERROR Error: :Could not add team, Hapoel beer sheva already taken
+2020-06-01 10:11:10,853 ERROR Error: :Could not add team, Hapoel beer sheva already taken
+2020-06-01 10:11:10,853 ERROR Error: :Could not add team, Hapoel beer sheva already taken
+2020-06-01 10:11:53,719 ERROR Error: :User doesn't exist
+2020-06-01 10:11:53,719 ERROR Error: :User doesn't exist
+2020-06-01 10:11:53,719 ERROR Error: :User doesn't exist
+2020-06-01 10:11:53,719 ERROR Error: :User doesn't exist
+2020-06-01 10:11:53,719 ERROR Error: :User doesn't exist
+2020-06-01 10:11:53,722 ERROR Error: :User doesn't exist
+2020-06-01 10:11:53,722 ERROR Error: :User doesn't exist
+2020-06-01 10:11:53,722 ERROR Error: :User doesn't exist
+2020-06-01 10:11:53,722 ERROR Error: :User doesn't exist
+2020-06-01 10:11:53,722 ERROR Error: :User doesn't exist
+2020-06-01 10:15:08,397 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,397 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,397 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,397 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,397 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,405 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,405 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,405 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,405 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,405 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,473 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,473 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,473 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,473 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,473 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,482 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,482 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,482 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,482 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,482 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,555 ERROR Error: :User is already following this game
+2020-06-01 10:15:08,555 ERROR Error: :User is already following this game
+2020-06-01 10:15:08,555 ERROR Error: :User is already following this game
+2020-06-01 10:15:08,555 ERROR Error: :User is already following this game
+2020-06-01 10:15:08,555 ERROR Error: :User is already following this game
+2020-06-01 10:15:08,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,567 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,567 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,567 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,567 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,567 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,632 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,632 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,632 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,632 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,632 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,640 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,640 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,640 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,640 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:08,640 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:15,925 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:15,925 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:15,933 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:15,933 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:16,089 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:16,089 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:16,097 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:16,097 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:16,221 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:16,221 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:16,229 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:16,229 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:23,650 ERROR Error: :User doesn't exist
+2020-06-01 10:15:23,650 ERROR Error: :User doesn't exist
+2020-06-01 10:15:23,650 ERROR Error: :User doesn't exist
+2020-06-01 10:15:23,650 ERROR Error: :User doesn't exist
+2020-06-01 10:15:23,666 ERROR Error: :Could not add team, Tiberias already taken
+2020-06-01 10:15:23,666 ERROR Error: :Could not add team, Tiberias already taken
+2020-06-01 10:15:58,823 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:58,823 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:58,823 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:58,823 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:58,823 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:59,171 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:59,171 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:59,171 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:59,171 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:15:59,171 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:09,103 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:09,103 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:09,103 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:09,103 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:09,103 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:09,318 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:09,318 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:09,318 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:09,318 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:09,318 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:19,390 ERROR Error: :User is already following this game
+2020-06-01 10:16:19,390 ERROR Error: :User is already following this game
+2020-06-01 10:16:19,390 ERROR Error: :User is already following this game
+2020-06-01 10:16:19,390 ERROR Error: :User is already following this game
+2020-06-01 10:16:19,390 ERROR Error: :User is already following this game
+2020-06-01 10:16:21,503 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:21,503 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:21,503 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:21,503 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:21,503 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:21,516 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:21,516 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:21,516 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:21,516 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:21,516 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:22,838 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:22,838 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:22,838 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:22,838 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:22,838 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:22,851 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:22,851 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:22,851 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:22,851 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:22,851 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,523 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,523 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,523 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,523 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,523 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,531 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,531 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,531 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,531 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,531 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,599 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,599 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,599 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,599 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,599 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,608 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,608 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,608 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,608 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,608 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,681 ERROR Error: :User is already following this game
+2020-06-01 10:16:29,681 ERROR Error: :User is already following this game
+2020-06-01 10:16:29,681 ERROR Error: :User is already following this game
+2020-06-01 10:16:29,681 ERROR Error: :User is already following this game
+2020-06-01 10:16:29,681 ERROR Error: :User is already following this game
+2020-06-01 10:16:29,686 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,686 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,686 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,686 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,686 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,696 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,696 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,696 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,696 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,696 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,777 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,777 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,777 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,777 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:29,777 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:16:41,201 ERROR Error: :User doesn't exist
+2020-06-01 10:16:41,201 ERROR Error: :User doesn't exist
+2020-06-01 10:16:41,203 ERROR Error: :User doesn't exist
+2020-06-01 10:16:41,203 ERROR Error: :User doesn't exist
+2020-06-01 10:16:41,221 ERROR Error: :Could not add team, Tiberias already taken
+2020-06-01 10:16:41,221 ERROR Error: :Could not add team, Tiberias already taken
+2020-06-01 10:16:56,495 ERROR Error: :User doesn't exist
+2020-06-01 10:16:56,495 ERROR Error: :User doesn't exist
+2020-06-01 10:16:56,495 ERROR Error: :User doesn't exist
+2020-06-01 10:16:56,495 ERROR Error: :User doesn't exist
+2020-06-01 10:16:56,508 ERROR Error: :Could not add team, Tiberias already taken
+2020-06-01 10:16:56,508 ERROR Error: :Could not add team, Tiberias already taken
+2020-06-01 10:17:35,551 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:17:35,551 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:17:35,623 ERROR Error: :User doesn't exist
+2020-06-01 10:17:35,623 ERROR Error: :User doesn't exist
+2020-06-01 10:17:35,624 ERROR Error: :User doesn't exist
+2020-06-01 10:17:35,624 ERROR Error: :User doesn't exist
+2020-06-01 10:17:35,649 ERROR Error: :Could not add team, Tiberias already taken
+2020-06-01 10:17:35,649 ERROR Error: :Could not add team, Tiberias already taken
+2020-06-01 10:18:09,989 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:18:09,989 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:18:15,914 ERROR Error: :User doesn't exist
+2020-06-01 10:18:15,914 ERROR Error: :User doesn't exist
+2020-06-01 10:18:15,915 ERROR Error: :User doesn't exist
+2020-06-01 10:18:15,915 ERROR Error: :User doesn't exist
+2020-06-01 10:19:00,178 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:19:00,178 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:19:27,239 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:19:27,239 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:22:16,687 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:22:16,687 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:22:54,919 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:22:54,919 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:22:54,961 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:22:54,961 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:22:54,996 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:22:54,996 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:22:55,035 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:22:55,035 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:22:55,084 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:22:55,084 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:11,479 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:11,479 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:11,513 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:11,513 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:11,572 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:11,572 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:11,617 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:11,617 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:22,931 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:22,946 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,007 ERROR Error: :expanse can't be a negative number
+2020-06-01 10:24:23,007 ERROR Error: :expanse can't be a negative number
+2020-06-01 10:24:23,010 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,010 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,026 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,026 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,098 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,098 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,098 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,113 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,113 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,113 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,184 ERROR Error: :income can't be a negative number
+2020-06-01 10:24:23,184 ERROR Error: :income can't be a negative number
+2020-06-01 10:24:23,184 ERROR Error: :income can't be a negative number
+2020-06-01 10:24:23,184 ERROR Error: :income can't be a negative number
+2020-06-01 10:24:23,187 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,187 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,187 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,187 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,204 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,204 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,204 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,204 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,318 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,318 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,318 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,318 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,318 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,407 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 10:24:23,407 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 10:24:23,407 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 10:24:23,407 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 10:24:23,407 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 10:24:23,407 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 10:24:23,410 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,410 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,410 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,410 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,410 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,410 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,426 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,426 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,426 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,426 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,426 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,426 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,521 ERROR Error: :User user_nam4 already have a team
+2020-06-01 10:24:23,521 ERROR Error: :User user_nam4 already have a team
+2020-06-01 10:24:23,521 ERROR Error: :User user_nam4 already have a team
+2020-06-01 10:24:23,521 ERROR Error: :User user_nam4 already have a team
+2020-06-01 10:24:23,521 ERROR Error: :User user_nam4 already have a team
+2020-06-01 10:24:23,521 ERROR Error: :User user_nam4 already have a team
+2020-06-01 10:24:23,521 ERROR Error: :User user_nam4 already have a team
+2020-06-01 10:24:23,533 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,533 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,533 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,533 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,533 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,533 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,533 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,549 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,549 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,549 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,549 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,549 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,549 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,549 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,635 ERROR Error: :User owner_with_team already in a team
+2020-06-01 10:24:23,635 ERROR Error: :User owner_with_team already in a team
+2020-06-01 10:24:23,635 ERROR Error: :User owner_with_team already in a team
+2020-06-01 10:24:23,635 ERROR Error: :User owner_with_team already in a team
+2020-06-01 10:24:23,635 ERROR Error: :User owner_with_team already in a team
+2020-06-01 10:24:23,635 ERROR Error: :User owner_with_team already in a team
+2020-06-01 10:24:23,635 ERROR Error: :User owner_with_team already in a team
+2020-06-01 10:24:23,635 ERROR Error: :User owner_with_team already in a team
+2020-06-01 10:24:23,648 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,648 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,648 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,648 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,648 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,648 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,648 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,648 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,665 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,665 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,665 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,665 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,665 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,665 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,665 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,665 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,752 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,752 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,752 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,752 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,752 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,752 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,752 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,752 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,752 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,769 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,769 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,769 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,769 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,769 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,769 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,769 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,769 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,769 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,857 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,857 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,857 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,857 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,857 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,857 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,857 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,857 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,857 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,857 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,874 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,874 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,874 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,874 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,874 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,874 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,874 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,874 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,874 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,874 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,988 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,988 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,988 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,988 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,988 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,988 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,988 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,988 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,988 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,988 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:23,988 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,076 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,076 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,076 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,076 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,076 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,076 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,076 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,076 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,076 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,076 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,076 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,076 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,093 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,093 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,093 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,093 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,093 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,093 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,093 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,093 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,093 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,093 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,093 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,093 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,188 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,188 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,188 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,188 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,188 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,188 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,188 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,188 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,188 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,188 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,188 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,188 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,188 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,206 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,206 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,206 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,206 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,206 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,206 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,206 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,206 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,206 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,206 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,206 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,206 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,206 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,279 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,302 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,429 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,446 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,542 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,634 ERROR Error: :doesnt have manager
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,639 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,657 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,749 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:24:24,767 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 10:40:26,793 ERROR Error: GameAssigningPoliciesEnum.RANDOM:list index out of range
+2020-06-01 10:40:26,793 ERROR Error: GameAssigningPoliciesEnum.RANDOM:list index out of range
+2020-06-01 10:48:34,095 ERROR Error: :League doesn't exists
+2020-06-01 10:48:34,095 ERROR Error: :League doesn't exists
+2020-06-01 10:48:53,524 ERROR Error: :Season doesn't exist
+2020-06-01 10:48:53,524 ERROR Error: :Season doesn't exist
+2020-06-01 10:51:42,953 ERROR Error: :cannot encode object: <Domain.Season.Season object at 0x00000261F27BD438>, of type: <class 'Domain.Season.Season'>
+2020-06-01 10:51:42,953 ERROR Error: :cannot encode object: <Domain.Season.Season object at 0x00000261F27BD438>, of type: <class 'Domain.Season.Season'>
+2020-06-01 10:52:18,301 ERROR Error: :League is already in this season
+
+2020-06-01 10:52:18,301 ERROR Error: :League is already in this season
+
+2020-06-01 10:52:38,634 ERROR Error: :League is already in this season
+
+2020-06-01 10:52:38,634 ERROR Error: :League is already in this season
+
+2020-06-01 10:55:57,982 ERROR Error: :Season with the same season id already exists
+2020-06-01 10:55:57,982 ERROR Error: :Season with the same season id already exists
+2020-06-01 11:01:15,730 ERROR Error: :cannot encode object: <Domain.PointsCalculationPolicy.PointsCalculationPolicy object at 0x000001AE63C9EF60>, of type: <class 'Domain.PointsCalculationPolicy.PointsCalculationPolicy'>
+2020-06-01 11:01:15,730 ERROR Error: :cannot encode object: <Domain.PointsCalculationPolicy.PointsCalculationPolicy object at 0x000001AE63C9EF60>, of type: <class 'Domain.PointsCalculationPolicy.PointsCalculationPolicy'>
+2020-06-01 11:09:09,076 ERROR Error: :Policy doesn't exists
+2020-06-01 11:09:09,076 ERROR Error: :Policy doesn't exists
+2020-06-01 11:12:00,455 ERROR Error: :cannot encode object: <Domain.TeamBudgetPolicy.TeamBudgetPolicy object at 0x000001BE56B110F0>, of type: <class 'Domain.TeamBudgetPolicy.TeamBudgetPolicy'>
+2020-06-01 11:12:00,455 ERROR Error: :cannot encode object: <Domain.TeamBudgetPolicy.TeamBudgetPolicy object at 0x000001BE56B110F0>, of type: <class 'Domain.TeamBudgetPolicy.TeamBudgetPolicy'>
+2020-06-01 11:21:47,168 ERROR Error: :
+2020-06-01 11:21:47,168 ERROR Error: :
+2020-06-01 11:21:47,168 ERROR Error: :
+2020-06-01 11:21:47,172 ERROR Error: :Value less the 0
+2020-06-01 11:21:47,172 ERROR Error: :Value less the 0
+2020-06-01 11:21:47,172 ERROR Error: :Value less the 0
+2020-06-01 11:21:47,186 ERROR Error: :User doesn't exist
+2020-06-01 11:21:47,186 ERROR Error: :User doesn't exist
+2020-06-01 11:21:47,186 ERROR Error: :User doesn't exist
+2020-06-01 11:23:11,772 ERROR Error: :Team is already in union
+2020-06-01 11:23:11,772 ERROR Error: :Team is already in union
+2020-06-01 11:23:11,772 ERROR Error: :Team is already in union
+2020-06-01 11:24:17,252 ERROR Error: :Team is already in union
+2020-06-01 11:24:17,252 ERROR Error: :Team is already in union
+2020-06-01 11:24:17,252 ERROR Error: :Team is already in union
+2020-06-01 11:24:29,370 ERROR Error: :
+2020-06-01 11:24:29,370 ERROR Error: :
+2020-06-01 11:24:29,370 ERROR Error: :
+2020-06-01 11:24:29,374 ERROR Error: :Value less the 0
+2020-06-01 11:24:29,374 ERROR Error: :Value less the 0
+2020-06-01 11:24:29,374 ERROR Error: :Value less the 0
+2020-06-01 11:25:01,622 ERROR Error: :
+2020-06-01 11:25:01,622 ERROR Error: :
+2020-06-01 11:25:01,622 ERROR Error: :
+2020-06-01 11:25:01,626 ERROR Error: :Value less the 0
+2020-06-01 11:25:01,626 ERROR Error: :Value less the 0
+2020-06-01 11:25:01,626 ERROR Error: :Value less the 0
+2020-06-01 11:25:01,650 WARNING Warning: :Tried to remove team Barcelona from union-team not in union
+2020-06-01 11:25:01,650 WARNING Warning: :Tried to remove team Barcelona from union-team not in union
+2020-06-01 11:25:01,650 WARNING Warning: :Tried to remove team Barcelona from union-team not in union
+2020-06-01 11:25:38,121 ERROR Error: :Team is already in union
+2020-06-01 11:25:38,121 ERROR Error: :Team is already in union
+2020-06-01 11:25:38,121 ERROR Error: :Team is already in union
+2020-06-01 11:26:00,090 ERROR Error: :
+2020-06-01 11:26:00,090 ERROR Error: :
+2020-06-01 11:26:00,090 ERROR Error: :
+2020-06-01 11:26:00,096 ERROR Error: :Value less the 0
+2020-06-01 11:26:00,096 ERROR Error: :Value less the 0
+2020-06-01 11:26:00,096 ERROR Error: :Value less the 0
+2020-06-01 11:27:26,696 ERROR Error: :
+2020-06-01 11:27:26,696 ERROR Error: :
+2020-06-01 11:27:26,696 ERROR Error: :
+2020-06-01 11:27:26,699 ERROR Error: :Value less the 0
+2020-06-01 11:27:26,699 ERROR Error: :Value less the 0
+2020-06-01 11:27:26,699 ERROR Error: :Value less the 0
+2020-06-01 11:27:36,159 ERROR Error: :Policy doesn't exists
+2020-06-01 11:27:36,159 ERROR Error: :Policy doesn't exists
+2020-06-01 11:28:11,704 ERROR Error: :Policy doesn't exists
+2020-06-01 11:28:11,704 ERROR Error: :Policy doesn't exists
+2020-06-01 11:29:17,998 ERROR Error: :Policy doesn't exists
+2020-06-01 11:29:17,998 ERROR Error: :Policy doesn't exists
+2020-06-01 11:31:56,220 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,220 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,220 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,220 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,220 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,228 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,228 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,228 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,228 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,228 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,300 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,300 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,300 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,300 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,300 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,308 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,308 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,308 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,308 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,308 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,383 ERROR Error: :User is already following this game
+2020-06-01 11:31:56,383 ERROR Error: :User is already following this game
+2020-06-01 11:31:56,383 ERROR Error: :User is already following this game
+2020-06-01 11:31:56,383 ERROR Error: :User is already following this game
+2020-06-01 11:31:56,383 ERROR Error: :User is already following this game
+2020-06-01 11:31:56,387 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,387 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,387 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,387 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,387 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,395 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,395 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,395 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,395 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,395 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,461 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,461 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,461 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,461 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,461 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,469 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,469 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,469 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,469 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:31:56,469 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:00,153 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:00,153 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:00,162 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:00,162 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:00,299 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:00,299 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:00,307 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:00,307 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:00,435 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:00,435 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:00,443 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:00,443 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:10,868 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:10,868 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:10,917 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:10,917 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:10,954 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:10,954 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:11,002 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:11,002 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:11,047 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:11,047 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:13,966 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:13,981 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,046 ERROR Error: :expanse can't be a negative number
+2020-06-01 11:32:14,046 ERROR Error: :expanse can't be a negative number
+2020-06-01 11:32:14,048 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,048 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,064 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,064 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,143 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,143 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,143 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,166 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,166 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,166 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,264 ERROR Error: :income can't be a negative number
+2020-06-01 11:32:14,264 ERROR Error: :income can't be a negative number
+2020-06-01 11:32:14,264 ERROR Error: :income can't be a negative number
+2020-06-01 11:32:14,264 ERROR Error: :income can't be a negative number
+2020-06-01 11:32:14,268 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,268 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,268 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,268 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,291 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,291 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,291 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,291 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,378 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,378 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,378 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,378 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,378 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,395 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,395 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,395 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,395 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,395 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,465 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 11:32:14,465 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 11:32:14,465 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 11:32:14,465 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 11:32:14,465 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 11:32:14,465 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 11:32:14,468 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,468 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,468 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,468 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,468 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,468 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,485 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,485 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,485 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,485 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,485 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,485 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,564 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:32:14,564 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:32:14,564 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:32:14,564 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:32:14,564 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:32:14,564 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:32:14,564 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:32:14,575 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,575 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,575 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,575 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,575 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,575 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,575 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,590 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,590 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,590 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,590 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,590 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,590 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,590 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,677 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:32:14,677 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:32:14,677 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:32:14,677 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:32:14,677 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:32:14,677 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:32:14,677 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:32:14,677 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:32:14,688 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,688 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,688 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,688 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,688 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,688 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,688 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,688 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,706 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,706 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,706 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,706 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,706 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,706 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,706 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,706 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,822 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,822 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,822 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,822 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,822 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,822 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,822 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,822 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,822 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,845 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,845 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,845 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,845 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,845 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,845 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,845 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,845 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,845 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,929 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,929 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,929 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,929 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,929 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,929 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,929 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,929 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,929 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,929 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,947 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,947 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,947 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,947 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,947 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,947 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,947 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,947 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,947 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:14,947 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,039 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,039 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,039 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,039 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,039 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,039 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,039 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,039 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,039 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,039 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,039 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,055 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,055 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,055 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,055 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,055 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,055 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,055 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,055 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,055 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,055 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,055 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,151 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,151 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,151 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,151 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,151 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,151 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,151 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,151 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,151 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,151 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,151 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,151 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,168 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,168 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,168 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,168 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,168 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,168 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,168 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,168 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,168 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,168 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,168 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,168 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,267 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,267 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,267 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,267 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,267 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,267 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,267 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,267 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,267 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,267 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,267 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,267 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,267 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,284 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,361 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,365 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,386 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,544 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,559 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,643 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,660 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,731 ERROR Error: :doesnt have manager
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,734 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,751 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,852 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:32:15,870 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:35:44,820 ERROR Error: :Season doesn't exist
+2020-06-01 11:35:44,820 ERROR Error: :Season doesn't exist
+2020-06-01 11:35:44,998 ERROR Error: :Season with the same season id already exists
+2020-06-01 11:35:44,998 ERROR Error: :Season with the same season id already exists
+2020-06-01 11:35:45,227 ERROR Error: :
+2020-06-01 11:35:45,227 ERROR Error: :
+2020-06-01 11:35:45,227 ERROR Error: :
+2020-06-01 11:35:45,231 ERROR Error: :Value less the 0
+2020-06-01 11:35:45,231 ERROR Error: :Value less the 0
+2020-06-01 11:35:45,231 ERROR Error: :Value less the 0
+2020-06-01 11:36:53,772 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,772 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,772 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,772 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,772 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,781 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,781 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,781 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,781 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,781 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,851 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,851 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,851 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,851 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,851 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,862 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,862 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,862 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,862 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,862 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,962 ERROR Error: :User is already following this game
+2020-06-01 11:36:53,962 ERROR Error: :User is already following this game
+2020-06-01 11:36:53,962 ERROR Error: :User is already following this game
+2020-06-01 11:36:53,962 ERROR Error: :User is already following this game
+2020-06-01 11:36:53,962 ERROR Error: :User is already following this game
+2020-06-01 11:36:53,967 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,967 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,967 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,967 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,967 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,979 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,979 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,979 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,979 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:53,979 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:54,099 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:54,099 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:54,099 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:54,099 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:54,099 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:54,118 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:54,118 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:54,118 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:54,118 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:54,118 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:59,566 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:59,566 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:59,574 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:59,574 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:59,708 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:59,708 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:59,716 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:59,716 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:59,843 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:59,843 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:59,851 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:36:59,851 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:06,178 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:06,178 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:06,227 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:06,227 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:06,263 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:06,263 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:06,310 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:06,310 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:06,356 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:06,356 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,443 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,459 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,542 ERROR Error: :expanse can't be a negative number
+2020-06-01 11:37:09,542 ERROR Error: :expanse can't be a negative number
+2020-06-01 11:37:09,545 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,545 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,561 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,561 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,642 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,642 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,642 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,658 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,658 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,658 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,742 ERROR Error: :income can't be a negative number
+2020-06-01 11:37:09,742 ERROR Error: :income can't be a negative number
+2020-06-01 11:37:09,742 ERROR Error: :income can't be a negative number
+2020-06-01 11:37:09,742 ERROR Error: :income can't be a negative number
+2020-06-01 11:37:09,745 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,745 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,745 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,745 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,762 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,762 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,762 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,762 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,855 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,855 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,855 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,855 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,855 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,871 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,871 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,871 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,871 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,871 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,968 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 11:37:09,968 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 11:37:09,968 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 11:37:09,968 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 11:37:09,968 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 11:37:09,968 ERROR Error: :User manager_with_team is already in another team
+2020-06-01 11:37:09,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,971 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,991 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,991 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,991 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,991 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,991 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:09,991 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,087 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:37:10,087 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:37:10,087 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:37:10,087 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:37:10,087 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:37:10,087 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:37:10,087 ERROR Error: :User user_nam4 already have a team
+2020-06-01 11:37:10,099 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,099 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,099 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,099 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,099 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,099 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,099 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,117 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,117 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,117 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,117 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,117 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,117 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,117 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,205 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:37:10,205 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:37:10,205 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:37:10,205 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:37:10,205 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:37:10,205 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:37:10,205 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:37:10,205 ERROR Error: :User owner_with_team already in a team
+2020-06-01 11:37:10,217 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,217 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,217 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,217 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,217 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,217 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,217 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,217 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,236 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,236 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,236 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,236 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,236 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,236 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,236 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,236 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,333 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,333 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,333 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,333 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,333 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,333 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,333 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,333 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,333 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,353 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,353 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,353 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,353 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,353 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,353 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,353 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,353 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,353 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,442 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,442 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,442 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,442 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,442 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,442 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,442 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,442 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,442 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,442 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,460 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,460 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,460 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,460 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,460 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,460 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,460 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,460 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,460 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,460 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,569 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,569 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,569 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,569 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,569 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,569 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,569 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,569 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,569 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,569 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,569 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,586 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,586 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,586 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,586 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,586 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,586 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,586 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,586 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,586 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,586 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,586 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,683 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,683 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,683 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,683 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,683 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,683 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,683 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,683 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,683 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,683 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,683 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,683 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,702 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,702 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,702 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,702 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,702 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,702 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,702 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,702 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,702 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,702 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,702 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,702 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,806 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,806 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,806 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,806 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,806 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,806 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,806 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,806 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,806 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,806 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,806 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,806 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,806 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,824 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,824 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,824 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,824 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,824 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,824 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,824 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,824 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,824 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,824 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,824 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,824 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,824 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,918 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,922 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:10,939 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,077 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,096 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,197 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,214 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,300 ERROR Error: :doesnt have manager
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,303 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,321 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,417 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:11,437 ERROR Error: :Team must have at least one Team Owner
+2020-06-01 11:37:15,195 ERROR Error: :Season doesn't exist
+2020-06-01 11:37:15,195 ERROR Error: :Season doesn't exist
+2020-06-01 11:37:15,366 ERROR Error: :Season with the same season id already exists
+2020-06-01 11:37:15,366 ERROR Error: :Season with the same season id already exists
+2020-06-01 11:37:15,564 ERROR Error: :Team is already in union
+2020-06-01 11:37:15,564 ERROR Error: :Team is already in union
+2020-06-01 11:37:15,564 ERROR Error: :Team is already in union
+2020-06-01 11:37:35,643 ERROR Error: :
+2020-06-01 11:37:35,643 ERROR Error: :
+2020-06-01 11:37:35,643 ERROR Error: :
+2020-06-01 11:37:35,646 ERROR Error: :Value less the 0
+2020-06-01 11:37:35,646 ERROR Error: :Value less the 0
+2020-06-01 11:37:35,646 ERROR Error: :Value less the 0
+2020-06-01 11:37:39,821 ERROR Error: :Team is already in union
+2020-06-01 11:37:39,821 ERROR Error: :Team is already in union
+2020-06-01 11:37:39,821 ERROR Error: :Team is already in union
+2020-06-01 11:38:04,085 ERROR Error: :
+2020-06-01 11:38:04,085 ERROR Error: :
+2020-06-01 11:38:04,085 ERROR Error: :
+2020-06-01 11:38:04,090 ERROR Error: :Value less the 0
+2020-06-01 11:38:04,090 ERROR Error: :Value less the 0
+2020-06-01 11:38:04,090 ERROR Error: :Value less the 0
+2020-06-01 11:42:15,016 ERROR Error: :
+2020-06-01 11:42:15,016 ERROR Error: :
+2020-06-01 11:42:15,016 ERROR Error: :
+2020-06-01 11:42:15,020 ERROR Error: :Value less the 0
+2020-06-01 11:42:15,020 ERROR Error: :Value less the 0
+2020-06-01 11:42:15,020 ERROR Error: :Value less the 0
+2020-06-01 11:42:58,649 ERROR Error: :
+2020-06-01 11:42:58,649 ERROR Error: :
+2020-06-01 11:42:58,649 ERROR Error: :
+2020-06-01 11:42:58,653 ERROR Error: :Value less the 0
+2020-06-01 11:42:58,653 ERROR Error: :Value less the 0
+2020-06-01 11:42:58,653 ERROR Error: :Value less the 0
+2020-06-01 11:46:23,751 ERROR Error: :
+2020-06-01 11:46:23,751 ERROR Error: :
+2020-06-01 11:46:23,751 ERROR Error: :
+2020-06-01 11:46:23,756 ERROR Error: :Value less the 0
+2020-06-01 11:46:23,756 ERROR Error: :Value less the 0
+2020-06-01 11:46:23,756 ERROR Error: :Value less the 0
+2020-06-01 11:47:18,407 ERROR Error: :
+2020-06-01 11:47:18,407 ERROR Error: :
+2020-06-01 11:47:18,407 ERROR Error: :
+2020-06-01 11:47:18,411 ERROR Error: :Value less the 0
+2020-06-01 11:47:18,411 ERROR Error: :Value less the 0
+2020-06-01 11:47:18,411 ERROR Error: :Value less the 0
+2020-06-01 11:47:24,168 ERROR Error: :
+2020-06-01 11:47:24,168 ERROR Error: :
+2020-06-01 11:47:24,168 ERROR Error: :
+2020-06-01 11:47:24,172 ERROR Error: :Value less the 0
+2020-06-01 11:47:24,172 ERROR Error: :Value less the 0
+2020-06-01 11:47:24,172 ERROR Error: :Value less the 0
+2020-06-01 11:47:30,995 ERROR Error: :Season doesn't exist
+2020-06-01 11:47:30,995 ERROR Error: :Season doesn't exist
+2020-06-01 11:47:31,171 ERROR Error: :Season with the same season id already exists
+2020-06-01 11:47:31,171 ERROR Error: :Season with the same season id already exists
+2020-06-01 11:47:31,381 ERROR Error: :
+2020-06-01 11:47:31,381 ERROR Error: :
+2020-06-01 11:47:31,381 ERROR Error: :
+2020-06-01 11:47:31,385 ERROR Error: :Value less the 0
+2020-06-01 11:47:31,385 ERROR Error: :Value less the 0
+2020-06-01 11:47:31,385 ERROR Error: :Value less the 0

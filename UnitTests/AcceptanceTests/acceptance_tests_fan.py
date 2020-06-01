@@ -68,14 +68,15 @@ class AcceptanceTestsFan(TestCase):
 
     def tearDown(self):
 
+        self.team_controller.delete_team('Hapoel beer sheva')
+        self.team_controller.delete_team('Maccabi Tel Aviv')
+        self.user_controller.delete_signed_user(self.fan.user_id)
+        self.match_controller.remove_game(self.game.game_id)
+        self.page_controller.remove_page(self.page.page_id)
         self.user_controller.delete_signed_user(self.team_owner1.user_id)
         self.user_controller.delete_signed_user(self.team_owner2.user_id)
         self.user_controller.delete_signed_user(self.referee.user_id)
-        self.user_controller.delete_signed_user(self.fan.user_id)
-        self.team_controller.delete_team('Hapoel beer sheva')
-        self.team_controller.delete_team('Maccabi Tel Aviv')
-        self.match_controller.remove_game(self.game.game_id)
-        self.page_controller.remove_page(self.page.page_id)
+
 
     # UC 3.2
     # TODO: Implement and test

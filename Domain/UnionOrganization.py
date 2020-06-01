@@ -106,3 +106,6 @@ class UnionOrganization:
 
     def is_team_in_union(self, team):
         return team in self.__teams_in_union
+
+    def reset_organization(self):
+        self.__union_DB.init_union()

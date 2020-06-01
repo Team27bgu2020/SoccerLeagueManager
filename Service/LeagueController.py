@@ -161,7 +161,7 @@ class LeagueController:
         try:
             league = self.__league_DB.get(league_id)
             policy = self.__policy_db.get_points_policy(policy_id)
-            league.points_calculation_policy = policy
+            league.points_calculation_policy = policy.policy_id
             self.__league_DB.update(league)
             Logger.info_log("{0}: ".format(user_id) + "update calculation policy ")
         except Exception as err:
@@ -175,7 +175,7 @@ class LeagueController:
         try:
             league = self.__league_DB.get(league_id)
             policy = self.__policy_db.get_schedule_policy(policy_id)
-            league.game_schedule_policy = policy
+            league.game_schedule_policy = policy.policy_id
             self.__league_DB.update(league)
             Logger.info_log("{0}: ".format(user_id) + "update game schedule policy ")
         except Exception as err:
@@ -184,12 +184,12 @@ class LeagueController:
 
     """ This method updates the team budget policy """
 
-    def update_team_budget_policy(self, league_id, policy_id, user_id=""):
+    def update_team_budget_policy_in_league(self, league_id, policy_id, user_id=""):
 
         try:
             league = self.__league_DB.get(league_id)
             policy = self.__policy_db.get_budget_policy(policy_id)
-            league.team_budget_policy = policy
+            league.team_budget_policy = policy.policy_id
             self.__league_DB.update(league)
             Logger.info_log(
                 "{0}: ".format(user_id) + "Update budget policy in league {0}".format(league.name))
