@@ -34,7 +34,15 @@ class MongoPolicyDB:
 
         points_policy_dict = points_policy.__dict__
 
-        self.__point_policy_collection.insert_one(points_policy_dict)
+        query = dict(points_policy_dict)
+
+        query.pop('_PointsCalculationPolicy__policy_id')
+
+        if self.__point_policy_collection.find_one(query) is None:
+            self.__point_policy_collection.insert_one(points_policy_dict)
+
+        else:
+            raise ValueError("Same policy already exists")
 
     def add_schedule_policy(self, schedule_policy):
 
@@ -46,11 +54,28 @@ class MongoPolicyDB:
 
         policy_dict['_GameSchedulePolicy__games_stadium_assigning_policy'] = assign_policy
 
-        self.__schedule_policy_collection.insert_one(policy_dict)
+        query = dict(policy_dict)
+
+        query.pop('_GameSchedulePolicy__policy_id')
+
+        if self.__schedule_policy_collection.find_one(query) is None:
+            self.__schedule_policy_collection.insert_one(policy_dict)
+        else:
+            raise ValueError("Same policy already exists")
 
     def add_budget_policy(self, budget_policy):
 
-        self.__budget_policy_collection.insert_one(budget_policy.__dict__)
+        policy_dict = budget_policy.__dict__
+
+        query = dict(policy_dict)
+
+        query.pop('_TeamBudgetPolicy__policy_id')
+
+
+        if self.__budget_policy_collection.find_one(query) is None:
+            self.__budget_policy_collection.insert_one(policy_dict)
+        else:
+            raise ValueError("Same policy already exists")
 
     def delete_points_policy(self, policy_id):
 
