@@ -158,7 +158,7 @@ def get_user_notifications(mess_info):
 
 def get_logs(mess_info):
     people = []
-    reader = csv.reader(open('../Service/Event_Log.txt'), delimiter='\n')
+    reader = csv.reader(open('../Log/LogFiles/Event_Log.txt'), delimiter='\n')
     for row in reader:
         people.append(row)
     return people
