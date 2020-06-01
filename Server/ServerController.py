@@ -38,6 +38,21 @@ team_management_controller = TeamManagementController(team_db, users_db)
 match_controller = MatchController(game_db, users_db, game_event_db, team_db)
 if not signed_user_controller.confirm_user('dor', '1234'):
     signed_user_controller.add_system_admin('dor', '1234', 'dor', date.datetime(1994, 1, 20))
+
+try:
+    signed_user_controller.add_team_owner('shahar', '1234', 'shahar', date.datetime(1993, 1, 1))
+    signed_user_controller.add_referee(RefereeQualificationEnum.MAIN, 'oscar', '1234', 'oscar', date.datetime(1994, 11, 9))
+    main_referee = signed_user_controller.get_user_by_name('oscar')
+    owner = signed_user_controller.get_user_by_name('shahar')
+
+    team_management_controller.open_new_team('Brca', owner.user_id)
+    team_management_controller.open_new_team('Real', owner.user_id)
+
+    match_controller.add_game('Brca', 'Real', date.datetime.now(), 'S', main_referee.user_id)
+    match_controller.start_game(game_db.get_id_counter() -1)
+
+except Exception:
+    pass
 # user = signed_user_controller.get_user('dor')
 # user.notify('hello 1')
 # user.notify('hello 2')
