@@ -4677,3 +4677,6 @@
 2020-06-01 13:04:37,046 ERROR Error: :User doesn't exist
 2020-06-01 13:04:37,046 ERROR Error: :User doesn't exist
 2020-06-01 13:04:37,046 ERROR Error: :User doesn't exist
+2020-06-01 13:57:32,095 ERROR Error: :Game doesn't exists
+2020-06-01 13:57:32,095 ERROR Error: :Game doesn't exists
+2020-06-01 13:57:32,095 ERROR Error: :Game doesn't exists

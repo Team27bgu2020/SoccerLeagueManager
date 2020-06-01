@@ -13,6 +13,9 @@ from Service.TeamManagementController import TeamManagementController
 from Enums.GameAssigningPoliciesEnum import GameAssigningPoliciesEnum
 from Enums.RefereeQualificationEnum import RefereeQualificationEnum
 from datetime import  datetime
+from Domain.PointsCalculationPolicy import PointsCalculationPolicy
+from Domain.GameSchedulePolicy import GameSchedulePolicy
+from Domain.TeamBudgetPolicy import TeamBudgetPolicy
 
 user_db = MongoUserDB()
 team_db = MongoTeamDB()
@@ -26,13 +29,9 @@ match_cont = MatchController(game_db, user_db, game_event_db, team_db)
 team_cont = TeamManagementController(team_db, user_db)
 user_con = SignedUserController(user_db)
 
-game = game_db.get(1)
-game.main_referee = 15
-game_db.update(game)
-user = Referee(RefereeQualificationEnum.REGULAR, 'ssss', 'ssss', 'ssss', datetime.now(), 15)
-user._Referee__referee_in_games.append(1)
-user_db.add_signed_user(user, 'referee')
-# game_event = match_cont.add_event(1, 112, EventTypeEnum.GOAL, 'Goal!!!', datetime.now(), 22)
+
+policy = PointsCalculationPolicy(2, 12, 2, 13)
+policy_db.add_point_policy(policy)
 
 # game = game_db.get(1)
 # game.remove_event(1)
@@ -45,7 +44,4 @@ user_db.add_signed_user(user, 'referee')
 # game.remove_event(16)
 # game.remove_event(17)
 # game.remove_event(18)
-# game_db.update(game)
-
-match_cont.start_game(1)
 
