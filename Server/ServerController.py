@@ -36,6 +36,11 @@ policy_db = PolicyDB()
 signed_user_controller = SignedUserController(users_db)
 notification_controller = NotificationController(users_db, MongoGameDB())
 team_management_controller = TeamManagementController(team_db, users_db)
+signed_user_controller.add_system_admin('dor', '1234', 'dor', date.datetime(1994, 1, 20))
+# user = signed_user_controller.get_user('dor')
+# user.notify('hello 1')
+# user.notify('hello 2')
+# user.notify('hello 3')
 
 
 def user_login(mess_info):
@@ -45,17 +50,10 @@ def user_login(mess_info):
         return 'Error'
     else:
         user = signed_user_controller.get_user_by_name(user_name)
-        if str(type(user)).split('.')[1] == 'TeamUser':
-            return {
+        return {
                 'user_name': user_name,
                 'user_type': str(type(user.role)).split('.')[1]
-            }
-        else:
-            return {
-                'user_name': user_name,
-                'user_type': str(type(user)).split('.')[1],
-                'user_notification': notification_controller.check_user_notifications(user.user_id)
-            }
+                }
 
 
 def user_register(mess_info):
@@ -151,7 +149,7 @@ def update_user_info(mess_info):
 
 
 def get_user_notifications(mess_info):
-    user_name = mess_info['data']['user_name']
+    user_name = mess_info['user_id']
     try:
         user = signed_user_controller.get_user_by_name(user_name)
         return {
@@ -159,7 +157,7 @@ def get_user_notifications(mess_info):
             'user_notifications': notification_controller.check_user_notifications(user)
         }
     except Exception as err:
-        return err
+        return 'Error'
 
 
 def get_logs(mess_info):
@@ -243,8 +241,13 @@ def confirmation_massage():
 
 def handle_message(message):
     message_info = json.loads(message)
-    print(message_info)
-    return json.dumps(handle_functions[message_info['type']](message_info))
+    answer = handle_functions[message_info['type']](message_info)
+    notifications = handle_functions['get_user_notifications'](message_info)
+    ans_message = {
+        'message': answer,
+        'notifications': notifications
+    }
+    return json.dumps(ans_message)
 
 
 server = create_server(10000)

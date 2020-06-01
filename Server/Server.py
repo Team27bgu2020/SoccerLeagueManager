@@ -12,9 +12,12 @@ class Server:
     """ starts to listen for clients """
     def listen(self):
         while True:
-            message, client_address = self.server_socket.recvfrom(4096)
-            answer = self.handle_message(message)
-            self.send(answer, client_address)
+            try:
+                message, client_address = self.server_socket.recvfrom(4096)
+                answer = self.handle_message(message)
+                self.send(answer, client_address)
+            except:
+                continue
 
     """ sends a message to the given address """
     def send(self, message, address):
