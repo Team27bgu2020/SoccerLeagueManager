@@ -4,16 +4,17 @@ from Enums.GameAssigningPoliciesEnum import GameAssigningPoliciesEnum
 
 class GameSchedulePolicy:
 
-    def __init__(self, team_games_num: int, games_per_week: int, games_stadium_assigning: GameAssigningPoliciesEnum):
+    def __init__(self, team_games_num: int, games_per_week: int, games_stadium_assigning: GameAssigningPoliciesEnum, policy_id):
 
         if type(team_games_num) is not int:
             raise TypeError
         if team_games_num < 0:
             raise ValueError
 
+        self.__policy_id = policy_id
         self.__team_games_num = team_games_num
         self.__games_per_week = games_per_week
-        self.__games_stadium_assigning_policy = games_stadium_assigning
+        self.__assigning_policy = games_stadium_assigning
 
     """ Getter for the number of games that each team plays in the current policy against each of the other teams """
 
@@ -25,9 +26,8 @@ class GameSchedulePolicy:
     """ Getter for the assignment stadium games policy """
 
     @property
-    def team_stadium_assignment_policy(self):
-
-        return self.__games_stadium_assigning_policy
+    def games_stadium_assigning_policy(self):
+        return self.__assigning_policy
 
     """ Getter for the number of games per week """
 

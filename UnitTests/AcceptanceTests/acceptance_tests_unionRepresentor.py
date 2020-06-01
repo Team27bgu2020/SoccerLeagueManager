@@ -3,9 +3,10 @@ from datetime import datetime
 from Domain.Team import Team
 from Domain.League import League
 from Domain.Season import Season
-from DataBases.LeagueDB import LeagueDB
-from DataBases.SeasonDB import SeasonDB
-from DataBases.PolicyDB import PolicyDB
+from DataBases.MongoDB.MongoLeagueDB import MongoLeagueDB
+from DataBases.MongoDB.MongoSeasonDB import MongoSeasonDB
+from DataBases.MongoDB.MongoUsersDB import MongoUserDB
+from DataBases.MongoDB.MongoTeamDB import MongoTeamDB
 from Service.LeagueController import LeagueController
 from Domain.PointsCalculationPolicy import PointsCalculationPolicy
 from Domain.TeamBudgetPolicy import TeamBudgetPolicy
@@ -13,20 +14,56 @@ from Domain.GameSchedulePolicy import GameSchedulePolicy
 from Enums.GameAssigningPoliciesEnum import GameAssigningPoliciesEnum
 from Domain.UnionOrganization import UnionOrganization
 from Service.UnionController import UnionController
+from Service.TeamManagementController import TeamManagementController
+from Service.SignedUserController import SignedUserController
 from Domain.UnionRepresentor import UnionRepresentor
 
 
 class AcceptanceTestsUnionRepresentor(TestCase):
 
-    league_controller = LeagueController(LeagueDB(), SeasonDB(), PolicyDB())
+    league_db = MongoLeagueDB()
+    season_db = MongoSeasonDB()
+    user_db = MongoUserDB()
+    team_db = MongoTeamDB()
+    league_controller = LeagueController(league_db, season_db, user_db)
+    team_controller = TeamManagementController(team_db, user_db)
+    user_controller = SignedUserController(user_db)
 
-    teams = [Team('Real Madrid'), Team('Barcelona'), Team('Liverpool'), Team('Manchester')]
-    pcp = PointsCalculationPolicy(3, 0, -3)
-    gsp = GameSchedulePolicy(2, 4, ['S', 'M'], GameAssigningPoliciesEnum.EQUAL_HOME_AWAY)
-    tbp = TeamBudgetPolicy(50000)
-    season = Season(2020)
+    pcp = {
+        'win_points': 3,
+        'tie_points': 0,
+        'lose_points': -3
+    }
 
-    league = League('Euro', season, pcp, gsp, tbp)
+    gsp = {
+        'team_games_num': 2,
+        'games_per_week': 4,
+        'chosen_days': ['S', 'M'],
+        'games_stadium_assigning': GameAssigningPoliciesEnum.EQUAL_HOME_AWAY
+    }
+
+    tbp = {
+        'min_amount': 50000
+    }
+
+    def setUp(self):
+
+        self.user_controller.add_team_owner('rm_owner', '1234', 'owner', datetime.now())
+        self.rm_owner = self.user_controller.get_user_by_name('rm_owner')
+        self.user_controller.add_team_owner('barca_owner', '1234', 'owner', datetime.now())
+        self.barca_owner = self.user_controller.get_user_by_name('barca_owner')
+        self.user_controller.add_team_owner('lp_owner', '1234', 'owner', datetime.now())
+        self.lp_owner = self.user_controller.get_user_by_name('lp_owner')
+        self.user_controller.add_team_owner('manch_owner', '1234', 'owner', datetime.now())
+        self.manch_owner = self.user_controller.get_user_by_name('manch_owner')
+
+        self.team_controller.open_new_team('Real Madrid', self.rm_owner.user_id)
+        self.team_controller.open_new_team('Barcelona', self.barca_owner.user_id)
+        self.team_controller.open_new_team('Liverpool', self.lp_owner.user_id)
+        self.team_controller.open_new_team('Manchester', self.manch_owner.user_id)
+
+        self.league_controller.create_new_season(2020)
+        self.league_controller.create_new_league('Euro', 2020, self.pcp, self.gsp, self.tbp)
 
     # U.C 9.1, 9.5
     def test_create_new_league(self):

@@ -69,6 +69,9 @@ class ComplaintController:
             Logger.error_log("{0}:".format(user_id) + err.__str__())
             raise err
 
+    def delete_complaint(self, complaint_id):
+        self.__complaints_DB.delete(complaint_id)
+
     def update_counter(self):
         self.__complaint_ID += 1
         self.__complaints_DB.update_id_counter(self.__complaint_ID)

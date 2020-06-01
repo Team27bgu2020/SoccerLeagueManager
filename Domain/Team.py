@@ -5,22 +5,44 @@ from Domain.TeamBudget import TeamBudget
 
 class Team:
 
-    def __init__(self, name, team_members=[], stadium=None, upcoming_games=[], past_games=[], leagues={}, owners=[], managers=[], is_open=True, team_budget=TeamBudget()):
+    def __init__(self, name, team_members=None, stadium=None, upcoming_games=None, past_games=None, leagues=None, owners=None, managers=None, is_open=True, team_budget=None):
 
         if type(name) is not str:
             raise TypeError
 
         self.__team_members = []
-        self.add_team_members(team_members)
+        if team_members is not None:
+            self.add_team_members(team_members)
+
         self.__name = name
-        self.__upcoming_games = upcoming_games
-        self.__past_games = past_games
-        self.__leagues = leagues
+
+        self.__upcoming_games = []
+        if upcoming_games is not None:
+            self.__upcoming_games = upcoming_games
+
+        self.__past_games = []
+        if past_games is not None:
+            self.__past_games = past_games
+
+        self.__leagues = {}
+        if leagues is not None:
+            self.__leagues = leagues
+
         self.__stadium = stadium
-        self.__owners = owners
-        self.__managers = managers
+
+        self.__owners = []
+        if owners is not None:
+            self.__owners = owners
+
+        self.__managers = []
+        if managers is not None:
+            self.__managers = managers
+
         self.__is_open = is_open
-        self.__budget_manager = team_budget
+
+        self.__budget_manager = TeamBudget()
+        if team_budget is not None:
+            self.__budget_manager = team_budget
 
     """ This method adds a new season """
 

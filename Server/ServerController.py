@@ -1,27 +1,18 @@
 import json
-import hashlib
+
+from DataBases.MongoDB.MongoLeagueDB import MongoLeagueDB
+from DataBases.MongoDB.MongoSeasonDB import MongoSeasonDB
 from Server import Server
 from Service.SignedUserController import SignedUserController
-from Service.ComplaintController import ComplaintController
 from Service.LeagueController import LeagueController
-from Service.MatchController import MatchController
-from Service.PageController import PageController
 from Service.TeamManagementController import TeamManagementController
-from Service.UnionController import UnionController
 from Service.NotificationsController import NotificationController
 
 from DataBases.MongoDB.MongoUsersDB import MongoUserDB
-from DataBases.PolicyDB import PolicyDB
-from DataBases.ComplaintDB import ComplaintDB
+from DataBases.MongoDB.MongoPolicyDB import MongoPolicyDB
 from DataBases.MongoDB.MongoGameDB import MongoGameDB
-from DataBases.LeagueDB import LeagueDB
-from DataBases.PageDB import PageDB
-from DataBases.SeasonDB import SeasonDB
 from DataBases.MongoDB.MongoTeamDB import MongoTeamDB
 
-from Domain.GameSchedulePolicy import GameSchedulePolicy
-from Domain.PointsCalculationPolicy import PointsCalculationPolicy
-from Domain.TeamBudgetPolicy import TeamBudgetPolicy
 from Enums.GameAssigningPoliciesEnum import GameAssigningPoliciesEnum
 from Enums.RefereeQualificationEnum import RefereeQualificationEnum
 
@@ -32,7 +23,10 @@ import csv
 
 users_db = MongoUserDB()
 team_db = MongoTeamDB()
-policy_db = PolicyDB()
+policy_db = MongoPolicyDB()
+league_db = MongoLeagueDB()
+season_db = MongoSeasonDB()
+league_controller = LeagueController(league_db, season_db, users_db, policy_db)
 signed_user_controller = SignedUserController(users_db)
 notification_controller = NotificationController(users_db, MongoGameDB())
 team_management_controller = TeamManagementController(team_db, users_db)
@@ -174,9 +168,8 @@ def add_policy(mess_info):
         points_win = mess_info['data']['pointsWin']
         points_draw = mess_info['data']['pointsDraw']
         points_lose = mess_info['data']['pointsLose']
-        points_policy = PointsCalculationPolicy(points_win, points_draw, points_lose)
         try:
-            policy_db.add(points_policy)
+            league_controller.create_points_policy(points_win, points_draw, points_lose)
         except:
             return 'Error policy exists'
     elif policy_type == 'games':
@@ -189,18 +182,54 @@ def add_policy(mess_info):
             games_policy_enum = GameAssigningPoliciesEnum('Equal')
         else:
             return 'Error'
-        game_policy = GameSchedulePolicy(int(game_against_each_team), games_per_week, games_policy_enum)
         try:
-            policy_db.add(game_policy)
+            league_controller.create_game_schedule_policy(int(game_against_each_team), int(games_per_week), games_policy_enum)
         except:
             return 'Error policy exists'
     elif policy_type == 'budget':
         min_budget = mess_info['data']['min_budget']
-        budget_policy = TeamBudgetPolicy(min_budget)
         try:
-            policy_db.add(budget_policy)
+            league_controller.create_team_budget_policy(min_budget)
         except:
             return 'Error policy exists'
+
+
+def get_policy(mess_info):
+    policy_type = mess_info['data']
+    if policy_type == 'Budget':
+        policies = league_controller.get_all_budget_policies()
+        policies_final = []
+        for policy in policies:
+            poli = {
+                'Policy ID': str(policy._TeamBudgetPolicy__policy_id),
+                'Min Amount': policy.min_amount,
+            }
+            policies_final.append(poli)
+        return policies_final
+    if policy_type == 'Points':
+        policies = league_controller.get_all_points_policies()
+        policies_final = []
+        for policy in policies:
+            poli = {
+                'Policy ID': str(policy._PointsCalculationPolicy__policy_id),
+                'Win Points': policy.win_points,
+                'Draw Points': policy.tie_points,
+                'Lose Points': policy.lose_points,
+            }
+            policies_final.append(poli)
+        return policies_final
+    if policy_type == 'Games':
+        policies = league_controller.get_all_schedule_policies()
+        policies_final = []
+        for policy in policies:
+            poli = {
+                'Policy ID': str(policy._GameSchedulePolicy__policy_id),
+                'Games against each team': str(policy.team_games_num),
+                'Games per week': str(policy.games_per_week),
+                'Stadium': str(policy.games_stadium_assigning_policy).split('.')[1]
+            }
+            policies_final.append(poli)
+        return policies_final
 
 
 def add_team(mess_info):
@@ -210,6 +239,49 @@ def add_team(mess_info):
         team_management_controller.open_new_team(team_name, signed_user_controller.get_user_by_name(user).user_id)
     except:
         return 'Error'
+
+
+def get_all_users(mess_info):
+    all_users = signed_user_controller.get_all_signed_users()
+    all_users_final = []
+    for user in all_users:
+        mr_user = {
+            'user_id': str(user.user_id),
+            'user_name': user.user_name,
+            'name': user.name,
+            'birth_date': user.birth_date.strftime("%Y-%m-%d"),
+            'role': str(type(user)).split('.')[1],
+        }
+        all_users_final.append(mr_user)
+    return all_users_final
+
+
+def get_all_refs(mess_info):
+    all_refs = signed_user_controller.get_all_signed_users()
+    all_refs_final = []
+    for user in all_refs:
+        if str(type(user)).split('.')[1] == 'Referee':
+            mr_ref = {
+                'User ID': str(user.user_id),
+                'Username': user.user_name,
+                'Qualification': str(user.qualification).split('.')[1],
+                'Name': user.name,
+                'Birth date': user.birth_date.strftime("%Y-%m-%d"),
+            }
+            all_refs_final.append(mr_ref)
+    return all_refs_final
+
+def get_all_teams(mess_info):
+    all_teams = team_management_controller.get_all_teams()
+    all_teams_final = []
+    for team in all_teams:
+        the_team = {
+            'Team name': team.name,
+            'Stadium': team.stadium,
+            'Is open?': str(team.is_open),
+        }
+        all_teams_final.append(the_team)
+    return all_teams_final
 
 
 """ dictionary of all the handle functions - add your function to the dictionary """
@@ -224,6 +296,10 @@ handle_functions = {
     'get_logs': get_logs,
     'add_policy': add_policy,
     'add_team': add_team,
+    'get_users': get_all_users,
+    'get_teams': get_all_teams,
+    'get_refs': get_all_refs,
+    'get_policy': get_policy,
 }
 
 

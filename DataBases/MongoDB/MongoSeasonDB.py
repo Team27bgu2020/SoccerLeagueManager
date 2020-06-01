@@ -24,7 +24,7 @@ class MongoSeasonDB:
     def add(self, season):
 
         if self.is_season_in_db(season.year):
-            raise ValueError("Game with the same game id already exists")
+            raise ValueError("Season with the same season id already exists")
 
         season_dict = season.__dict__
 

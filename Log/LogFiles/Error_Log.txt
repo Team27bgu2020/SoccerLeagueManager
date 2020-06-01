@@ -327,3 +327,6 @@
 2020-05-26 18:46:21,624 ERROR Error: :
 2020-05-26 18:46:21,624 ERROR Error: :
 2020-05-26 18:46:21,624 ERROR Error: :
+2020-05-31 14:11:48,719 ERROR Error: :Policy doesn't exists
+2020-05-31 14:12:08,759 ERROR Error: :Season with the same season id already exists
+2020-05-31 14:12:33,448 ERROR Error: :'int' object is not subscriptable
