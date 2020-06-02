@@ -51,7 +51,7 @@ try:
     match_controller.add_game('Brca', 'Real', date.datetime.now(), 'S', main_referee.user_id)
     match_controller.start_game(game_db.get_id_counter() -1)
 
-except Exception:
+except Exception as err:
     pass
 # user = signed_user_controller.get_user('dor')
 # user.notify('hello 1')
@@ -179,9 +179,12 @@ def get_user_notifications(mess_info):
     user_name = mess_info['user_id']
     try:
         user = signed_user_controller.get_user_by_name(user_name)
+        notifications = notification_controller.check_user_notifications(user.user_id)
+        if len(notifications) == 0:
+            notifications = ''
         return {
             'user_name': user_name,
-            'user_notifications': notification_controller.check_user_notifications(user)
+            'user_notifications': notifications
         }
     except Exception as err:
         return 'Error'
