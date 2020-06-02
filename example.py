@@ -29,7 +29,7 @@ match_cont = MatchController(game_db, user_db, game_event_db, team_db)
 team_cont = TeamManagementController(team_db, user_db)
 user_con = SignedUserController(user_db)
 
-match_cont.edit_game(1, field="Netanya", match_time=datetime.now())
+match_cont.edit_game(1, field="Tiberius", match_time=datetime.now())
 
 # game = game_db.get(1)
 # game.remove_event(1)

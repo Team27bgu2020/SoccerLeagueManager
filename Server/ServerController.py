@@ -182,10 +182,7 @@ def get_user_notifications(mess_info):
         notifications = notification_controller.check_user_notifications(user.user_id)
         if len(notifications) == 0:
             notifications = ''
-        return {
-            'user_name': user_name,
-            'user_notifications': notifications
-        }
+        return notifications
     except Exception as err:
         return 'Error'
 

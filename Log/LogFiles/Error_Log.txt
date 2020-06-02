@@ -5018,3 +5018,45 @@
 2020-06-02 18:43:04,525 ERROR Error: :User name already taken
 2020-06-02 18:43:04,525 ERROR Error: :User name already taken
 2020-06-02 18:43:04,525 ERROR Error: :User name already taken
+2020-06-02 19:28:46,231 ERROR Error: :User name already taken
+2020-06-02 19:28:46,231 ERROR Error: :User name already taken
+2020-06-02 19:28:46,231 ERROR Error: :User name already taken
+2020-06-02 19:28:46,231 ERROR Error: :User name already taken
+2020-06-02 19:28:46,231 ERROR Error: :User name already taken
+2020-06-02 19:29:45,908 ERROR Error: :User name already taken
+2020-06-02 19:29:45,908 ERROR Error: :User name already taken
+2020-06-02 19:29:45,908 ERROR Error: :User name already taken
+2020-06-02 19:29:45,908 ERROR Error: :User name already taken
+2020-06-02 19:29:45,908 ERROR Error: :User name already taken
+2020-06-02 19:30:27,641 ERROR Error: :User name already taken
+2020-06-02 19:30:27,641 ERROR Error: :User name already taken
+2020-06-02 19:30:27,641 ERROR Error: :User name already taken
+2020-06-02 19:30:27,641 ERROR Error: :User name already taken
+2020-06-02 19:30:27,641 ERROR Error: :User name already taken
+2020-06-02 19:35:34,963 ERROR Error: :User name already taken
+2020-06-02 19:35:34,963 ERROR Error: :User name already taken
+2020-06-02 19:35:34,963 ERROR Error: :User name already taken
+2020-06-02 19:35:34,963 ERROR Error: :User name already taken
+2020-06-02 19:35:34,963 ERROR Error: :User name already taken
+2020-06-02 19:39:21,119 ERROR Error: {}:'datetime.datetime' object has no attribute 'toPyDate'
+2020-06-02 19:39:21,119 ERROR Error: {}:'datetime.datetime' object has no attribute 'toPyDate'
+2020-06-02 19:39:21,119 ERROR Error: {}:'datetime.datetime' object has no attribute 'toPyDate'
+2020-06-02 19:39:31,726 ERROR Error: {}:'datetime.datetime' object has no attribute 'toPyDate'
+2020-06-02 19:39:31,726 ERROR Error: {}:'datetime.datetime' object has no attribute 'toPyDate'
+2020-06-02 19:39:31,726 ERROR Error: {}:'datetime.datetime' object has no attribute 'toPyDate'
+2020-06-02 19:39:43,071 ERROR Error: {}:'datetime.datetime' object has no attribute 'toPyDate'
+2020-06-02 19:39:43,071 ERROR Error: {}:'datetime.datetime' object has no attribute 'toPyDate'
+2020-06-02 19:39:43,071 ERROR Error: {}:'datetime.datetime' object has no attribute 'toPyDate'
+2020-06-02 19:40:20,327 ERROR Error: :User name already taken
+2020-06-02 19:40:20,327 ERROR Error: :User name already taken
+2020-06-02 19:40:20,327 ERROR Error: :User name already taken
+2020-06-02 19:40:20,327 ERROR Error: :User name already taken
+2020-06-02 19:40:20,327 ERROR Error: :User name already taken
+2020-06-02 19:40:39,352 ERROR Error: {}:'datetime.datetime' object has no attribute 'toPyDate'
+2020-06-02 19:40:39,352 ERROR Error: {}:'datetime.datetime' object has no attribute 'toPyDate'
+2020-06-02 19:40:39,352 ERROR Error: {}:'datetime.datetime' object has no attribute 'toPyDate'
+2020-06-02 19:41:32,423 ERROR Error: :User name already taken
+2020-06-02 19:41:32,423 ERROR Error: :User name already taken
+2020-06-02 19:41:32,423 ERROR Error: :User name already taken
+2020-06-02 19:41:32,423 ERROR Error: :User name already taken
+2020-06-02 19:41:32,423 ERROR Error: :User name already taken
