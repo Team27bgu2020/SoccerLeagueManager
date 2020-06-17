@@ -51,6 +51,5 @@ class NotificationController:
         return notifications
 
     def clear_seen_notifications_from_user(self, user, notifications):
-        for notification in user.notifications:
-            if notification in notifications:
-                user.notifications.remove(notification)
+        for notification in notifications:
+            user.notifications.remove(notification)

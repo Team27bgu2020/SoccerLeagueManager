@@ -169,6 +169,8 @@ class MatchController:
                     "{0}:".format(user_id) + "started game between {0} and {1} at the {2} ".format(game.home_team,
                                                                                                game.away_team,
                                                                                                game.match_time))
+            else:
+                raise Exception('Its not the time the game booked for')
         except Exception as err:
             Logger.error_log("{0}:".format(user_id) + err.__str__())
             raise err
@@ -189,46 +191,34 @@ class MatchController:
     def edit_game(self, game_id, home_team=None, away_team=None, match_time=None, field=None, referees=None, main_referee=None, user_id=""):
 
         try:
-            is_match_time_changed = True
-            is_field_changed = True
+            is_match_time_changed = False
+            is_field_changed = False
 
             old_game = self.__game_DB.get(game_id)
-            if home_team is None:
-                home_team = old_game.home_team
-            if away_team is None:
-                away_team = old_game.away_team
-            if match_time is None or match_time == old_game.match_time:
-                match_time = old_game.match_time
-                is_match_time_changed = False
-            if field is None or field == old_game.field:
-                field = old_game.field
-                is_field_changed = False
-            if referees is None:
-                referees = old_game.referees
-            if main_referee is None:
-                main_referee = old_game.main_referee
+            if home_team is not None:
+                old_game.home_team = home_team
+            if away_team is not None:
+                old_game.away_team = away_team
+            if match_time is not None and match_time != old_game.match_time:
+                old_game.match_time = match_time
+                is_match_time_changed = True
+            if field is not None and field != old_game.field:
+                old_game.field = field
+                is_field_changed = True
+            if referees is not None:
+                old_game.referees = referees
+            if main_referee is not None:
+                old_game.main_referee = main_referee
 
-            new_game = Game(game_id, home_team, away_team, match_time, field)
-            new_game.referees = referees
-            new_game.main_referee = main_referee
-
-            self.__game_DB.delete(game_id)
-            self.__game_DB.add(new_game)
+            self.__game_DB.update(old_game)
 
             if is_match_time_changed:
-                self.notify_referees(new_game, 'Game date and time changed to {}'.format(match_time))
+                self.notify_referees(old_game, 'Game date and time changed to {}'.format(match_time))
             if is_field_changed:
-                self.notify_referees(new_game, 'Game location changed to {} field'.format(field))
+                self.notify_referees(old_game, 'Game location changed to {} field'.format(field))
 
         except Exception as err:
-            try:
-                self.__game_DB.get(game_id)
-                self.__game_DB.delete(game_id)
-                self.__game_DB.add(old_game)
-            except ValueError as err2:
-                self.__game_DB.add(old_game)
-            finally:
-                Logger.error_log('{}:' + str(err))
+            Logger.error_log('{}:' + str(err))
 
     def add_referee_to_game(self, game_id, referee_id, user_id=""):
 
