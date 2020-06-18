@@ -43,21 +43,11 @@ rows = ["country_id", "league_id", "season", "stage", "date", "match_api_id", "h
         "away_player_2", "away_player_3", "away_player_4", "away_player_5", "away_player_6",
         "away_player_7", "away_player_8", "away_player_9", "away_player_10", "away_player_11"]
 match_df.dropna(subset=rows, inplace=True)
-match_data = match_df
+match_data = match_df.tail(1500)
 
 
-# n_matches = match_df.shape[0]
-# n_features = match_df.shape[1] - 1
-# n_home_wins = len(match_df[match_df.FTR == 'Win'])
-# win_rate = (float(n_home_wins) / (n_matches) * 100)
-#
-# print("total num of matches: {}".format(n_matches))
-# print("Number of features: {}".format(n_features))
-# print("Number of matches won by home team: {}".format(n_home_wins))
-# print("Win rate of home team: {:.2f}%".format(win_rate))
-
-
-def get_last_matches(matches, date, team, x=4):
+# features functions
+def get_last_matches(matches, date, team, x=5):
     ''' Get the last x matches of a given team. '''
 
     # Filter team matches from matches
@@ -70,7 +60,7 @@ def get_last_matches(matches, date, team, x=4):
     return last_matches
 
 
-def get_last_matches_against_eachother(matches, date, home_team, away_team, x=4):
+def get_last_matches_against_eachother(matches, date, home_team, away_team, x=5):
     ''' Get the last x matches of two given teams. '''
 
     # Find matches of both teams
@@ -132,22 +122,6 @@ def get_wins(matches, team):
 
     # Return total wins
     return total_wins
-
-
-def get_build_up_play_speed(teams, team, date, x=1):
-    ''' Get the last x matches of a given team. '''
-
-    # Filter team from teams
-    team_stats = teams[(teams['team_api_id'] == team)]
-
-    # Filter x last forms from teams build up plays
-    last_play = team_stats[team_stats.date < date].sort_values(by='date', ascending=False).iloc[0:x, :]
-    try:
-        play_speed = int(last_play.buildUpPlaySpeed)
-    except:
-        return 40
-    # Return last matches
-    return play_speed
 
 
 def get_buildUp_stats(teams, team, date, x=1):
@@ -276,8 +250,6 @@ def get_match_features(match, matches, teams, x=10):
     result.loc[0, 'games_won_away_team'] = get_wins(matches_away_team, away_team)
     result.loc[0, 'games_against_won'] = get_wins(last_matches_against, home_team)
     result.loc[0, 'games_against_lost'] = get_wins(last_matches_against, away_team)
-    result.loc[0, 'home_build_up_play'] = get_build_up_play_speed(teams, home_team, date)
-    result.loc[0, 'away_build_up_play'] = get_build_up_play_speed(teams, away_team, date)
     result.loc[0, 'home_buildUp_stats'] = home_buildUp_stats
     result.loc[0, 'away_buildUp_stats'] = away_buildUp_stats
     result.loc[0, 'home_chanceCreation_stats'] = home_chanceCreation_stats
@@ -371,7 +343,7 @@ y_all = features['label']
 cols = [['home_team_goals_difference', 'away_team_goals_difference', 'games_won_home_team', 'games_won_away_team',
          'games_against_won', 'games_against_lost', 'home_buildUp_stats', 'away_buildUp_stats',
          'home_chanceCreation_stats', 'away_chanceCreation_stats', 'home_defense_stats', 'away_defense_stats',
-         'home_build_up_play', 'away_build_up_play', 'home_overall_stats', 'away_overall_stats']]
+         'home_overall_stats', 'away_overall_stats']]
 for col in cols:
     X_all[col] = scale(X_all[col])
 
@@ -380,8 +352,8 @@ display(X_all.head())
 
 # Shuffle and split the dataset into training and testing set.
 X_train, X_test, y_train, y_test = train_test_split(X_all, y_all,
-                                                    test_size=0.25,
-                                                    random_state=42,
+                                                    test_size=0.2,
+                                                    random_state=123,
                                                     stratify=y_all)
 
 
@@ -443,9 +415,9 @@ clf_A = LogisticRegression(random_state=42, multi_class="multinomial")
 clf_B = SVC(random_state=912, kernel='rbf')
 # Boosting refers to this general problem of producing a very accurate prediction rule
 # by combining rough and moderately inaccurate rules-of-thumb
-clf_C = xgb.XGBClassifier(max_depth=5, objective='multi:softmax', n_estimators=1000)
-RF_clf = RandomForestClassifier(n_estimators=200, random_state=1, class_weight='balanced')
-GNB_clf = GaussianNB()
+clf_C = xgb.XGBClassifier(max_depth=7, objective='multi:softmax', n_estimators=1000)
+# RF_clf = RandomForestClassifier(n_estimators=200, random_state=1, class_weight='balanced')
+# GNB_clf = GaussianNB()
 
 train_predict(clf_A, X_train, y_train, X_test, y_test)
 print('')
@@ -453,10 +425,10 @@ train_predict(clf_B, X_train, y_train, X_test, y_test)
 print('')
 train_predict(clf_C, X_train, y_train, X_test, y_test)
 print('')
-train_predict(RF_clf, X_train, y_train, X_test, y_test)
-print('')
-train_predict(GNB_clf, X_train, y_train, X_test, y_test)
-print('')
+# train_predict(RF_clf, X_train, y_train, X_test, y_test)
+# print('')
+# train_predict(GNB_clf, X_train, y_train, X_test, y_test)
+# print('')
 
 # # tuning in XGBoost
 # parameters = {'learning_rate': [0.1],
