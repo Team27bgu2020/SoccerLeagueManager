@@ -416,7 +416,7 @@ clf_A = LogisticRegression(random_state=42, multi_class="multinomial")
 clf_B = SVC(random_state=912, kernel='rbf')
 # Boosting refers to this general problem of producing a very accurate prediction rule
 # by combining rough and moderately inaccurate rules-of-thumb
-clf_C = xgb.XGBClassifier(max_depth=5, objective='multi:softmax', n_estimators=500)
+clf_C = xgb.XGBClassifier(max_depth=4, objective='multi:softmax', n_estimators=150)
 # RF_clf = RandomForestClassifier(n_estimators=200, random_state=1, class_weight='balanced')
 # GNB_clf = GaussianNB()
 
