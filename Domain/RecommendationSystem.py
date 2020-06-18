@@ -2,6 +2,7 @@ import sqlite3
 from time import time
 
 import pandas as pd
+from sklearn.naive_bayes import GaussianNB
 from sklearn.preprocessing import LabelEncoder
 import numpy as np
 from sklearn.model_selection import KFold
@@ -42,7 +43,7 @@ rows = ["country_id", "league_id", "season", "stage", "date", "match_api_id", "h
         "away_player_2", "away_player_3", "away_player_4", "away_player_5", "away_player_6",
         "away_player_7", "away_player_8", "away_player_9", "away_player_10", "away_player_11"]
 match_df.dropna(subset=rows, inplace=True)
-match_data = match_df.tail(5000)
+match_data = match_df
 
 
 # n_matches = match_df.shape[0]
@@ -151,7 +152,7 @@ def get_build_up_play_speed(teams, team, date, x=1):
 
 def get_buildUp_stats(teams, team, date, x=1):
     ''' Get the last x matches of a given team. '''
-
+    overall_stats = 0
     # Filter team from teams
     team_stats = teams[(teams['team_api_id'] == team)]
 
@@ -159,18 +160,26 @@ def get_buildUp_stats(teams, team, date, x=1):
     last_play = team_stats[team_stats.date < date].sort_values(by='date', ascending=False).iloc[0:x, :]
     try:
         play_speed = int(last_play.buildUpPlaySpeed)
-        play_dribble = int(last_play.buildUpPlayDribbling)
-        play_pass = int(last_play.buildUpPlayPassing)
+        overall_stats += play_speed
     except:
-        return 120
+        overall_stats += 40
+    try:
+        play_dribble = int(last_play.buildUpPlayDribbling)
+        overall_stats += play_dribble
+    except:
+        overall_stats += 40
+    try:
+        play_pass = int(last_play.buildUpPlayPassing)
+        overall_stats += play_pass
+    except:
+        overall_stats += 40
     # Return last matches
-    overall_build_up = play_speed + play_dribble + play_pass
-    return overall_build_up
+    return overall_stats
 
 
 def get_chance_creation_stats(teams, team, date, x=1):
     ''' Get the last x matches of a given team. '''
-
+    overall_stats = 0
     # Filter team from teams
     team_stats = teams[(teams['team_api_id'] == team)]
 
@@ -178,18 +187,26 @@ def get_chance_creation_stats(teams, team, date, x=1):
     last_play = team_stats[team_stats.date < date].sort_values(by='date', ascending=False).iloc[0:x, :]
     try:
         passing = int(last_play.chanceCreationPassing)
-        crossing = int(last_play.chanceCreationCrossing)
-        shooting = int(last_play.chanceCreationShooting)
+        overall_stats += passing
     except:
-        return 120
+        overall_stats += 40
+    try:
+        crossing = int(last_play.chanceCreationCrossing)
+        overall_stats += crossing
+    except:
+        overall_stats += 40
+    try:
+        shooting = int(last_play.chanceCreationShooting)
+        overall_stats += shooting
+    except:
+        overall_stats += 40
     # Return last matches
-    overall_chance_creation = passing + crossing + shooting
-    return overall_chance_creation
+    return overall_stats
 
 
 def get_defense_stats(teams, team, date, x=1):
     ''' Get the last x matches of a given team. '''
-
+    overall_stats = 0
     # Filter team from teams
     team_stats = teams[(teams['team_api_id'] == team)]
 
@@ -197,13 +214,21 @@ def get_defense_stats(teams, team, date, x=1):
     last_play = team_stats[team_stats.date < date].sort_values(by='date', ascending=False).iloc[0:x, :]
     try:
         pressure = int(last_play.defencePressure)
-        aggression = int(last_play.defenceAggression)
-        team_width = int(last_play.defenceTeamWidth)
+        overall_stats += pressure
     except:
-        return 115
+        overall_stats += 35
+    try:
+        aggression = int(last_play.defenceAggression)
+        overall_stats += aggression
+    except:
+        overall_stats += 40
+    try:
+        team_width = int(last_play.defenceTeamWidth)
+        overall_stats += team_width
+    except:
+        overall_stats += 40
     # Return last matches
-    overall_defense = pressure + aggression + team_width
-    return overall_defense
+    return overall_stats
 
 
 def get_match_features(match, matches, teams, x=10):
@@ -355,8 +380,8 @@ display(X_all.head())
 
 # Shuffle and split the dataset into training and testing set.
 X_train, X_test, y_train, y_test = train_test_split(X_all, y_all,
-                                                    test_size=100,
-                                                    random_state=2,
+                                                    test_size=0.25,
+                                                    random_state=42,
                                                     stratify=y_all)
 
 
@@ -414,17 +439,23 @@ def train_predict(clf, X_train, y_train, X_test, y_test):
 
 
 # Initialize the three models (XGBoost is initialized later)
-clf_A = LogisticRegression(random_state=42)
+clf_A = LogisticRegression(random_state=42, multi_class="multinomial")
 clf_B = SVC(random_state=912, kernel='rbf')
 # Boosting refers to this general problem of producing a very accurate prediction rule
 # by combining rough and moderately inaccurate rules-of-thumb
-clf_C = xgb.XGBClassifier(seed=82)
+clf_C = xgb.XGBClassifier(max_depth=5, objective='multi:softmax', n_estimators=1000)
+RF_clf = RandomForestClassifier(n_estimators=200, random_state=1, class_weight='balanced')
+GNB_clf = GaussianNB()
 
 train_predict(clf_A, X_train, y_train, X_test, y_test)
 print('')
 train_predict(clf_B, X_train, y_train, X_test, y_test)
 print('')
 train_predict(clf_C, X_train, y_train, X_test, y_test)
+print('')
+train_predict(RF_clf, X_train, y_train, X_test, y_test)
+print('')
+train_predict(GNB_clf, X_train, y_train, X_test, y_test)
 print('')
 
 # # tuning in XGBoost
