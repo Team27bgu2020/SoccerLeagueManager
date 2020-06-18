@@ -334,6 +334,7 @@ display(cols)
 # Separate into feature set and target variable
 # FTR = Full Time Result (H=Home Win, D=Draw, A=Away Win)
 X_all = features.drop(['label'], 1)
+X_all = X_all.drop(['match_api_id'], 1)
 # display(X_all.columns.tolist())
 y_all = features['label']
 
@@ -389,7 +390,7 @@ def predict_labels(clf, features, target):
     # Print and return results
     print("Made predictions in {:.4f} seconds.".format(end - start))
 
-    return f1_score(target, y_pred, average='micro'), sum(target == y_pred) / float(len(y_pred))
+    return f1_score(target, y_pred, labels=['Win', 'Draw', 'Lose'], average='micro'), sum(target == y_pred) / float(len(y_pred))
 
 
 def train_predict(clf, X_train, y_train, X_test, y_test):
@@ -415,7 +416,7 @@ clf_A = LogisticRegression(random_state=42, multi_class="multinomial")
 clf_B = SVC(random_state=912, kernel='rbf')
 # Boosting refers to this general problem of producing a very accurate prediction rule
 # by combining rough and moderately inaccurate rules-of-thumb
-clf_C = xgb.XGBClassifier(max_depth=7, objective='multi:softmax', n_estimators=1000)
+clf_C = xgb.XGBClassifier(max_depth=5, objective='multi:softmax', n_estimators=500)
 # RF_clf = RandomForestClassifier(n_estimators=200, random_state=1, class_weight='balanced')
 # GNB_clf = GaussianNB()
 
@@ -430,38 +431,37 @@ print('')
 # train_predict(GNB_clf, X_train, y_train, X_test, y_test)
 # print('')
 
-# # tuning in XGBoost
-# parameters = {'learning_rate': [0.1],
-#               'n_estimators': [40],
-#               'max_depth': [3],
-#               'min_child_weight': [3],
-#               'gamma': [0.4],
-#               'subsample': [0.8],
-#               'colsample_bytree': [0.8],
-#               'scale_pos_weight': [1],
-#               'reg_alpha': [1e-5]
-#               }
-# clf = xgb.XGBClassifier(seed=2)
-#
-# # Make an f1 scoring function using 'make_scorer'
-# f1_scorer = make_scorer(f1_score, pos_label='Win')
-#
-# # Perform grid search on the classifier using the f1_scorer as the scoring method
-# grid_obj = GridSearchCV(clf,
-#                         scoring=f1_scorer,
-#                         param_grid=parameters,
-#                         cv=5)
-#
-# # Fit the grid search object to the training data and find the optimal parameters
-# grid_obj = grid_obj.fit(X_train, y_train)
-#
-# # Get the estimator
-# clf = grid_obj.best_estimator_
-# print(clf)
-#
-# # Report the final F1 score for training and testing after parameter tuning
-# f1, acc = predict_labels(clf, X_train, y_train)
-# print("F1 score and accuracy score for training set: {:.4f} , {:.4f}.".format(f1, acc))
-#
-# f1, acc = predict_labels(clf, X_test, y_test)
-# print("F1 score and accuracy score for test set: {:.4f} , {:.4f}.".format(f1, acc))
+# tuning in XGBoost
+parameters = {'learning_rate': [0.1],
+              'n_estimators': [40],
+              'max_depth': [3],
+              'min_child_weight': [3],
+              'gamma': [0.4],
+              'subsample': [0.8],
+              'colsample_bytree': [0.8],
+              'reg_alpha': [1e-5]
+              }
+clf = xgb.XGBClassifier(seed=2)
+
+# Make an f1 scoring function using 'make_scorer'
+f1_scorer = make_scorer(f1_score, labels=['Win', 'Draw', 'Lose'], average='micro')
+
+# Perform grid search on the classifier using the f1_scorer as the scoring method
+grid_obj = GridSearchCV(clf,
+                        scoring=f1_scorer,
+                        param_grid=parameters,
+                        cv=5)
+
+# Fit the grid search object to the training data and find the optimal parameters
+grid_obj = grid_obj.fit(X_train, y_train)
+
+# Get the estimator
+clf = grid_obj.best_estimator_
+print(clf)
+
+# Report the final F1 score for training and testing after parameter tuning
+f1, acc = predict_labels(clf, X_train, y_train)
+print("F1 score and accuracy score for training set: {:.4f} , {:.4f}.".format(f1, acc))
+
+f1, acc = predict_labels(clf, X_test, y_test)
+print("F1 score and accuracy score for test set: {:.4f} , {:.4f}.".format(f1, acc))
