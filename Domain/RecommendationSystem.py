@@ -65,7 +65,7 @@ def get_last_matches_against_eachother(matches, date, home_team, away_team, x=3)
 
 
 def get_goals(matches, team):
-    ''' Get the goals of a specfic team from a set of matches. '''
+    ''' Get the goals of a specific team from a set of matches. '''
 
     # Find home and away goals
     home_goals = int(matches.home_team_goal[matches.home_team_api_id == team].sum())
@@ -77,8 +77,8 @@ def get_goals(matches, team):
     return total_goals
 
 
-def get_goals_conceided(matches, team):
-    ''' Get the goals conceided of a specfic team from a set of matches. '''
+def get_goals_conceded(matches, team):
+    ''' Get the goals conceded of a specific team from a set of matches. '''
 
     # Find home and away goals
     home_goals = int(matches.home_team_goal[matches.away_team_api_id == team].sum())
@@ -91,7 +91,7 @@ def get_goals_conceided(matches, team):
 
 
 def get_wins(matches, team):
-    ''' Get the number of wins of a specfic team from a set of matches. '''
+    ''' Get the number of wins of a specific team from a set of matches. '''
 
     # Find home and away wins
     home_wins = int(matches.home_team_goal[
@@ -106,7 +106,7 @@ def get_wins(matches, team):
 
 
 def get_buildUp_stats(teams, team, date, x=1):
-    ''' Get the last x matches of a given team. '''
+    ''' Get the build up stats of a given team. '''
     overall_stats = 0
     # Filter team from teams
     team_stats = teams[(teams['team_api_id'] == team)]
@@ -133,7 +133,7 @@ def get_buildUp_stats(teams, team, date, x=1):
 
 
 def get_chance_creation_stats(teams, team, date, x=1):
-    ''' Get the last x matches of a given team. '''
+    ''' Get the chance creation stats of a given team. '''
     overall_stats = 0
     # Filter team from teams
     team_stats = teams[(teams['team_api_id'] == team)]
@@ -160,7 +160,7 @@ def get_chance_creation_stats(teams, team, date, x=1):
 
 
 def get_defense_stats(teams, team, date, x=1):
-    ''' Get the last x matches of a given team. '''
+    ''' Get the defense stats of a given team. '''
     overall_stats = 0
     # Filter team from teams
     team_stats = teams[(teams['team_api_id'] == team)]
@@ -186,19 +186,19 @@ def get_defense_stats(teams, team, date, x=1):
     return overall_stats
 
 
-def get_team_players_rating(team_players, date):
+def get_team_players_rating(team_players, players, date):
 
     team_players_rank_sum = 0
     players_num = len(team_players)
 
     for player_id in team_players:
         try:
-            player_stats = player_stats_df[(player_stats_df['player_api_id'] == player_id)]
+            player_stats = players[(players['player_api_id'] == player_id)]
             most_updated_stats = player_stats[player_stats.date < date].sort_values(by='date', ascending=False).iloc[0:1, :]
             player_rank = int(most_updated_stats['overall_rating'])
             team_players_rank_sum += player_rank
         except Exception as err:
-            print(err)
+            # print(err)
             players_num -= 1
 
     return team_players_rank_sum/players_num
@@ -225,7 +225,7 @@ def get_away_team_players(match):
     return players
 
 
-def get_match_features(match, matches, teams, x=10):
+def get_match_features(match, matches, teams, players, x=10):
     ''' Create match specific features for a given match. '''
 
     # Define variables
@@ -247,8 +247,8 @@ def get_match_features(match, matches, teams, x=10):
     # Create goal variables
     home_goals = get_goals(matches_home_team, home_team)
     away_goals = get_goals(matches_away_team, away_team)
-    home_goals_conceided = get_goals_conceided(matches_home_team, home_team)
-    away_goals_conceided = get_goals_conceided(matches_away_team, away_team)
+    home_goals_conceded = get_goals_conceded(matches_home_team, home_team)
+    away_goals_conceded = get_goals_conceded(matches_away_team, away_team)
 
     # Create team stats variables
     home_buildUp_stats = get_buildUp_stats(teams, home_team, date)
@@ -259,8 +259,8 @@ def get_match_features(match, matches, teams, x=10):
     away_defense_stats = get_defense_stats(teams, away_team, date)
     home_overall_stats = home_buildUp_stats + home_chanceCreation_stats + home_defense_stats
     away_overall_stats = away_buildUp_stats + away_chanceCreation_stats + away_defense_stats
-    home_team_players_ranking = get_team_players_rating(home_team_players, date)
-    away_team_players_ranking = get_team_players_rating(away_team_players, date)
+    home_team_players_ranking = get_team_players_rating(home_team_players, players, date)
+    away_team_players_ranking = get_team_players_rating(away_team_players, players, date)
 
     # Define result data frame
     result = pd.DataFrame()
@@ -270,8 +270,8 @@ def get_match_features(match, matches, teams, x=10):
     # result.loc[0, 'league_id'] = match.league_id
 
     # Create match features
-    result.loc[0, 'home_team_goals_difference'] = home_goals - home_goals_conceided
-    result.loc[0, 'away_team_goals_difference'] = away_goals - away_goals_conceided
+    result.loc[0, 'home_team_goals_difference'] = home_goals - home_goals_conceded
+    result.loc[0, 'away_team_goals_difference'] = away_goals - away_goals_conceded
     result.loc[0, 'games_won_home_team'] = get_wins(matches_home_team, home_team)
     result.loc[0, 'games_won_away_team'] = get_wins(matches_away_team, away_team)
     result.loc[0, 'games_against_won'] = get_wins(last_matches_against, home_team)
@@ -315,7 +315,7 @@ def get_match_label(match):
     return label.loc[0]
 
 
-def create_features(matches, teams, x=10, verbose=True):
+def create_features(matches, teams, players, x=10, verbose=True):
     ''' Create and aggregate features and labels for all matches. '''
 
     if verbose is True:
@@ -323,7 +323,7 @@ def create_features(matches, teams, x=10, verbose=True):
     start = time()
 
     # Get match features for all matches
-    match_stats = matches.apply(lambda x: get_match_features(x, matches, teams, x=10), axis=1)
+    match_stats = matches.apply(lambda x: get_match_features(x, matches, teams, players, x=10), axis=1)
 
     # Create dummies for league ID feature
     # dummies = pd.get_dummies(match_stats['league_id']).rename(columns=lambda x: 'League_' + str(x))
@@ -400,10 +400,13 @@ def train_predict(clf, X_train, y_train, X_test, y_test):
     print("F1 score and accuracy score for test set: {:.4f} , {:.4f}.".format(f1, acc))
 
 
-football_data = sqlite3.connect('C:\\Users\\sfrei\\Desktop\\Degree\\Y03S02\\Project Preparation\\database.sqlite')
+football_data = sqlite3.connect('database.sqlite')
 # Fetching required data tables
 player_df = pd.read_sql("SELECT * FROM Player;", football_data)
-player_stats_df = pd.read_sql("SELECT * FROM Player_Attributes;", football_data)
+player_stats_df = pd.read_sql("SELECT * FROM Player_Attributes Where date < '2015-07-01';", football_data)
+player_stats_df.dropna(inplace=True)
+test_player_stats_df = pd.read_sql("SELECT * FROM Player_Attributes", football_data)
+test_player_stats_df.dropna(inplace=True)
 team_df = pd.read_sql("SELECT * FROM Team;", football_data)
 team_stats_df = pd.read_sql("SELECT * FROM Team_Attributes Where date < '2015-07-01';", football_data)
 team_stats_df.dropna(inplace=True)
@@ -426,7 +429,7 @@ match_data = match_df.tail(100)
 
 # prepare train set
 print('preparing train set')
-features = create_features(match_data, team_stats_df)
+features = create_features(match_data, team_stats_df, player_stats_df)
 x_all = features.drop(['label'], 1)
 x_all = x_all.drop(['match_api_id'], 1)
 y_all = features['label']
@@ -440,7 +443,7 @@ for col in cols:
 
 # prepare test set
 print('preparing test set')
-test_features = create_features(test_match_df, test_team_stats_df)
+test_features = create_features(test_match_df, test_team_stats_df, test_player_stats_df)
 test_x_all = test_features.drop(['label'], 1)
 test_x_all = test_x_all.drop(['match_api_id'], 1)
 test_y_all = test_features['label']
@@ -460,7 +463,7 @@ display(x_all.head())
 clf_A = LogisticRegression(solver="sag", class_weight='balanced', multi_class="ovr")
 clf_B = SVC(random_state=912, kernel='rbf')
 clf_C = xgb.XGBClassifier(max_depth=3, objective='multi:softmax', n_estimators=50)
-# RF_clf = RandomForestClassifier(n_estimators=200, random_state=1, class_weight='balanced')
+RF_clf = RandomForestClassifier(n_estimators=200, random_state=1, class_weight='balanced')
 # GNB_clf = GaussianNB()
 
 train_predict(clf_A, x_all, y_all, test_x_all, test_y_all)
@@ -469,8 +472,8 @@ train_predict(clf_B, x_all, y_all, test_x_all, test_y_all)
 print('')
 train_predict(clf_C, x_all, y_all, test_x_all, test_y_all)
 print('')
-# train_predict(RF_clf, X_train, y_train, X_test, y_test)
-# print('')
+train_predict(RF_clf, x_all, y_all, test_x_all, test_y_all)
+print('')
 # train_predict(GNB_clf, X_train, y_train, X_test, y_test)
 # print('')
 
