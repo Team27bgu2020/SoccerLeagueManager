@@ -1,6 +1,5 @@
 import sqlite3
 from time import time
-
 import pandas as pd
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
@@ -17,7 +16,6 @@ import xgboost as xgb
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from IPython.display import display
-
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import make_scorer
 
@@ -49,7 +47,7 @@ rows = ["country_id", "league_id", "season", "stage", "date", "match_api_id", "h
         "away_player_7", "away_player_8", "away_player_9", "away_player_10", "away_player_11"]
 match_df.dropna(subset=rows, inplace=True)
 test_match_df.dropna(subset=rows, inplace=True)
-match_data = match_df
+match_data = match_df.tail(100)
 
 
 # features functions
@@ -332,14 +330,11 @@ def create_features(matches, teams, x=10, verbose=True):
     return features
 
 
+# prepare test set
 test_features = create_features(test_match_df, test_team_stats_df)
 test_x_all = test_features.drop(['label'], 1)
 test_x_all = test_x_all.drop(['match_api_id'], 1)
-# display(X_all.columns.tolist())
 test_y_all = test_features['label']
-
-# Standardising the data.
-
 # Center to the mean and component wise scale to unit variance.
 cols = [['home_team_goals_difference', 'away_team_goals_difference', 'games_won_home_team', 'games_won_away_team',
          'games_against_won', 'games_against_lost', 'home_buildUp_stats', 'away_buildUp_stats',
@@ -348,48 +343,24 @@ cols = [['home_team_goals_difference', 'away_team_goals_difference', 'games_won_
 for col in cols:
     test_x_all[col] = scale(test_x_all[col])
 
-
+# prepare train set
 features = create_features(match_data, team_stats_df)
-cols = features.columns.tolist()
-display(features.head())
-display(cols)
-
-# Separate into feature set and target variable
-# FTR = Full Time Result (H=Home Win, D=Draw, A=Away Win)
-X_all = features.drop(['label'], 1)
-X_all = X_all.drop(['match_api_id'], 1)
-# display(X_all.columns.tolist())
+x_all = features.drop(['label'], 1)
+x_all = x_all.drop(['match_api_id'], 1)
 y_all = features['label']
-
-# Standardising the data.
-
 # Center to the mean and component wise scale to unit variance.
 cols = [['home_team_goals_difference', 'away_team_goals_difference', 'games_won_home_team', 'games_won_away_team',
          'games_against_won', 'games_against_lost', 'home_buildUp_stats', 'away_buildUp_stats',
          'home_chanceCreation_stats', 'away_chanceCreation_stats', 'home_defense_stats', 'away_defense_stats',
          'home_overall_stats', 'away_overall_stats']]
 for col in cols:
-    X_all[col] = scale(X_all[col])
+    x_all[col] = scale(x_all[col])
 
 print("\nFeature values:")
-display(X_all.head())
-
-# Shuffle and split the dataset into training and testing set.
-# X_train, X_test, y_train, y_test = train_test_split(X_all, y_all,
-#                                                     test_size=0.2,
-#                                                     random_state=123,
-#                                                     stratify=y_all)
+display(x_all.head())
 
 
-# F1 score (also F-score or F-measure) is a measure of a test's accuracy.
-# It considers both the precision p and the recall r of the test to compute
-# the score: p is the number of correct positive results divided by the number of
-# all positive results, and r is the number of correct positive results divided by
-# the number of positive results that should have been returned. The F1 score can be
-# interpreted as a weighted average of the precision and recall, where an F1 score
-# reaches its best value at 1 and worst at 0.
-
-
+# train and test functions
 def train_classifier(clf, X_train, y_train):
     ''' Fits a classifier to the training data. '''
 
@@ -413,7 +384,8 @@ def predict_labels(clf, features, target):
     # Print and return results
     print("Made predictions in {:.4f} seconds.".format(end - start))
 
-    return f1_score(target, y_pred, labels=['Win', 'Draw', 'Lose'], average='micro'), sum(target == y_pred) / float(len(y_pred))
+    return f1_score(target, y_pred, labels=['Win', 'Draw', 'Lose'], average='micro'), sum(target == y_pred) / float(
+        len(y_pred))
 
 
 def train_predict(clf, X_train, y_train, X_test, y_test):
@@ -434,20 +406,18 @@ def train_predict(clf, X_train, y_train, X_test, y_test):
     print("F1 score and accuracy score for test set: {:.4f} , {:.4f}.".format(f1, acc))
 
 
-# Initialize the three models (XGBoost is initialized later)
+# Initialize the models
 clf_A = LogisticRegression(solver="sag", class_weight='balanced', multi_class="ovr")
 clf_B = SVC(random_state=912, kernel='rbf')
-# Boosting refers to this general problem of producing a very accurate prediction rule
-# by combining rough and moderately inaccurate rules-of-thumb
 clf_C = xgb.XGBClassifier(max_depth=3, objective='multi:softmax', n_estimators=50)
 # RF_clf = RandomForestClassifier(n_estimators=200, random_state=1, class_weight='balanced')
 # GNB_clf = GaussianNB()
 
-train_predict(clf_A, X_all, y_all, test_x_all, test_y_all)
+train_predict(clf_A, x_all, y_all, test_x_all, test_y_all)
 print('')
-train_predict(clf_B, X_all, y_all, test_x_all, test_y_all)
+train_predict(clf_B, x_all, y_all, test_x_all, test_y_all)
 print('')
-train_predict(clf_C, X_all, y_all, test_x_all, test_y_all)
+train_predict(clf_C, x_all, y_all, test_x_all, test_y_all)
 print('')
 # train_predict(RF_clf, X_train, y_train, X_test, y_test)
 # print('')
@@ -465,32 +435,24 @@ parameters = {'learning_rate': [0.1],
               'reg_alpha': [1e-5]
               }
 clf = xgb.XGBClassifier(seed=2)
-
 # Make an f1 scoring function using 'make_scorer'
 f1_scorer = make_scorer(f1_score, labels=['Win', 'Draw', 'Lose'], average='micro')
-
 # Perform grid search on the classifier using the f1_scorer as the scoring method
-grid_obj = GridSearchCV(clf,
-                        scoring=f1_scorer,
-                        param_grid=parameters,
-                        cv=5)
-
+grid_obj = GridSearchCV(clf, scoring=f1_scorer, param_grid=parameters, cv=5)
 # Fit the grid search object to the training data and find the optimal parameters
-grid_obj = grid_obj.fit(X_all, y_all)
-
+grid_obj = grid_obj.fit(x_all, y_all)
 # Get the estimator
 clf = grid_obj.best_estimator_
 print(clf)
-
 # Report the final F1 score for training and testing after parameter tuning
-f1, acc = predict_labels(clf, X_all, y_all)
+f1, acc = predict_labels(clf, x_all, y_all)
 print("F1 score and accuracy score for training set: {:.4f} , {:.4f}.".format(f1, acc))
-
 f1, acc = predict_labels(clf, test_x_all, test_y_all)
 print("F1 score and accuracy score for test set: {:.4f} , {:.4f}.".format(f1, acc))
 
-print('------------------------------------new----------------------------------')
+
+print('------------------------------------new----KNN----model------------------------------')
 KNN = KNeighborsClassifier()
-KNN_model = KNN.fit(X_all, y_all)
+KNN_model = KNN.fit(x_all, y_all)
 KNN_preds = KNN.predict(test_x_all)
 print(accuracy_score(test_y_all, KNN_preds))
