@@ -1,6 +1,7 @@
 import sqlite3
 from time import time
 import pandas as pd
+from sklearn.feature_selection import RFECV
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import LabelEncoder
@@ -24,30 +25,6 @@ class RecommendationSystem:
 
     def __init__(self):
         pass
-
-
-football_data = sqlite3.connect('database.sqlite')
-# Fetching required data tables
-player_df = pd.read_sql("SELECT * FROM Player;", football_data)
-player_stats_df = pd.read_sql("SELECT * FROM Player_Attributes;", football_data)
-team_df = pd.read_sql("SELECT * FROM Team;", football_data)
-team_stats_df = pd.read_sql("SELECT * FROM Team_Attributes Where date < '2015-07-01';", football_data)
-team_stats_df.dropna(inplace=True)
-test_team_stats_df = pd.read_sql("SELECT * FROM Team_Attributes Where date >= '2015-07-01';", football_data)
-test_team_stats_df.dropna(inplace=True)
-match_df = pd.read_sql_query("SELECT *  From Match Where season<>'2015/2016';", football_data)
-test_match_df = pd.read_sql_query("SELECT *  From Match Where season='2015/2016';", football_data)
-
-# Reduce match data to fulfill run time requirements
-rows = ["country_id", "league_id", "season", "stage", "date", "match_api_id", "home_team_api_id",
-        "away_team_api_id", "home_team_goal", "away_team_goal", "home_player_1", "home_player_2",
-        "home_player_3", "home_player_4", "home_player_5", "home_player_6", "home_player_7",
-        "home_player_8", "home_player_9", "home_player_10", "home_player_11", "away_player_1",
-        "away_player_2", "away_player_3", "away_player_4", "away_player_5", "away_player_6",
-        "away_player_7", "away_player_8", "away_player_9", "away_player_10", "away_player_11"]
-match_df.dropna(subset=rows, inplace=True)
-test_match_df.dropna(subset=rows, inplace=True)
-match_data = match_df.tail(100)
 
 
 # features functions
@@ -209,6 +186,45 @@ def get_defense_stats(teams, team, date, x=1):
     return overall_stats
 
 
+def get_team_players_rating(team_players, date):
+
+    team_players_rank_sum = 0
+    players_num = len(team_players)
+
+    for player_id in team_players:
+        try:
+            player_stats = player_stats_df[(player_stats_df['player_api_id'] == player_id)]
+            most_updated_stats = player_stats[player_stats.date < date].sort_values(by='date', ascending=False).iloc[0:1, :]
+            player_rank = int(most_updated_stats['overall_rating'])
+            team_players_rank_sum += player_rank
+        except Exception as err:
+            print(err)
+            players_num -= 1
+
+    return team_players_rank_sum/players_num
+
+
+def get_home_team_players(match):
+
+    players = []
+
+    for i in range(1, 12):
+        attr = 'home_player_' + str(i)
+        players.append(match[attr])
+
+    return players
+
+
+def get_away_team_players(match):
+    players = []
+
+    for i in range(1, 12):
+        attr = 'away_player_' + str(i)
+        players.append(match[attr])
+
+    return players
+
+
 def get_match_features(match, matches, teams, x=10):
     ''' Create match specific features for a given match. '''
 
@@ -220,6 +236,10 @@ def get_match_features(match, matches, teams, x=10):
     # Get last x matches of home and away team
     matches_home_team = get_last_matches(matches, date, home_team, x=4)
     matches_away_team = get_last_matches(matches, date, away_team, x=4)
+
+    # Get team players for match
+    home_team_players = get_home_team_players(match)
+    away_team_players = get_away_team_players(match)
 
     # Get last x matches of both teams against each other
     last_matches_against = get_last_matches_against_eachother(matches, date, home_team, away_team, x=3)
@@ -239,6 +259,8 @@ def get_match_features(match, matches, teams, x=10):
     away_defense_stats = get_defense_stats(teams, away_team, date)
     home_overall_stats = home_buildUp_stats + home_chanceCreation_stats + home_defense_stats
     away_overall_stats = away_buildUp_stats + away_chanceCreation_stats + away_defense_stats
+    home_team_players_ranking = get_team_players_rating(home_team_players, date)
+    away_team_players_ranking = get_team_players_rating(away_team_players, date)
 
     # Define result data frame
     result = pd.DataFrame()
@@ -262,6 +284,8 @@ def get_match_features(match, matches, teams, x=10):
     result.loc[0, 'away_defense_stats'] = away_defense_stats
     result.loc[0, 'home_overall_stats'] = home_overall_stats
     result.loc[0, 'away_overall_stats'] = away_overall_stats
+    result.loc[0, 'home_players_rank'] = home_team_players_ranking
+    result.loc[0, 'away_players_rank'] = away_team_players_ranking
 
     # Return match features
     return result.loc[0]
@@ -330,38 +354,6 @@ def create_features(matches, teams, x=10, verbose=True):
     return features
 
 
-# prepare train set
-print('preparing train set')
-features = create_features(match_data, team_stats_df)
-x_all = features.drop(['label'], 1)
-x_all = x_all.drop(['match_api_id'], 1)
-y_all = features['label']
-# Center to the mean and component wise scale to unit variance.
-cols = [['home_team_goals_difference', 'away_team_goals_difference', 'games_won_home_team', 'games_won_away_team',
-         'games_against_won', 'games_against_lost', 'home_buildUp_stats', 'away_buildUp_stats',
-         'home_chanceCreation_stats', 'away_chanceCreation_stats', 'home_defense_stats', 'away_defense_stats',
-         'home_overall_stats', 'away_overall_stats']]
-for col in cols:
-    x_all[col] = scale(x_all[col])
-
-# prepare test set
-print('preparing test set')
-test_features = create_features(test_match_df, test_team_stats_df)
-test_x_all = test_features.drop(['label'], 1)
-test_x_all = test_x_all.drop(['match_api_id'], 1)
-test_y_all = test_features['label']
-# Center to the mean and component wise scale to unit variance.
-cols = [['home_team_goals_difference', 'away_team_goals_difference', 'games_won_home_team', 'games_won_away_team',
-         'games_against_won', 'games_against_lost', 'home_buildUp_stats', 'away_buildUp_stats',
-         'home_chanceCreation_stats', 'away_chanceCreation_stats', 'home_defense_stats', 'away_defense_stats',
-         'home_overall_stats', 'away_overall_stats']]
-for col in cols:
-    test_x_all[col] = scale(test_x_all[col])
-
-print("\nFeature values:")
-display(x_all.head())
-
-
 # train and test functions
 def train_classifier(clf, X_train, y_train):
     ''' Fits a classifier to the training data. '''
@@ -408,6 +400,62 @@ def train_predict(clf, X_train, y_train, X_test, y_test):
     print("F1 score and accuracy score for test set: {:.4f} , {:.4f}.".format(f1, acc))
 
 
+football_data = sqlite3.connect('C:\\Users\\sfrei\\Desktop\\Degree\\Y03S02\\Project Preparation\\database.sqlite')
+# Fetching required data tables
+player_df = pd.read_sql("SELECT * FROM Player;", football_data)
+player_stats_df = pd.read_sql("SELECT * FROM Player_Attributes;", football_data)
+team_df = pd.read_sql("SELECT * FROM Team;", football_data)
+team_stats_df = pd.read_sql("SELECT * FROM Team_Attributes Where date < '2015-07-01';", football_data)
+team_stats_df.dropna(inplace=True)
+test_team_stats_df = pd.read_sql("SELECT * FROM Team_Attributes Where date >= '2015-07-01';", football_data)
+test_team_stats_df.dropna(inplace=True)
+match_df = pd.read_sql_query("SELECT *  From Match Where season<>'2015/2016';", football_data)
+test_match_df = pd.read_sql_query("SELECT *  From Match Where season='2015/2016';", football_data)
+
+# Reduce match data to fulfill run time requirements
+rows = ["country_id", "league_id", "season", "stage", "date", "match_api_id", "home_team_api_id",
+        "away_team_api_id", "home_team_goal", "away_team_goal", "home_player_1", "home_player_2",
+        "home_player_3", "home_player_4", "home_player_5", "home_player_6", "home_player_7",
+        "home_player_8", "home_player_9", "home_player_10", "home_player_11", "away_player_1",
+        "away_player_2", "away_player_3", "away_player_4", "away_player_5", "away_player_6",
+        "away_player_7", "away_player_8", "away_player_9", "away_player_10", "away_player_11"]
+match_df.dropna(subset=rows, inplace=True)
+test_match_df.dropna(subset=rows, inplace=True)
+match_data = match_df.tail(100)
+
+
+# prepare train set
+print('preparing train set')
+features = create_features(match_data, team_stats_df)
+x_all = features.drop(['label'], 1)
+x_all = x_all.drop(['match_api_id'], 1)
+y_all = features['label']
+# Center to the mean and component wise scale to unit variance.
+cols = [['home_team_goals_difference', 'away_team_goals_difference', 'games_won_home_team', 'games_won_away_team',
+         'games_against_won', 'games_against_lost', 'home_buildUp_stats', 'away_buildUp_stats',
+         'home_chanceCreation_stats', 'away_chanceCreation_stats', 'home_defense_stats', 'away_defense_stats',
+         'home_overall_stats', 'away_overall_stats', 'home_players_rank', 'away_players_rank']]
+for col in cols:
+    x_all[col] = scale(x_all[col])
+
+# prepare test set
+print('preparing test set')
+test_features = create_features(test_match_df, test_team_stats_df)
+test_x_all = test_features.drop(['label'], 1)
+test_x_all = test_x_all.drop(['match_api_id'], 1)
+test_y_all = test_features['label']
+# Center to the mean and component wise scale to unit variance.
+cols = [['home_team_goals_difference', 'away_team_goals_difference', 'games_won_home_team', 'games_won_away_team',
+         'games_against_won', 'games_against_lost', 'home_buildUp_stats', 'away_buildUp_stats',
+         'home_chanceCreation_stats', 'away_chanceCreation_stats', 'home_defense_stats', 'away_defense_stats',
+         'home_overall_stats', 'away_overall_stats', 'away_overall_stats', 'home_players_rank', 'away_players_rank']]
+for col in cols:
+    test_x_all[col] = scale(test_x_all[col])
+
+print("\nFeature values:")
+display(x_all.head())
+
+
 # Initialize the models
 clf_A = LogisticRegression(solver="sag", class_weight='balanced', multi_class="ovr")
 clf_B = SVC(random_state=912, kernel='rbf')
@@ -451,6 +499,12 @@ f1, acc = predict_labels(clf, x_all, y_all)
 print("F1 score and accuracy score for training set: {:.4f} , {:.4f}.".format(f1, acc))
 f1, acc = predict_labels(clf, test_x_all, test_y_all)
 print("F1 score and accuracy score for test set: {:.4f} , {:.4f}.".format(f1, acc))
+
+feature_names = list(x_all.columns.values)
+rfecv = RFECV(clf_C, step=1, cv=10)
+rfecv = rfecv.fit(x_all, y_all)
+print("Features sorted by their rank:")
+print(sorted(zip(map(lambda x: round(x, 4), rfecv.ranking_), feature_names)))
 
 
 print('------------------------------------new----KNN----model------------------------------')
