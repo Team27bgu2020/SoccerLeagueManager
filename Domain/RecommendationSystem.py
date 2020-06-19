@@ -330,20 +330,8 @@ def create_features(matches, teams, x=10, verbose=True):
     return features
 
 
-# prepare test set
-test_features = create_features(test_match_df, test_team_stats_df)
-test_x_all = test_features.drop(['label'], 1)
-test_x_all = test_x_all.drop(['match_api_id'], 1)
-test_y_all = test_features['label']
-# Center to the mean and component wise scale to unit variance.
-cols = [['home_team_goals_difference', 'away_team_goals_difference', 'games_won_home_team', 'games_won_away_team',
-         'games_against_won', 'games_against_lost', 'home_buildUp_stats', 'away_buildUp_stats',
-         'home_chanceCreation_stats', 'away_chanceCreation_stats', 'home_defense_stats', 'away_defense_stats',
-         'home_overall_stats', 'away_overall_stats']]
-for col in cols:
-    test_x_all[col] = scale(test_x_all[col])
-
 # prepare train set
+print('preparing train set')
 features = create_features(match_data, team_stats_df)
 x_all = features.drop(['label'], 1)
 x_all = x_all.drop(['match_api_id'], 1)
@@ -355,6 +343,20 @@ cols = [['home_team_goals_difference', 'away_team_goals_difference', 'games_won_
          'home_overall_stats', 'away_overall_stats']]
 for col in cols:
     x_all[col] = scale(x_all[col])
+
+# prepare test set
+print('preparing test set')
+test_features = create_features(test_match_df, test_team_stats_df)
+test_x_all = test_features.drop(['label'], 1)
+test_x_all = test_x_all.drop(['match_api_id'], 1)
+test_y_all = test_features['label']
+# Center to the mean and component wise scale to unit variance.
+cols = [['home_team_goals_difference', 'away_team_goals_difference', 'games_won_home_team', 'games_won_away_team',
+         'games_against_won', 'games_against_lost', 'home_buildUp_stats', 'away_buildUp_stats',
+         'home_chanceCreation_stats', 'away_chanceCreation_stats', 'home_defense_stats', 'away_defense_stats',
+         'home_overall_stats', 'away_overall_stats']]
+for col in cols:
+    test_x_all[col] = scale(test_x_all[col])
 
 print("\nFeature values:")
 display(x_all.head())
