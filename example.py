@@ -29,7 +29,9 @@ match_cont = MatchController(game_db, user_db, game_event_db, team_db)
 team_cont = TeamManagementController(team_db, user_db)
 user_con = SignedUserController(user_db)
 
-match_cont.edit_game(1, field="Tiberius", match_time=datetime.now())
+
+policy = PointsCalculationPolicy(2, 12, 2, 13)
+policy_db.add_point_policy(policy)
 
 # game = game_db.get(1)
 # game.remove_event(1)

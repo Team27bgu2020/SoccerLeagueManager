@@ -41944,6 +41944,1321 @@
 2020-06-01 13:05:00,547 INFO Info: :got user ssss by name
 2020-06-01 13:05:00,547 INFO Info: :got user ssss by name
 2020-06-01 13:05:00,547 INFO Info: :got user ssss by name
+2020-06-01 13:11:15,029 INFO Info: : user dor was confirmed
+2020-06-01 13:11:15,029 INFO Info: : user dor was confirmed
+2020-06-01 13:11:15,029 INFO Info: : user dor was confirmed
+2020-06-01 13:11:15,029 INFO Info: : user dor was confirmed
+2020-06-01 13:11:15,029 INFO Info: : user dor was confirmed
+2020-06-01 13:11:19,033 INFO Info: : user ssss was confirmed
+2020-06-01 13:11:19,033 INFO Info: : user ssss was confirmed
+2020-06-01 13:11:19,033 INFO Info: : user ssss was confirmed
+2020-06-01 13:11:19,033 INFO Info: : user ssss was confirmed
+2020-06-01 13:11:19,033 INFO Info: : user ssss was confirmed
+2020-06-01 13:11:19,033 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,033 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,033 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,033 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,033 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,034 INFO Info: :got user None by name
+2020-06-01 13:11:19,034 INFO Info: :got user None by name
+2020-06-01 13:11:19,034 INFO Info: :got user None by name
+2020-06-01 13:11:19,034 INFO Info: :got user None by name
+2020-06-01 13:11:19,034 INFO Info: :got user None by name
+2020-06-01 13:11:19,039 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,039 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,039 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,039 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,039 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,041 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,041 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,041 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,041 INFO Info: :got user ssss by name
+2020-06-01 13:11:19,041 INFO Info: :got user ssss by name
+2020-06-01 13:11:24,133 INFO Info: :got user ssss by name
+2020-06-01 13:11:24,133 INFO Info: :got user ssss by name
+2020-06-01 13:11:24,133 INFO Info: :got user ssss by name
+2020-06-01 13:11:24,133 INFO Info: :got user ssss by name
+2020-06-01 13:11:24,133 INFO Info: :got user ssss by name
+2020-06-01 13:11:24,135 INFO Info: 15: Asked for game event 19
+2020-06-01 13:11:24,135 INFO Info: 15: Asked for game event 19
+2020-06-01 13:11:24,135 INFO Info: 15: Asked for game event 19
+2020-06-01 13:11:24,135 INFO Info: 15: Asked for game event 19
+2020-06-01 13:11:24,135 INFO Info: 15: Asked for game event 19
+2020-06-01 13:11:24,136 INFO Info: 15: Asked for game event 21
+2020-06-01 13:11:24,136 INFO Info: 15: Asked for game event 21
+2020-06-01 13:11:24,136 INFO Info: 15: Asked for game event 21
+2020-06-01 13:11:24,136 INFO Info: 15: Asked for game event 21
+2020-06-01 13:11:24,136 INFO Info: 15: Asked for game event 21
+2020-06-01 13:11:24,137 INFO Info: 15: Asked for game event 22
+2020-06-01 13:11:24,137 INFO Info: 15: Asked for game event 22
+2020-06-01 13:11:24,137 INFO Info: 15: Asked for game event 22
+2020-06-01 13:11:24,137 INFO Info: 15: Asked for game event 22
+2020-06-01 13:11:24,137 INFO Info: 15: Asked for game event 22
+2020-06-01 13:11:24,138 INFO Info: 15: Asked for game event 24
+2020-06-01 13:11:24,138 INFO Info: 15: Asked for game event 24
+2020-06-01 13:11:24,138 INFO Info: 15: Asked for game event 24
+2020-06-01 13:11:24,138 INFO Info: 15: Asked for game event 24
+2020-06-01 13:11:24,138 INFO Info: 15: Asked for game event 24
+2020-06-01 13:11:24,139 INFO Info: 15: Asked for game event 25
+2020-06-01 13:11:24,139 INFO Info: 15: Asked for game event 25
+2020-06-01 13:11:24,139 INFO Info: 15: Asked for game event 25
+2020-06-01 13:11:24,139 INFO Info: 15: Asked for game event 25
+2020-06-01 13:11:24,139 INFO Info: 15: Asked for game event 25
+2020-06-01 13:11:24,140 INFO Info: 15: Asked for game event 26
+2020-06-01 13:11:24,140 INFO Info: 15: Asked for game event 26
+2020-06-01 13:11:24,140 INFO Info: 15: Asked for game event 26
+2020-06-01 13:11:24,140 INFO Info: 15: Asked for game event 26
+2020-06-01 13:11:24,140 INFO Info: 15: Asked for game event 26
+2020-06-01 13:11:24,141 INFO Info: 15: Asked for game event 27
+2020-06-01 13:11:24,141 INFO Info: 15: Asked for game event 27
+2020-06-01 13:11:24,141 INFO Info: 15: Asked for game event 27
+2020-06-01 13:11:24,141 INFO Info: 15: Asked for game event 27
+2020-06-01 13:11:24,141 INFO Info: 15: Asked for game event 27
+2020-06-01 13:11:24,141 INFO Info: 15: Asked for game event 15
+2020-06-01 13:11:24,141 INFO Info: 15: Asked for game event 15
+2020-06-01 13:11:24,141 INFO Info: 15: Asked for game event 15
+2020-06-01 13:11:24,141 INFO Info: 15: Asked for game event 15
+2020-06-01 13:11:24,141 INFO Info: 15: Asked for game event 15
+2020-06-01 13:11:24,142 INFO Info: 15: Asked for game event 16
+2020-06-01 13:11:24,142 INFO Info: 15: Asked for game event 16
+2020-06-01 13:11:24,142 INFO Info: 15: Asked for game event 16
+2020-06-01 13:11:24,142 INFO Info: 15: Asked for game event 16
+2020-06-01 13:11:24,142 INFO Info: 15: Asked for game event 16
+2020-06-01 13:11:24,142 INFO Info: :got user ssss by name
+2020-06-01 13:11:24,142 INFO Info: :got user ssss by name
+2020-06-01 13:11:24,142 INFO Info: :got user ssss by name
+2020-06-01 13:11:24,142 INFO Info: :got user ssss by name
+2020-06-01 13:11:24,142 INFO Info: :got user ssss by name
+2020-06-01 13:11:30,316 INFO Info: :got user ssss by name
+2020-06-01 13:11:30,316 INFO Info: :got user ssss by name
+2020-06-01 13:11:30,316 INFO Info: :got user ssss by name
+2020-06-01 13:11:30,316 INFO Info: :got user ssss by name
+2020-06-01 13:11:30,316 INFO Info: :got user ssss by name
+2020-06-01 13:11:30,323 INFO Info: 15:add event ssss in min 1 
+2020-06-01 13:11:30,323 INFO Info: 15:add event ssss in min 1 
+2020-06-01 13:11:30,323 INFO Info: 15:add event ssss in min 1 
+2020-06-01 13:11:30,323 INFO Info: 15:add event ssss in min 1 
+2020-06-01 13:11:30,323 INFO Info: 15:add event ssss in min 1 
+2020-06-01 13:11:30,323 INFO Info: :got user ssss by name
+2020-06-01 13:11:30,323 INFO Info: :got user ssss by name
+2020-06-01 13:11:30,323 INFO Info: :got user ssss by name
+2020-06-01 13:11:30,323 INFO Info: :got user ssss by name
+2020-06-01 13:11:30,323 INFO Info: :got user ssss by name
+2020-06-01 13:11:32,860 INFO Info: :got user ssss by name
+2020-06-01 13:11:32,860 INFO Info: :got user ssss by name
+2020-06-01 13:11:32,860 INFO Info: :got user ssss by name
+2020-06-01 13:11:32,860 INFO Info: :got user ssss by name
+2020-06-01 13:11:32,860 INFO Info: :got user ssss by name
+2020-06-01 13:11:32,863 INFO Info: 15: Asked for game event 19
+2020-06-01 13:11:32,863 INFO Info: 15: Asked for game event 19
+2020-06-01 13:11:32,863 INFO Info: 15: Asked for game event 19
+2020-06-01 13:11:32,863 INFO Info: 15: Asked for game event 19
+2020-06-01 13:11:32,863 INFO Info: 15: Asked for game event 19
+2020-06-01 13:11:32,864 INFO Info: 15: Asked for game event 21
+2020-06-01 13:11:32,864 INFO Info: 15: Asked for game event 21
+2020-06-01 13:11:32,864 INFO Info: 15: Asked for game event 21
+2020-06-01 13:11:32,864 INFO Info: 15: Asked for game event 21
+2020-06-01 13:11:32,864 INFO Info: 15: Asked for game event 21
+2020-06-01 13:11:32,865 INFO Info: 15: Asked for game event 22
+2020-06-01 13:11:32,865 INFO Info: 15: Asked for game event 22
+2020-06-01 13:11:32,865 INFO Info: 15: Asked for game event 22
+2020-06-01 13:11:32,865 INFO Info: 15: Asked for game event 22
+2020-06-01 13:11:32,865 INFO Info: 15: Asked for game event 22
+2020-06-01 13:11:32,866 INFO Info: 15: Asked for game event 24
+2020-06-01 13:11:32,866 INFO Info: 15: Asked for game event 24
+2020-06-01 13:11:32,866 INFO Info: 15: Asked for game event 24
+2020-06-01 13:11:32,866 INFO Info: 15: Asked for game event 24
+2020-06-01 13:11:32,866 INFO Info: 15: Asked for game event 24
+2020-06-01 13:11:32,867 INFO Info: 15: Asked for game event 25
+2020-06-01 13:11:32,867 INFO Info: 15: Asked for game event 25
+2020-06-01 13:11:32,867 INFO Info: 15: Asked for game event 25
+2020-06-01 13:11:32,867 INFO Info: 15: Asked for game event 25
+2020-06-01 13:11:32,867 INFO Info: 15: Asked for game event 25
+2020-06-01 13:11:32,868 INFO Info: 15: Asked for game event 26
+2020-06-01 13:11:32,868 INFO Info: 15: Asked for game event 26
+2020-06-01 13:11:32,868 INFO Info: 15: Asked for game event 26
+2020-06-01 13:11:32,868 INFO Info: 15: Asked for game event 26
+2020-06-01 13:11:32,868 INFO Info: 15: Asked for game event 26
+2020-06-01 13:11:32,869 INFO Info: 15: Asked for game event 27
+2020-06-01 13:11:32,869 INFO Info: 15: Asked for game event 27
+2020-06-01 13:11:32,869 INFO Info: 15: Asked for game event 27
+2020-06-01 13:11:32,869 INFO Info: 15: Asked for game event 27
+2020-06-01 13:11:32,869 INFO Info: 15: Asked for game event 27
+2020-06-01 13:11:32,870 INFO Info: 15: Asked for game event 15
+2020-06-01 13:11:32,870 INFO Info: 15: Asked for game event 15
+2020-06-01 13:11:32,870 INFO Info: 15: Asked for game event 15
+2020-06-01 13:11:32,870 INFO Info: 15: Asked for game event 15
+2020-06-01 13:11:32,870 INFO Info: 15: Asked for game event 15
+2020-06-01 13:11:32,871 INFO Info: 15: Asked for game event 16
+2020-06-01 13:11:32,871 INFO Info: 15: Asked for game event 16
+2020-06-01 13:11:32,871 INFO Info: 15: Asked for game event 16
+2020-06-01 13:11:32,871 INFO Info: 15: Asked for game event 16
+2020-06-01 13:11:32,871 INFO Info: 15: Asked for game event 16
+2020-06-01 13:11:32,872 INFO Info: 15: Asked for game event 5
+2020-06-01 13:11:32,872 INFO Info: 15: Asked for game event 5
+2020-06-01 13:11:32,872 INFO Info: 15: Asked for game event 5
+2020-06-01 13:11:32,872 INFO Info: 15: Asked for game event 5
+2020-06-01 13:11:32,872 INFO Info: 15: Asked for game event 5
+2020-06-01 13:11:32,872 INFO Info: :got user ssss by name
+2020-06-01 13:11:32,872 INFO Info: :got user ssss by name
+2020-06-01 13:11:32,872 INFO Info: :got user ssss by name
+2020-06-01 13:11:32,872 INFO Info: :got user ssss by name
+2020-06-01 13:11:32,872 INFO Info: :got user ssss by name
+2020-06-01 13:11:35,889 INFO Info: :got user ssss by name
+2020-06-01 13:11:35,889 INFO Info: :got user ssss by name
+2020-06-01 13:11:35,889 INFO Info: :got user ssss by name
+2020-06-01 13:11:35,889 INFO Info: :got user ssss by name
+2020-06-01 13:11:35,889 INFO Info: :got user ssss by name
+2020-06-01 13:11:35,897 INFO Info: 15:removed event ssss 
+2020-06-01 13:11:35,897 INFO Info: 15:removed event ssss 
+2020-06-01 13:11:35,897 INFO Info: 15:removed event ssss 
+2020-06-01 13:11:35,897 INFO Info: 15:removed event ssss 
+2020-06-01 13:11:35,897 INFO Info: 15:removed event ssss 
+2020-06-01 13:11:35,897 INFO Info: :got user ssss by name
+2020-06-01 13:11:35,897 INFO Info: :got user ssss by name
+2020-06-01 13:11:35,897 INFO Info: :got user ssss by name
+2020-06-01 13:11:35,897 INFO Info: :got user ssss by name
+2020-06-01 13:11:35,897 INFO Info: :got user ssss by name
+2020-06-01 13:11:42,343 INFO Info: : user aaaa was confirmed
+2020-06-01 13:11:42,343 INFO Info: : user aaaa was confirmed
+2020-06-01 13:11:42,343 INFO Info: : user aaaa was confirmed
+2020-06-01 13:11:42,343 INFO Info: : user aaaa was confirmed
+2020-06-01 13:11:42,343 INFO Info: : user aaaa was confirmed
+2020-06-01 13:11:42,343 INFO Info: :got user aaaa by name
+2020-06-01 13:11:42,343 INFO Info: :got user aaaa by name
+2020-06-01 13:11:42,343 INFO Info: :got user aaaa by name
+2020-06-01 13:11:42,343 INFO Info: :got user aaaa by name
+2020-06-01 13:11:42,343 INFO Info: :got user aaaa by name
+2020-06-01 13:11:42,344 INFO Info: :got user ssss by name
+2020-06-01 13:11:42,344 INFO Info: :got user ssss by name
+2020-06-01 13:11:42,344 INFO Info: :got user ssss by name
+2020-06-01 13:11:42,344 INFO Info: :got user ssss by name
+2020-06-01 13:11:42,344 INFO Info: :got user ssss by name
+2020-06-01 13:24:19,503 INFO Info: : user dor was confirmed
+2020-06-01 13:24:19,503 INFO Info: : user dor was confirmed
+2020-06-01 13:24:19,503 INFO Info: : user dor was confirmed
+2020-06-01 13:24:19,503 INFO Info: : user dor was confirmed
+2020-06-01 13:24:19,503 INFO Info: : user dor was confirmed
+2020-06-01 13:24:28,568 INFO Info: : user ssss was confirmed
+2020-06-01 13:24:28,568 INFO Info: : user ssss was confirmed
+2020-06-01 13:24:28,568 INFO Info: : user ssss was confirmed
+2020-06-01 13:24:28,568 INFO Info: : user ssss was confirmed
+2020-06-01 13:24:28,568 INFO Info: : user ssss was confirmed
+2020-06-01 13:24:28,568 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,568 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,568 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,568 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,568 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,569 INFO Info: :got user None by name
+2020-06-01 13:24:28,569 INFO Info: :got user None by name
+2020-06-01 13:24:28,569 INFO Info: :got user None by name
+2020-06-01 13:24:28,569 INFO Info: :got user None by name
+2020-06-01 13:24:28,569 INFO Info: :got user None by name
+2020-06-01 13:24:28,574 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,574 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,574 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,574 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,574 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,576 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,576 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,576 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,576 INFO Info: :got user ssss by name
+2020-06-01 13:24:28,576 INFO Info: :got user ssss by name
+2020-06-01 13:28:23,192 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,192 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,192 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,192 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,192 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,199 INFO Info: :add referee : iyiy
+2020-06-01 13:28:23,199 INFO Info: :add referee : iyiy
+2020-06-01 13:28:23,199 INFO Info: :add referee : iyiy
+2020-06-01 13:28:23,199 INFO Info: :add referee : iyiy
+2020-06-01 13:28:23,199 INFO Info: :add referee : iyiy
+2020-06-01 13:28:23,199 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,199 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,199 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,199 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,199 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,200 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,200 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,200 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,200 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,200 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,201 INFO Info: :got user None by name
+2020-06-01 13:28:23,201 INFO Info: :got user None by name
+2020-06-01 13:28:23,201 INFO Info: :got user None by name
+2020-06-01 13:28:23,201 INFO Info: :got user None by name
+2020-06-01 13:28:23,201 INFO Info: :got user None by name
+2020-06-01 13:28:23,206 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,206 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,206 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,206 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,206 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,207 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,207 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,207 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,207 INFO Info: :got user iyiy by name
+2020-06-01 13:28:23,207 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,655 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:21,655 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:21,655 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:21,655 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:21,655 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:21,655 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,655 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,655 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,655 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,655 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,656 INFO Info: :got user None by name
+2020-06-01 13:29:21,656 INFO Info: :got user None by name
+2020-06-01 13:29:21,656 INFO Info: :got user None by name
+2020-06-01 13:29:21,656 INFO Info: :got user None by name
+2020-06-01 13:29:21,656 INFO Info: :got user None by name
+2020-06-01 13:29:21,662 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,662 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,662 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,662 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,662 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,663 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,663 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,663 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,663 INFO Info: :got user iyiy by name
+2020-06-01 13:29:21,663 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,608 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:37,608 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:37,608 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:37,608 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:37,608 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:37,608 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,608 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,608 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,608 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,608 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,609 INFO Info: :got user None by name
+2020-06-01 13:29:37,609 INFO Info: :got user None by name
+2020-06-01 13:29:37,609 INFO Info: :got user None by name
+2020-06-01 13:29:37,609 INFO Info: :got user None by name
+2020-06-01 13:29:37,609 INFO Info: :got user None by name
+2020-06-01 13:29:37,617 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,617 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,617 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,617 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,617 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,618 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,618 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,618 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,618 INFO Info: :got user iyiy by name
+2020-06-01 13:29:37,618 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,635 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:55,635 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:55,635 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:55,635 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:55,635 INFO Info: : user iyiy was confirmed
+2020-06-01 13:29:55,635 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,635 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,635 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,635 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,635 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,636 INFO Info: :got user None by name
+2020-06-01 13:29:55,636 INFO Info: :got user None by name
+2020-06-01 13:29:55,636 INFO Info: :got user None by name
+2020-06-01 13:29:55,636 INFO Info: :got user None by name
+2020-06-01 13:29:55,636 INFO Info: :got user None by name
+2020-06-01 13:29:55,641 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,641 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,641 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,641 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,641 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,642 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,642 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,642 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,642 INFO Info: :got user iyiy by name
+2020-06-01 13:29:55,642 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,159 INFO Info: : user iyiy was confirmed
+2020-06-01 13:31:54,159 INFO Info: : user iyiy was confirmed
+2020-06-01 13:31:54,159 INFO Info: : user iyiy was confirmed
+2020-06-01 13:31:54,159 INFO Info: : user iyiy was confirmed
+2020-06-01 13:31:54,159 INFO Info: : user iyiy was confirmed
+2020-06-01 13:31:54,160 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,160 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,160 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,160 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,160 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,160 INFO Info: :got user None by name
+2020-06-01 13:31:54,160 INFO Info: :got user None by name
+2020-06-01 13:31:54,160 INFO Info: :got user None by name
+2020-06-01 13:31:54,160 INFO Info: :got user None by name
+2020-06-01 13:31:54,160 INFO Info: :got user None by name
+2020-06-01 13:31:54,165 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,165 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,165 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,165 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,165 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,167 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,167 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,167 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,167 INFO Info: :got user iyiy by name
+2020-06-01 13:31:54,167 INFO Info: :got user iyiy by name
+2020-06-01 14:09:55,682 INFO Info: : user dor was confirmed
+2020-06-01 14:09:55,682 INFO Info: : user dor was confirmed
+2020-06-01 14:09:55,682 INFO Info: : user dor was confirmed
+2020-06-01 14:09:55,682 INFO Info: : user dor was confirmed
+2020-06-01 14:09:55,682 INFO Info: : user dor was confirmed
+2020-06-01 14:10:04,649 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:04,649 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:04,649 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:04,649 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:04,649 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:04,649 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,649 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,649 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,649 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,649 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,650 INFO Info: :got user None by name
+2020-06-01 14:10:04,650 INFO Info: :got user None by name
+2020-06-01 14:10:04,650 INFO Info: :got user None by name
+2020-06-01 14:10:04,650 INFO Info: :got user None by name
+2020-06-01 14:10:04,650 INFO Info: :got user None by name
+2020-06-01 14:10:04,688 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,688 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,688 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,688 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,688 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,691 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,691 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,691 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,691 INFO Info: :got user ssss by name
+2020-06-01 14:10:04,691 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,391 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:27,391 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:27,391 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:27,391 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:27,391 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:27,392 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,392 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,392 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,392 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,392 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,392 INFO Info: :got user None by name
+2020-06-01 14:10:27,392 INFO Info: :got user None by name
+2020-06-01 14:10:27,392 INFO Info: :got user None by name
+2020-06-01 14:10:27,392 INFO Info: :got user None by name
+2020-06-01 14:10:27,392 INFO Info: :got user None by name
+2020-06-01 14:10:27,416 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,416 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,416 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,416 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,416 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,419 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,419 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,419 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,419 INFO Info: :got user ssss by name
+2020-06-01 14:10:27,419 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,448 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:55,448 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:55,448 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:55,448 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:55,448 INFO Info: : user ssss was confirmed
+2020-06-01 14:10:55,448 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,448 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,448 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,448 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,448 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,449 INFO Info: :got user None by name
+2020-06-01 14:10:55,449 INFO Info: :got user None by name
+2020-06-01 14:10:55,449 INFO Info: :got user None by name
+2020-06-01 14:10:55,449 INFO Info: :got user None by name
+2020-06-01 14:10:55,449 INFO Info: :got user None by name
+2020-06-01 14:10:55,473 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,473 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,473 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,473 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,473 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,476 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,476 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,476 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,476 INFO Info: :got user ssss by name
+2020-06-01 14:10:55,476 INFO Info: :got user ssss by name
+2020-06-01 14:11:40,249 INFO Info: : user ssss was confirmed
+2020-06-01 14:11:40,249 INFO Info: : user ssss was confirmed
+2020-06-01 14:11:40,249 INFO Info: : user ssss was confirmed
+2020-06-01 14:11:40,249 INFO Info: : user ssss was confirmed
+2020-06-01 14:11:40,249 INFO Info: : user ssss was confirmed
+2020-06-01 14:11:40,250 INFO Info: :got user ssss by name
+2020-06-01 14:11:40,250 INFO Info: :got user ssss by name
+2020-06-01 14:11:40,250 INFO Info: :got user ssss by name
+2020-06-01 14:11:40,250 INFO Info: :got user ssss by name
+2020-06-01 14:11:40,250 INFO Info: :got user ssss by name
+2020-06-01 14:11:40,250 INFO Info: :got user None by name
+2020-06-01 14:11:40,250 INFO Info: :got user None by name
+2020-06-01 14:11:40,250 INFO Info: :got user None by name
+2020-06-01 14:11:40,250 INFO Info: :got user None by name
+2020-06-01 14:11:40,250 INFO Info: :got user None by name
+2020-06-01 14:11:53,249 INFO Info: : user ssss was confirmed
+2020-06-01 14:11:53,249 INFO Info: : user ssss was confirmed
+2020-06-01 14:11:53,249 INFO Info: : user ssss was confirmed
+2020-06-01 14:11:53,249 INFO Info: : user ssss was confirmed
+2020-06-01 14:11:53,249 INFO Info: : user ssss was confirmed
+2020-06-01 14:11:53,250 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,250 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,250 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,250 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,250 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,250 INFO Info: :got user None by name
+2020-06-01 14:11:53,250 INFO Info: :got user None by name
+2020-06-01 14:11:53,250 INFO Info: :got user None by name
+2020-06-01 14:11:53,250 INFO Info: :got user None by name
+2020-06-01 14:11:53,250 INFO Info: :got user None by name
+2020-06-01 14:11:53,275 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,275 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,275 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,275 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,275 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,277 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,277 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,277 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,277 INFO Info: :got user ssss by name
+2020-06-01 14:11:53,277 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,939 INFO Info: : user ssss was confirmed
+2020-06-01 14:12:39,939 INFO Info: : user ssss was confirmed
+2020-06-01 14:12:39,939 INFO Info: : user ssss was confirmed
+2020-06-01 14:12:39,939 INFO Info: : user ssss was confirmed
+2020-06-01 14:12:39,939 INFO Info: : user ssss was confirmed
+2020-06-01 14:12:39,939 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,939 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,939 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,939 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,939 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,940 INFO Info: :got user None by name
+2020-06-01 14:12:39,940 INFO Info: :got user None by name
+2020-06-01 14:12:39,940 INFO Info: :got user None by name
+2020-06-01 14:12:39,940 INFO Info: :got user None by name
+2020-06-01 14:12:39,940 INFO Info: :got user None by name
+2020-06-01 14:12:39,954 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,954 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,954 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,954 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,954 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,956 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,956 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,956 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,956 INFO Info: :got user ssss by name
+2020-06-01 14:12:39,956 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,327 INFO Info: : user ssss was confirmed
+2020-06-01 14:14:08,327 INFO Info: : user ssss was confirmed
+2020-06-01 14:14:08,327 INFO Info: : user ssss was confirmed
+2020-06-01 14:14:08,327 INFO Info: : user ssss was confirmed
+2020-06-01 14:14:08,327 INFO Info: : user ssss was confirmed
+2020-06-01 14:14:08,327 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,327 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,327 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,327 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,327 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,328 INFO Info: :got user None by name
+2020-06-01 14:14:08,328 INFO Info: :got user None by name
+2020-06-01 14:14:08,328 INFO Info: :got user None by name
+2020-06-01 14:14:08,328 INFO Info: :got user None by name
+2020-06-01 14:14:08,328 INFO Info: :got user None by name
+2020-06-01 14:14:08,370 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,370 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,370 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,370 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,370 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,373 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,373 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,373 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,373 INFO Info: :got user ssss by name
+2020-06-01 14:14:08,373 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,100 INFO Info: : user ssss was confirmed
+2020-06-01 14:17:28,100 INFO Info: : user ssss was confirmed
+2020-06-01 14:17:28,100 INFO Info: : user ssss was confirmed
+2020-06-01 14:17:28,100 INFO Info: : user ssss was confirmed
+2020-06-01 14:17:28,100 INFO Info: : user ssss was confirmed
+2020-06-01 14:17:28,100 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,100 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,100 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,100 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,100 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,101 INFO Info: :got user None by name
+2020-06-01 14:17:28,101 INFO Info: :got user None by name
+2020-06-01 14:17:28,101 INFO Info: :got user None by name
+2020-06-01 14:17:28,101 INFO Info: :got user None by name
+2020-06-01 14:17:28,101 INFO Info: :got user None by name
+2020-06-01 14:17:28,145 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,145 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,145 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,145 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,145 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,147 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,147 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,147 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,147 INFO Info: :got user ssss by name
+2020-06-01 14:17:28,147 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,688 INFO Info: : user ssss was confirmed
+2020-06-01 14:18:41,688 INFO Info: : user ssss was confirmed
+2020-06-01 14:18:41,688 INFO Info: : user ssss was confirmed
+2020-06-01 14:18:41,688 INFO Info: : user ssss was confirmed
+2020-06-01 14:18:41,688 INFO Info: : user ssss was confirmed
+2020-06-01 14:18:41,688 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,688 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,688 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,688 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,688 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,689 INFO Info: :got user None by name
+2020-06-01 14:18:41,689 INFO Info: :got user None by name
+2020-06-01 14:18:41,689 INFO Info: :got user None by name
+2020-06-01 14:18:41,689 INFO Info: :got user None by name
+2020-06-01 14:18:41,689 INFO Info: :got user None by name
+2020-06-01 14:18:41,737 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,737 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,737 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,737 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,737 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,739 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,739 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,739 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,739 INFO Info: :got user ssss by name
+2020-06-01 14:18:41,739 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,937 INFO Info: : user ssss was confirmed
+2020-06-01 14:19:39,937 INFO Info: : user ssss was confirmed
+2020-06-01 14:19:39,937 INFO Info: : user ssss was confirmed
+2020-06-01 14:19:39,937 INFO Info: : user ssss was confirmed
+2020-06-01 14:19:39,937 INFO Info: : user ssss was confirmed
+2020-06-01 14:19:39,937 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,937 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,937 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,937 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,937 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,938 INFO Info: :got user None by name
+2020-06-01 14:19:39,938 INFO Info: :got user None by name
+2020-06-01 14:19:39,938 INFO Info: :got user None by name
+2020-06-01 14:19:39,938 INFO Info: :got user None by name
+2020-06-01 14:19:39,938 INFO Info: :got user None by name
+2020-06-01 14:19:39,981 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,981 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,981 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,981 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,981 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,983 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,983 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,983 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,983 INFO Info: :got user ssss by name
+2020-06-01 14:19:39,983 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,370 INFO Info: : user ssss was confirmed
+2020-06-01 14:20:35,370 INFO Info: : user ssss was confirmed
+2020-06-01 14:20:35,370 INFO Info: : user ssss was confirmed
+2020-06-01 14:20:35,370 INFO Info: : user ssss was confirmed
+2020-06-01 14:20:35,370 INFO Info: : user ssss was confirmed
+2020-06-01 14:20:35,371 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,371 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,371 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,371 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,371 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,371 INFO Info: :got user None by name
+2020-06-01 14:20:35,371 INFO Info: :got user None by name
+2020-06-01 14:20:35,371 INFO Info: :got user None by name
+2020-06-01 14:20:35,371 INFO Info: :got user None by name
+2020-06-01 14:20:35,371 INFO Info: :got user None by name
+2020-06-01 14:20:35,416 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,416 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,416 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,416 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,416 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,418 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,418 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,418 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,418 INFO Info: :got user ssss by name
+2020-06-01 14:20:35,418 INFO Info: :got user ssss by name
+2020-06-01 14:21:22,876 INFO Info: : user dor was confirmed
+2020-06-01 14:21:22,876 INFO Info: : user dor was confirmed
+2020-06-01 14:21:22,876 INFO Info: : user dor was confirmed
+2020-06-01 14:21:22,876 INFO Info: : user dor was confirmed
+2020-06-01 14:21:22,876 INFO Info: : user dor was confirmed
+2020-06-01 14:21:22,876 INFO Info: :got user dor by name
+2020-06-01 14:21:22,876 INFO Info: :got user dor by name
+2020-06-01 14:21:22,876 INFO Info: :got user dor by name
+2020-06-01 14:21:22,876 INFO Info: :got user dor by name
+2020-06-01 14:21:22,876 INFO Info: :got user dor by name
+2020-06-01 14:21:22,876 INFO Info: :got user ssss by name
+2020-06-01 14:21:22,876 INFO Info: :got user ssss by name
+2020-06-01 14:21:22,876 INFO Info: :got user ssss by name
+2020-06-01 14:21:22,876 INFO Info: :got user ssss by name
+2020-06-01 14:21:22,876 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,180 INFO Info: : user ssss was confirmed
+2020-06-01 14:35:02,180 INFO Info: : user ssss was confirmed
+2020-06-01 14:35:02,180 INFO Info: : user ssss was confirmed
+2020-06-01 14:35:02,180 INFO Info: : user ssss was confirmed
+2020-06-01 14:35:02,180 INFO Info: : user ssss was confirmed
+2020-06-01 14:35:02,180 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,180 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,180 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,180 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,180 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,181 INFO Info: :got user None by name
+2020-06-01 14:35:02,181 INFO Info: :got user None by name
+2020-06-01 14:35:02,181 INFO Info: :got user None by name
+2020-06-01 14:35:02,181 INFO Info: :got user None by name
+2020-06-01 14:35:02,181 INFO Info: :got user None by name
+2020-06-01 14:35:02,225 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,225 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,225 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,225 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,225 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,227 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,227 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,227 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,227 INFO Info: :got user ssss by name
+2020-06-01 14:35:02,227 INFO Info: :got user ssss by name
+2020-06-01 14:35:04,783 INFO Info: :got user ssss by name
+2020-06-01 14:35:04,783 INFO Info: :got user ssss by name
+2020-06-01 14:35:04,783 INFO Info: :got user ssss by name
+2020-06-01 14:35:04,783 INFO Info: :got user ssss by name
+2020-06-01 14:35:04,783 INFO Info: :got user ssss by name
+2020-06-01 14:35:04,785 INFO Info: 15: Asked for game event 19
+2020-06-01 14:35:04,785 INFO Info: 15: Asked for game event 19
+2020-06-01 14:35:04,785 INFO Info: 15: Asked for game event 19
+2020-06-01 14:35:04,785 INFO Info: 15: Asked for game event 19
+2020-06-01 14:35:04,785 INFO Info: 15: Asked for game event 19
+2020-06-01 14:35:04,786 INFO Info: 15: Asked for game event 21
+2020-06-01 14:35:04,786 INFO Info: 15: Asked for game event 21
+2020-06-01 14:35:04,786 INFO Info: 15: Asked for game event 21
+2020-06-01 14:35:04,786 INFO Info: 15: Asked for game event 21
+2020-06-01 14:35:04,786 INFO Info: 15: Asked for game event 21
+2020-06-01 14:35:04,788 INFO Info: 15: Asked for game event 22
+2020-06-01 14:35:04,788 INFO Info: 15: Asked for game event 22
+2020-06-01 14:35:04,788 INFO Info: 15: Asked for game event 22
+2020-06-01 14:35:04,788 INFO Info: 15: Asked for game event 22
+2020-06-01 14:35:04,788 INFO Info: 15: Asked for game event 22
+2020-06-01 14:35:04,789 INFO Info: 15: Asked for game event 24
+2020-06-01 14:35:04,789 INFO Info: 15: Asked for game event 24
+2020-06-01 14:35:04,789 INFO Info: 15: Asked for game event 24
+2020-06-01 14:35:04,789 INFO Info: 15: Asked for game event 24
+2020-06-01 14:35:04,789 INFO Info: 15: Asked for game event 24
+2020-06-01 14:35:04,790 INFO Info: 15: Asked for game event 25
+2020-06-01 14:35:04,790 INFO Info: 15: Asked for game event 25
+2020-06-01 14:35:04,790 INFO Info: 15: Asked for game event 25
+2020-06-01 14:35:04,790 INFO Info: 15: Asked for game event 25
+2020-06-01 14:35:04,790 INFO Info: 15: Asked for game event 25
+2020-06-01 14:35:04,791 INFO Info: 15: Asked for game event 26
+2020-06-01 14:35:04,791 INFO Info: 15: Asked for game event 26
+2020-06-01 14:35:04,791 INFO Info: 15: Asked for game event 26
+2020-06-01 14:35:04,791 INFO Info: 15: Asked for game event 26
+2020-06-01 14:35:04,791 INFO Info: 15: Asked for game event 26
+2020-06-01 14:35:04,792 INFO Info: 15: Asked for game event 27
+2020-06-01 14:35:04,792 INFO Info: 15: Asked for game event 27
+2020-06-01 14:35:04,792 INFO Info: 15: Asked for game event 27
+2020-06-01 14:35:04,792 INFO Info: 15: Asked for game event 27
+2020-06-01 14:35:04,792 INFO Info: 15: Asked for game event 27
+2020-06-01 14:35:04,793 INFO Info: 15: Asked for game event 15
+2020-06-01 14:35:04,793 INFO Info: 15: Asked for game event 15
+2020-06-01 14:35:04,793 INFO Info: 15: Asked for game event 15
+2020-06-01 14:35:04,793 INFO Info: 15: Asked for game event 15
+2020-06-01 14:35:04,793 INFO Info: 15: Asked for game event 15
+2020-06-01 14:35:04,794 INFO Info: 15: Asked for game event 16
+2020-06-01 14:35:04,794 INFO Info: 15: Asked for game event 16
+2020-06-01 14:35:04,794 INFO Info: 15: Asked for game event 16
+2020-06-01 14:35:04,794 INFO Info: 15: Asked for game event 16
+2020-06-01 14:35:04,794 INFO Info: 15: Asked for game event 16
+2020-06-01 14:35:04,794 INFO Info: :got user ssss by name
+2020-06-01 14:35:04,794 INFO Info: :got user ssss by name
+2020-06-01 14:35:04,794 INFO Info: :got user ssss by name
+2020-06-01 14:35:04,794 INFO Info: :got user ssss by name
+2020-06-01 14:35:04,794 INFO Info: :got user ssss by name
+2020-06-01 14:35:12,595 INFO Info: :got user ssss by name
+2020-06-01 14:35:12,595 INFO Info: :got user ssss by name
+2020-06-01 14:35:12,595 INFO Info: :got user ssss by name
+2020-06-01 14:35:12,595 INFO Info: :got user ssss by name
+2020-06-01 14:35:12,595 INFO Info: :got user ssss by name
+2020-06-01 14:35:12,600 INFO Info: 15:edited event 25 
+2020-06-01 14:35:12,600 INFO Info: 15:edited event 25 
+2020-06-01 14:35:12,600 INFO Info: 15:edited event 25 
+2020-06-01 14:35:12,600 INFO Info: 15:edited event 25 
+2020-06-01 14:35:12,600 INFO Info: 15:edited event 25 
+2020-06-01 14:35:12,600 INFO Info: :got user ssss by name
+2020-06-01 14:35:12,600 INFO Info: :got user ssss by name
+2020-06-01 14:35:12,600 INFO Info: :got user ssss by name
+2020-06-01 14:35:12,600 INFO Info: :got user ssss by name
+2020-06-01 14:35:12,600 INFO Info: :got user ssss by name
+2020-06-01 14:35:15,118 INFO Info: :got user ssss by name
+2020-06-01 14:35:15,118 INFO Info: :got user ssss by name
+2020-06-01 14:35:15,118 INFO Info: :got user ssss by name
+2020-06-01 14:35:15,118 INFO Info: :got user ssss by name
+2020-06-01 14:35:15,118 INFO Info: :got user ssss by name
+2020-06-01 14:35:15,121 INFO Info: 15: Asked for game event 19
+2020-06-01 14:35:15,121 INFO Info: 15: Asked for game event 19
+2020-06-01 14:35:15,121 INFO Info: 15: Asked for game event 19
+2020-06-01 14:35:15,121 INFO Info: 15: Asked for game event 19
+2020-06-01 14:35:15,121 INFO Info: 15: Asked for game event 19
+2020-06-01 14:35:15,122 INFO Info: 15: Asked for game event 21
+2020-06-01 14:35:15,122 INFO Info: 15: Asked for game event 21
+2020-06-01 14:35:15,122 INFO Info: 15: Asked for game event 21
+2020-06-01 14:35:15,122 INFO Info: 15: Asked for game event 21
+2020-06-01 14:35:15,122 INFO Info: 15: Asked for game event 21
+2020-06-01 14:35:15,123 INFO Info: 15: Asked for game event 22
+2020-06-01 14:35:15,123 INFO Info: 15: Asked for game event 22
+2020-06-01 14:35:15,123 INFO Info: 15: Asked for game event 22
+2020-06-01 14:35:15,123 INFO Info: 15: Asked for game event 22
+2020-06-01 14:35:15,123 INFO Info: 15: Asked for game event 22
+2020-06-01 14:35:15,124 INFO Info: 15: Asked for game event 24
+2020-06-01 14:35:15,124 INFO Info: 15: Asked for game event 24
+2020-06-01 14:35:15,124 INFO Info: 15: Asked for game event 24
+2020-06-01 14:35:15,124 INFO Info: 15: Asked for game event 24
+2020-06-01 14:35:15,124 INFO Info: 15: Asked for game event 24
+2020-06-01 14:35:15,126 INFO Info: 15: Asked for game event 25
+2020-06-01 14:35:15,126 INFO Info: 15: Asked for game event 25
+2020-06-01 14:35:15,126 INFO Info: 15: Asked for game event 25
+2020-06-01 14:35:15,126 INFO Info: 15: Asked for game event 25
+2020-06-01 14:35:15,126 INFO Info: 15: Asked for game event 25
+2020-06-01 14:35:15,127 INFO Info: 15: Asked for game event 26
+2020-06-01 14:35:15,127 INFO Info: 15: Asked for game event 26
+2020-06-01 14:35:15,127 INFO Info: 15: Asked for game event 26
+2020-06-01 14:35:15,127 INFO Info: 15: Asked for game event 26
+2020-06-01 14:35:15,127 INFO Info: 15: Asked for game event 26
+2020-06-01 14:35:15,128 INFO Info: 15: Asked for game event 27
+2020-06-01 14:35:15,128 INFO Info: 15: Asked for game event 27
+2020-06-01 14:35:15,128 INFO Info: 15: Asked for game event 27
+2020-06-01 14:35:15,128 INFO Info: 15: Asked for game event 27
+2020-06-01 14:35:15,128 INFO Info: 15: Asked for game event 27
+2020-06-01 14:35:15,129 INFO Info: 15: Asked for game event 15
+2020-06-01 14:35:15,129 INFO Info: 15: Asked for game event 15
+2020-06-01 14:35:15,129 INFO Info: 15: Asked for game event 15
+2020-06-01 14:35:15,129 INFO Info: 15: Asked for game event 15
+2020-06-01 14:35:15,129 INFO Info: 15: Asked for game event 15
+2020-06-01 14:35:15,131 INFO Info: 15: Asked for game event 16
+2020-06-01 14:35:15,131 INFO Info: 15: Asked for game event 16
+2020-06-01 14:35:15,131 INFO Info: 15: Asked for game event 16
+2020-06-01 14:35:15,131 INFO Info: 15: Asked for game event 16
+2020-06-01 14:35:15,131 INFO Info: 15: Asked for game event 16
+2020-06-01 14:35:15,131 INFO Info: :got user ssss by name
+2020-06-01 14:35:15,131 INFO Info: :got user ssss by name
+2020-06-01 14:35:15,131 INFO Info: :got user ssss by name
+2020-06-01 14:35:15,131 INFO Info: :got user ssss by name
+2020-06-01 14:35:15,131 INFO Info: :got user ssss by name
+2020-06-01 14:44:28,219 INFO Info: :got user dor by name
+2020-06-01 14:44:28,219 INFO Info: :got user dor by name
+2020-06-01 14:44:28,219 INFO Info: :got user dor by name
+2020-06-01 14:44:28,219 INFO Info: :got user dor by name
+2020-06-01 14:44:28,219 INFO Info: :got user dor by name
+2020-06-01 14:44:28,224 INFO Info: : Team Barcelona was created
+2020-06-01 14:44:28,224 INFO Info: : Team Barcelona was created
+2020-06-01 14:44:28,224 INFO Info: : Team Barcelona was created
+2020-06-01 14:44:28,224 INFO Info: : Team Barcelona was created
+2020-06-01 14:44:28,224 INFO Info: : Team Barcelona was created
+2020-06-01 14:44:28,225 INFO Info: :got user dor by name
+2020-06-01 14:44:28,225 INFO Info: :got user dor by name
+2020-06-01 14:44:28,225 INFO Info: :got user dor by name
+2020-06-01 14:44:28,225 INFO Info: :got user dor by name
+2020-06-01 14:44:28,225 INFO Info: :got user dor by name
+2020-06-01 14:44:28,408 INFO Info: :got user dor by name
+2020-06-01 14:44:28,408 INFO Info: :got user dor by name
+2020-06-01 14:44:28,408 INFO Info: :got user dor by name
+2020-06-01 14:44:28,408 INFO Info: :got user dor by name
+2020-06-01 14:44:28,408 INFO Info: :got user dor by name
+2020-06-01 14:44:28,411 INFO Info: :got user dor by name
+2020-06-01 14:44:28,411 INFO Info: :got user dor by name
+2020-06-01 14:44:28,411 INFO Info: :got user dor by name
+2020-06-01 14:44:28,411 INFO Info: :got user dor by name
+2020-06-01 14:44:28,411 INFO Info: :got user dor by name
+2020-06-01 14:44:28,945 INFO Info: :got user None by name
+2020-06-01 14:44:28,945 INFO Info: :got user None by name
+2020-06-01 14:44:28,945 INFO Info: :got user None by name
+2020-06-01 14:44:28,945 INFO Info: :got user None by name
+2020-06-01 14:44:28,945 INFO Info: :got user None by name
+2020-06-01 14:44:29,005 INFO Info: : user dor was confirmed
+2020-06-01 14:44:29,005 INFO Info: : user dor was confirmed
+2020-06-01 14:44:29,005 INFO Info: : user dor was confirmed
+2020-06-01 14:44:29,005 INFO Info: : user dor was confirmed
+2020-06-01 14:44:29,005 INFO Info: : user dor was confirmed
+2020-06-01 14:44:29,006 INFO Info: :got user dor by name
+2020-06-01 14:44:29,006 INFO Info: :got user dor by name
+2020-06-01 14:44:29,006 INFO Info: :got user dor by name
+2020-06-01 14:44:29,006 INFO Info: :got user dor by name
+2020-06-01 14:44:29,006 INFO Info: :got user dor by name
+2020-06-01 14:44:29,007 INFO Info: :got user None by name
+2020-06-01 14:44:29,007 INFO Info: :got user None by name
+2020-06-01 14:44:29,007 INFO Info: :got user None by name
+2020-06-01 14:44:29,007 INFO Info: :got user None by name
+2020-06-01 14:44:29,007 INFO Info: :got user None by name
+2020-06-01 14:46:50,137 INFO Info: : user dor was confirmed
+2020-06-01 14:46:50,137 INFO Info: : user dor was confirmed
+2020-06-01 14:46:50,137 INFO Info: : user dor was confirmed
+2020-06-01 14:46:50,137 INFO Info: : user dor was confirmed
+2020-06-01 14:46:50,137 INFO Info: : user dor was confirmed
+2020-06-01 15:03:03,923 INFO Info: :add system admin : dor
+2020-06-01 15:03:03,923 INFO Info: :add system admin : dor
+2020-06-01 15:03:03,923 INFO Info: :add system admin : dor
+2020-06-01 15:03:03,923 INFO Info: :add system admin : dor
+2020-06-01 15:03:03,923 INFO Info: :add system admin : dor
+2020-06-01 15:03:03,926 INFO Info: :add owner: shahar
+2020-06-01 15:03:03,926 INFO Info: :add owner: shahar
+2020-06-01 15:03:03,926 INFO Info: :add owner: shahar
+2020-06-01 15:03:03,926 INFO Info: :add owner: shahar
+2020-06-01 15:03:03,926 INFO Info: :add owner: shahar
+2020-06-01 15:03:03,928 INFO Info: :add referee : oscar
+2020-06-01 15:03:03,928 INFO Info: :add referee : oscar
+2020-06-01 15:03:03,928 INFO Info: :add referee : oscar
+2020-06-01 15:03:03,928 INFO Info: :add referee : oscar
+2020-06-01 15:03:03,928 INFO Info: :add referee : oscar
+2020-06-01 15:03:03,928 INFO Info: :got user oscar by name
+2020-06-01 15:03:03,928 INFO Info: :got user oscar by name
+2020-06-01 15:03:03,928 INFO Info: :got user oscar by name
+2020-06-01 15:03:03,928 INFO Info: :got user oscar by name
+2020-06-01 15:03:03,928 INFO Info: :got user oscar by name
+2020-06-01 15:03:03,929 INFO Info: :got user shahar by name
+2020-06-01 15:03:03,929 INFO Info: :got user shahar by name
+2020-06-01 15:03:03,929 INFO Info: :got user shahar by name
+2020-06-01 15:03:03,929 INFO Info: :got user shahar by name
+2020-06-01 15:03:03,929 INFO Info: :got user shahar by name
+2020-06-01 15:03:03,958 INFO Info: : Team Brca was created
+2020-06-01 15:03:03,958 INFO Info: : Team Brca was created
+2020-06-01 15:03:03,958 INFO Info: : Team Brca was created
+2020-06-01 15:03:03,958 INFO Info: : Team Brca was created
+2020-06-01 15:03:03,958 INFO Info: : Team Brca was created
+2020-06-01 15:03:03,960 INFO Info: : Team Real was created
+2020-06-01 15:03:03,960 INFO Info: : Team Real was created
+2020-06-01 15:03:03,960 INFO Info: : Team Real was created
+2020-06-01 15:03:03,960 INFO Info: : Team Real was created
+2020-06-01 15:03:03,960 INFO Info: : Team Real was created
+2020-06-01 15:03:03,984 INFO Info: :Created new game between home:Brca and away:Real 
+2020-06-01 15:03:03,984 INFO Info: :Created new game between home:Brca and away:Real 
+2020-06-01 15:03:03,984 INFO Info: :Created new game between home:Brca and away:Real 
+2020-06-01 15:03:03,984 INFO Info: :Created new game between home:Brca and away:Real 
+2020-06-01 15:03:03,984 INFO Info: :Created new game between home:Brca and away:Real 
+2020-06-01 15:03:03,988 INFO Info: :started game between Brca and Real at the 1.6.2020 
+2020-06-01 15:03:03,988 INFO Info: :started game between Brca and Real at the 1.6.2020 
+2020-06-01 15:03:03,988 INFO Info: :started game between Brca and Real at the 1.6.2020 
+2020-06-01 15:03:03,988 INFO Info: :started game between Brca and Real at the 1.6.2020 
+2020-06-01 15:03:03,988 INFO Info: :started game between Brca and Real at the 1.6.2020 
+2020-06-01 15:03:15,225 INFO Info: : Created new points calculation policy
+2020-06-01 15:03:15,225 INFO Info: : Created new points calculation policy
+2020-06-01 15:03:15,225 INFO Info: : Created new points calculation policy
+2020-06-01 15:03:15,225 INFO Info: : Created new points calculation policy
+2020-06-01 15:03:15,225 INFO Info: : Created new points calculation policy
+2020-06-01 15:03:15,225 INFO Info: :got user dor by name
+2020-06-01 15:03:15,225 INFO Info: :got user dor by name
+2020-06-01 15:03:15,225 INFO Info: :got user dor by name
+2020-06-01 15:03:15,225 INFO Info: :got user dor by name
+2020-06-01 15:03:15,225 INFO Info: :got user dor by name
+2020-06-01 15:03:15,289 INFO Info: :got user dor by name
+2020-06-01 15:03:15,289 INFO Info: :got user dor by name
+2020-06-01 15:03:15,289 INFO Info: :got user dor by name
+2020-06-01 15:03:15,289 INFO Info: :got user dor by name
+2020-06-01 15:03:15,289 INFO Info: :got user dor by name
+2020-06-01 15:03:15,368 INFO Info: : Created new game schedule policy
+2020-06-01 15:03:15,368 INFO Info: : Created new game schedule policy
+2020-06-01 15:03:15,368 INFO Info: : Created new game schedule policy
+2020-06-01 15:03:15,368 INFO Info: : Created new game schedule policy
+2020-06-01 15:03:15,368 INFO Info: : Created new game schedule policy
+2020-06-01 15:03:15,368 INFO Info: :got user dor by name
+2020-06-01 15:03:15,368 INFO Info: :got user dor by name
+2020-06-01 15:03:15,368 INFO Info: :got user dor by name
+2020-06-01 15:03:15,368 INFO Info: :got user dor by name
+2020-06-01 15:03:15,368 INFO Info: :got user dor by name
+2020-06-01 15:03:15,418 INFO Info: :got user dor by name
+2020-06-01 15:03:15,418 INFO Info: :got user dor by name
+2020-06-01 15:03:15,418 INFO Info: :got user dor by name
+2020-06-01 15:03:15,418 INFO Info: :got user dor by name
+2020-06-01 15:03:15,418 INFO Info: :got user dor by name
+2020-06-01 15:03:15,473 INFO Info: : Created new team budget policy
+2020-06-01 15:03:15,473 INFO Info: : Created new team budget policy
+2020-06-01 15:03:15,473 INFO Info: : Created new team budget policy
+2020-06-01 15:03:15,473 INFO Info: : Created new team budget policy
+2020-06-01 15:03:15,473 INFO Info: : Created new team budget policy
+2020-06-01 15:03:15,474 INFO Info: :got user dor by name
+2020-06-01 15:03:15,474 INFO Info: :got user dor by name
+2020-06-01 15:03:15,474 INFO Info: :got user dor by name
+2020-06-01 15:03:15,474 INFO Info: :got user dor by name
+2020-06-01 15:03:15,474 INFO Info: :got user dor by name
+2020-06-01 15:03:15,508 INFO Info: :got user dor by name
+2020-06-01 15:03:15,508 INFO Info: :got user dor by name
+2020-06-01 15:03:15,508 INFO Info: :got user dor by name
+2020-06-01 15:03:15,508 INFO Info: :got user dor by name
+2020-06-01 15:03:15,508 INFO Info: :got user dor by name
+2020-06-01 15:03:16,122 INFO Info: :got user dor by name
+2020-06-01 15:03:16,122 INFO Info: :got user dor by name
+2020-06-01 15:03:16,122 INFO Info: :got user dor by name
+2020-06-01 15:03:16,122 INFO Info: :got user dor by name
+2020-06-01 15:03:16,122 INFO Info: :got user dor by name
+2020-06-01 15:03:16,127 INFO Info: : Team Barcelona was created
+2020-06-01 15:03:16,127 INFO Info: : Team Barcelona was created
+2020-06-01 15:03:16,127 INFO Info: : Team Barcelona was created
+2020-06-01 15:03:16,127 INFO Info: : Team Barcelona was created
+2020-06-01 15:03:16,127 INFO Info: : Team Barcelona was created
+2020-06-01 15:03:16,127 INFO Info: :got user dor by name
+2020-06-01 15:03:16,127 INFO Info: :got user dor by name
+2020-06-01 15:03:16,127 INFO Info: :got user dor by name
+2020-06-01 15:03:16,127 INFO Info: :got user dor by name
+2020-06-01 15:03:16,127 INFO Info: :got user dor by name
+2020-06-01 15:03:16,325 INFO Info: :got user dor by name
+2020-06-01 15:03:16,325 INFO Info: :got user dor by name
+2020-06-01 15:03:16,325 INFO Info: :got user dor by name
+2020-06-01 15:03:16,325 INFO Info: :got user dor by name
+2020-06-01 15:03:16,325 INFO Info: :got user dor by name
+2020-06-01 15:03:16,328 INFO Info: :got user dor by name
+2020-06-01 15:03:16,328 INFO Info: :got user dor by name
+2020-06-01 15:03:16,328 INFO Info: :got user dor by name
+2020-06-01 15:03:16,328 INFO Info: :got user dor by name
+2020-06-01 15:03:16,328 INFO Info: :got user dor by name
+2020-06-01 15:03:16,857 INFO Info: :got user None by name
+2020-06-01 15:03:16,857 INFO Info: :got user None by name
+2020-06-01 15:03:16,857 INFO Info: :got user None by name
+2020-06-01 15:03:16,857 INFO Info: :got user None by name
+2020-06-01 15:03:16,857 INFO Info: :got user None by name
+2020-06-01 15:03:16,929 INFO Info: : user dor was confirmed
+2020-06-01 15:03:16,929 INFO Info: : user dor was confirmed
+2020-06-01 15:03:16,929 INFO Info: : user dor was confirmed
+2020-06-01 15:03:16,929 INFO Info: : user dor was confirmed
+2020-06-01 15:03:16,929 INFO Info: : user dor was confirmed
+2020-06-01 15:03:16,930 INFO Info: :got user dor by name
+2020-06-01 15:03:16,930 INFO Info: :got user dor by name
+2020-06-01 15:03:16,930 INFO Info: :got user dor by name
+2020-06-01 15:03:16,930 INFO Info: :got user dor by name
+2020-06-01 15:03:16,930 INFO Info: :got user dor by name
+2020-06-01 15:03:16,930 INFO Info: :got user None by name
+2020-06-01 15:03:16,930 INFO Info: :got user None by name
+2020-06-01 15:03:16,930 INFO Info: :got user None by name
+2020-06-01 15:03:16,930 INFO Info: :got user None by name
+2020-06-01 15:03:16,930 INFO Info: :got user None by name
+2020-06-01 15:03:17,627 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,627 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,627 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,627 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,627 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,629 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,629 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,629 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,629 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,629 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,666 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,666 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,666 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,666 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,666 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,696 INFO Info: 3:add event  in min 1 
+2020-06-01 15:03:17,696 INFO Info: 3:add event  in min 1 
+2020-06-01 15:03:17,696 INFO Info: 3:add event  in min 1 
+2020-06-01 15:03:17,696 INFO Info: 3:add event  in min 1 
+2020-06-01 15:03:17,696 INFO Info: 3:add event  in min 1 
+2020-06-01 15:03:17,696 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,696 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,696 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,696 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,696 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,761 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,761 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,761 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,761 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,761 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,765 INFO Info: 3: Asked for game event 1
+2020-06-01 15:03:17,765 INFO Info: 3: Asked for game event 1
+2020-06-01 15:03:17,765 INFO Info: 3: Asked for game event 1
+2020-06-01 15:03:17,765 INFO Info: 3: Asked for game event 1
+2020-06-01 15:03:17,765 INFO Info: 3: Asked for game event 1
+2020-06-01 15:03:17,765 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,765 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,765 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,765 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,765 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,768 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,768 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,768 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,768 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,768 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,775 INFO Info: 3:edited event 1 
+2020-06-01 15:03:17,775 INFO Info: 3:edited event 1 
+2020-06-01 15:03:17,775 INFO Info: 3:edited event 1 
+2020-06-01 15:03:17,775 INFO Info: 3:edited event 1 
+2020-06-01 15:03:17,775 INFO Info: 3:edited event 1 
+2020-06-01 15:03:17,775 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,775 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,775 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,775 INFO Info: :got user oscar by name
+2020-06-01 15:03:17,775 INFO Info: :got user oscar by name
+2020-06-01 15:03:24,372 INFO Info: :got user dor by name
+2020-06-01 15:03:24,372 INFO Info: :got user dor by name
+2020-06-01 15:03:24,372 INFO Info: :got user dor by name
+2020-06-01 15:03:24,372 INFO Info: :got user dor by name
+2020-06-01 15:03:24,372 INFO Info: :got user dor by name
+2020-06-01 15:03:24,642 INFO Info: :got user dor by name
+2020-06-01 15:03:24,642 INFO Info: :got user dor by name
+2020-06-01 15:03:24,642 INFO Info: :got user dor by name
+2020-06-01 15:03:24,642 INFO Info: :got user dor by name
+2020-06-01 15:03:24,642 INFO Info: :got user dor by name
+2020-06-01 15:03:24,645 INFO Info: :got user dor by name
+2020-06-01 15:03:24,645 INFO Info: :got user dor by name
+2020-06-01 15:03:24,645 INFO Info: :got user dor by name
+2020-06-01 15:03:24,645 INFO Info: :got user dor by name
+2020-06-01 15:03:24,645 INFO Info: :got user dor by name
+2020-06-01 15:03:24,804 INFO Info: :got user None by name
+2020-06-01 15:03:24,804 INFO Info: :got user None by name
+2020-06-01 15:03:24,804 INFO Info: :got user None by name
+2020-06-01 15:03:24,804 INFO Info: :got user None by name
+2020-06-01 15:03:24,804 INFO Info: :got user None by name
+2020-06-01 15:03:24,845 INFO Info: : user dor was confirmed
+2020-06-01 15:03:24,845 INFO Info: : user dor was confirmed
+2020-06-01 15:03:24,845 INFO Info: : user dor was confirmed
+2020-06-01 15:03:24,845 INFO Info: : user dor was confirmed
+2020-06-01 15:03:24,845 INFO Info: : user dor was confirmed
+2020-06-01 15:03:24,846 INFO Info: :got user dor by name
+2020-06-01 15:03:24,846 INFO Info: :got user dor by name
+2020-06-01 15:03:24,846 INFO Info: :got user dor by name
+2020-06-01 15:03:24,846 INFO Info: :got user dor by name
+2020-06-01 15:03:24,846 INFO Info: :got user dor by name
+2020-06-01 15:03:24,847 INFO Info: :got user None by name
+2020-06-01 15:03:24,847 INFO Info: :got user None by name
+2020-06-01 15:03:24,847 INFO Info: :got user None by name
+2020-06-01 15:03:24,847 INFO Info: :got user None by name
+2020-06-01 15:03:24,847 INFO Info: :got user None by name
+2020-06-01 15:03:25,476 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,476 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,476 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,476 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,476 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,478 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,478 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,478 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,478 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,478 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,510 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,510 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,510 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,510 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,510 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,519 INFO Info: 3:add event  in min 1 
+2020-06-01 15:03:25,519 INFO Info: 3:add event  in min 1 
+2020-06-01 15:03:25,519 INFO Info: 3:add event  in min 1 
+2020-06-01 15:03:25,519 INFO Info: 3:add event  in min 1 
+2020-06-01 15:03:25,519 INFO Info: 3:add event  in min 1 
+2020-06-01 15:03:25,519 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,519 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,519 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,519 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,519 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,580 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,580 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,580 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,580 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,580 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,583 INFO Info: 3: Asked for game event 1
+2020-06-01 15:03:25,583 INFO Info: 3: Asked for game event 1
+2020-06-01 15:03:25,583 INFO Info: 3: Asked for game event 1
+2020-06-01 15:03:25,583 INFO Info: 3: Asked for game event 1
+2020-06-01 15:03:25,583 INFO Info: 3: Asked for game event 1
+2020-06-01 15:03:25,585 INFO Info: 3: Asked for game event 2
+2020-06-01 15:03:25,585 INFO Info: 3: Asked for game event 2
+2020-06-01 15:03:25,585 INFO Info: 3: Asked for game event 2
+2020-06-01 15:03:25,585 INFO Info: 3: Asked for game event 2
+2020-06-01 15:03:25,585 INFO Info: 3: Asked for game event 2
+2020-06-01 15:03:25,585 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,585 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,585 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,585 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,585 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,587 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,587 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,587 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,587 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,587 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,591 INFO Info: 3:edited event 1 
+2020-06-01 15:03:25,591 INFO Info: 3:edited event 1 
+2020-06-01 15:03:25,591 INFO Info: 3:edited event 1 
+2020-06-01 15:03:25,591 INFO Info: 3:edited event 1 
+2020-06-01 15:03:25,591 INFO Info: 3:edited event 1 
+2020-06-01 15:03:25,591 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,591 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,591 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,591 INFO Info: :got user oscar by name
+2020-06-01 15:03:25,591 INFO Info: :got user oscar by name
+2020-06-01 16:20:48,798 INFO Info: : user dor was confirmed
+2020-06-01 16:20:48,798 INFO Info: : user dor was confirmed
+2020-06-01 16:20:48,798 INFO Info: : user dor was confirmed
+2020-06-01 16:20:48,798 INFO Info: : user dor was confirmed
+2020-06-01 16:20:48,798 INFO Info: : user dor was confirmed
+2020-06-01 16:21:11,643 INFO Info: : user oscar was confirmed
+2020-06-01 16:21:11,643 INFO Info: : user oscar was confirmed
+2020-06-01 16:21:11,643 INFO Info: : user oscar was confirmed
+2020-06-01 16:21:11,643 INFO Info: : user oscar was confirmed
+2020-06-01 16:21:11,643 INFO Info: : user oscar was confirmed
+2020-06-01 16:21:11,643 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,643 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,643 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,643 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,643 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,644 INFO Info: :got user None by name
+2020-06-01 16:21:11,644 INFO Info: :got user None by name
+2020-06-01 16:21:11,644 INFO Info: :got user None by name
+2020-06-01 16:21:11,644 INFO Info: :got user None by name
+2020-06-01 16:21:11,644 INFO Info: :got user None by name
+2020-06-01 16:21:11,723 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,723 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,723 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,723 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,723 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,727 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,727 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,727 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,727 INFO Info: :got user oscar by name
+2020-06-01 16:21:11,727 INFO Info: :got user oscar by name
+2020-06-01 16:21:15,585 INFO Info: :got user oscar by name
+2020-06-01 16:21:15,585 INFO Info: :got user oscar by name
+2020-06-01 16:21:15,585 INFO Info: :got user oscar by name
+2020-06-01 16:21:15,585 INFO Info: :got user oscar by name
+2020-06-01 16:21:15,585 INFO Info: :got user oscar by name
+2020-06-01 16:21:15,589 INFO Info: 3: Asked for game event 1
+2020-06-01 16:21:15,589 INFO Info: 3: Asked for game event 1
+2020-06-01 16:21:15,589 INFO Info: 3: Asked for game event 1
+2020-06-01 16:21:15,589 INFO Info: 3: Asked for game event 1
+2020-06-01 16:21:15,589 INFO Info: 3: Asked for game event 1
+2020-06-01 16:21:15,591 INFO Info: 3: Asked for game event 2
+2020-06-01 16:21:15,591 INFO Info: 3: Asked for game event 2
+2020-06-01 16:21:15,591 INFO Info: 3: Asked for game event 2
+2020-06-01 16:21:15,591 INFO Info: 3: Asked for game event 2
+2020-06-01 16:21:15,591 INFO Info: 3: Asked for game event 2
+2020-06-01 16:21:15,592 INFO Info: :got user oscar by name
+2020-06-01 16:21:15,592 INFO Info: :got user oscar by name
+2020-06-01 16:21:15,592 INFO Info: :got user oscar by name
+2020-06-01 16:21:15,592 INFO Info: :got user oscar by name
+2020-06-01 16:21:15,592 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,111 INFO Info: : user oscar was confirmed
+2020-06-01 16:44:38,111 INFO Info: : user oscar was confirmed
+2020-06-01 16:44:38,111 INFO Info: : user oscar was confirmed
+2020-06-01 16:44:38,111 INFO Info: : user oscar was confirmed
+2020-06-01 16:44:38,111 INFO Info: : user oscar was confirmed
+2020-06-01 16:44:38,112 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,112 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,112 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,112 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,112 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,113 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,113 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,113 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,113 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,113 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,239 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,239 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,239 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,239 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,239 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,244 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,244 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,244 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,244 INFO Info: :got user oscar by name
+2020-06-01 16:44:38,244 INFO Info: :got user oscar by name
+2020-06-01 16:45:23,907 INFO Info: :got user oscar by name
+2020-06-01 16:45:23,907 INFO Info: :got user oscar by name
+2020-06-01 16:45:23,907 INFO Info: :got user oscar by name
+2020-06-01 16:45:23,907 INFO Info: :got user oscar by name
+2020-06-01 16:45:23,907 INFO Info: :got user oscar by name
+2020-06-01 16:45:23,922 INFO Info: 3:add event dor in min 50 
+2020-06-01 16:45:23,922 INFO Info: 3:add event dor in min 50 
+2020-06-01 16:45:23,922 INFO Info: 3:add event dor in min 50 
+2020-06-01 16:45:23,922 INFO Info: 3:add event dor in min 50 
+2020-06-01 16:45:23,922 INFO Info: 3:add event dor in min 50 
+2020-06-01 16:45:23,923 INFO Info: :got user oscar by name
+2020-06-01 16:45:23,923 INFO Info: :got user oscar by name
+2020-06-01 16:45:23,923 INFO Info: :got user oscar by name
+2020-06-01 16:45:23,923 INFO Info: :got user oscar by name
+2020-06-01 16:45:23,923 INFO Info: :got user oscar by name
+2020-06-01 16:45:31,390 INFO Info: :got user oscar by name
+2020-06-01 16:45:31,390 INFO Info: :got user oscar by name
+2020-06-01 16:45:31,390 INFO Info: :got user oscar by name
+2020-06-01 16:45:31,390 INFO Info: :got user oscar by name
+2020-06-01 16:45:31,390 INFO Info: :got user oscar by name
+2020-06-01 16:45:31,395 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:31,395 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:31,395 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:31,395 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:31,395 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:31,397 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:31,397 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:31,397 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:31,397 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:31,397 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:31,399 INFO Info: 3: Asked for game event 3
+2020-06-01 16:45:31,399 INFO Info: 3: Asked for game event 3
+2020-06-01 16:45:31,399 INFO Info: 3: Asked for game event 3
+2020-06-01 16:45:31,399 INFO Info: 3: Asked for game event 3
+2020-06-01 16:45:31,399 INFO Info: 3: Asked for game event 3
+2020-06-01 16:45:31,400 INFO Info: :got user oscar by name
+2020-06-01 16:45:31,400 INFO Info: :got user oscar by name
+2020-06-01 16:45:31,400 INFO Info: :got user oscar by name
+2020-06-01 16:45:31,400 INFO Info: :got user oscar by name
+2020-06-01 16:45:31,400 INFO Info: :got user oscar by name
+2020-06-01 16:45:43,737 INFO Info: :got user oscar by name
+2020-06-01 16:45:43,737 INFO Info: :got user oscar by name
+2020-06-01 16:45:43,737 INFO Info: :got user oscar by name
+2020-06-01 16:45:43,737 INFO Info: :got user oscar by name
+2020-06-01 16:45:43,737 INFO Info: :got user oscar by name
+2020-06-01 16:45:43,745 INFO Info: 3:edited event 3 
+2020-06-01 16:45:43,745 INFO Info: 3:edited event 3 
+2020-06-01 16:45:43,745 INFO Info: 3:edited event 3 
+2020-06-01 16:45:43,745 INFO Info: 3:edited event 3 
+2020-06-01 16:45:43,745 INFO Info: 3:edited event 3 
+2020-06-01 16:45:43,745 INFO Info: :got user oscar by name
+2020-06-01 16:45:43,745 INFO Info: :got user oscar by name
+2020-06-01 16:45:43,745 INFO Info: :got user oscar by name
+2020-06-01 16:45:43,745 INFO Info: :got user oscar by name
+2020-06-01 16:45:43,745 INFO Info: :got user oscar by name
+2020-06-01 16:45:45,874 INFO Info: :got user oscar by name
+2020-06-01 16:45:45,874 INFO Info: :got user oscar by name
+2020-06-01 16:45:45,874 INFO Info: :got user oscar by name
+2020-06-01 16:45:45,874 INFO Info: :got user oscar by name
+2020-06-01 16:45:45,874 INFO Info: :got user oscar by name
+2020-06-01 16:45:45,880 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:45,880 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:45,880 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:45,880 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:45,880 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:45,882 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:45,882 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:45,882 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:45,882 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:45,882 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:45,885 INFO Info: 3: Asked for game event 3
+2020-06-01 16:45:45,885 INFO Info: 3: Asked for game event 3
+2020-06-01 16:45:45,885 INFO Info: 3: Asked for game event 3
+2020-06-01 16:45:45,885 INFO Info: 3: Asked for game event 3
+2020-06-01 16:45:45,885 INFO Info: 3: Asked for game event 3
+2020-06-01 16:45:45,886 INFO Info: :got user oscar by name
+2020-06-01 16:45:45,886 INFO Info: :got user oscar by name
+2020-06-01 16:45:45,886 INFO Info: :got user oscar by name
+2020-06-01 16:45:45,886 INFO Info: :got user oscar by name
+2020-06-01 16:45:45,886 INFO Info: :got user oscar by name
+2020-06-01 16:45:54,711 INFO Info: :got user oscar by name
+2020-06-01 16:45:54,711 INFO Info: :got user oscar by name
+2020-06-01 16:45:54,711 INFO Info: :got user oscar by name
+2020-06-01 16:45:54,711 INFO Info: :got user oscar by name
+2020-06-01 16:45:54,711 INFO Info: :got user oscar by name
+2020-06-01 16:45:54,730 INFO Info: 3:removed event dor 
+2020-06-01 16:45:54,730 INFO Info: 3:removed event dor 
+2020-06-01 16:45:54,730 INFO Info: 3:removed event dor 
+2020-06-01 16:45:54,730 INFO Info: 3:removed event dor 
+2020-06-01 16:45:54,730 INFO Info: 3:removed event dor 
+2020-06-01 16:45:54,731 INFO Info: :got user oscar by name
+2020-06-01 16:45:54,731 INFO Info: :got user oscar by name
+2020-06-01 16:45:54,731 INFO Info: :got user oscar by name
+2020-06-01 16:45:54,731 INFO Info: :got user oscar by name
+2020-06-01 16:45:54,731 INFO Info: :got user oscar by name
+2020-06-01 16:45:56,846 INFO Info: :got user oscar by name
+2020-06-01 16:45:56,846 INFO Info: :got user oscar by name
+2020-06-01 16:45:56,846 INFO Info: :got user oscar by name
+2020-06-01 16:45:56,846 INFO Info: :got user oscar by name
+2020-06-01 16:45:56,846 INFO Info: :got user oscar by name
+2020-06-01 16:45:56,851 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:56,851 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:56,851 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:56,851 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:56,851 INFO Info: 3: Asked for game event 1
+2020-06-01 16:45:56,854 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:56,854 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:56,854 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:56,854 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:56,854 INFO Info: 3: Asked for game event 2
+2020-06-01 16:45:56,854 INFO Info: :got user oscar by name
+2020-06-01 16:45:56,854 INFO Info: :got user oscar by name
+2020-06-01 16:45:56,854 INFO Info: :got user oscar by name
+2020-06-01 16:45:56,854 INFO Info: :got user oscar by name
+2020-06-01 16:45:56,854 INFO Info: :got user oscar by name
 2020-06-01 14:13:15,031 INFO Info: :add system admin : dor
 2020-06-01 14:13:15,031 INFO Info: :add system admin : dor
 2020-06-01 14:13:15,031 INFO Info: :add system admin : dor

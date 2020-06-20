@@ -4677,9 +4677,204 @@
 2020-06-01 13:04:37,046 ERROR Error: :User doesn't exist
 2020-06-01 13:04:37,046 ERROR Error: :User doesn't exist
 2020-06-01 13:04:37,046 ERROR Error: :User doesn't exist
+2020-06-01 13:11:19,034 ERROR Error: :User doesn't exist
+2020-06-01 13:11:19,034 ERROR Error: :User doesn't exist
+2020-06-01 13:11:19,034 ERROR Error: :User doesn't exist
+2020-06-01 13:11:19,034 ERROR Error: :User doesn't exist
+2020-06-01 13:11:19,034 ERROR Error: :User doesn't exist
+2020-06-01 13:24:28,569 ERROR Error: :User doesn't exist
+2020-06-01 13:24:28,569 ERROR Error: :User doesn't exist
+2020-06-01 13:24:28,569 ERROR Error: :User doesn't exist
+2020-06-01 13:24:28,569 ERROR Error: :User doesn't exist
+2020-06-01 13:24:28,569 ERROR Error: :User doesn't exist
+2020-06-01 13:28:23,193 ERROR Error: :User doesn't exist
+2020-06-01 13:28:23,193 ERROR Error: :User doesn't exist
+2020-06-01 13:28:23,193 ERROR Error: :User doesn't exist
+2020-06-01 13:28:23,193 ERROR Error: :User doesn't exist
+2020-06-01 13:28:23,193 ERROR Error: :User doesn't exist
+2020-06-01 13:28:23,201 ERROR Error: :User doesn't exist
+2020-06-01 13:28:23,201 ERROR Error: :User doesn't exist
+2020-06-01 13:28:23,201 ERROR Error: :User doesn't exist
+2020-06-01 13:28:23,201 ERROR Error: :User doesn't exist
+2020-06-01 13:28:23,201 ERROR Error: :User doesn't exist
+2020-06-01 13:29:21,656 ERROR Error: :User doesn't exist
+2020-06-01 13:29:21,656 ERROR Error: :User doesn't exist
+2020-06-01 13:29:21,656 ERROR Error: :User doesn't exist
+2020-06-01 13:29:21,656 ERROR Error: :User doesn't exist
+2020-06-01 13:29:21,656 ERROR Error: :User doesn't exist
+2020-06-01 13:29:37,609 ERROR Error: :User doesn't exist
+2020-06-01 13:29:37,609 ERROR Error: :User doesn't exist
+2020-06-01 13:29:37,609 ERROR Error: :User doesn't exist
+2020-06-01 13:29:37,609 ERROR Error: :User doesn't exist
+2020-06-01 13:29:37,609 ERROR Error: :User doesn't exist
+2020-06-01 13:29:55,637 ERROR Error: :User doesn't exist
+2020-06-01 13:29:55,637 ERROR Error: :User doesn't exist
+2020-06-01 13:29:55,637 ERROR Error: :User doesn't exist
+2020-06-01 13:29:55,637 ERROR Error: :User doesn't exist
+2020-06-01 13:29:55,637 ERROR Error: :User doesn't exist
+2020-06-01 13:31:54,161 ERROR Error: :User doesn't exist
+2020-06-01 13:31:54,161 ERROR Error: :User doesn't exist
+2020-06-01 13:31:54,161 ERROR Error: :User doesn't exist
+2020-06-01 13:31:54,161 ERROR Error: :User doesn't exist
+2020-06-01 13:31:54,161 ERROR Error: :User doesn't exist
+2020-06-01 14:10:04,650 ERROR Error: :User doesn't exist
+2020-06-01 14:10:04,650 ERROR Error: :User doesn't exist
+2020-06-01 14:10:04,650 ERROR Error: :User doesn't exist
+2020-06-01 14:10:04,650 ERROR Error: :User doesn't exist
+2020-06-01 14:10:04,650 ERROR Error: :User doesn't exist
+2020-06-01 14:10:27,393 ERROR Error: :User doesn't exist
+2020-06-01 14:10:27,393 ERROR Error: :User doesn't exist
+2020-06-01 14:10:27,393 ERROR Error: :User doesn't exist
+2020-06-01 14:10:27,393 ERROR Error: :User doesn't exist
+2020-06-01 14:10:27,393 ERROR Error: :User doesn't exist
+2020-06-01 14:10:55,449 ERROR Error: :User doesn't exist
+2020-06-01 14:10:55,449 ERROR Error: :User doesn't exist
+2020-06-01 14:10:55,449 ERROR Error: :User doesn't exist
+2020-06-01 14:10:55,449 ERROR Error: :User doesn't exist
+2020-06-01 14:10:55,449 ERROR Error: :User doesn't exist
+2020-06-01 14:11:40,251 ERROR Error: :User doesn't exist
+2020-06-01 14:11:40,251 ERROR Error: :User doesn't exist
+2020-06-01 14:11:40,251 ERROR Error: :User doesn't exist
+2020-06-01 14:11:40,251 ERROR Error: :User doesn't exist
+2020-06-01 14:11:40,251 ERROR Error: :User doesn't exist
+2020-06-01 14:11:53,251 ERROR Error: :User doesn't exist
+2020-06-01 14:11:53,251 ERROR Error: :User doesn't exist
+2020-06-01 14:11:53,251 ERROR Error: :User doesn't exist
+2020-06-01 14:11:53,251 ERROR Error: :User doesn't exist
+2020-06-01 14:11:53,251 ERROR Error: :User doesn't exist
+2020-06-01 14:12:39,940 ERROR Error: :User doesn't exist
+2020-06-01 14:12:39,940 ERROR Error: :User doesn't exist
+2020-06-01 14:12:39,940 ERROR Error: :User doesn't exist
+2020-06-01 14:12:39,940 ERROR Error: :User doesn't exist
+2020-06-01 14:12:39,940 ERROR Error: :User doesn't exist
+2020-06-01 14:14:08,328 ERROR Error: :User doesn't exist
+2020-06-01 14:14:08,328 ERROR Error: :User doesn't exist
+2020-06-01 14:14:08,328 ERROR Error: :User doesn't exist
+2020-06-01 14:14:08,328 ERROR Error: :User doesn't exist
+2020-06-01 14:14:08,328 ERROR Error: :User doesn't exist
+2020-06-01 14:17:28,101 ERROR Error: :User doesn't exist
+2020-06-01 14:17:28,101 ERROR Error: :User doesn't exist
+2020-06-01 14:17:28,101 ERROR Error: :User doesn't exist
+2020-06-01 14:17:28,101 ERROR Error: :User doesn't exist
+2020-06-01 14:17:28,101 ERROR Error: :User doesn't exist
+2020-06-01 14:18:41,689 ERROR Error: :User doesn't exist
+2020-06-01 14:18:41,689 ERROR Error: :User doesn't exist
+2020-06-01 14:18:41,689 ERROR Error: :User doesn't exist
+2020-06-01 14:18:41,689 ERROR Error: :User doesn't exist
+2020-06-01 14:18:41,689 ERROR Error: :User doesn't exist
+2020-06-01 14:19:39,938 ERROR Error: :User doesn't exist
+2020-06-01 14:19:39,938 ERROR Error: :User doesn't exist
+2020-06-01 14:19:39,938 ERROR Error: :User doesn't exist
+2020-06-01 14:19:39,938 ERROR Error: :User doesn't exist
+2020-06-01 14:19:39,938 ERROR Error: :User doesn't exist
+2020-06-01 14:20:35,372 ERROR Error: :User doesn't exist
+2020-06-01 14:20:35,372 ERROR Error: :User doesn't exist
+2020-06-01 14:20:35,372 ERROR Error: :User doesn't exist
+2020-06-01 14:20:35,372 ERROR Error: :User doesn't exist
+2020-06-01 14:20:35,372 ERROR Error: :User doesn't exist
+2020-06-01 14:35:02,182 ERROR Error: :User doesn't exist
+2020-06-01 14:35:02,182 ERROR Error: :User doesn't exist
+2020-06-01 14:35:02,182 ERROR Error: :User doesn't exist
+2020-06-01 14:35:02,182 ERROR Error: :User doesn't exist
+2020-06-01 14:35:02,182 ERROR Error: :User doesn't exist
+2020-06-01 14:44:28,411 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 14:44:28,411 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 14:44:28,411 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 14:44:28,411 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 14:44:28,411 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 14:44:28,945 ERROR Error: :User doesn't exist
+2020-06-01 14:44:28,945 ERROR Error: :User doesn't exist
+2020-06-01 14:44:28,945 ERROR Error: :User doesn't exist
+2020-06-01 14:44:28,945 ERROR Error: :User doesn't exist
+2020-06-01 14:44:28,945 ERROR Error: :User doesn't exist
+2020-06-01 14:44:28,946 ERROR Error: :User doesn't exist
+2020-06-01 14:44:28,946 ERROR Error: :User doesn't exist
+2020-06-01 14:44:28,946 ERROR Error: :User doesn't exist
+2020-06-01 14:44:28,946 ERROR Error: :User doesn't exist
+2020-06-01 14:44:28,946 ERROR Error: :User doesn't exist
+2020-06-01 14:44:29,008 ERROR Error: :User doesn't exist
+2020-06-01 14:44:29,008 ERROR Error: :User doesn't exist
+2020-06-01 14:44:29,008 ERROR Error: :User doesn't exist
+2020-06-01 14:44:29,008 ERROR Error: :User doesn't exist
+2020-06-01 14:44:29,008 ERROR Error: :User doesn't exist
 2020-06-01 13:57:32,095 ERROR Error: :Game doesn't exists
 2020-06-01 13:57:32,095 ERROR Error: :Game doesn't exists
 2020-06-01 13:57:32,095 ERROR Error: :Game doesn't exists
+2020-06-01 15:03:03,903 ERROR Error: :User doesn't exist
+2020-06-01 15:03:03,903 ERROR Error: :User doesn't exist
+2020-06-01 15:03:03,903 ERROR Error: :User doesn't exist
+2020-06-01 15:03:03,903 ERROR Error: :User doesn't exist
+2020-06-01 15:03:03,903 ERROR Error: :User doesn't exist
+2020-06-01 15:03:15,289 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,289 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,289 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,289 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,289 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,418 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,418 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,418 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,418 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,418 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,507 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,507 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,507 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,507 ERROR Error: :Same policy already exists
+2020-06-01 15:03:15,507 ERROR Error: :Same policy already exists
+2020-06-01 15:03:16,328 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 15:03:16,328 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 15:03:16,328 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 15:03:16,328 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 15:03:16,328 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 15:03:16,857 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,857 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,857 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,857 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,857 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,858 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,858 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,858 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,858 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,858 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,931 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,931 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,931 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,931 ERROR Error: :User doesn't exist
+2020-06-01 15:03:16,931 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,372 ERROR Error: :Same policy already exists
+2020-06-01 15:03:24,372 ERROR Error: :Same policy already exists
+2020-06-01 15:03:24,372 ERROR Error: :Same policy already exists
+2020-06-01 15:03:24,372 ERROR Error: :Same policy already exists
+2020-06-01 15:03:24,372 ERROR Error: :Same policy already exists
+2020-06-01 15:03:24,644 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 15:03:24,644 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 15:03:24,644 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 15:03:24,644 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 15:03:24,644 ERROR Error: :Could not add team, Barcelona already taken
+2020-06-01 15:03:24,804 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,804 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,804 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,804 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,804 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,805 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,805 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,805 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,805 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,805 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,848 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,848 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,848 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,848 ERROR Error: :User doesn't exist
+2020-06-01 15:03:24,848 ERROR Error: :User doesn't exist
+2020-06-01 16:20:48,800 ERROR Error: :User name already taken
+2020-06-01 16:20:48,800 ERROR Error: :User name already taken
+2020-06-01 16:20:48,800 ERROR Error: :User name already taken
+2020-06-01 16:20:48,800 ERROR Error: :User name already taken
+2020-06-01 16:20:48,800 ERROR Error: :User name already taken
+2020-06-01 16:21:11,645 ERROR Error: :User doesn't exist
+2020-06-01 16:21:11,645 ERROR Error: :User doesn't exist
+2020-06-01 16:21:11,645 ERROR Error: :User doesn't exist
+2020-06-01 16:21:11,645 ERROR Error: :User doesn't exist
+2020-06-01 16:21:11,645 ERROR Error: :User doesn't exist
 2020-06-01 14:13:15,006 ERROR Error: :User doesn't exist
 2020-06-01 14:13:15,006 ERROR Error: :User doesn't exist
 2020-06-01 14:13:15,006 ERROR Error: :User doesn't exist

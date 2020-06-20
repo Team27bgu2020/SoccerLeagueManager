@@ -1,8 +1,11 @@
 from time import time
+
+import seaborn as sns
+from pandas import DataFrame
 from sklearn.feature_selection import RFECV
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import f1_score, accuracy_score
+from sklearn.metrics import f1_score, accuracy_score, confusion_matrix, classification_report
 import xgboost as xgb
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
@@ -13,6 +16,7 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import matplotlib.pyplot as plt
 import numpy as np
+import plotly.express as px
 
 
 # train and test functions
@@ -28,13 +32,32 @@ def train_classifier(clf, X_train, y_train):
     print("Trained model in {:.4f} seconds".format(end - start))
 
 
-def predict_labels(clf, features, target):
+def predict_labels(clf, features, target, all_accuracy):
     ''' Makes predictions using a fit classifier based on F1 score. '''
 
     # Start the clock, make predictions, then stop the clock
     start = time()
     y_pred = clf.predict(features)
+    print("---------------------------------------------------------------------")
+    all_accuracy.append(accuracy_score(target.values, y_pred))
+    print('Accuracy Score :', accuracy_score(target, y_pred))
+    print(classification_report(target, y_pred))
 
+    # # Creates a confusion matrix
+    # cm = confusion_matrix(target.values, y_pred)
+    # #
+    # # # Transform to df for easier plotting
+    # cm_df = pd.DataFrame(cm,
+    #                      index=['Draw', 'Defeat', 'Win'],
+    #                      columns=['Draw', 'Defeat', 'Win'])
+    #
+    # plt.figure(figsize=(5.5, 4))
+    # sns.heatmap(cm_df, annot=True)
+    # plt.title('XGBClussifier \nAccuracy:{0:.3f}'.format(accuracy_score(target.values, y_pred)))
+    # plt.ylabel('True label')
+    # plt.xlabel('Predicted label')
+    # plt.show()
+    print("---------------------------------------------------------------------")
     end = time()
     # Print and return results
     print("Made predictions in {:.4f} seconds.".format(end - start))
@@ -43,7 +66,7 @@ def predict_labels(clf, features, target):
         len(y_pred))
 
 
-def train_predict(clf, X_train, y_train, X_test, y_test):
+def train_predict(clf, X_train, y_train, X_test, y_test, all_accuracy, all_f1_results):
     ''' Train and predict using a classifer based on F1 score. '''
 
     # Indicate the classifier and the training set size
@@ -53,11 +76,12 @@ def train_predict(clf, X_train, y_train, X_test, y_test):
     train_classifier(clf, X_train, y_train)
 
     # Print the results of prediction for both training and testing
-    f1, acc = predict_labels(clf, X_train, y_train)
-    print(f1, acc)
-    print("F1 score and accuracy score for training set: {:.4f} , {:.4f}.".format(f1, acc))
+    # f1, acc = predict_labels(clf, X_train, y_train)
+    # print(f1, acc)
+    # print("F1 score and accuracy score for training set: {:.4f} , {:.4f}.".format(f1, acc))
 
-    f1, acc = predict_labels(clf, X_test, y_test)
+    f1, acc = predict_labels(clf, X_test, y_test, all_accuracy)
+    all_f1_results.append(f1)
     print("F1 score and accuracy score for test set: {:.4f} , {:.4f}.".format(f1, acc))
 
 
@@ -99,7 +123,7 @@ clf_XGB = xgb.XGBClassifier(max_depth=3, objective='multi:softmax', n_estimators
 clf_RF = RandomForestClassifier(n_estimators=200, random_state=1, class_weight='balanced')
 # GNB_clf = GaussianNB()
 
-all_data = pd.read_csv('C:\\Users\\sfrei\\Desktop\\Degree\\Y03S02\\Project Preparation\\Part 5\\prepared_data.csv')
+all_data = pd.read_csv('D:\\prepared_data.csv')
 all_data['date'] = pd.to_datetime(all_data['date'])
 
 test_start_date = datetime(2015, 1, 1)
@@ -115,6 +139,8 @@ test_features = test.drop(['label'], 1)
 test_features = test_features.drop(['date'], 1)
 test_target = test['label']
 train_target = train['label']
+
+# print(test_target)
 
 feature_names = list(train_features.columns.values)
 
@@ -133,15 +159,37 @@ opt_XGB_test = rfecv_XGB.transform(test_features)
 opt_RF_train = rfecv_RF.transform(train_features)
 opt_RF_test = rfecv_RF.transform(test_features)
 
+all_accuracy = []
+all_f1_results = []
 
-train_predict(clf_LR, opt_LR_train, train_target, opt_LR_test, test_target)
+train_predict(clf_LR, opt_LR_train, train_target, opt_LR_test, test_target, all_accuracy, all_f1_results)
 print('')
-train_predict(clf_SVC, train_features, train_target, test_features, test_target)
+train_predict(clf_SVC, train_features, train_target, test_features, test_target, all_accuracy, all_f1_results)
 print('')
-train_predict(clf_XGB, opt_XGB_train, train_target, opt_XGB_test, test_target)
+train_predict(clf_XGB, opt_XGB_train, train_target, opt_XGB_test, test_target, all_accuracy, all_f1_results)
 print('')
-train_predict(clf_RF, opt_RF_train, train_target, opt_RF_test, test_target)
+train_predict(clf_RF, opt_RF_train, train_target, opt_RF_test, test_target, all_accuracy, all_f1_results)
 print('')
+
+# all_accuracy_dict = {"LogisticRegression": all_accuracy[0],
+#                      "SVC": all_accuracy[1],
+#                      "XGBClassifier": all_accuracy[2],
+#                      "RandomForestClassifier": all_accuracy[3]}
+#
+# all_f1_dict = {"LogisticRegression": all_f1_results[0],
+#                 "SVC": all_f1_results[1],
+#                 "XGBClassifier": all_f1_results[2],
+#                 "RandomForestClassifier": all_f1_results[3]}
+#
+#
+# plt.bar(range(len(all_accuracy_dict)), list(all_accuracy_dict.values()), align='center')
+# plt.xticks(range(len(all_accuracy_dict)), list(all_accuracy_dict.keys()))
+# plt.show()
+# plt.bar(range(len(all_f1_dict)), list(all_f1_dict.values()), align='center')
+# plt.xticks(range(len(all_f1_dict)), list(all_f1_dict.keys()))
+# plt.show()
+# print('-----------------------------------------------------------------')
+
 
 # train_predict(GNB_clf, X_train, y_train, X_test, y_test)
 # print('')
